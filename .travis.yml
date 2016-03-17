@@ -20,7 +20,8 @@ install:
 branches:
   only:
   - master          # test the master branch
-  
+
+script: jekyll build --incremental
 
 env:
   global:
