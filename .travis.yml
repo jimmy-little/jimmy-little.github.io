@@ -1,33 +1,16 @@
 
 language: ruby
-rvm:
-- 2.1
-
-install: 
-- jekyll
-- jekyll-paginate
-
-#add comment 
-
-#before_script:
-#- chmod +x _scripts/cibuild.sh # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-#script: _scripts/cibuild.sh
-
-# branch whitelist, only for GitHub Pages
+script: "./build.sh" # execute this script on each commit
 branches:
   only:
-  - master          # test the master branch
-
-script: jekyll build --incremental
+  - master # only take into account `jekyll' branch
+rvm:
+- 2.1.2 # version of `ruby'
 
 env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-  
- exclude: [vendor]
+    global:
+        secure: "$GITHUB_KEY"
+
   
   deploy:
   provider: s3
