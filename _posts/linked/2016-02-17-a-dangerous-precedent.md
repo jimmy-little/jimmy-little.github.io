@@ -1,0 +1,25 @@
+---
+layout:         post
+date:           2016-02-17 12:32:00 -0700
+category:       Writing
+tags:           [Apple, Opinion, Privacy]
+link:           http://www.apple.com/customer-letter/
+source:         Apple
+image:  
+    feature:    
+    header:
+title:          A Dangerous Precedent  
+    
+---
+
+In an [open letter](http://www.apple.com/customer-letter) on the Apple Web site, Tim Cook lays out his case against helping the government unlock an iPhone:
+
+The government suggests this tool could only be used once, on one phone. But that’s simply not true. Once created, the technique could be used over and over again, on any number of devices. In the physical world, it would be the equivalent of a master key, capable of opening hundreds of millions of locks — from restaurants and banks to stores and homes. No reasonable person would find that acceptable.
+<!-- more -->
+"No reasonable person would find that acceptable." bears repeating. The thought that any government would have a powerful surveillance tool and never use it is ludicrous. I'm sure the FBI said "just this once, AT&T" when they did the first wire tap also. 
+
+The fact is, Apple can't decrypt the phone. They stopped storing encryption keys on their servers years ago, just for this reason. If they don't have the key, they can't unlock the door. The FBI is requesting Apple build an all-new version of iOS that removes the limit on incorrect passcodes so the government can brute-force the phone by trying millions of passcode combinations. Currently, if an incorrect passcode is entered ten times in a row, the data is erased. 
+
+Apple is challenging the order, and here's hoping they win. 
+
+We are challenging the FBI’s demands with the deepest respect for American democracy and a love of our country. We believe it would be in the best interest of everyone to step back and consider the implications.
