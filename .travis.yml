@@ -1,19 +1,10 @@
-
-language: ruby
-script: "./build.sh" # execute this script on each commit
-branches:
-  only:
-  - master # only take into account `jekyll' branch
-rvm:
-- 2.1.2 # version of `ruby'
-
-env:
-    global:
-        secure: "$GITHUB_KEY"
-
-  
-  deploy:
+deploy:
   provider: s3
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY"
-  bucket: "www.jimmylittle.com"
+  access_key_id: AKIAIGUIFZL2FWFD7PLA
+  secret_access_key:
+    secure: POz+EpG1EIY5XBcdSwXfeaELeGrjNL9s6DT4MkX8UmLKxNN5Ylak3z9x8UMs58VPE8N20FoVebuitvQMykgX2ySI8G7vhPkHFyADHNSgPuSUj05LSvMQqq6GZAl1zDzsttzX/15AX7KsZqifvMBpGyZPBrCoVn+XJ+H/OYNgdZFz/dV6KsyKx/uur3xEfFiIgXDNZVnnG4rdUYsCUNpEcJNW+kt0EEavREzxlPFZA44MiCM6VvWm9uSAb0jU0N/GU80Zrb51+2ZsjawX0BL+y4q0SZJnu/mGBmzEJvZwxdrdNTEaLhyflLXtjag1DNXZi1/M14scFj+TqBZcrrpeTGxfmuYrphbOrnXJH1AiXLrLONuPA/wK4ll3qLvPzC/TIJjwrWLdjTVFjyaAWki11wlGIbEDJmTD9eJiyrgPXj7SC9bpDIU946iHTimnsXo32Q/477KWtkhi1YPn5yHmz5ylCsSqn4eK2VMWFcIk8BCoeLe/4IxpURicKOPFzWcBQIZT/79ZXeWWnB6zUKURduHejSUxQ6xI2wAUDKvbATa8Y1Jk2QEiqsS7KU+7qW4TLI6eZ+WGBUI93vK+ILCU3OIRBUZWteiyjhP5SlsJW9MuiCmG+PUBkvfUW2PH+Q2LJAQr5PMvuOmFCn9ftk6YY/HdWefqX5jzjI5RnQ9k1Xs=
+  bucket: www.jimmylittle.com
+  acl: public_read
+  on:
+    repo: jimmy-little/jimmy-little.github.io
+skip-cleanup: true
