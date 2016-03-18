@@ -9,9 +9,11 @@
           {% if site.logo %}
             <img class="logo" src="{{ site.logo }}" alt="{{ site.title }}">
           {% endif %}
-          <a href="{{site.url}}/" class="title"> {{ site.title }}</a>
-        </a>
-      </li>
+            <a href="{{site.url}}/" class="title"> {{ site.title }} <br />
+                <p class= "byline">a blog {{site.byline}}</p></a>
+      
+         <!-- <a href="{{site.url}}/" class="byline">{{site.byline}}</a></span> -->
+       </li>   
       {% for menu in site.menu reversed %}
         {% assign class = nil %}
         {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}
@@ -55,7 +57,8 @@
       {% else %}
             <h2><span class="entry-date"><time>&nbsp;</time></span></h2>
       {% endif %}
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>        
+    <h4> {{ page.subheading }}</h4>        
         </div>     
     </div> 
 </div>        

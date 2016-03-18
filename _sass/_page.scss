@@ -387,7 +387,10 @@ ul.social-buttons li a:active {
 		margin-bottom: 20px;
 	}
 	img {
+        width: 100%;
 		@include border-radius(3px,0,0,3px); // round image corners
+        padding-bottom: 5px;
+        border-bottom: 2px solid $border-color;
 	}
 }
 
@@ -471,7 +474,7 @@ ul.social-buttons li a:active {
 	// height: 200px;
 	overflow: hidden;
 	@media #{$medium} {
-		background-color: $highlight-color;
+		background-color: $header-color;
 	min-height: 300px;
 	}
 }
@@ -479,6 +482,7 @@ ul.social-buttons li a:active {
 .entry-header-image {    
 	overflow: hidden;
 	position: relative;
+    background-position: center;
 	width: 100%;
 	@media #{$medium} {
 		background-color: $header-color;
@@ -614,15 +618,28 @@ ul.social-buttons li a:active {
     
 	a.title {
 		font-size: 1.5rem;
+        font-weight: 900;
         color: $highlight-color;
 	    padding-left: 5px;
 		display: none;
 		vertical-align: middle;
-		height: $menu-height - 2;
+        margin-bottom: 0;
+		@media #{$medium}{
+			display: table-cell;
+            
+		}
+    
+    p.byline {
+        color: $link-color;
+        font-size: .8em;
+        margin-top: 0;
+		display: none;
+		vertical-align: middle;
 		@media #{$medium}{
 			display: table-cell;
 		}
 	}
+}
 }
 
 .header-item.active,

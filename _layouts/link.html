@@ -17,15 +17,15 @@
     <div class="entry-content">
         {% if page.image.feature %}
             <div class="entry-image-index">
-              <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+              <img src="{{ page.image.feature }}" alt="{{ page.title }}">
               {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
         {% endif %}
       <h1 class="post-title entry-title">{{ page.title }}</h1>
       {{ content }}
-        {% if page.source %}
+        {% if page.via %}
 <hr>
-        <p align="right">via: <a href="{{ post.link }}">{{ page.source }}</a></p>
+        <p align="right">via: <a href="{{ page.source }}">{{ page.via }}</a></p>
 <hr>  
         {% endif %}      
       <footer class="entry-meta">
