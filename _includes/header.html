@@ -11,22 +11,21 @@
           {% endif %}
             <a href="{{site.url}}/" class="title"> {{ site.title }} <br />
                 <p class= "byline">a blog {{site.byline}}</p></a>
-      
-         <!-- <a href="{{site.url}}/" class="byline">{{site.byline}}</a></span> -->
        </li>   
-      {% for menu in site.menu reversed %}
+     {% for menu in site.menu reversed %}
+          
         {% assign class = nil %}
-        {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}
+       {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}
           {% assign class = 'active' %}
         {% endif %}
 
         {% if menu.type == 'categories' %}
           <li class="header-item {{class}}"><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a>
-            <ul class="header-submenu">
+          <ul class="header-submenu">
               {% for item in (0..site.categories.size) %}{% unless forloop.last %}
                 {% capture this_word %}{{ cats_list[item] | strip_newlines }}{% endcapture %}
-                  <li class="sub-item"><a href="/categories/#{{this_word}}">{{this_word}}</a></li>
-              {% endunless %}{% endfor %}
+                <li class="sub-item"><a href="/categories/#{{this_word}}">{{this_word}}</a></li>
+              {% endunless %}{% endfor %} 
             </ul>
           </li>
         {% elsif menu.submenu %}

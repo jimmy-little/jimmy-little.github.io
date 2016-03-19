@@ -1,0 +1,19 @@
+---
+layout: post-index
+title: Microblog
+subheading: "An archive of thoughts too long for Twitter"
+comments: false
+---
+
+<article>
+	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
+		<ul>
+
+  {% for post in site.categories.Micro %}
+    {% if post.content %}    
+        <p>{{post.date | date: '%B %d, %Y'}}</p>{{ post.content }}
+        <p><a href= "{{site.url}}{{post.url}}">permalink</a> </p>    
+    {% endif %}
+  {% endfor %}
+</ul>
+</article>

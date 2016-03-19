@@ -1,7 +1,6 @@
 ---
 
 layout:         link
-title:          "Law Is Hard"
 date:           2016-02-25 00:00:00 -0700
 categories:     Linked
 breadcrumb:     true
@@ -12,7 +11,7 @@ source:         https://www.washingtonpost.com/news/volokh-conspiracy/wp/2016/02
 image:  
     feature: 
     header:
-
+title:          "Law Is Hard"
 ---
 
 [Orin Kerr](https://www.washingtonpost.com/news/volokh-conspiracy/wp/2016/02/19/preliminary-thoughts-on-the-apple-iphone-order-in-the-san-bernardino-case-part-2-the-all-writs-act), writing for The Washington Post, has a great breakdown of the challenges both sides face in the Apple vs. FBI phone-unlocking saga

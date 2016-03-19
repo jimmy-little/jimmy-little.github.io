@@ -4,9 +4,9 @@ layout: post-index
 image: 
     header:     https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/CocktailsCoffee.jpg
 
-subheading:     "by Jimmy Little"
+subheading:     "Thoughts on tech, politics, and other things people like to argue about"
 
-title:          "Cocktails & Coffee"
+title:          "Writing"
 
 ---
 
@@ -32,7 +32,6 @@ title:          "Cocktails & Coffee"
     </div><!-- /.entry-meta -->
     {% if post.link %}
          <h1 class="entry-title"><a href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-link"></i></a> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-        <h4>{{ post.subheading }}</h4>
     {% else %}
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}

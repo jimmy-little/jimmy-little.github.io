@@ -17,13 +17,15 @@ url: # http://jimmy-little.github.io
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
+#  - title: 'Home'
+#    url: '/'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
     url: '/categories'
     type: 'categories'
+  - title: 'Microblog'
+    url: '/micro'
   - title: 'About'
     url: '/about'
  
@@ -82,7 +84,7 @@ permalink:   /:categories/:title/
 paginate: 5
 
 # if true, shows the floatting share buttons
-float_share: true
+float_share: false
 
 kramdown:
   auto_ids: true

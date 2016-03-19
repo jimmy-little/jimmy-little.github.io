@@ -231,7 +231,7 @@ header .entry-meta {
 }
 .read-more-header {
 	position: absolute;
-	top: -5px;
+	top: -25px;
 	left: 0;
 	right: 0;
 	height: 35px;
@@ -471,11 +471,16 @@ ul.social-buttons li a:active {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	// height: 200px;
+	//height: 200px;
 	overflow: hidden;
 	@media #{$medium} {
 		background-color: $header-color;
-	min-height: 300px;
+    min-height: 300px;    
+	}
+
+	@media #{$small} {
+		background-color: $header-color;
+		min-height: 300px;
 	}
 }
 
@@ -486,8 +491,14 @@ ul.social-buttons li a:active {
 	width: 100%;
 	@media #{$medium} {
 		background-color: $header-color;
+        min-height: 300px;
+	}
+
+	@media #{$small} {
+		background-color: $header-color;
 		min-height: 300px;
 	}
+
 }
 
 .header-toggle{
@@ -522,14 +533,17 @@ ul.social-buttons li a:active {
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($black, 0.6);
 		display: block;
+        line-height: 1.1em;
 		a {
 			color: $white;
 		}
 		@media #{$medium} {
 			@include font-rem(48);
+           
 		}
 		@media #{$large} {
 			@include font-rem(64);
+            
 		}
 	}
 
