@@ -1,22 +1,22 @@
 ---
-layout:	link
+layout:link
 
-title:		Open Always Wins, Volume 32
+title:Open Always Wins, Volume 32
 
-date: 		2015-12-04
+date: 2015-12-04 00:00:00 -0700
 
-category:	Linked
+category:Linked
 
-tags:		[Android, Malware]
+tags:   Android, Malware
 
 image:
-	featured:	https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/Image%207.jpg
-	header:
-	
-via:			http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa
+ feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/Image07.jpg
+ header:
 
-link:	http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa
-	
+via:  http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa
+
+link: http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa
+
 ---
 
 
