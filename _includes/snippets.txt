@@ -7,6 +7,6 @@ READING TIME
         </p><!-- /.entry-reading-time -->
       {% else %}
           <p class="entry-reading-time">
-            &nbsp;
+             
           </p><!-- /.entry-reading-time -->
       {% endif %}

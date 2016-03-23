@@ -1,21 +1,30 @@
 ---
+layout: post
 
-layout:         post
-title:          "Apple's FAQ on the FBI Request"
-date:           2016-02-22
-categories:     Writing
-author:         jimmy
-comments:       true
-tags:           [Apple, Opinion, Privacy]
-via:            http://www.apple.com/customer-letter/answers/
-source:         
-image:          
-    feature:    
-    
+link: 
+
+date: 2016-02-22
+
+category:  Writing 
+
+tags: []
+
+via: Apple
+source: http://www.apple.com/customer-letter/answers/
+
+image:
+ feature: 
+ header: 
+
+subheading: Transparency is key in this fight.
+
+title: Apple’s FAQ on the FBI Request
+
 ---
 
 
-[This page](http://www.apple.com/customer-letter/answers/) is riddled with corporate-speak and has a bit of hyperbole, but it does try to lay out Apple's case in the San Bernardino phone unlocking case.
+
+[This page][1] is riddled with corporate-speak and has a bit of hyperbole, but it does try to lay out Apple's case in the San Bernardino phone unlocking case.
 
 Some hightlights that stand out to me:
 
@@ -43,3 +52,6 @@ The big issues, as I see it:
 
 
 This is probably the biggest tech story of the year, and it'll be interesting to see how it plays out, and the implications of it for decades to come.
+
+
+[1]: http://www.apple.com/customer-letter/answers/ "Apple Customer Letter"

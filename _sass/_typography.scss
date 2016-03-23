@@ -27,9 +27,13 @@ h1 {
 	}
 }
 
+
+
 h4  {
     color: $highlight-color;
+
 }
+
 
 // Links
 // --------------------------------------------------
@@ -82,15 +86,17 @@ figcaption {
 // Blockquotes
 // --------------------------------------------------
 blockquote {
+    align: center;
 	font-family: $base-font;
     font-style: italic;
 	padding: 1em;
     margin: 0 auto 0 auto;
     background: #f4f4f4;
+
 	@media #{$medium} {
-		margin-left: -28px;
+		margin-left: 28px;
 	}
-}
+} 
 
 // List items
 // --------------------------------------------------

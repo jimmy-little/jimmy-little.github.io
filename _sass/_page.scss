@@ -30,6 +30,8 @@ body {
 	}
 }
 
+
+
 ///sections
 
 .content-header-title {
@@ -156,6 +158,11 @@ header .entry-meta {
 				@include font-size(20);
 			}
 		}
+		
+	img {
+
+	margin: 0 auto;    
+	}	
 	}
 	#disqus_thread {
 		margin: 40px 2px 20px 2px;
@@ -353,6 +360,8 @@ ul.social-buttons li a:active {
 			margin-right: auto;
 		}
 	}
+
+
 	article {
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
@@ -391,8 +400,19 @@ ul.social-buttons li a:active {
 		@include border-radius(3px,0,0,3px); // round image corners
         padding-bottom: 5px;
         border-bottom: 2px solid $border-color;
-	}
+        margin-left: auto;
+        margin-right: auto;
+        }
 }
+
+ .post {
+    @include border-radius(3px,0,0,3px);    
+    float: left;
+    margin: 0px 20px 15px 0px;
+    max-width: 25%;    
+}
+
+
 
 // Footer
 // --------------------------------------------------
@@ -470,13 +490,8 @@ ul.social-buttons li a:active {
     height: 10em;
 	overflow: hidden;
 	position: relative;
-	width: 100%;
-	//height: 200px;
-	overflow: hidden;
-	@media #{$medium} {
-		background-color: $header-color;
-    min-height: 300px;    
-	}
+    background-color: $header-color;
+   min-height: 300px;    
 
 	@media #{$small} {
 		background-color: $header-color;
@@ -484,10 +499,13 @@ ul.social-buttons li a:active {
 	}
 }
 
-.entry-header-image {    
+.entry-header-image {  
+
+    height: auto;
+    background-color: $header-color;
+    max-height: 300px;
 	overflow: hidden;
-	position: relative;
-    background-position: center;
+    object-fit: cover;
 	width: 100%;
 	@media #{$medium} {
 		background-color: $header-color;

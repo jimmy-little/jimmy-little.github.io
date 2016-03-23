@@ -4,23 +4,20 @@ layout:         post
 
 author:         jimmy   
 
-comments:     true
 
 category:       Writing
 
 tags:           [Apple, Law, Privacy]
 
-image:
-
-subheading:    "Apple gains public support"
-
 feature:    
 
-link:         
+link:    
+     
+via:			Apple
 
-via:            http://www.apple.com/pr/library/2016/03/03Amicus-Briefs-in-Support-of-Apple.html#labnol
+source:            http://www.apple.com/pr/library/2016/03/03Amicus-Briefs-in-Support-of-Apple.html#labnol
 
-subtitle:       Apple's FBI fight gets some backup.
+subheading:       Apple's FBI fight gets some backup	
 
 title:          "Amicus, Briefly"
 ---
