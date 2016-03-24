@@ -8,7 +8,9 @@ layout: post
 guid: http://localhost:8888/2008/07/31/2008731twitter-updates-for-2008-07-31-html/
 permalink: /2008/07/31/2008731twitter-updates-for-2008-07-31-html/
 categories:
-  - blog
+  - Writing
+ tags: [Twitter] 
+  
 ---
 
   <ul class="aktt_tweet_digest">
