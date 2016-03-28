@@ -45,11 +45,12 @@
             {% endif %}
         {% endif %}
       {% endfor %}
-      <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>
+      <!--<li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>-->
     </ul>
   </div>
 {% if page.image.header %}
-<div class="entry-header-image" style="background: no-repeat bottom center url({{ page.image.header}}); background-size: cover;">
+
+<div class="entry-header-image" style="background: no-repeat center center url({{ page.image.header}}); background-size: cover;">
     <div class="header-title">
         <div class="header-title-wrap">
           {% if page.date %}
@@ -59,8 +60,9 @@
       {% endif %}
     <h1>{{ page.title }}</h1>        
     <h4> {{ page.subheading }}</h4>        
-        </div>     
+        </div> 
     </div> 
+    
 </div>        
 {% else %}
 <div class="entry-header">    

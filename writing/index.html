@@ -7,7 +7,7 @@ image:
 subheading:     "by Jimmy Little"
 
 title:          "Cocktails & Coffee"
-comments:   false
+
 ---
 
 {% for post in paginator.posts %}
@@ -20,8 +20,8 @@ comments:   false
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 
       </div><!-- /.entry-image -->
- {% endif %}
-   
+    {% endif %}
+      
     {% if post.image.header %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.header }}" alt="{{ post.title }}"></a>

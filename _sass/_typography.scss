@@ -32,6 +32,7 @@ h1 {
 h4  {
     color: $highlight-color;
 
+
 }
 
 
@@ -86,7 +87,7 @@ figcaption {
 // Blockquotes
 // --------------------------------------------------
 blockquote {
-    align: center;
+    display: block;
 	font-family: $base-font;
     font-style: italic;
 	padding: 1em;
@@ -97,6 +98,7 @@ blockquote {
 		margin-left: 28px;
 	}
 } 
+
 
 // List items
 // --------------------------------------------------

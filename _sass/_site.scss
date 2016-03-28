@@ -21,16 +21,27 @@
 }
 .image-left {
 	float: none;
+    padding-right: 10px;
 	@media #{$medium} {
 		float: left;
 	}
 }
 .image-right {
 	float: none;
+    padding-left: 10px;
 	@media #{$medium} {
 		float: right;
 	}
 }
+
+ .post {
+    @include border-radius(3px,0,0,3px);    
+    float: left;
+    margin: 0px 20px 15px 0px;
+    max-width: 40%;  
+    clear: both; 
+}
+
 .unstyled-list {
 	list-style: none;
 	margin-left: 0;

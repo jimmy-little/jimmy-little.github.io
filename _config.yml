@@ -26,8 +26,8 @@ menu:
     type: 'categories'
   - title: 'Microblog'
     url: '/micro'
-  - title: 'About'
-    url: '/about'
+ # - title: 'About'
+ #   url: '/about'
  
 # Owner/author information
 owner:
@@ -35,9 +35,9 @@ owner:
   site:           
   avatar:         https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/JL-logo-grey.png
   bio:            "An LA boy by way of Virginia and Brooklyn.  I've been putting my ramblings on the internet in varying degrees of quality since 1994."
-  email:          you@email.com
+  email:          #you@email.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter:         # if no twitter in this config, the twitter follow button will be removed
+  twitter:       jimmylittle  # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github:         jimmy-little
 
@@ -73,6 +73,7 @@ highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 sass:
   sass_dir: _sass
   style: compressed
@@ -81,7 +82,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 10
 
 # if true, shows the floatting share buttons
 float_share: false
@@ -115,4 +116,3 @@ titlecase: true
 
 include: [".htaccess"]
 exclude: ["/vendor","lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]

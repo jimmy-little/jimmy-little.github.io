@@ -14,9 +14,9 @@ source:
 
 image:
  feature: 
- header: 
- credit:
- creditlink:
+ header: http://www1.pcmag.com/media/images/486160-ipad-pro-1.jpg?thumb=y
+ credit: PC Mag
+ creditlink: http://www.pcmag.com/article2/0,2817,2495348,00.asp
 
 subheading: Early thoughts on a new paradigm
 
@@ -31,6 +31,8 @@ I bought an iPad Pro. It's ridiculously huge, and ridiculously gold. I've had it
   * The expanded keyboard is great, but takes some getting used to. I'm still unnecessarily switching to the number/symbol keyboard instead of reaching for the top row. 
 
   * Trackpad mode is the best thing ever. 
+
+<!-- more -->
 
   * The aging home screen layout is still terrible. 
 

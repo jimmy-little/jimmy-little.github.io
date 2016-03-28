@@ -13,8 +13,8 @@ via: Apple
 source: http://www.apple.com/customer-letter
 
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/img-768x305.png
- header: 
+ feature: 
+ header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Image%208.png
 
 subheading: Apple vs. the FBI Round 2
 
@@ -26,6 +26,8 @@ title:  'Tim Cook: "A Dangerous Precedent"'
 In an [open letter][1] on the Apple Web site, Tim Cook lays out his case against helping the government unlock an iPhone:
 
 > The government suggests this tool could only be used once, on one phone. But that’s simply not true. Once created, the technique could be used over and over again, on any number of devices. In the physical world, it would be the equivalent of a master key, capable of opening hundreds of millions of locks — from restaurants and banks to stores and homes. No reasonable person would find that acceptable.
+
+<!-- more -->
 
 **"No reasonable person would find that acceptable."** bears repeating. The thought that any government would have a powerful surveillance tool and never use it is ludicrous. I'm sure the FBI said "just this once, AT&T" when they did the first wire tap also. 
 

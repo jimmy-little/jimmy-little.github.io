@@ -12,17 +12,15 @@ via: NPR
 source: http://www.npr.org/2016/03/14/470347719/encryption-and-privacy-are-larger-issues-than-fighting-terrorism-clarke-says
 
 image:
- feature: 
  header: 
-
+ feature:
+ 
 subheading: '"Not interested in solving the problem"'
 
 title: Richard Clarke Talks Encryption
 
 ---
-
-<img class="post" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Richard_clarke.jpg/200px-Richard_clarke.jpg"/>
-
+<img class="image-left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Richard_clarke.jpg/200px-Richard_clarke.jpg"/>
 
 Richard Clarke, former National Security Council leader and security advisor to Clinton, Bush and Obama, in an [interview with NPR][1]
 

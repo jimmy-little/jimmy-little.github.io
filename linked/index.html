@@ -1,13 +1,10 @@
 ---
 layout: post-index
-
+title: Linked List
+subheading: "Links to things people say on the internet."
+comments: false
 image: 
     header:     https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/CocktailsCoffee.jpg
-
-subheading:     "by Jimmy Little"
-
-title:          "Cocktails & Coffee"
-comments:   false
 ---
 
 {% for post in paginator.posts %}
@@ -20,8 +17,8 @@ comments:   false
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 
       </div><!-- /.entry-image -->
- {% endif %}
-   
+    {% endif %}
+      
     {% if post.image.header %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.header }}" alt="{{ post.title }}"></a>

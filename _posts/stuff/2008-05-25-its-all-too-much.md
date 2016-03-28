@@ -1,14 +1,16 @@
 ---
-title: It's All Too Much
+title: "It's All Too Much"
 date: 2008-05-25
-layout: stuff
+layout: post
 categories: Stuff
 tags: [Books, Home]
 
 ---
+<div class="iframe-left">
+<a href="http://www.amazon.com/Its-All-Too-Much-Living-ebook/dp/B000N2HCP6/ref=as_li_ss_il?_encoding=UTF8&qid=1458768452&sr=1-1&linkCode=li3&tag=jimmlitt-20&linkId=5b3781649df85b30a2a1acdc46bd5d97" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000N2HCP6&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=jimmlitt-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=jimmlitt-20&l=li3&o=1&a=B000N2HCP6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
 
+Some of the tips in this book are flat out ridiculous, but if you're looking to declutter, it's a good start.
 
+_Whether it’s tidying up or tiny-house living, the decluttering revolution is taking America by storm. In It’s All Too Much organizational expert Peter Walsh reveals the tools for taking control of your physical—and emotional—clutter in order to reclaim your life._
 
-Do you have too much stuff?  I do.  Declutter with the grand-daddy of tiny, simple living, Peter Walsh
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jimmlitt-20&marketplace=amazon&region=US&placement=0743292650&asins=0743292650&linkId=f903af36a5de0d10b4ebc6cb98734e30&show_border=false&link_opens_in_new_window=true"></iframe>
