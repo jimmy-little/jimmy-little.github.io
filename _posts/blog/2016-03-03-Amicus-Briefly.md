@@ -9,8 +9,10 @@ category:       Writing
 
 tags:           [Apple, Law, Privacy]
 
-feature:    
-
+image:
+ feature:    
+ header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Amicus.jpg
+ 
 link:    
      
 via:			Apple

@@ -3,7 +3,7 @@
 title: Hey Mr. Green
 date: 2008-04-19T20:41:48+00:00
 author: jimmy
-layout: post
+layout: stuff
 tags: [Green, Book]
 categories:
   - Stuff

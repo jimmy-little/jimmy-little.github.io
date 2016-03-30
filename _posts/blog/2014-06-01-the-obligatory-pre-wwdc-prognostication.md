@@ -25,6 +25,8 @@ image:
 
 We know (based on [posted pictures](https://twitter.com/search?q=wwdc%20banner&src=typd)) that Apple will announce iOS 8 and the next version of OSX. (That's OS Ten, not OS "X", people. Let's get it right this year.) Since 8 comes after 7, that makes sense. So does version 10.10 of OSX, since the last version was 10.9. Math nerds get upset at that, because 10.10 is not a real decimal. But 10.10 isn't a decimal, it's a version number, so shut up about it already. I get mad at it because I have to say "oh ess ten ten dot ten" over and over again.
 
+<!-- more -->  
+
 And, that's all we know. And I am happy about that. Apple announcements are an exciting time for nerds and geeks. We wait months to see Apple (and other companies, for that matter) walk out on stage to show us what's coming down the pipe in the near future. It's fun to watch, and when too much information leaks early, it takes the wind out of the sails. This WWDC is still pretty much up in the air. 
 
 ## Software

@@ -21,7 +21,7 @@
 }
 .image-left {
 	float: none;
-    padding-right: 10px;
+    padding: 10px;
 	@media #{$medium} {
 		float: left;
 	}

@@ -7,7 +7,7 @@ date: 2016-02-22
 
 category:  Writing 
 
-tags: []
+tags: [Apple, FBI, Encryption]
 
 via: Apple
 source: http://www.apple.com/customer-letter/answers/

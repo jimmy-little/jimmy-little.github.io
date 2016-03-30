@@ -15,11 +15,14 @@
 <div id="main" role="main">
   <article class="hentry">
     <div class="entry-content">
-       <div class="entry-image-index">
-              <img src="{{ page.image.feature }}" alt="{{ page.title }}">
-              {% if page.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+               {% if page.image.feature %}
+            <div class="entry-image-index">
+              <!--    <background-image url({{ page.image.feature }});></background-image> -->
+              <img src="{{ page.image.feature }}" alt="{{ page.title }}"> 
+              {% if page.image.credit %}<div class="image-credit">Image: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
-     <!-- <h1 class="post-title entry-title">{{ page.title }}</h1> -->
+        {% endif %}
+
 
         {{ content }}
       

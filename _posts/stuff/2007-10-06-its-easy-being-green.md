@@ -3,8 +3,8 @@
 title: "It's Easy Being Green"
 date: 2007-10-06T15:34:17+00:00
 author: jimmy
-
-layout: post
+tags: [Book, Green]
+layout: stuff
 categories:
   - Stuff
 ---

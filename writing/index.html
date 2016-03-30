@@ -1,16 +1,10 @@
 ---
 layout: post-index
-
-image: 
-    header:     https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/CocktailsCoffee.jpg
-
-subheading:     "by Jimmy Little"
-
-title:          "Cocktails & Coffee"
-
+title: Writing
+subheading: "Sometimes, I write."
+comments: false
 ---
-
-{% for post in paginator.posts %}
+{% for post in site.categories.Writing %}
 <article class="hentry">
   <header>
 
@@ -20,8 +14,8 @@ title:          "Cocktails & Coffee"
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 
       </div><!-- /.entry-image -->
-    {% endif %}
-      
+ {% endif %}
+   
     {% if post.image.header %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.header }}" alt="{{ post.title }}"></a>
@@ -35,15 +29,15 @@ title:          "Cocktails & Coffee"
       <span class="entry-reading-time">
         
         {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-        {% if readtime <= 1 %} {% else %}<i class="fa fa-clock-o"></i>Reading time ~{{ readtime }} minutes{% endif %}
+        {% if readtime <= 1 %} {% else %} | <i class="fa fa-clock-o"></i> Reading time ~{{ readtime }} minutes{% endif %}
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
     {% if post.link %}
-         <h1 class="entry-title"><a href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-link"></i></a> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-        <h4 class="index">{{ post.subheading }}</h4>
+         <h1 class="entry-title" style="text-align: center"><a href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-link"></i></a> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h5 style="text-align: center">{{ post.subheading }}</h5>
     {% else %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+      <h1 class="entry-title" style="text-align: center"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1> <h5 style="text-align: center">{{ post.subheading }}</h5>
     {% endif %}
   </header>
   <div class="entry-content">
@@ -53,7 +47,5 @@ title:          "Cocktails & Coffee"
       {{ post.content }}
     {% endif %}
   </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-{% endfor %}
-
-{% include pagination.html %}
+</article>
+  {% endfor %}

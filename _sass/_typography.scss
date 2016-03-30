@@ -30,9 +30,16 @@ h1 {
 
 
 h4  {
-    color: $highlight-color;
+    color: $link-color;
+    font-size: 1.5em;
+    font-style: italic;
+    text-shadow: 1px 1px 4px rgba($black, 1);
 
 
+}
+
+h5 {
+    padding-top: 0em;
 }
 
 

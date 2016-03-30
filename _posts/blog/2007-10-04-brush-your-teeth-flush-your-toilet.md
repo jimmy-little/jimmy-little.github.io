@@ -7,7 +7,7 @@ date: 2007-10-04
 
 category:  Writing 
 
-tags: []
+tags: [Green, Home]
 
 via: Inhabitat
 source: http://inhabitat.com/sloans-innovative-aqus-grey-water-toilet-system-makes-every-drop-count/

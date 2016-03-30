@@ -4,10 +4,10 @@ title: ' '
 date: 2007-11-10T11:59:19+00:00
 author: jimmy
 
-layout: post
+layout: micro
 
 categories:
-  - micro
+  - Micro
 ---
 
 

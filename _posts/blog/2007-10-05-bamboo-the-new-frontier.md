@@ -6,9 +6,11 @@ date: 2007-10-05T12:07:46+00:00
 author: jimmy
 
 layout: post
-tags: [green, bamboo, home]
-categories:
-  - green
+
+tags: [Green, Bamboo, Home]
+
+categories: Writing
+
 ---
 
   

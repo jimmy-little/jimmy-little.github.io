@@ -15,6 +15,9 @@ tags:
 ---
 In my "real job" as a carpenter, I use <a target="_blank" href="http://www.sketchup.com">SketchUp</a> pretty heavily to do quick and dirty drawings and 3D models to visualize complex pieces. 
 
+<!-- more -->  
+
+
 [![Prelim Sketch](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/sketchup-keyboard-maestro/prelim.png)](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/sketchup-keyboard-maestro/prelim.png)This is a preliminary sketch, so no judgey-wudgy there, Picasso.
 
   I'm currently working on a playroom, and need a [Tansu](http://en.wikipedia.org/wiki/Tansu)-inspired stair-step storage unit.  That's not the point. I draw it up in Sketchup and get something like the picture above.

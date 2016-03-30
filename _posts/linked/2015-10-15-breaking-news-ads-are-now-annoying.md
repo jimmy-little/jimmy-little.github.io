@@ -31,7 +31,9 @@ I have two reactions to this.
 
 2. It's good that the ad industry is finally catching up to user expectation.  Nerds have been using ad blockers on desktop browsers for a while, and with iOS9, we're all adding content blockers to our mobile devices.
 
-I don't hate "ads", I hate the junk that quadruples [page loads][2], [slows down][3] the [open web][4], and tracks me around the internet. These are not just ads.  They are Facebook/Twitter buttons, pop-over "shade" ads that cover all of the content, custom font downloads, cross-network trackers, and other nefarious junk eating up my valuable mobile data.
+I don't hate "ads", I hate the junk that quadruples [page loads][2], [slows down][3] the [open web][4], and tracks me around the internet. These are not just ads.  They are Facebook/Twitter buttons, pop-over "shade" ads that cover all of the content, cross-network trackers, and other nefarious junk eating up my valuable mobile data.
+
+
 
 [1]: http://www.iab.com/news/lean/ "IAB"
 [2]: http://thenextweb.com/apple/2015/08/24/ios-9-content-blocking-will-transform-the-mobile-web-ive-tried-it/ "The Next Web"

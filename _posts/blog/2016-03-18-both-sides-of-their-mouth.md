@@ -12,19 +12,12 @@ tags: [FBI, Privacy, Apple, Encryption]
 via: Reuters
 source: http://www.reuters.com/article/us-fbi-autos-cyber-idUSKCN0WK0BB
 
-image:
- feature:
- header:
- credit:
-
 subheading: Do they think we don't notice this stuff?
 
 title: Both Sides of Their Mouth
 
 ---
-
-
-So let me get this straight...  The FBI is in court right now telling the Department of Justice how it may sometimes need access to information, and Apple has made a 
+So let me get this straight...  The FBI is in court right now telling the Department of Justice how it may sometimes need access to information, and Apple has made a... 
 
 > deliberate marketing decision to engineer its products so the government cannot search them, even with a warrant
 

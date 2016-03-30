@@ -15,12 +15,12 @@ image:
  header: 
  feature:
  
-subheading: '"Not interested in solving the problem"'
+subheading: '"Not as interested in solving the problem"'
 
 title: Richard Clarke Talks Encryption
 
 ---
-<img class="image-left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Richard_clarke.jpg/200px-Richard_clarke.jpg"/>
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Richard_clarke.jpg/200px-Richard_clarke.jpg)
 
 Richard Clarke, former National Security Council leader and security advisor to Clinton, Bush and Obama, in an [interview with NPR][1]
 

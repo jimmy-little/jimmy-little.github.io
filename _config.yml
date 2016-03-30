@@ -1,6 +1,6 @@
-title:            COCKTAILS AND COFFEE
+title:           "Cocktails & Coffee"
 byline:          by Jimmy Little
-description:      Tech, Politics, and other caffeine and alcohol fueled ramblings.
+description:     Internet ramblings fueled by adult beverages.
 # put your disqus here
 disqus_shortname: cocktailsandcoffee
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -19,11 +19,17 @@ url: # http://jimmy-little.github.io
 menu:
 #  - title: 'Home'
 #    url: '/'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
+#  - title: 'Tags'
+#    url: '/tags' 
+  - title: 'Linked List'
+    url: '/linked'
+  - title: 'Writing'
+    url: '/writing'
+  - title: 'Stuff'
+    url: '/stuff'    
+ # - title: 'Categories'
+ #   url: '/categories'
+ #   type: 'categories'
   - title: 'Microblog'
     url: '/micro'
  # - title: 'About'
@@ -58,6 +64,16 @@ social:
 
 # Background image to be tiled on all pages
 background:
+
+# Collections
+LinkedList:
+    permalink: /linked/:path
+Writing:
+    permalink: /writing/:path
+Stuff:
+    permalink: /stuff/:path
+Microblog:
+    permalink: /micro/:path
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:

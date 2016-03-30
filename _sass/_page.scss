@@ -41,6 +41,13 @@ body {
      	}	
 }
 
+p img {
+    display: block;
+    padding: 0 0 0 0;   
+	margin-left: auto;
+    margin-right: auto;    
+	}
+
 
 
 ///sections
@@ -104,6 +111,7 @@ body {
 // Single Post and Page
 // --------------------------------------------------
 .entry-meta {
+    text-align: right;
 	@include font-rem(12);
 	text-transform: uppercase;
 	color: lighten($base-color,60);
@@ -409,10 +417,9 @@ ul.social-buttons li a:active {
 		margin-bottom: 20px;
 	}
 	img {
-		
         @include border-radius(3px,0,0,3px); // round image corners
         width: 800px;
-        max-height: 450px;
+        //max-height: 450px;
         overflow: hidden;
         
         }
@@ -496,8 +503,8 @@ ul.social-buttons li a:active {
 	overflow: hidden;
 	position: relative;
     background-color: $header-color;
-    height: 450px;
-    min-height: 300px;    
+    //height: 450px;
+   min-height: 500px;    
 
 	@media #{$small} {
 		background-color: $header-color;
@@ -507,20 +514,23 @@ ul.social-buttons li a:active {
 
 .entry-header-image {  
     background-color: $header-color;
-    height: 450px;
+    height: auto;
     //max-height: 300px;
 	overflow: hidden;
-    //object-fit: cover;
+    object-fit: cover;
 	width: 100%;
     background-position: center;
+    
 	@media #{$medium} {
 		background-color: $header-color;
         min-height: 300px;
+      
 	}
 
 	@media #{$small} {
 		background-color: $header-color;
 		min-height: 300px;
+       
 	}
 
 

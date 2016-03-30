@@ -25,7 +25,7 @@ tags:
 subheading: Quick note before the Apple October Event with my best guesses
 ---
 
-
+<!-- more -->  
  
 
 ## New iPads (duh). 

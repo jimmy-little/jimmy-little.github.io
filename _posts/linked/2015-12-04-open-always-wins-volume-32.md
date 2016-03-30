@@ -2,7 +2,7 @@
 layout: link
 
 link: http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa/
-
+title: Open Always Wins, Vol. 32
 date: 2015-12-04
 
 category:  Linked 
@@ -19,11 +19,10 @@ image:
  creditlink: http://www.searchwallpapers.org/download/Android-Logo-In-Rain-HD-Wallpaper-Flickr-Photo/?n=aHR0cHM6Ly9mYXJtMy5zdGF0aWNmbGlja3IuY29tLzI5MTEvMTQ2MDQ1NDcwNThfNDkxZTJmOTFhNV9vLmpwZw==&search=wallpaper+hd+rain
 subheading: Your pants are locked
 
-title: Open Always Wins, Vol. 32
-
 ---
 
 From the [We Live Security][1] blog:
+
 
 > After clicking on the button, the user’s device is doomed: the Trojan app has obtained Administrator rights silently and now can lock device — and even worse, it set a new PIN for the lock screen.
 

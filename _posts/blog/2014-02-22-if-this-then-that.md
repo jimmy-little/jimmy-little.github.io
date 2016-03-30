@@ -11,7 +11,6 @@ tags:
   - Hazel
   - IFTTT
 image:
- feature: https://d2huu43w4jjmdn.cloudfront.net/feature_images/optomized/getting_started_if_hero.jpg
  header: https://d2huu43w4jjmdn.cloudfront.net/feature_images/optomized/getting_started_if_hero.jpg
   
 ---

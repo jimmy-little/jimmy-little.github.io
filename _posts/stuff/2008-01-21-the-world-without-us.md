@@ -4,7 +4,7 @@ categories: Stuff
 author: jimmy
 date: 2008-01-21
 title: The World Without Us
-tags: Green, Book
+tags: [Green, Book]
 
 --- 
 

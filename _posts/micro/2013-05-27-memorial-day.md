@@ -8,7 +8,6 @@ layout: micro
 categories:
   - Micro
 tags:
-  - 
   - Memorial Day
 ---
 I think it's weird when people say "Happy Memorial Day".  
