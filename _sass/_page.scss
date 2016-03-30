@@ -27,28 +27,8 @@ body {
 		&:hover {
 			border-bottom-style: solid;
 		}
-        padding: 0;
 	}
-	
-	.iframe-left {
-		float: left;
-        padding: 0 2em 0 0;
-        clear: both;
-     }
-     
-     .iframe-right {
-     	float: right
-     	}	
 }
-
-p img {
-    display: block;
-    padding: 0 0 0 0;   
-	margin-left: auto;
-    margin-right: auto;    
-	}
-
-
 
 ///sections
 
@@ -111,7 +91,6 @@ p img {
 // Single Post and Page
 // --------------------------------------------------
 .entry-meta {
-    text-align: right;
 	@include font-rem(12);
 	text-transform: uppercase;
 	color: lighten($base-color,60);
@@ -177,13 +156,6 @@ header .entry-meta {
 				@include font-size(20);
 			}
 		}
-		
-	img {
-    padding: 0 0 0 0;   
-	margin-left: auto;
-    margin-right: auto;    
-	}	
-
 	}
 	#disqus_thread {
 		margin: 40px 2px 20px 2px;
@@ -381,8 +353,6 @@ ul.social-buttons li a:active {
 			margin-right: auto;
 		}
 	}
-
-
 	article {
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
@@ -417,15 +387,12 @@ ul.social-buttons li a:active {
 		margin-bottom: 20px;
 	}
 	img {
-        @include border-radius(3px,0,0,3px); // round image corners
-        width: 800px;
-        //max-height: 450px;
-        overflow: hidden;
-        
-        }
+        width: 100%;
+		@include border-radius(3px,0,0,3px); // round image corners
+        padding-bottom: 5px;
+        border-bottom: 2px solid $border-color;
+	}
 }
-
-
 
 // Footer
 // --------------------------------------------------
@@ -500,41 +467,37 @@ ul.social-buttons li a:active {
 // Header
 // --------------------------------------------------
 .entry-header {
+    height: 10em;
 	overflow: hidden;
 	position: relative;
-    background-color: $header-color;
-    //height: 450px;
-   min-height: 15em;    
-
-	@media #{$small} {
-		background-color: $header-color;
-		min-height: 18em;
-	}
-
-}
-
-
-.entry-header-image {  
-    background-color: $header-color;
-    height: auto;
-    //max-height: 300px;
-	overflow: hidden;
-    object-fit: cover;
 	width: 100%;
-    background-position: center;
-    
+	//height: 200px;
+	overflow: hidden;
 	@media #{$medium} {
 		background-color: $header-color;
-       min-height: 15em;
-      
+    min-height: 300px;    
 	}
 
 	@media #{$small} {
 		background-color: $header-color;
-		min-height: 18em;
-       
+		min-height: 300px;
+	}
+}
+
+.entry-header-image {    
+	overflow: hidden;
+	position: relative;
+    background-position: center;
+	width: 100%;
+	@media #{$medium} {
+		background-color: $header-color;
+        min-height: 300px;
 	}
 
+	@media #{$small} {
+		background-color: $header-color;
+		min-height: 300px;
+	}
 
 }
 
@@ -570,7 +533,7 @@ ul.social-buttons li a:active {
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($black, 0.6);
 		display: block;
-        line-height: 1em;
+        line-height: 1.1em;
 		a {
 			color: $white;
 		}
@@ -580,11 +543,6 @@ ul.social-buttons li a:active {
 		}
 		@media #{$large} {
 			@include font-rem(64);
-            
-		}
-
-        @media #{$small} {
-			@include font-rem(36);
             
 		}
 	}
