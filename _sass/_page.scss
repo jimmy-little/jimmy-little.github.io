@@ -504,13 +504,15 @@ ul.social-buttons li a:active {
 	position: relative;
     background-color: $header-color;
     //height: 450px;
-   min-height: 500px;    
+   min-height: 15em;    
 
 	@media #{$small} {
 		background-color: $header-color;
-		min-height: 300px;
+		min-height: 18em;
 	}
+
 }
+
 
 .entry-header-image {  
     background-color: $header-color;
@@ -523,13 +525,13 @@ ul.social-buttons li a:active {
     
 	@media #{$medium} {
 		background-color: $header-color;
-        min-height: 300px;
+       min-height: 15em;
       
 	}
 
 	@media #{$small} {
 		background-color: $header-color;
-		min-height: 300px;
+		min-height: 18em;
        
 	}
 
@@ -568,7 +570,7 @@ ul.social-buttons li a:active {
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($black, 0.6);
 		display: block;
-        line-height: 1.1em;
+        line-height: 1em;
 		a {
 			color: $white;
 		}
@@ -578,6 +580,11 @@ ul.social-buttons li a:active {
 		}
 		@media #{$large} {
 			@include font-rem(64);
+            
+		}
+
+        @media #{$small} {
+			@include font-rem(36);
             
 		}
 	}
