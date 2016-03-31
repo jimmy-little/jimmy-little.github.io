@@ -19,7 +19,6 @@ url: "http://jimmy-little.github.io"
 menu:
   - title: 'Home'
     url: '/'
-
   - title: 'Archive'
     url: '#'
     submenu:
