@@ -6,13 +6,13 @@ date: 2011-06-04T02:56:21+00:00
 
 author: jimmy
 
-layout: link
+layout: post
 
 source: href="http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
 
 via: IARC
 
-link: href="http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
+link: 
 
 categories: Writing
 
@@ -23,11 +23,9 @@ tags:
 ---
 
   
-    Cell phones have been put in the Class 2B by the World Health Organization. This means there's a possible cancer risk.
+Cell phones have been put in the Class 2B by the World Health Organization. This means there's a possible cancer risk.
   
-  
-  
-    Also in the 2B Class of 2011 are these winners:
+Also in the 2B Class of 2011 are these winners:
   
   
   <ul>
@@ -99,14 +97,8 @@ tags:
     </li>
   </ul>
   
+The moral of the story is this: ANYTHING YOU DO WILL GIVE YOU CANCER.
   
-    The moral of the story is this: ANYTHING YOU DO WILL GIVE YOU CANCER.
-  
-  
-  
-    Have a great weekend.
-  
-  
-  
-    via <a href="http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf">IARC PDF</a>
+Have a great weekend.
+
   

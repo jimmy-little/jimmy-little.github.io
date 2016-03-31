@@ -19,6 +19,8 @@ body {
 
 // Colors
 // --------------------------------------------------
+$white           		 : #fff;
+$black           		 : #021117;
 $base-color				 : rgba(#222,0.8);
 $header-color			 : rgba(50,51,51,0.9);
 $sub-item-color			 : rgba(#fff, 0.1);
@@ -26,15 +28,12 @@ $header-margin			 : rgb(29,171,230);
 $menu-top				 : rgba(50,51,51,0.9);
 $menu-height			 : 70px;
 $menu-overflow			 : rgba(#f2f2f2, 0.8);
-$body-color      		 : #f2f2f2;
+$body-color      		 : $white; //#f2f2f2;
 $text-color      		 : rgba(#222,0.8);
 $comp-color 	 		 : complement(#222);
 $border-color    		 : lighten(#222,60);
-$white           		 : #fff;
-$black           		 : #021117;
 $link-color 		     : rgb(29,171,230);
 $highlight-color         : rgb(230,88,29);
-
 $primary			     : #222;
 $success			     : #5cb85c;
 $warning			     : #dd8338;
@@ -45,6 +44,6 @@ $info				     : #308cbc;
 // Screen Size
 // --------------------------------------------------
 
-$small               : "only screen and (min-width: 32em)";
-$medium              : "only screen and (min-width: 42em)";
+$small               : "only screen and (min-width: 24em)";
+$medium              : "only screen and (min-width: 36em)";
 $large               : "only screen and (min-width: 62.5em)";

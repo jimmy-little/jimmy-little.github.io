@@ -10,28 +10,13 @@ body {
 // --------------------------------------------------
 .entry,
 .hentry {
-    border-bottom: solid 1px $highlight-color;
 	@include clearfix;
 	h1, h2, h3, h4, h5, h6, p, li {
 		word-wrap: break-word;
-	
 	}
-    
-    h1 {
-        font-size: 1.5em;
-    }
-    
-    h5 {
-        font-style: italic;
-        margin-top: -.5em;
-    }
 }
 .hentry-dark {
 	background-color: $header-color;
-}
-
-hr {
-    margin: 0em 2em;
 }
 .entry-content {
 	@include font-size(16);
@@ -42,30 +27,18 @@ hr {
 		&:hover {
 			border-bottom-style: solid;
 		}
-	}    
-    h1 {
-        text-align: center;
-        //font-size: 3em;
-        margin-top: 1em;
-    }
-    
-    p img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+	}
 }
 
 ///sections
 
 .content-header-title {
 	text-align: center;
-	margin: 30px 0 0;
+	margin: 1em 0 0;
 	h1 {
 		margin: 10px 20px;
 		font-weight: 900;
-		@include font-rem(32);
+		@include font-rem(20);  //was 32
 		color: lighten($base-color,20);
         
         @media #{$small} {
@@ -77,10 +50,7 @@ hr {
 		@media #{$large} {
 			@include font-rem(60);
 		}
-        a {
-            font-size: 1em;
-    
-        }
+     
 	}
 	h2 {
 		margin: 0;
@@ -127,8 +97,6 @@ hr {
 // --------------------------------------------------
 .entry-meta {
 	@include font-rem(12);
-    padding-top: 1em;
-    text-align: right;
 	text-transform: uppercase;
 	color: lighten($base-color,60);
 	a {
@@ -140,6 +108,7 @@ hr {
 		}
 	}
 	.tag {
+        font-size: 1.2em;
 		display: inline-block;
 		margin: 4px;
 		color: $white;
@@ -150,9 +119,9 @@ hr {
 			padding: 2px 6px;
 		}
 		.count {
-			background-color: lighten($highlight-color,15);
+			background-color: lighten($highlight-color,10);
 			@include border-radius(3px,3px,0,0);
-			color: $white;
+            color: $black;
 		}
 		&:hover {
 			background-color: lighten($base-color,40);
@@ -163,13 +132,13 @@ hr {
 	}
 }
 header .entry-meta {
-	//display: none; // hide header meta on small screens
+	display: none; // hide header meta on small screens
 	@media #{$medium} {
 		display: block;
 	}
 }
 #menu{
-  margin-bottom: 48px;  //was 48
+  margin-bottom: 10px;  //was 48
 }
 #post,
 #page {
@@ -177,7 +146,7 @@ header .entry-meta {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: $white;
-		//box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
+		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
 		@include rounded(3px);
 		@media #{$medium} {
 			margin-left: 10px;
@@ -197,7 +166,7 @@ header .entry-meta {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: $white;
-		//box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
+		box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
 		@include rounded(3px);
 		@media #{$medium} {
 			margin-left: 10px;
@@ -214,17 +183,6 @@ header .entry-meta {
 		margin: 50px 30px 30px;
 		text-align: center;
 	}
-
-    .iframe-left {
-    float: left;
-    padding-right: 2em;
-    background: $link-color;    
-}
-    .iframe-right {
-        float: right;
-    
-}
-
 }
 .entry-tags {
 	display: block;
@@ -259,26 +217,22 @@ header .entry-meta {
 // Read More Module
 .read-more {
 	position: relative;
-    width: 80%;
-	margin: 0 auto 10px auto;
-    text-align: center;
+	margin: 40px 2px 20px 2px;
+	padding: 10px 15px 25px;
+	background-color: $white;
+	box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
+	@include rounded(3px);
+	@media #{$medium} {
+		margin: 50px 10px 20px 10px;
+		padding: 50px 40px 25px;
+	}
+	@media #{$large} {
+		max-width: 800px;
+		padding: 50px 80px;
+		margin: 60px auto;
+	}
+	text-align: center;
 	@include clearfix;
-	padding: 0 3em;
-	background-color: rgba($highlight-color, .1);
-	//box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
-    border-top: solid 3px $header-color;
-	//@include rounded(3px);
-    
-//	@media #{$medium} {
-//    margin: 1em auto;
-//	padding: 3em 2em;
-//	}
-//	@media #{$large} {
-//		max-width: 800px;
-//		margin: 1em auto;
-//	   padding: 3em 2em;
-//	}
-	
 }
 .read-more-header {
 	position: absolute;
@@ -291,12 +245,11 @@ header .entry-meta {
 	}
 }
 .read-more-content {
-	@include font-size(16);
-    padding: 0;
+	@include font-size(12);
 	// Dotted line underlines for links
 	p > a,
 	li > a {
-		//border-bottom: 1px dotted lighten($link-color, 50);
+		border-bottom: 1px dotted lighten($link-color, 50);
 		&:hover {
 			border-bottom-style: solid;
 		}
@@ -313,8 +266,8 @@ header .entry-meta {
 	}
 }
 .author-img {
-	width: 150px;
-	height: 150px;
+	width: 75px;
+	height: 75px;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -326,7 +279,7 @@ header .entry-meta {
 	display: flex;
 }
 .author-bio{
-	padding-top: 30px;
+	padding-top: 5px;
 	padding-left: 20px;
 	flex-grow: 1;
 }
@@ -365,9 +318,9 @@ ul.social-buttons li a:active {
     color: #fff;
     background-color: #1dabe6;
 }
-//.read-more-list {
-//	border-top: solid 2px lighten($base-color,80);
-//}
+.read-more-list {
+	border-top: solid 2px lighten($base-color,80);
+}
 .list-item {
 	width: 100%;
 	text-align: left;
@@ -407,17 +360,16 @@ ul.social-buttons li a:active {
 	}
 	article {
 		background-color: $white;
-        border-bottom: 1px solid $highlight-color;
-		//box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
-		//@include rounded(3px);
-		margin-bottom: 10px;
-		padding: 10px 15px;
+		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
+		@include rounded(3px);
+		margin-bottom: 20px;
+		padding: 25px 15px;
 		@media #{$medium} {
-			padding: 20px;
+			padding: 30px;
 		}
 		@media #{$large} {
 			margin-bottom: 30px;
-			padding: 20px 80px;
+			padding: 50px 80px;
 		}
 	}
 }
@@ -442,6 +394,8 @@ ul.social-buttons li a:active {
 	img {
         width: 100%;
 		@include border-radius(3px,0,0,3px); // round image corners
+        padding-bottom: 5px;
+        border-bottom: 2px solid $border-color;
 	}
 }
 
@@ -518,31 +472,27 @@ ul.social-buttons li a:active {
 // Header
 // --------------------------------------------------
 .entry-header {
-    display: block;
-    height: 100%; //10em;
-  	overflow: hidden;
-    position: relative;
-    width: 100%;
-    background-color: $header-color;
+    height: 10em;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
     
 	@media #{$medium} {
-	display: block;
-    height: 100%; //10em;
+    height: 10em;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
     background-color: $header-color;
-    min-height: 16em;    
+    min-height: 300px;    
 	}
 
 	@media #{$small} {
-	display: block;
-    height: 100%; //10em;
+    height: 10em;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
     background-color: $header-color;
-    min-height: 16em;
+    min-height: 300px;
 	}
 }
 
@@ -558,18 +508,20 @@ ul.social-buttons li a:active {
     background-position: center;
 	width: 100%;
     background-color: $header-color;
-    min-height: 16em;
+    min-height: 300px;
 	}
 
 	@media #{$small} {
-    overflow: hidden;
+        overflow: hidden;
 	position: relative;
     background-position: center;
 	width: 100%;
 	background-color: $header-color;
-	min-height: 16em;
+	min-height: 300px;
 	}
+
 }
+
 .header-toggle{
 	display: block;
 	@media #{$large} {
@@ -578,27 +530,27 @@ ul.social-buttons li a:active {
 }
 .header-title {
 	text-align: center;
-	position: relative; /////
-    //background-color: $header-color;
+	position: absolute;
 	display: table;
 	width: 100%;
 	overflow: hidden;
     
 	.header-title-wrap {
-        padding-top: 5em;
+        padding-top: 4em;
 		display: table-cell;
 		vertical-align: middle;
 		margin: 0 auto;
 		text-align: center;
-        
-        h2 {
+	}
+    
+	h2 {
 		color: $white;
 	}
-	   h1 {
+	h1 {
         position: relative;
 		font-weight: 900;
 		margin-bottom: -10px;
-		//@include font-rem(32);
+		@include font-rem(32);
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($black, 0.6);
 		display: block;
@@ -614,14 +566,6 @@ ul.social-buttons li a:active {
 			@include font-rem(64);
             
 		}
-		
-		@media #{$small} {
-			@include font-rem(32);
-            
-		}
-	
-	}
-    
 	}
 
 	p {
@@ -642,7 +586,7 @@ ul.social-buttons li a:active {
 		height: 100%;
 		padding: 0;
 		@media #{$large} {
-			max-width: 80%;
+			max-width: 900px;
 		}
 	}
 }

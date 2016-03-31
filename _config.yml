@@ -1,4 +1,4 @@
-title:           "Cocktails & Coffee"
+title:           Cocktails & Coffee
 byline:          by Jimmy Little
 description:     Internet ramblings fueled by adult beverages.
 # put your disqus here
@@ -9,7 +9,7 @@ logo:             https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_im
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: # http://jimmy-little.github.io
+url: "http://jimmy-little.github.io"
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -17,31 +17,36 @@ url: # http://jimmy-little.github.io
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-#  - title: 'Home'
-#    url: '/'
-#  - title: 'Tags'
-#    url: '/tags' 
-  - title: 'Linked List'
-    url: '/linked'
-  - title: 'Writing'
-    url: '/writing'
-  - title: 'Stuff'
-    url: '/stuff'    
+  - title: 'Home'
+    url: '/'
+
+  - title: 'Archive'
+    url: '#'
+    submenu:
+      - title: 'Linked List'
+        url: '/linked'
+      - title: 'Writing'
+        url: '/writing'
+      - title: 'Microblog'
+        url: '/micro' 
+        
+ #  - title: 'Tags'
+ #    url: '/tags'     
+ # - title: 'Stuff'
+ #   url: '/stuff'    
  # - title: 'Categories'
  #   url: '/categories'
  #   type: 'categories'
-  - title: 'Microblog'
-    url: '/micro'
  # - title: 'About'
  #   url: '/about'
  
 # Owner/author information
 owner:
-  name:           Jimmy Little
-  site:           
+  name:           Jimmy
+  site:           "http://www.jimmylittle.com"
   avatar:         https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/JL-logo-grey.png
   bio:            "An LA boy by way of Virginia and Brooklyn.  I've been putting my ramblings on the internet in varying degrees of quality since 1994."
-  email:          #you@email.com
+  email:          "thejimmylittle@gmail.com"
   # Twitter nick for use in Twitter cards and follow button.
   twitter:       jimmylittle  # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
@@ -53,27 +58,18 @@ twitter: jimmylittle
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
-# - title: "github"
-#    url: "https://github.com/aron-bordin"
+  - title: "github"
+    url: "https://github.com/jimmy-little"
   - title: "twitter"
     url: "https://twitter.com/jimmylittle"
   - title: "linkedin"
     url: "https://br.linkedin.com/in/jimmy-little"
+    
 # - title: "youtube"
 #    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
 # Background image to be tiled on all pages
 background:
-
-# Collections
-LinkedList:
-    permalink: /linked/:path
-Writing:
-    permalink: /writing/:path
-Stuff:
-    permalink: /stuff/:path
-Microblog:
-    permalink: /micro/:path
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
