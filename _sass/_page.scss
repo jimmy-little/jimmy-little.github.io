@@ -597,8 +597,11 @@ ul.social-buttons li a:active {
 		text-align: center;
         
         h2 {
-		color: $link-color;
+		color: $white;
 	}
+        h4 {
+            color: link-color;
+        }
 	   h1 {
         position: relative;
 		font-weight: 900;
