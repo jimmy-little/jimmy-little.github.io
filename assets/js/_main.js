@@ -78,9 +78,9 @@ $(document).ready(function(){
         "position": "bottom",
         "content": [
           "<a class='fa fa-search' href='/search'></a>",
-          "<a class='fa fa-envelope' href='#/'></a>",
-          "<a class='fa fa-twitter' href='#/'></a>",
-          "<a class='fa fa-facebook' href='#/'></a>"
+          "<a class='fa fa-rss' href='/feed'></a>",
+          "<a class='fa fa-twitter' href='http://www.twitter.com/jimmylittle'></a>",
+          "<a class='fa fa-envelope' href='mailto:thejimmylittle@gmail.com'></a>"
         ]
       }
     ]
