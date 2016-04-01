@@ -37,6 +37,7 @@ By shopping through the Amazon link on this page, a small percentage of the purc
 ### Colophon
  - Text Font: [Lato by Google Fonts](https://www.google.com/fonts/specimen/Lato)
  - Header Font: [Raleway by Google Fonts](https://www.google.com/fonts/specimen/Raleway)
+ - Icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)
  - Built with the [Jekyll Blog Engine](https://jekyllrb.com)
  - Hosted on GitHub
  - Images hosted on Amazon S3
