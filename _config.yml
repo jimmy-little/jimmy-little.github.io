@@ -28,7 +28,7 @@ menu:
         url: '/writing'
       - title: 'Microblog'
         url: '/micro' 
-        
+
  #  - title: 'Tags'
  #    url: '/tags'     
  # - title: 'Stuff'
