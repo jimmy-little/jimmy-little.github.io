@@ -81,7 +81,7 @@ $(document).ready(function(){
           "<a class='fa fa-rss' href='/feed.xml'></a>",
           "<a class='fa fa-twitter' href='http://www.twitter.com/jimmylittle'></a>",
           "<a class='fa fa-envelope' href='mailto:thejimmylittle@gmail.com'></a>"
-          "<a class='fa fa-info' href='/about'></a>"
+          "<a class='fa fa-info-circle' href='/about'></a>"
         ]
       }
     ]
