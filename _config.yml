@@ -47,7 +47,7 @@ owner:
   bio:            "An LA boy by way of Virginia and Brooklyn.  I've been putting my ramblings on the internet in varying degrees of quality since 1994."
   email:          "thejimmylittle@gmail.com"
   # Twitter nick for use in Twitter cards and follow button.
-  twitter:       jimmylittle  # if no twitter in this config, the twitter follow button will be removed
+  twitter:       #jimmylittle  # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github:         jimmy-little
 
@@ -71,7 +71,7 @@ social:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-63478502-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
