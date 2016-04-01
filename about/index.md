@@ -10,7 +10,7 @@ title: About
 
 ### About Cocktails & Coffee
 
-This site is completely written, researched, and updated by me, Jimmy Little.  It is meant to be a personal and sometimes professional outlet for information about me, what I'm interested in, and what I'm doing. All views here are my own. It's called Cocktails & Coffee because a lot or what I write is fueled by caffeine and alcohol. In a good way.
+This site is completely written, researched, and updated by me, Jimmy Little.  It is meant to be a personal and sometimes professional outlet for information about me, what I'm interested in, and what I'm doing. All views here are my own. It's called Cocktails & Coffee because a lot of what I write is fueled by caffeine and alcohol. Or internet rage,  But cocktailsandcoffeeandinternetrage.com doesn't fit on a business card.
 
 ### Content
 
