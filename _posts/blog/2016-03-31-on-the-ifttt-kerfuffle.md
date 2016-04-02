@@ -10,6 +10,8 @@ subheading: When free, isn't.
 
 title: On the IFTTT Kerfuffle
 
+tags: [IFTTT, Pinboard]
+
 ---
 
 There has been a lot of brouhaha lately about IFTTT changing the way apps integrate with it's service.
