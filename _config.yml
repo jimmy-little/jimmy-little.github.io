@@ -26,9 +26,10 @@ menu:
         url: '/linked'
       - title: 'Writing'
         url: '/writing'
- #      - title: 'Microblog'
- #       url: '/micro' 
-
+ #       
+ #    - title: 'Microblog'
+ #     url: '/micro' 
+ #
  #  - title: 'Tags'
  #    url: '/tags'     
  # - title: 'Stuff'
