@@ -9,12 +9,12 @@ categories: Writing
 tags: [Software, Subscriptions, Customer]
 
 image:
- feature: https://textexpander.com/wp-content/uploads/2016/03/full-lockup_te_blank.svg
+ feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/textexpander-logo.png
  
 via: The Smile Blog
 source: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta 
  
-title: TextExpander and Value
+title: On TextExpander Pricing
 
 subtitle: When a company changes pricing models...
 
