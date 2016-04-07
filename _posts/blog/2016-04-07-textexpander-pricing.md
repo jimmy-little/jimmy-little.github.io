@@ -26,6 +26,8 @@ First, let me say I LOVE TextExpander. I've been using it for years, every day. 
 
 Smile Software posted [on their blog][1] that they were changing the pricing model for TextExpander. I'm not sure how I feel about it, but I do know that I will have to seriously consider whether I'm going to switch to the new model.
 
+<!-- more -->
+
 From the Smile Blog:
 
 > TextExpander is US $4.95 per month for individuals on the Life Hacker plan. Current TextExpander users receive a 50% loyalty discount for their first year. 
