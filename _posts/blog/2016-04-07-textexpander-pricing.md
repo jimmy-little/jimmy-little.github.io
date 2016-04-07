@@ -2,6 +2,8 @@
 
 layout: post
 
+date: 2016-04-07
+
 categories: Writing
 
 tags: [Software, Subscriptions, Customer]
