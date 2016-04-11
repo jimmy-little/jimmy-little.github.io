@@ -14,7 +14,7 @@ source: http://www.apple.com/customer-letter
 
 image:
  feature: 
- header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Image%208.png
+ header: 
 
 subheading: Apple vs. the FBI Round 2
 
@@ -22,6 +22,7 @@ title:  'Tim Cook: "A Dangerous Precedent"'
 
 ---
 
+![Screenshot of Tim Cook's letter](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Image%208.png)
 
 In an [open letter][1] on the Apple Web site, Tim Cook lays out his case against helping the government unlock an iPhone:
 
