@@ -3,6 +3,7 @@
 layout: post
 
 date: 2016-04-07
+modified: 2016-04-12
 
 categories: Writing
 
@@ -19,6 +20,19 @@ title: On TextExpander Pricing
 subtitle: When a company changes pricing models...
 
 ---
+
+## UPDATE 2016-04-12
+Today, [TextExpander][te] has listened to long time customers, and have adjusted.
+
+>We will apply a lifetime discount of 50% off the Life Hacker pricing to customers of any past version of TextExpander. That amounts to just US $20 per year. In our initial rollout, we offered the discount for the first year only, and that was a mistake. We value our long-term customers, and it’s important for us to demonstrate that in our actions. Thanks for bearing with us as we sorted this out.
+
+So, it looks like I'll be staying on the TE bandwagon.  I am so happy about this, because I was not looking forward to moving 600+ snippets to another utility.  $20 a year is reasonable and sustainable for both the customers and the developers.
+
+Strong work, Smile.
+
+---
+---
+
 
 First, let me say I LOVE TextExpander. I've been using it for years, every day. On my 8 month old laptop, I've expanded snippets over 8500 times, saving 34 hours of typing.
 
@@ -56,6 +70,8 @@ Photoshop and Microsoft Office are each $10 per month, and I don't think TextExp
 
 
 
+
+
 [0]: https://geo.itunes.apple.com/us/app/textexpander-+-keyboard-type/id1075927186?mt=8
 [1]: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta
 [2]: http://www.textexpander.com
@@ -65,3 +81,4 @@ Photoshop and Microsoft Office are each $10 per month, and I don't think TextExp
 [t4]: http://www.ettoresoftware.com/products/typeit4me/
 [tn]: http://www.ergonis.com/products/typinator/
 [cp]: https://geo.itunes.apple.com/us/app/copied-copy-paste-everywhere/id1015767349?mt=8
+[te]: https://smilesoftware.com/textexpander/entry/textexpander-adjustments
