@@ -3,6 +3,7 @@
 layout: post
 
 date: 2016-04-07
+
 modified: 2016-04-12
 
 categories: Writing
@@ -21,7 +22,7 @@ subheading: When a company changes pricing models...
 
 ---
 
-## UPDATE 2016-04-12
+### UPDATE
 Today, [TextExpander][te] has listened to long time customers, and have adjusted.
 
 >We will apply a lifetime discount of 50% off the Life Hacker pricing to customers of any past version of TextExpander. That amounts to just US $20 per year. In our initial rollout, we offered the discount for the first year only, and that was a mistake. We value our long-term customers, and it’s important for us to demonstrate that in our actions. Thanks for bearing with us as we sorted this out.
