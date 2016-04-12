@@ -16,7 +16,7 @@ image:
 via: The Smile Blog
 source: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta 
  
-title: On TextExpander Pricing
+title: "On TextExpander Pricing [UPDATED]"
 
 subheading: When a company changes pricing models...
 
