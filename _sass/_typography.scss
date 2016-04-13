@@ -104,8 +104,8 @@ blockquote {
 	padding: .5em;
     margin: 0 auto 0 auto;
     line-height: 1.5em;
-    border-left: 3px solid $black;
-    background: lighten($link-color,05);
+    border-left: 3px solid $font-color;
+    background: lighten($link-color,10);
 
 	@media #{$medium} {
 		margin-left: 28px;
