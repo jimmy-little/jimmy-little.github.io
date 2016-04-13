@@ -105,7 +105,7 @@ blockquote {
     margin: 0 auto 0 auto;
     line-height: 1.5em;
     border-left: 3px solid $text-color;
-    background: lighten($link-color, 90);
+    background: lighten($link-color, 50);
 
 	@media #{$medium} {
 		margin-left: 28px;
