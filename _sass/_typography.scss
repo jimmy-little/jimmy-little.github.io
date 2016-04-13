@@ -100,9 +100,11 @@ figcaption {
 blockquote {
     display: block;
 	font-family: $base-font;
-    font-style: italic;
+    //font-style: italic;
 	padding: 1em;
     margin: 0 auto 0 auto;
+    line-height: 1.2em;
+    border-left: 3px solid darken($body-color,20);
     background: #f4f4f4;
 
 	@media #{$medium} {

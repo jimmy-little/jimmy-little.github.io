@@ -22,26 +22,8 @@ subheading: When a company changes pricing models...
 
 ---
 
----
 
-# UPDATE
-
----
-
-Today, [TextExpander][te] has listened to long time customers, and have adjusted.
-
->We will apply a lifetime discount of 50% off the Life Hacker pricing to customers of any past version of TextExpander. That amounts to just US $20 per year. In our initial rollout, we offered the discount for the first year only, and that was a mistake. We value our long-term customers, and it’s important for us to demonstrate that in our actions. Thanks for bearing with us as we sorted this out.
-
-So, it looks like I'll be staying on the TE bandwagon.  I am so happy about this, because I was not looking forward to moving 600+ snippets to another utility.  $20 a year is reasonable and sustainable for both the customers and the developers.
-
-Strong work, Smile.
-
----
-
-# ORIGINAL POST
-
----
-
+This post has been [UPDATED](#UPDATE)
 
 First, let me say I LOVE TextExpander. I've been using it for years, every day. On my 8 month old laptop, I've expanded snippets over 8500 times, saving 34 hours of typing.
 
@@ -74,10 +56,24 @@ On top of my dwindling use of [TextExpander Touch][0], the iOS app doesn't seem 
 
 ### My Future With TextExpander
 I will spend the next few months exporing alternatives, and hoping Smile comes up with a more realistic pricing structure. If, by the end of the "next version of OS X", the pricing structure doesn't get more realistic, I'll move away from TextExpander. 
-
+<a href name="UPDATE"></a>
 Photoshop and Microsoft Office are each $10 per month, and I don't think TextExpander is even close to 50% of the value or complexity of those apps. I'm hoping Smile adjusts this soon. 
 
 
+
+---
+
+# UPDATE
+
+---
+
+Today, [TextExpander][te] has listened to long time customers, and have adjusted.
+
+>We will apply a lifetime discount of 50% off the Life Hacker pricing to customers of any past version of TextExpander. That amounts to just US $20 per year. In our initial rollout, we offered the discount for the first year only, and that was a mistake. We value our long-term customers, and it’s important for us to demonstrate that in our actions. Thanks for bearing with us as we sorted this out.
+
+So, it looks like I'll be staying on the TE bandwagon.  I am so happy about this, because I was not looking forward to moving 600+ snippets to another utility.  $20 a year is reasonable and sustainable for both the customers and the developers.
+
+Strong work, Smile.
 
 
 
