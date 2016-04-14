@@ -1,0 +1,81 @@
+---
+
+title: 'Another Reason the "News" in "FoxNews" is Laughable.'
+date: 2009-11-12T02:47:01+00:00
+author: jimmy
+layout: post
+guid: http://localhost:8888/2009/11/12/20091111another-reason-the-news-in-foxnews-is-laughable-html/
+permalink: /2009/11/12/20091111another-reason-the-news-in-foxnews-is-laughable-html/
+categories:
+  - blog
+  - video
+tags:
+  - DailyShow
+  - FoxNews
+  - Hannity
+  - Opinion
+---
+
+  <p>
+    Now, I know MSNBC and Fox News are not really "news".  They are both opinion networks that do some news stories.  And, they both run mostly-news during the day and the prime time lineup is completely partisan personality driven punditry.  I get it.  But don't freakin' lie to me.
+  </p>
+  
+  <p>
+    Hannity, O'Reily, Olbermann, Maddow, and the like each twist the facts to fit their agenda.  I get it.  And I watch it.  I can't just watch one side or the other, I flip.  Olbermann's left-leaning snarkiness is easily overshadowed by Glenn Becks right-wing nutjobbery.  I like to stay balanced, so sue me.  And it's freakin' funny!
+  </p>
+  
+  <p>
+    Also funny is Jon Stewart.  In this clip he points out a slight problem with Hannity's video footage of a recent tea-baggers rally outside the Capitol.  See, the problem is, Hannity tries to pass off a video of a 40,000 plus rally from a couple months ago as the footage from the recent rally, which the Washington Post said had "around 10,000".
+  </p>
+  
+  <p>
+    <table style='font:11px arial; color:#333; background-color:#f5f5f5' cellpadding='0' cellspacing='0' width='360' height='353'>
+      <tr style='background-color:#e5e5e5' valign='middle'>
+        <td style='padding:2px 1px 0px 5px;'>
+          <a target='_blank' style='color:#333; text-decoration:none; font-weight:bold;' href='http://www.thedailyshow.com'>The Daily Show With Jon Stewart</a>
+        </td>
+        
+        <td style='padding:2px 5px 0px 5px; text-align:right; font-weight:bold;'>
+          Mon &#8211; Thurs 11p / 10c
+        </td>
+      </tr>
+      
+      <tr style='height:14px;' valign='middle'>
+        <td style='padding:2px 1px 0px 5px;' colspan='2'<a target='_blank' style='color:#333; text-decoration:none; font-weight:bold;' href='http://www.thedailyshow.com/watch/tue-november-10-2009/sean-hannity-uses-glenn-beck-s-protest-footage'>Sean Hannity Uses Glenn Beck's Protest Footage<a></td> </tr> 
+        
+        <tr style='height:14px; background-color:#353535' valign='middle'>
+          <td colspan='2' style='padding:2px 5px 0px 5px; width:360px; overflow:hidden; text-align:right'>
+            <a target='_blank' style='color:#96deff; text-decoration:none; font-weight:bold;' href='http://www.thedailyshow.com/'>www.thedailyshow.com</a>
+          </td>
+        </tr>
+        
+        <tr valign='middle'>
+          <td style='padding:0px;' colspan='2'>
+            <embed style='display:block' src='http://media.mtvnservices.com/mgid:cms:item:comedycentral.com:255662' width='360' height='301' type='application/x-shockwave-flash' wmode='window' allowFullscreen='true' flashvars='autoPlay=false' allowscriptaccess='always' allownetworking='all' bgcolor='#000000'>
+            </embed>
+          </td>
+        </tr>
+        
+        <tr style='height:18px;' valign='middle'>
+          <td style='padding:0px;' colspan='2'>
+            <table style='margin:0px; text-align:center' cellpadding='0' cellspacing='0' width='100%' height='100%'>
+              <tr valign='middle'>
+                <td style='padding:3px; width:33%;'>
+                  <a target='_blank' style='font:10px arial; color:#333; text-decoration:none;' href='http://www.thedailyshow.com/full-episodes'>Daily Show<br /> Full Episodes</a>
+                </td>
+                
+                <td style='padding:3px; width:33%;'>
+                  <a target='_blank' style='font:10px arial; color:#333; text-decoration:none;' href='http://www.indecisionforever.com'>Political Humor</a>
+                </td>
+                
+                <td style='padding:3px; width:33%;'>
+                  <a target='_blank' style='font:10px arial; color:#333; text-decoration:none;' href='http://www.thedailyshow.com/videos/tag/health'>Health Care Crisis</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr></tbody> </table> 
+        
+        <p>
+          Twist the truth. Take quotes out of context.  Even change your views to fit the ideaology of the politician whose ass your kissing this week.  But don't freakin' lie to me.
+        </p>
