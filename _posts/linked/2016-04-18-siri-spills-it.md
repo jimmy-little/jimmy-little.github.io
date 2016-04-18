@@ -5,15 +5,23 @@ title: Siri Spills It
 subheading: 
 
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Sirispills2.png
+ feature: 
  
 layout: link
+
+tags: [Apple, WWDC, Siri]
 
 category: Linked
 
 date: 2016-04-18
 
+link: http://9to5mac.com/2016/04/18/siri-announces-wwdc-2016-will-be-held-june-13th-through-june-17th-in-san-francisco/
+source: http://9to5mac.com/2016/04/18/siri-announces-wwdc-2016-will-be-held-june-13th-through-june-17th-in-san-francisco/
+via: 9to5Mac
+
 ---
+
+![Siri Screenshot](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Sirispills2.png)
 
  According to the guys over at [9to5Mac][1], and confirmed by yours truly (and a bajillion other internet geeks), Apple's Worldwide Developer Conference will indeed be June 13-17.
  
