@@ -5,7 +5,7 @@ title: Siri Spills It
 subheading: 
 
 image:
- featured: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/SiriSpills2.png
+ featured: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Sirispills2.png
  
 layout: link
 
