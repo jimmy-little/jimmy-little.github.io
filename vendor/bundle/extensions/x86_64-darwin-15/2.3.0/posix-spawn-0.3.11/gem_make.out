@@ -1,0 +1,15 @@
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/posix-spawn-0.3.11/ext
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20160313-77525-1ohyxy0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/posix-spawn-0.3.11/ext
+make "DESTDIR=" clean
+
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/posix-spawn-0.3.11/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.bundle
+
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/posix-spawn-0.3.11/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20160313-77525-2ublwn
