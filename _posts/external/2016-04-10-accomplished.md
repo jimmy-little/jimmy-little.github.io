@@ -10,6 +10,8 @@ category: External
 
 Tags: [Instagram, Dog]
 
+date: 2016-04-10
+
 ---
 
 I feel like I've accomplished something for the day when I can make the bed without waking the dog.
