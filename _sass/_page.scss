@@ -606,7 +606,7 @@ ul.social-buttons li a:active {
         position: relative;
 		font-weight: 900;
 		margin-bottom: -10px;
-		font-size: 5em;
+		font-size: 3em;
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($black, 0.6);
 		display: block;
@@ -614,20 +614,18 @@ ul.social-buttons li a:active {
 		a {
 			color: $white;
 		}
+           /*
 		@media #{$medium} {
 			@include font-rem(48);
-           
+
 		}
 		@media #{$large} {
 			@include font-rem(64);
-            
 		}
-		
 		@media #{$small} {
-			@include font-rem(32);
-            
+			@include font-rem(64);
 		}
-	
+	*/
 	}
     
 	}

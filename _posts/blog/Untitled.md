@@ -1,0 +1,36 @@
+2016-04-25-prince
+---
+
+title: Prince
+
+category: Writing
+
+tags: [Music]
+
+layout: post
+
+images:
+  header:
+  featured:
+
+source:
+
+via: 
+
+link:
+
+---
+
+I'm not big on posting about dead celebrities. Art affects people deeply, whether it's music, acting, painting, or whatever the shit the Kardashians do.  I happen to really like music. I was never a huge fan of Prince, but I always knew he was a great musician and he put on a hell of a show.
+ 
+A lot of people have been posting a video of a George Harrison tribute where Tom Petty, Steve Winwood, Jeff Lynne, Prince, and a Dhani Harrison play "While My Guitar Gently Weeps". Prince doesn't sing, but he plays the guitar solo.  A few things stand out in this video, to me:
+
+ - Tom Petty is wearing purple, not Prince.  Weird.
+ - Prince out-Jimi-Hendrixes Jimi Hendrix, without really trying.
+ - About 4:40 in, Prince leans off the stage into the arms of a big guy who I assume is his bodyguard, then gets pushed back onto stage. This was obviously a planned gag, but he does it without missing a beat.
+ - This is the best part: at the very end of the song, Prince takes his guitar off and throws it in the air.  **IT NEVER COMES BACK**.  Where the hell did it go?
+
+Freaking magic, man.
+
+<iframe src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=6SFNW5F8K9Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+

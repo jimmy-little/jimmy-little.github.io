@@ -28,6 +28,7 @@ h1 {
 	}
     @media #{$small} {
 		@include font-rem(24);
+		font-size: 1.25em;
 	}
 }
 
