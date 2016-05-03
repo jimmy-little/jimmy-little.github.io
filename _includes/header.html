@@ -7,27 +7,27 @@
       <li class="header-item-title">
         <a href="{{site.url}}/">
           {% if site.logo %}
-            <img class="logo" src="{{ site.logo }}" alt="{{ site.title }}">
+            <img class="logo" src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}">
           {% endif %}
+
+            
             <a href="{{site.url}}/" class="title"> {{ site.title }} <br />
-                <p class= "byline">a blog {{site.byline}}</p></a>
-       </li>   
-     {% for menu in site.menu reversed %}
-          
+                <p class= "byline">a blog by {{site.byline}}</p></a>
+        </a>
+      </li>
+      {% for menu in site.menu reversed %}
         {% assign class = nil %}
-       {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}
+        {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}
           {% assign class = 'active' %}
         {% endif %}
 
         {% if menu.type == 'categories' %}
           <li class="header-item {{class}}"><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a>
-        <li class="header-item {{class}}"><a href="{{menu.url}}" target="_blank"><h3>{{ menu.title }}</h3></a></li>      
-              
-          <ul class="header-submenu">
+            <ul class="header-submenu">
               {% for item in (0..site.categories.size) %}{% unless forloop.last %}
                 {% capture this_word %}{{ cats_list[item] | strip_newlines }}{% endcapture %}
-                <li class="sub-item"><a href="/categories/#{{this_word}}">{{this_word}}</a></li>
-              {% endunless %}{% endfor %} 
+                  <li class="sub-item"><a href="/categories/#{{this_word}}">{{this_word}}</a></li>
+              {% endunless %}{% endfor %}
             </ul>
           </li>
         {% elsif menu.submenu %}
@@ -37,7 +37,6 @@
                 <li class="sub-item"><a href="{{site.url}}{{sub.url}}">{{sub.title}}</a></li>
               {% endfor %}
             </ul>
-            
           </li>
         {% else %}
             {% if menu.url contains 'http://' or menu.url contains 'https://' %}
@@ -45,44 +44,25 @@
             {% else %}
                 <li class="header-item {{class}}"><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a></li>
             {% endif %}
-    </ul>
         {% endif %}
       {% endfor %}
-      <!--<li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>-->
+   <!--   <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li> -->
     </ul>
   </div>
-{% if page.image.header %}
-
-<div class="entry-header-image" style="background: no-repeat center center url({{ page.image.header}}); background-size: cover;">
-    <div class="header-title">
-        <div class="header-title-wrap">
-          {% if page.date %}
-            <h2><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
-      {% else %}
-            <h2><span class="entry-date"><time> </time></span></h2>
-      {% endif %}
-    <h1>{{ page.title }}</h1>        
-    <h4> {{ page.subheading }}</h4>        
-        </div> 
-    </div> 
-    
-</div>        
-{% else %}
-<div class="entry-header">    
+<div class="entry-header">
   <div class="header-title">
-    <div class="header-title-wrap">
-          {% if page.date %}
-        <h2><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
+    <div class="header-title-wrap"> 
+      <h1>{{ page.title }}</h1>
+      <h4>{{ page.subtitle }}</h4>    
+{% if page.date %}
+        <h6><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h6>
       {% else %}
-        <h2><span class="entry-date"><time> </time></span></h2>
+        <h2><span class="entry-date"><time>&nbsp;</time></span></h2>
       {% endif %}
-        <h1>{{ page.title }}</h1>
-        <h4>{{page.subheading}}{{post.subheading}}{{post-index.subheading}}</h4>
-       
+      
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
- {% endif %}
 
 
 <nav id="menu" style="display: none">
@@ -115,3 +95,4 @@
 {% if site.owner.twitter %}
   <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
 {% endif %}
+

@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 
 link: http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa/
 title: Open Always Wins, Vol. 32
@@ -17,7 +17,7 @@ image:
  header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/AndroidRain_16x9_Q25.jpg
  credit: searchwallpapers.org
  creditlink: http://www.searchwallpapers.org/download/Android-Logo-In-Rain-HD-Wallpaper-Flickr-Photo/?n=aHR0cHM6Ly9mYXJtMy5zdGF0aWNmbGlja3IuY29tLzI5MTEvMTQ2MDQ1NDcwNThfNDkxZTJmOTFhNV9vLmpwZw==&search=wallpaper+hd+rain
-subheading: Your pants are locked
+subtitle: Your pants are locked
 
 ---
 

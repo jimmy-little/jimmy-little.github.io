@@ -3,7 +3,7 @@
 title: Somebody at USPTO Should Be Fired
 date: 2014-05-13T14:23:25+00:00
 author: jimmy
-layout: link
+layout: post
 link: http://pdfpiw.uspto.gov/.piw?Docid=08676045&idkey=NONE&_ga=1.178291236.1205361971.1397085400
 source: http://pdfpiw.uspto.gov/.piw?Docid=08676045&idkey=NONE&_ga=1.178291236.1205361971.1397085400
 via: USPTO

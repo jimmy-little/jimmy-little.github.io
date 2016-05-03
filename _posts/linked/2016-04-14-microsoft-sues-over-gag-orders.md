@@ -1,6 +1,6 @@
 ---
 
-layout: link
+layout: post
 
 link: https://consumermediallc.files.wordpress.com/2016/04/microsoftcomplaint.pdf
 
@@ -15,7 +15,7 @@ date: 2016-04-14
 
 title: Microsoft Sues Over Gag Orders
 
-subheading: Redmond thinks the ECPA goes too far
+subtitle: Redmond thinks the ECPA goes too far
 
 image:
  header: https://farm9.staticflickr.com/8670/16510342158_185f09969a_k.jpg

@@ -18,7 +18,7 @@ image:
  credit: 
  credit link: 
 
-subheading: Add notes without typing!
+subtitle: Add notes without typing!
 
 title: Draft Notes with Apple Watch
 

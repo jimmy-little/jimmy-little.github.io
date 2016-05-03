@@ -3,7 +3,7 @@
 title: 'And you wonder why...'
 date: 2013-03-16T23:35:30+00:00
 author: jimmy
-layout: link
+layout: post
 categories:
   - Linked
 link: http://www.businessinsider.com/htc-interview-about-samsung-galaxy-s4-2013-3

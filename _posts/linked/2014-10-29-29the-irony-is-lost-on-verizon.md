@@ -3,7 +3,7 @@
 title: The Irony Is Lost on Verizon
 date: 2014-10-29T20:41:28+00:00
 author: jimmy
-layout: link
+layout: post
 categories:
   - Linked
 tags:

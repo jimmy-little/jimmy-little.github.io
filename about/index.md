@@ -2,7 +2,7 @@
 layout: page
 share: true
 comments: false
-subheading: The how's and why's of Cocktails & Coffee
+subtitle: The how's and why's of Cocktails & Coffee
 title: About
 ---
 
@@ -18,7 +18,9 @@ Everything here is written by me.  If I quote another site or video, it is alwa
 
 ### Workflow
 
-The new Cocktails and Coffee is a work in progress. It's a Jekyll blog, whih means it's completely static. I type the posts in Markdown, and then let GitHub generate the pages. I do it this way because it lets me keep all my posts in plain text, and i use [Working Copy](https://geo.itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8) to push to GitHub. It's complicated, but I like it way better than my previous blogs that were on Wordpress, Joomla, and Squarespace. Wordpress, and particularly Squarespace, were super easy, but they were pretty heavy for a blog. Static is where it's at for me right now.
+The new Cocktails and Coffee is a work in progress. It's a Jekyll blog, which means it's completely static. I type the posts in Markdown, and then let GitHub generate the pages. I do it this way because it lets me keep all my posts in plain text, and i use [Working Copy](https://geo.itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8) to push to GitHub. It's complicated, but I like it way better than my previous blogs that were on Wordpress, Joomla, and Squarespace. 
+
+Wordpress and Squarespace were super easy, but they were pretty heavy for a blog. Static is where it's at for me right now.
 
 ### Images
 

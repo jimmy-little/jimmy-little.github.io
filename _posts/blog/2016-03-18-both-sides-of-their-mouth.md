@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 
 link: http://www.reuters.com/article/us-fbi-autos-cyber-idUSKCN0WK0BB
 
@@ -12,7 +12,7 @@ tags: [FBI, Privacy, Apple, Encryption]
 via: Reuters
 source: http://www.reuters.com/article/us-fbi-autos-cyber-idUSKCN0WK0BB
 
-subheading: Do they think we don't notice this stuff?
+subtitle: Do they think we don't notice this stuff?
 
 title: Both Sides of Their Mouth
 

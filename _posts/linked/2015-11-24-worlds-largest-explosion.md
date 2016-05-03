@@ -1,5 +1,5 @@
 ---
-subheading: 'B O O M'
+subtitle: 'B O O M'
 date: 2015-11-24T04:50:39+00:00
 author: jimmy
 layout: post

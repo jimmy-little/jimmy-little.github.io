@@ -18,7 +18,7 @@ image:
  credit: 
  creditlink: 
 
-subheading: Do more with that little computer on your wrist
+subtitle: Do more with that little computer on your wrist
 
 title: Using Your Apple Watch To Trigger Your Screensaver
 

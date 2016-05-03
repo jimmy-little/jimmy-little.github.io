@@ -3,7 +3,7 @@
 title: Why Do People Give Money To Trip Chowdhry?
 date: 2014-05-20T02:19:41+00:00
 author: jimmy
-layout: link
+layout: post
 link: http://www.cnbc.com/id/101509203
 source: http://www.cnbc.com/id/101509203
 via: CNBC

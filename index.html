@@ -1,60 +1,54 @@
 ---
 layout: post-index
-
-image: 
-    header:     
-
-subheading:     "Internet ramblings fueled by adult beverages"
-
-title:          "Cocktails & Coffee"
-comments:   false
+title: "Cocktails & Coffee"
+subtitle: "Internet ramblings fueled by adult beverages"
+tags: []
+comments: false
 ---
 
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
-
-{% if post.image.feature %}
+<!-- HEADER IMAGE? -->      
+    {% if post.image.feature %}
       <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
-        {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-
-      </div><!-- /.entry-image -->
- {% endif %}
-   
-    {% if post.image.header %}
-      <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.header }}" alt="{{ post.title }}"></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 
       </div><!-- /.entry-image -->
     {% endif %}
+<!-- TITLE AND HEADER-->      
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><!--<span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>--></span>
+      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
       {% if site.reading_time %}
       <span class="entry-reading-time">
-        
+        <i class="fa fa-clock-o"></i>
         {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-        {% if readtime <= 1 %} {% else %} | <i class="fa fa-clock-o"></i> Reading time ~{{ readtime }} minutes{% endif %}
+        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
-    {% if post.link %}
-         <h1 class="entry-title" style="text-align: center"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-arrow-circle-right"></i></a> </h1>
-        <h5 style="text-align: center">{{ post.subheading }}</h5>
+<!-- LINK? -->
+    {% if post.fromMy == 'Instagram' %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="http://www.instagram.com/jimmylittle" class="permalink" rel="bookmark" title="{{ post.title }}"> | <i class="fa fa-instagram"></i></a></h1> 
+    {% elsif post.fromMy == 'Twitter' %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="http://www.twitter.com/jimmylittle" class="permalink" rel="bookmark" title="{{ post.title }}"> | <i class="fa fa-twitter"></i></a></h1> 
+    {% elsif post.fromMy == 'YouTube' %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} | <i class="fa fa-youtube"></i></a></h1>    
+    {% elsif post.link %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"> | <i class="fa fa-arrow-circle-o-right"></i></a></h1> 
     {% else %}
-      <h1 class="entry-title" style="text-align: center"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1> <h5 style="text-align: center">{{ post.subheading }}</h5>
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
   <div class="entry-content">
     {% if post.content contains "<!-- more -->" %}
-    {{ post.content | split:"<!-- more -->" | first % }}<p><a href="{{ site.url }}{{ post.url }}">Read more...</a></p>
+    {{ post.content | split:"<!-- more -->" | first % }}
     {% else %}
       {{ post.content }}
     {% endif %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
-
 
 {% include pagination.html %}
