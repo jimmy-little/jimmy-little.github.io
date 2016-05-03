@@ -18,8 +18,6 @@ url: http://cocktailsandcoffee.com
 menu:
   - title: 'Home'
     url: '/'
-#  - title: 'Tags'
-#    url: '/tags'
   - title: 'Archive'
     url: '/categories'
     type: 'categories'
@@ -39,15 +37,6 @@ owner:
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
 twitter: jimmylittle
-
-# Social networking links used in author block underneath posts. Update and remove as you like.
-#social:
-#  - title: "github"
-#    url: "https://github.com/aron-bordin"
-#  - title: "linkedin"
-#    url: "https://br.linkedin.com/in/aronbordin"
-#  - title: "youtube"
-#    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
 # Background image to be tiled on all pages
 #background:
@@ -75,7 +64,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 7
 
 # if true, shows the floatting share buttons
 float_share: false
@@ -95,6 +84,6 @@ kramdown:
     coderay_css: class
 
 
-include: [".htaccess"]
-exclude: ["/vendor", "lib", "/vendor", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+include: [".htaccess", "/assets"]
+exclude: ["lib", "/vendor", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
