@@ -2,12 +2,12 @@
 
 title: Siri Spills It
 
-subheading: 
+subtitle: 
 
 image:
  feature: 
  
-layout: link
+layout: post
 
 tags: [Apple, WWDC, Siri]
 

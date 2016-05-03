@@ -91,7 +91,7 @@ name: escapes html in comments
 in: |-
   p. You can't have people injecting HTML into <!-- <b>comments</b>! -->.
 filtered_html: |-
-  <p>You can't have people injecting <span class="caps">HTML</span> into &lt;!-- &lt;b&gt;comments&lt;/b&gt;! --&gt;.</p>
+  <p>You can&#8217;t have people injecting <span class="caps">HTML</span> into &lt;!-- &lt;b&gt;comments&lt;/b&gt;! --&gt;.</p>
 ---
 name: escapes html in inline code tags
 in: |-
@@ -128,7 +128,7 @@ filtered_html: |-
   &lt;div&gt;This should be &lt;b&gt;bold&lt;/b&gt;&lt;/div&gt;
 ---
 in: Here's a bad image <img src="JaVaScRiPt:alert('XSS');">
-filtered_html: <p>Here's a bad image &lt;img src="JaVaScRiPt:alert('XSS');"&gt;</p>
+filtered_html: <p>Here&#8217;s a bad image &lt;img src="JaVaScRiPt:alert('XSS');"&gt;</p>
 ---
 in: Just some random > and < characters, but also a <br/> tag.
 filtered_html: <p>Just some random &gt; and &lt; characters, but also a &lt;br/&gt; tag.</p>

@@ -18,7 +18,7 @@ describe RedClothSmileyExtension do
   it "should include the extension" do
     input  = %Q{You're so silly! ~:P}
 
-    html  = %Q{<p>You're so silly! <img src='/images/emoticons/58_80.png' title=':P' class='smiley' /></p>}
+    html  = %Q{<p>You&#8217;re so silly! <img src='/images/emoticons/58_80.png' title=':P' class='smiley' /></p>}
 
     RedCloth.new(input).to_html(:textile, :refs_smiley).should == html
   end

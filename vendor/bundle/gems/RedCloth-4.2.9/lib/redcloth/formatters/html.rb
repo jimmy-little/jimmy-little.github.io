@@ -139,7 +139,7 @@ module RedCloth::Formatters::HTML
   end
   
   def quote1(opts)
-    "&#8216;#{opts[:text]}'"
+    "&#8216;#{opts[:text]}&#8217;"
   end
   
   def quote2(opts)
@@ -214,7 +214,7 @@ module RedCloth::Formatters::HTML
   end
   
   def squot(opts)
-    "'"
+    "&#8217;"
   end
   
   def apos(opts)

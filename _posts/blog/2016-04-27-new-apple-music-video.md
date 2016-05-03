@@ -6,7 +6,7 @@ category: Linked
 
 tags: [Apple, Music]
 
-layout: link
+layout: post
 
 images:
   header:

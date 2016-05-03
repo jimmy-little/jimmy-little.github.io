@@ -22,7 +22,7 @@ tags:
   - Macbook
   - Event
   
-subheading: Quick note before the Apple October Event with my best guesses
+subtitle: Quick note before the Apple October Event with my best guesses
 ---
 
 <!-- more -->  

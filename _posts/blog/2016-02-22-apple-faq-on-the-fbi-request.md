@@ -16,7 +16,7 @@ image:
  feature: 
  header: 
 
-subheading: Transparency is key in this fight.
+subtitle: Transparency is key in this fight.
 
 title: Apple’s FAQ on the FBI Request
 

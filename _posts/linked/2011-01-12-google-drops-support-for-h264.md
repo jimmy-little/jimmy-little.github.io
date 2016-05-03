@@ -3,7 +3,7 @@
 title: Google Drops Support For h.264
 date: 2011-01-12T01:19:31+00:00
 author: jimmy
-layout: link
+layout: post
 link: http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html
 source: http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html
 via: Chromium Blog

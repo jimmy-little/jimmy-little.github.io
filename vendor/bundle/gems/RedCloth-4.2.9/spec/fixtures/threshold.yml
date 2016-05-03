@@ -21,7 +21,7 @@ html: |-
 name: xhtml tags
 desc: Simple XHTML tags may be included in a paragraph.
 in: Here's some <b>bold</b> text.
-html: <p>Here's some <b>bold</b> text.</p>
+html: <p>Here&#8217;s some <b>bold</b> text.</p>
 ---
 name: no paragraph tags
 desc: A line beginning with a space will be left untouched, and not wrapped in <p> tags.
@@ -36,25 +36,25 @@ html: '<p>&#8220;Proceed!&#8221; said he to the host.</p>'
 ---
 name: smart quotes 2
 in: "'Proceed!' said he to the host."
-html: "<p>&#8216;Proceed!' said he to the host.</p>"
+html: "<p>&#8216;Proceed!&#8217; said he to the host.</p>"
 ---
 name: nested quotation marks
 desc: Single and double quotation marks may be nested one inside the other.
 in: |-
   "'I swear, captain,' replied I."
 html: |-
-  <p>&#8220;&#8216;I swear, captain,' replied I.&#8221;</p>
+  <p>&#8220;&#8216;I swear, captain,&#8217; replied I.&#8221;</p>
 ---
 name: nested quotation marks 2
 in: |-
   '"I swear, captain," replied I.'
 html: |-
-  <p>&#8216;&#8220;I swear, captain,&#8221; replied I.'</p>
+  <p>&#8216;&#8220;I swear, captain,&#8221; replied I.&#8217;</p>
 ---
 name: apostrophe glyphs
 desc: Single quotation marks ' will be turned into apostrophe glyphs when used as such.
 in: Greengrocers' apostrophe's.
-html: <p>Greengrocers' apostrophe's.</p>
+html: <p>Greengrocers&#8217; apostrophe&#8217;s.</p>
 ---
 name: em-dash glyphs
 desc: Double -- dashes become an em-dash glyph.
@@ -176,7 +176,7 @@ in: |-
   
   [tstate]http://thresholdstate.com/
 html: |-
-  <p>Here's <a href="http://thresholdstate.com/">a link</a>, and<br />
+  <p>Here&#8217;s <a href="http://thresholdstate.com/">a link</a>, and<br />
   <a href="http://thresholdstate.com/">another link</a> to the same site.</p>
 ---
 name: image
@@ -434,7 +434,7 @@ html: <p><img src="/img.gif" alt="image" /></p>
 ---
 name: paragraphs with inline xhtml 2
 in: <span class="myspan">I'll make my own way.</span>
-html: '<p><span class="myspan">I'll make my own way.</span></p>'
+html: '<p><span class="myspan">I&#8217;ll make my own way.</span></p>'
 ---
 name: paragraphs partly enclosed in xhtml block tags
 desc: Paragraphs that are only partly enclosed in block tags will be enclosed in <p>...</p> tags.
@@ -730,7 +730,7 @@ html: |-
 name: whitespace required
 desc: Links, images and phrase modifiers normally require surrounding whitespace.
 in: this*won't*work
-html: <p>this*won't*work</p>
+html: <p>this*won&#8217;t*work</p>
 ---
 name: modifier without whitespace
 desc: To use these without whitespace, surround the modifier with [] square brackets.

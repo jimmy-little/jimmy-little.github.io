@@ -11,7 +11,7 @@ image:
  feature:
  header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/leBug.jpg
 
-subheading: What do you do when your dog goes deaf? Learn some new tricks.
+subtitle: What do you do when your dog goes deaf? Learn some new tricks.
 
 title: New Tricks
 

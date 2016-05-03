@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 
 link: https://www.washingtonpost.com/news/speaking-of-science/wp/2015/12/08/study-confirms-that-ending-your-texts-with-a-period-is-terrible
 
@@ -15,7 +15,7 @@ source: https://www.washingtonpost.com/news/speaking-of-science/wp/2015/12/08/st
 image:
  header: 
 
-subheading: Truly Monsterous
+subtitle: Truly Monsterous
 
 title: De-Evolution of the Language
 ---

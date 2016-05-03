@@ -1,11 +1,11 @@
-current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20160313-83046-wo8zlt.rb extconf.rb
+current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20160429-99954-11s41l9.rb extconf.rb
 creating Makefile
 
-current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
+current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
 make "DESTDIR=" clean
 
-current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
+current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
 make "DESTDIR="
 compiling autolink.c
 compiling buffer.c
@@ -69,6 +69,6 @@ compiling rc_render.c
 compiling stack.c
 linking shared-object redcarpet.bundle
 
-current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
+current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/redcarpet-3.3.3/ext/redcarpet
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20160313-83046-q9h5fl
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20160429-99954-8yek4y

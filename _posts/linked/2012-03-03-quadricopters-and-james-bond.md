@@ -6,7 +6,7 @@ date: 2012-03-03T22:52:35+00:00
 
 author: jimmy
 
-layout: link
+layout: post
 
 image:
  header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/bond.jpg
