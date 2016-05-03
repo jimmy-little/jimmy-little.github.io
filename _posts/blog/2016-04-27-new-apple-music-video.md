@@ -4,6 +4,8 @@ title: New Apple Music Video
 
 category: Linked
 
+fromMy: YouTube
+
 tags: [Apple, Music]
 
 layout: post
