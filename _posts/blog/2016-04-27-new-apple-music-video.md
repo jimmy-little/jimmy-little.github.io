@@ -2,13 +2,13 @@
 
 title: New Apple Music Video
 
-category: Linked
+category: External
 
 fromMy: YouTube
 
 tags: [Apple, Music]
 
-layout: post
+layout: external
 
 images:
   header:
