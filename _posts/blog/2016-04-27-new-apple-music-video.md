@@ -2,9 +2,12 @@
 
 title: New Apple Music Video
 
+subtitle: <i class="fa fa-youtube"></i>
+
 category: External
 
 fromMy: YouTube
+
 
 tags: [Apple, Music]
 
