@@ -5,7 +5,7 @@ link: https://www.washingtonpost.com/news/speaking-of-science/wp/2015/12/08/stud
 
 date: 2015-12-09
 
-category:  Writing 
+category:  Linked 
 
 tags: [Grammar, Texting]
 
