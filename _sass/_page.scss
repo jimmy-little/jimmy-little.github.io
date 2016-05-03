@@ -525,7 +525,7 @@ ul.social-buttons li a:active {
 		color: $white;
 	}
 	h1 {
-		font-weight: 900;
+		font-weight: 700;
 		margin-bottom: 1em;
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
@@ -562,7 +562,7 @@ ul.social-buttons li a:active {
 		height: 100%;
 		padding: 0;
 		@media #{$large} {
-			max-width: 900px;
+			max-width: 700px;
 		}
 	}
 }
@@ -627,7 +627,7 @@ ul.social-buttons li a:active {
 	height: 100%;
 	a.title {
 		font-size: 1.5rem;
-        font-weight: 900;
+        font-weight: 700;
         color: $highlight-color;
 	    padding-left: 5px;
 		display: none;

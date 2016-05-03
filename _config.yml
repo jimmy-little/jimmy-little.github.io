@@ -8,7 +8,7 @@ words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
 
 
-url: 
+url: http://cocktailsandcoffee.com
 
 # draw your top menu here
 # each item must have a title and a url.
