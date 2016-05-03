@@ -5,7 +5,7 @@ description:      Internet ramblings fueled by adult beverages.
 disqus_shortname: 
 reading_time:     false # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/sitelogo70.png # logo visible in the topbar
+logo:             /assets/logo.png # logo visible in the topbar
 
 
 url: http://cocktailsandcoffee.com
