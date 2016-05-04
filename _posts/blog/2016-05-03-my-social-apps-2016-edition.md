@@ -1,4 +1,3 @@
-
 ---
 
 title: "My Social Apps - 2016 Edition"
@@ -27,18 +26,31 @@ When updating some tags, I saw [this post](http://www.cocktailsandcoffee.com/wri
 
 ![iPhone 2016](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/2016social.PNG)
 
-Some observations:
- - Still using [Tweetbot]()
+### Some observations:
+
+
+ - Still using Tweetbot
+ 
  - Starting to use Instagram again (well, again-again...)
+ 
  - Still use (and hate) Facebook and LinkedIn
+ 
  - Foursquare has given way to Swarm.  Same shit, different app.
+ 
  - Glympse is still hangong in there, but Find My Friends has really replaced it.
+ 
  - RIP Netbot, Google Voice, and Google+
+ 
  - I really enjoy Timehop
+ 
  - Periscope , but I hardly open it.
+ 
  - Twitterific is there for nostalgia. Twitter is there because some stuff just doesn't work in third-party apps.
+ 
  - Peach.  😴
+ 
  - I'm deleting Tumblr now.  Forgot it was there.
+ 
 
 I also see how I've changed the folder name from "Social" to "Waste Time" with a toilet emoji.  
 
