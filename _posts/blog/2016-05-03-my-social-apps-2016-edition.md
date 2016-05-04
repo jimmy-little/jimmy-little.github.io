@@ -22,7 +22,10 @@ date: 2016-05-02
 
 I've been converting my Squarespace blog over to Jekyll.  It's been fun learning new things (including basic Javascript and Ruby), and seeing old posts.  
 
-When updating some tags, I saw [this post](http://www.cocktailsandcoffee.com/writing/as-time-goes-by/) from 2012 with the social folder on my iPhone.  So, I decided to update.  Here ya go:
+When updating some tags, I saw [this post](http://www.cocktailsandcoffee.com/writing/as-time-goes-by/) from 2012 with the social folder on my iPhone.  
+
+![Flashback](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/astimegoesby/after.jpeg)
+So, I decided to update.  Here ya go:
 
 ![iPhone 2016](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/2016social.PNG)
 
@@ -37,13 +40,13 @@ When updating some tags, I saw [this post](http://www.cocktailsandcoffee.com/wri
  
  - Foursquare has given way to Swarm.  Same shit, different app.
  
- - Glympse is still hangong in there, but Find My Friends has really replaced it.
+ - Glympse is still hanging in there, but Find My Friends has really replaced it.
  
  - RIP Netbot, Google Voice, and Google+
  
  - I really enjoy Timehop
  
- - Periscope , but I hardly open it.
+ - Periscope, but I hardly open it.
  
  - Twitterific is there for nostalgia. Twitter is there because some stuff just doesn't work in third-party apps.
  
