@@ -25,6 +25,9 @@ I've been converting my Squarespace blog over to Jekyll.  It's been fun learning
 When updating some tags, I saw [this post](http://www.cocktailsandcoffee.com/writing/as-time-goes-by/) from 2012 with the social folder on my iPhone.  
 
 ![Flashback](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/astimegoesby/after.jpeg)
+
+---
+
 So, I decided to update.  Here ya go:
 
 ![iPhone 2016](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/2016social.PNG)
@@ -55,7 +58,7 @@ So, I decided to update.  Here ya go:
  - I'm deleting Tumblr now.  Forgot it was there.
  
 
-I also see how I've changed the folder name from "Social" to "Waste Time" with a toilet emoji.  
+I also see how I've changed the folder name from "Social" to "Connect" to "Waste Time" with a toilet emoji.  
 
 Seems about right.
 
