@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 
 link: http://www.autoblog.com/2007/12/24/nypd-to-test-vectrix-electric-scooters-next-month/
 
@@ -18,7 +18,7 @@ image:
  credit: 
  credit link: 
 
-subheading: 
+subtitle: 
 
 title: “Freeze! Or I’ll Scoot!"
 

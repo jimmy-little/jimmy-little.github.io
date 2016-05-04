@@ -1,15 +1,14 @@
-title:           Cocktails & Coffee
-byline:          by Jimmy Little
-description:     Internet ramblings fueled by adult beverages.
+title:            Cocktails & Coffee 
+byline:           Jimmy Little
+description:      Internet ramblings fueled by adult beverages.
 # put your disqus here
-disqus_shortname: cocktailsandcoffee
-reading_time:     true # if true, shows the estimated reading time for a post
+disqus_shortname: 
+reading_time:     false # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/sitelogo70.png # logo visible in the topbar
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
+logo:             /assets/logo.png # logo visible in the topbar
 
-url: "http://cocktailsandcoffee.com"
+
+url: http://cocktailsandcoffee.com
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -20,56 +19,27 @@ menu:
   - title: 'Home'
     url: '/'
   - title: 'Archive'
-    url: '#'
-    submenu:
-      - title: 'Linked List'
-        url: '/linked'
-      - title: 'Writing'
-        url: '/writing'
- #       
- #    - title: 'Microblog'
- #     url: '/micro' 
- #
- #  - title: 'Tags'
- #    url: '/tags'     
- # - title: 'Stuff'
- #   url: '/stuff'    
- # - title: 'Categories'
- #   url: '/categories'
- #   type: 'categories'
- # - title: 'About'
- #   url: '/about'
- 
+    url: '/categories'
+    type: 'categories'
+
 # Owner/author information
 owner:
-  name:           Jimmy
-  site:           "http://www.jimmylittle.com"
-  avatar:         https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/JL-logo-grey.png
-  bio:            "An LA boy by way of Virginia and Brooklyn.  I've been putting my ramblings on the internet in varying degrees of quality since 1994."
-  email:          "thejimmylittle@gmail.com"
+  name:           Jimmy 
+  site:           http://jimmylittle.com
+  avatar:         images/avatar.jpg
+  bio:            "I write stuff sometimes."
+  email:          thejimmylittle@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter:       #jimmylittle  # if no twitter in this config, the twitter follow button will be removed
+  twitter:  # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github:         jimmy-little
+  github: 
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
 twitter: jimmylittle
 
-# Social networking links used in author block underneath posts. Update and remove as you like.
-social:
-  - title: "github"
-    url: "https://github.com/jimmy-little"
-  - title: "twitter"
-    url: "https://twitter.com/jimmylittle"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/jimmy-little"
-    
-# - title: "youtube"
-#    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
-
 # Background image to be tiled on all pages
-background:
+#background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-76295212-1
@@ -94,7 +64,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 10
+paginate: 7
 
 # if true, shows the floatting share buttons
 float_share: false
@@ -113,18 +83,7 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-# Octopress
-# Default extensions
-post_ext: md
-page_ext: md
-link_ext: md
 
-# Found in _templates/
-post_layout: post
-link_layout: post
-page_layout: page
-# Format titles with titlecase?
-titlecase: true
+include: [".htaccess", "/assets"]
+exclude: ["lib", "/vendor", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
-include: [".htaccess"]
-exclude: ["/vendor","lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

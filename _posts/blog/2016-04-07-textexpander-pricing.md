@@ -18,7 +18,7 @@ source: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-wi
  
 title: "On TextExpander Pricing [UPDATED]"
 
-subheading: When a company changes pricing models...
+subtitle: When a company changes pricing models...
 
 ---
 

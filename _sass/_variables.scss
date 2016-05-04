@@ -2,16 +2,16 @@
 // --------------------------------------------------
 
 $base-font: 'Lato', Calibri, Arial, sans-serif;
-$heading-font: 'Raleway', Calibri, Arial, sans-serif;
+$heading-font: 'Raleway',Calibri, Arial, sans-serif;
 $caption-font: $base-font;
 $code-font: monospace;
 $alt-font: serif;
 
 $doc-font-size: 16;
-$doc-line-height: 18;
+$doc-line-height: 26;
 
 
-// set-up the body font-size / -height
+// set-up the body font-size / line-height
 body {
 	font-size: 0px + $doc-font-size;
 }
@@ -20,21 +20,22 @@ body {
 // Colors
 // --------------------------------------------------
 $white           		 : #fff;
-$black           		 : #021117;
+$black           		 : #000;
 $base-color				 : rgba(#222,0.8);
-$header-color			 : rgba(50,51,51,0.9);
-$sub-item-color			 : rgba(#fff, 0.1);
-$header-margin			 : rgb(29,171,230);
-$menu-top				 : rgba(50,51,51,0.9);
+$header-color			 : rgba(#000,0.8);
+$sub-item-color			 : rgba(#000, 0.1);
+$header-margin			 : #F45145;
+$menu-top				 : white;
 $menu-height			 : 70px;
-$menu-overflow			 : rgba(#f2f2f2, 0.8);
-$body-color      		 : $white; //#f2f2f2;
+$menu-overflow			 : rgba(#222,0.8); //#2E2E2E;
+$body-color      		 : $white; //#e8e8e8;
 $text-color      		 : rgba(#222,0.8);
 $comp-color 	 		 : complement(#222);
 $border-color    		 : lighten(#222,60);
 $link-color 		     : rgb(29,171,230);
 $highlight-color         : rgb(230,88,29);
-$primary			     : #222;
+
+$primary			     : $highlight-color  ;
 $success			     : #5cb85c;
 $warning			     : #dd8338;
 $danger				     : #C64537;
@@ -44,6 +45,6 @@ $info				     : #308cbc;
 // Screen Size
 // --------------------------------------------------
 
-$small               : "only screen and (min-width: 24em)";
-$medium              : "only screen and (min-width: 36em)";
+$small               : "only screen and (min-width: 30em)";
+$medium              : "only screen and (min-width: 48em)";
 $large               : "only screen and (min-width: 62.5em)";

@@ -14,7 +14,7 @@ tags:
   - OSX
   - TextExpander
   
-subheading: "Sometimes, security is hard.  Not this time"  
+subtitle: "Sometimes, security is hard.  Not this time"  
 ---
 
 ![Accessibility Settings](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/SysPrefAccSettings.png)

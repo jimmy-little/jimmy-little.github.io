@@ -1,7 +1,7 @@
 ---
 
 title: 'Bamboo: The New Frontier'
-subheading: It's not just for pandas anymore
+subtitle: It's not just for pandas anymore
 date: 2007-10-05T12:07:46+00:00
 author: jimmy
 

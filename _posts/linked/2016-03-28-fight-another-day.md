@@ -1,6 +1,6 @@
 ---
 
-layout: link
+layout: post
 
 category: Linked
 

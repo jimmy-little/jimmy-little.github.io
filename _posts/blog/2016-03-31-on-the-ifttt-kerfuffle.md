@@ -6,7 +6,7 @@ layout: post
 
 categories: Writing
 
-subheading: When free, isn't.
+subtitle: When free, isn't.
 
 title: On the IFTTT Kerfuffle
 

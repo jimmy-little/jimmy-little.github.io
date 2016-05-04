@@ -18,7 +18,7 @@ image:
  credit: PC Mag
  creditlink: http://www.pcmag.com/article2/0,2817,2495348,00.asp
 
-subheading: Early thoughts on a new paradigm
+subtitle: Early thoughts on a new paradigm
 
 title: iPad Pro First Impressions
 

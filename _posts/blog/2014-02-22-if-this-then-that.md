@@ -1,7 +1,7 @@
 ---
 
 title: If THIS, then THAT
-date: 2014-02-22T02:03:12+00:00
+date: 2014-02-22
 author: jimmy
 layout: post
 categories: Writing

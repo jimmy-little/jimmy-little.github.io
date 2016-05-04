@@ -15,7 +15,7 @@ image:
  header: 
  feature:
  
-subheading: '"Not as interested in solving the problem"'
+subtitle: '"Not as interested in solving the problem"'
 
 title: Richard Clarke Talks Encryption
 

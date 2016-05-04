@@ -21,7 +21,7 @@ image:
  header: 
  
 
-subheading: 
+subtitle: 
 
 title: Brush Your Teeth, Flush Your Toilet
 

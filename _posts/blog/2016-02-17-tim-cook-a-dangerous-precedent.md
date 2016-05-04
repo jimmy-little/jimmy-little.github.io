@@ -16,7 +16,7 @@ image:
  feature: 
  header: 
 
-subheading: Apple vs. the FBI Round 2
+subtitle: Apple vs. the FBI Round 2
 
 title:  'Tim Cook: "A Dangerous Precedent"'
 

@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 
 date: 2013-07-03
 
@@ -13,7 +13,7 @@ image:
  feature:
  header:
 
-subheading: John Adams knows how to party.
+subtitle: John Adams knows how to party.
 
 title: Happy Birthday, America.
 

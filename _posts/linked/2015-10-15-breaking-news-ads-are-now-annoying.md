@@ -3,7 +3,7 @@
 title: 'Breaking News: Ads Are Now Annoying'
 date: 2015-10-15T17:05:47+00:00
 author: jimmy
-layout: link
+layout: post
 
 categories:
   - Linked
