@@ -14,6 +14,7 @@ image:
 
 <div align:center>
 
-<a class="twitter-timeline" href="https://twitter.com/jimmylittle" data-widget-id="729828130513367040">Tweets by @jimmylittle</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a class="twitter-grid" href="https://twitter.com/jimmylittle/timelines/729830860216799234">Jimmy's Tweets</a>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
