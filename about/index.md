@@ -45,4 +45,4 @@ By shopping through the Amazon link on this page, a small percentage of the purc
  - Images hosted on Amazon S3
  - Typed in the fantastic open-source [Brackets](http://brackets.io) on a Mac, and [Editorial](https://geo.itunes.apple.com/us/app/editorial/id673907758?mt=8), [Byword](https://geo.itunes.apple.com/us/app/byword/id482063361?mt=8), or [Drafts](https://geo.itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8) on iOS
  - Pushed to Git with Terminal on the Mac, or [Working Copy](https://geo.itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8) on iOS
- - Design is a _heavily_ modified version of [NEO-HPSTR](http://jekyllthemes.org/themes/neo-hpstr-jekyll-template/) by Aron Bordin 
+ - Design is a _heavily_ modified version of the fantastic [NEO-HPSTR](http://jekyllthemes.org/themes/neo-hpstr-jekyll-template/) by Aron Bordin 

@@ -18,7 +18,7 @@ name: inline code escapement with digits
 in: |-
   Regex-based string substitution with Ruby's gsub!: @"123<789".gsub!(/</, "") => "123789"@
 html: |-
-  <p>Regex-based string substitution with Ruby&#8217;s gsub!: <code>"123&lt;789".gsub!(/&lt;/, "") =&gt; "123789"</code></p>
+  <p>Regex-based string substitution with Ruby's gsub!: <code>"123&lt;789".gsub!(/&lt;/, "") =&gt; "123789"</code></p>
 latex: |+
   Regex-based string substitution with Ruby's gsub!: \verb@"123<789".gsub!(/</, "") => "123789"@
 
@@ -188,7 +188,7 @@ html: |-
           'baz'
       end
   end</code></pre>
-  <p>That&#8217;s it!</p>
+  <p>That's it!</p>
 ---
 name: block code containing code avoids nesting code tags
 in: |-

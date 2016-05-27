@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700italic);
 
 
@@ -19,14 +19,15 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     text-transform: uppercase;
     text-align: center;
-	@include font-rem(28);
-	@media #{$medium} {
-		@include font-rem(32);
-	}
+    @include font-rem(28);
+	    @media #{$medium} {
+        @include font-rem(28);
+	    }
 }
 
 h4 {
     font-family: $heading-font;
+    font-size: 1.3em;
     text-transform: uppercase;
     color: $link-color;
 }

@@ -261,7 +261,7 @@ in: |-
   "It's wonderful."
 html: |-
   <p>&#8220;I first learned about <a href="http://redcloth.org/">Redcloth</a> several years ago.</p>
-  <p>&#8220;It&#8217;s wonderful.&#8221;</p>
+  <p>&#8220;It's wonderful.&#8221;</p>
 ---
 name: as html in notextile contained in multi-paragraph quotes
 in: |-

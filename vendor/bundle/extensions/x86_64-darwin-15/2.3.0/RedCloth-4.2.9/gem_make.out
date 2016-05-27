@@ -1,16 +1,16 @@
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20160429-99954-16hocdk.rb extconf.rb
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20160313-77525-19xr7nz.rb extconf.rb
 checking for main() in -lc... yes
 creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/RedCloth-4.2.9/mkmf.log
+  /Users/littj046/jimmy-little.github.io/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/RedCloth-4.2.9/mkmf.log
 
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
 make "DESTDIR=" clean
 
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
 make "DESTDIR="
 compiling redcloth_attributes.c
 ext/redcloth_scan/redcloth_attributes.c:403:18: warning: unused variable 'redcloth_attributes_error' [-Wunused-const-variable]
@@ -77,6 +77,6 @@ static const int redcloth_scan_en_main = 2250;
 15 warnings generated.
 linking shared-object redcloth_scan.bundle
 
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/RedCloth-4.2.9/ext/redcloth_scan
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcloth_scan.bundle ./.gem.20160429-99954-1t75ddr
+/usr/bin/install -c -m 0755 redcloth_scan.bundle ./.gem.20160313-77525-q3g7du

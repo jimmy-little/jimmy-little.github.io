@@ -8,10 +8,10 @@ class Array
   #   ["7", "8", "9"]
   #   ["10", nil, nil]
   #
-  #   %w(1 2 3 4 5).in_groups_of(2, '&nbsp;') {|group| p group}
+  #   %w(1 2 3 4 5).in_groups_of(2, ' ') {|group| p group}
   #   ["1", "2"]
   #   ["3", "4"]
-  #   ["5", "&nbsp;"]
+  #   ["5", " "]
   #
   #   %w(1 2 3 4 5).in_groups_of(2, false) {|group| p group}
   #   ["1", "2"]
@@ -48,10 +48,10 @@ class Array
   #   ["5", "6", "7", nil]
   #   ["8", "9", "10", nil]
   #
-  #   %w(1 2 3 4 5 6 7 8 9 10).in_groups(3, '&nbsp;') {|group| p group}
+  #   %w(1 2 3 4 5 6 7 8 9 10).in_groups(3, ' ') {|group| p group}
   #   ["1", "2", "3", "4"]
-  #   ["5", "6", "7", "&nbsp;"]
-  #   ["8", "9", "10", "&nbsp;"]
+  #   ["5", "6", "7", " "]
+  #   ["8", "9", "10", " "]
   #
   #   %w(1 2 3 4 5 6 7).in_groups(3, false) {|group| p group}
   #   ["1", "2", "3"]

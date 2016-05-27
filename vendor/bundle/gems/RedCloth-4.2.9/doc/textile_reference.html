@@ -90,9 +90,9 @@
     <body>
     <table>
 <tr><th colspan='3'><h1>A Textile Reference</h1></th></tr>
-<tr><td class='sections' colspan='3'>Sections: <a href='#writing-in-textile'>Writing&nbsp;in&nbsp;Textile</a> | <a href='#quick-block-modifiers'>Quick&nbsp;Block&nbsp;Modifiers</a> | <a href='#quick-phrase-modifiers'>Quick&nbsp;Phrase&nbsp;Modifiers</a> | <a href='#attributes'>Attributes</a> | <a href='#lists'>Lists</a> | <a href='#external-references'>External&nbsp;References</a> | <a href='#tables'>Tables</a></td></tr>
+<tr><td class='sections' colspan='3'>Sections: <a href='#writing-in-textile'>Writing in Textile</a> | <a href='#quick-block-modifiers'>Quick Block Modifiers</a> | <a href='#quick-phrase-modifiers'>Quick Phrase Modifiers</a> | <a href='#attributes'>Attributes</a> | <a href='#lists'>Lists</a> | <a href='#external-references'>External References</a> | <a href='#tables'>Tables</a></td></tr>
 <tr><td class='explain' colspan='3'>
-<p>Textile is a simple text markup.  Simple symbols mark words&#8217; emphasis.  Blocks of text can be easily tagged as headers, quotes, or lists.  A Textile document can then be converted to <acronym title="Hypertext Markup Language">HTML</acronym> for viewing on the web.</p>
+<p>Textile is a simple text markup.  Simple symbols mark words' emphasis.  Blocks of text can be easily tagged as headers, quotes, or lists.  A Textile document can then be converted to <acronym title="Hypertext Markup Language">HTML</acronym> for viewing on the web.</p>
 </td></tr>
 <tr><td class='explain' colspan='3'>
 <p>You can try Textile out on the <a href="http://www.textism.com/tools/textile/">Textile home page</a>.
@@ -123,7 +123,7 @@ The broken links in the image examples have not (yet) been replaced.
 <h4>Using <span class="caps">HTML</span> in Textile</h4>
 </td></tr>
 <tr><td class='explain' colspan='3'>
-<p>You can certainly use <span class="caps">HTML</span> tags inside your Textile documents.  <span class="caps">HTML</span> will only be escaped if it&#8217;s found in a <code>pre</code> or <code>code</code> block.</p>
+<p>You can certainly use <span class="caps">HTML</span> tags inside your Textile documents.  <span class="caps">HTML</span> will only be escaped if it's found in a <code>pre</code> or <code>code</code> block.</p>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>I am &lt;b&gt;very&lt;/b&gt; serious.<br /><br />&lt;pre&gt;<br />  I am &lt;b&gt;very&lt;/b&gt; serious.<br />&lt;/pre&gt;</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I am &lt;b&gt;very&lt;/b&gt; serious.&lt;/p&gt;<br /><br /><br />&lt;pre&gt;<br />  I am &amp;lt; b&amp;gt; very&amp;lt;/b&amp;gt; serious.<br />&lt;/pre&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I am <b>very</b> serious.</p>
 
@@ -162,7 +162,7 @@ And none replied.</p></td></tr>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>Observe...</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;Observe&amp;#8230;&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>Observe&#8230;</p></td></tr>
 <tr><td class='explain' colspan='3'>
-<p>The letter &#8216;x&#8217; becomes a dimension sign when used alone.</p>
+<p>The letter &#8216;x' becomes a dimension sign when used alone.</p>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>Observe: 2 x 2.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;Observe: 2&amp;#215; 2.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>Observe: 2&#215;2.</p></td></tr>
 <tr><td class='explain' colspan='3'>
@@ -204,7 +204,7 @@ And none replied.</p></td></tr>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>This is covered elsewhere[1].</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;This is covered elsewhere&lt;sup&gt;&lt;a href="#fn1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>This is covered elsewhere<sup><a href="#fn1">1</a></sup>.</p></td></tr>
 <tr><td class='explain' colspan='3'>
-<p>To create the footnote that corresponds to its reference within the text, begin a new paragraph with fn and the footnote&#8217;s number, followed by a dot and a space.</p>
+<p>To create the footnote that corresponds to its reference within the text, begin a new paragraph with fn and the footnote's number, followed by a dot and a space.</p>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>fn1. Down here, in fact.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p id="fn1"&gt;&lt;sup&gt;1&lt;/sup&gt; Down here, in fact.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p id="fn1"><sup>1</sup> Down here, in fact.</p></td></tr>
 <tr><td colspan='5' style='border-bottom: solid 1px #eee;'></td></tr>
@@ -228,7 +228,7 @@ I <b>really</b> <i>know</i>.</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <p>Use double question marks to indicate <em>citation</em>.  The title of a book, for instance.</p>
 </td></tr>
-<tr><td class='example1' valign='top'><pre>??Cat's Cradle?? by Vonnegut</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;&lt;cite&gt;Cat&amp;#8217; s Cradle&lt;/cite&gt; by Vonnegut&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p><cite>Cat&#8217;s Cradle</cite> by Vonnegut</p></td></tr>
+<tr><td class='example1' valign='top'><pre>??Cat's Cradle?? by Vonnegut</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;&lt;cite&gt;Cat&amp;#8217; s Cradle&lt;/cite&gt; by Vonnegut&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p><cite>Cat's Cradle</cite> by Vonnegut</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <p>Code phrases can be surrounded by at-symbols.</p>
 </td></tr>
@@ -236,7 +236,7 @@ I <b>really</b> <i>know</i>.</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <p>To indicate a passage which has been deleted, surround the passage with hypens.</p>
 </td></tr>
-<tr><td class='example1' valign='top'><pre>I'm -sure- not sure.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I&amp;#8217; m &lt;del&gt;sure&lt;/del&gt; not sure.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I&#8217;m <del>sure</del> not sure.</p></td></tr>
+<tr><td class='example1' valign='top'><pre>I'm -sure- not sure.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I&amp;#8217; m &lt;del&gt;sure&lt;/del&gt; not sure.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I'm <del>sure</del> not sure.</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <p>Pluses around a passage indicate its insertion.</p>
 </td></tr>
@@ -255,11 +255,11 @@ I <b>really</b> <i>know</i>.</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <p>Lastly, if you find yourself needing to customize the style of a passage, use percent symbols to translate the passage as an <span class="caps">HTML</span> span.</p>
 </td></tr>
-<tr><td class='example1' valign='top'><pre>I'm %unaware% of most soft drinks.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I&amp;#8217; m &lt;span&gt;unaware&lt;/span&gt; of most soft drinks.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I&#8217;m <span>unaware</span> of most soft drinks.</p></td></tr>
+<tr><td class='example1' valign='top'><pre>I'm %unaware% of most soft drinks.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I&amp;#8217; m &lt;span&gt;unaware&lt;/span&gt; of most soft drinks.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I'm <span>unaware</span> of most soft drinks.</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <p>This way, you can apply style settings, as described in the next section to arbitrary phrases.</p>
 </td></tr>
-<tr><td class='example1' valign='top'><pre>I'm %{color:red}unaware%<br />of most soft drinks.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I&amp;#8217; m &lt;span style="color:red;"&gt;unaware&lt;/span&gt;<br />of most soft drinks.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I&#8217;m <span style="color:red;">unaware</span>
+<tr><td class='example1' valign='top'><pre>I'm %{color:red}unaware%<br />of most soft drinks.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I&amp;#8217; m &lt;span style="color:red;"&gt;unaware&lt;/span&gt;<br />of most soft drinks.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I'm <span style="color:red;">unaware</span>
 of most soft drinks.</p></td></tr>
 <tr><td colspan='5' style='border-bottom: solid 1px #eee;'></td></tr>
 <tr><th colspan='3'><a name='attributes'><small>4.</small></a><br />Attributes</th></tr>
@@ -423,16 +423,16 @@ sidebar.</p></td></tr>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>I searched "Google":http://google.com.</pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I searched &lt;a href="http://google.com"&gt;Google&lt;/a&gt;.&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I searched <a href="http://google.com">Google</a>.</p></td></tr>
 <tr><td class='explain' colspan='3'>
-<p>Notice, the link won&#8217;t include any trailing punctuation.</p>
+<p>Notice, the link won't include any trailing punctuation.</p>
 </td></tr>
 <tr><td class='explain' colspan='3'>
 <h4>Link Aliases</h4>
 </td></tr>
 <tr><td class='explain' colspan='3'>
-<p>If you are using the same link several times in your document, or you&#8217;d just like to be a tad more organized, you can use a link alias.  Place the <span class="caps">URL</span> anywhere in your document, beginning with its alias in square brackets.  Then, use the alias in place of the <span class="caps">URL</span>, using the link format above.</p>
+<p>If you are using the same link several times in your document, or you'd just like to be a tad more organized, you can use a link alias.  Place the <span class="caps">URL</span> anywhere in your document, beginning with its alias in square brackets.  Then, use the alias in place of the <span class="caps">URL</span>, using the link format above.</p>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>I am crazy about "GitHub":github<br />and "it's":github "all":github I ever<br />"link to":github!<br /><br />[github]http://github.com<br /></pre></td><td>&rarr;</td><td class='example2'><p>&lt;p&gt;I am crazy about &lt;a href="http://github.com"&gt;GitHub&lt;/a&gt;<br />and &lt;a href="http://github.com"&gt;it&amp;#8217; s&lt;/a&gt; &lt;a href="http://github.com"&gt;all&lt;/a&gt; I ever<br />&lt;a href="http://github.com"&gt;link to&lt;/a&gt;!&lt;/p&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><p>I am crazy about <a href="http://github.com">GitHub</a>
-and <a href="http://github.com">it&#8217;s</a> <a href="http://github.com">all</a> I ever
+and <a href="http://github.com">it's</a> <a href="http://github.com">all</a> I ever
 <a href="http://github.com">link to</a>!</p></td></tr>
 <tr><td class='explain' colspan='3'>
 <h4>Embedded Images</h4>
@@ -528,7 +528,7 @@ machine and paid it to sing to them.</p></td></tr>
 <h4>Cell Attributes</h4>
 </td></tr>
 <tr><td class='explain' colspan='3'>
-<p>The period used above marks the end of a cell&#8217;s attributes.  Other attributes can be applied as well.</p>
+<p>The period used above marks the end of a cell's attributes.  Other attributes can be applied as well.</p>
 </td></tr>
 <tr><td class='example1' valign='top'><pre>|_. attribute list |<br />|&lt;. align left |<br />|&gt;. align right|<br />|=. center |<br />|&lt;&gt;. justify |<br />|^. valign top |<br />|~. bottom |</pre></td><td>&rarr;</td><td class='example2'><p>&lt;table&gt;<br />		&lt;tr&gt;<br />			&lt;th&gt;attribute list &lt;/th&gt;<br />		&lt;/tr&gt;<br />		&lt;tr&gt;<br />			&lt;td style="text-align:left;"&gt;align left &lt;/td&gt;<br />		&lt;/tr&gt;<br />		&lt;tr&gt;<br />			&lt;td style="text-align:right;"&gt;align right&lt;/td&gt;<br />		&lt;/tr&gt;<br />		&lt;tr&gt;<br />			&lt;td style="text-align:center;"&gt;center &lt;/td&gt;<br />		&lt;/tr&gt;<br />		&lt;tr&gt;<br />			&lt;td style="text-align:justify;"&gt;justify &lt;/td&gt;<br />		&lt;/tr&gt;<br />		&lt;tr&gt;<br />			&lt;td style="vertical-align:top;"&gt;valign top &lt;/td&gt;<br />		&lt;/tr&gt;<br />		&lt;tr&gt;<br />			&lt;td style="vertical-align:bottom;"&gt;bottom &lt;/td&gt;<br />		&lt;/tr&gt;<br />	&lt;/table&gt;</p></td></tr><tr><td colspan='2'></td><td class='example3'><table>
 		<tr>

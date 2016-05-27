@@ -1,5 +1,5 @@
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/rdiscount-2.1.8/ext
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20160429-99954-1knua82.rb extconf.rb
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/rdiscount-2.1.8/ext
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20160313-83046-uqzfco.rb extconf.rb
 checking for random()... yes
 checking for srandom()... yes
 checking for rand()... yes
@@ -11,12 +11,12 @@ creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/rdiscount-2.1.8/mkmf.log
+  /Users/littj046/jimmy-little.github.io/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/rdiscount-2.1.8/mkmf.log
 
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/rdiscount-2.1.8/ext
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/rdiscount-2.1.8/ext
 make "DESTDIR=" clean
 
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/rdiscount-2.1.8/ext
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/rdiscount-2.1.8/ext
 make "DESTDIR="
 compiling amalloc.c
 compiling basename.c
@@ -1700,6 +1700,6 @@ xml.c:73:26: warning: implicit conversion loses integer precision: 'unsigned lon
 compiling xmlpage.c
 linking shared-object rdiscount.bundle
 
-current directory: /Users/littj046/Dropbox/CocktailsAndCoffee2/vendor/bundle/gems/rdiscount-2.1.8/ext
+current directory: /Users/littj046/jimmy-little.github.io/vendor/bundle/gems/rdiscount-2.1.8/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 rdiscount.bundle ./.gem.20160429-99954-juds5v
+/usr/bin/install -c -m 0755 rdiscount.bundle ./.gem.20160313-83046-gdxp55

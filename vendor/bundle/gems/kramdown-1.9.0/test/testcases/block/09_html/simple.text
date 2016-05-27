@@ -21,9 +21,9 @@ para4
 <div>
 foo
 </div>
-   <div style="&nbsp;"></div>
+   <div style=" "></div>
 </div>
-<div>bar&nbsp;
+<div>bar 
 </div>
 </div>
 

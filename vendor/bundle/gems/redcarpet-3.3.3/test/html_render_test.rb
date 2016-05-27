@@ -141,7 +141,7 @@ MD
 <ol>
 
 <li id="fn1">
-<p>It provides additional information.&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+<p>It provides additional information. <a href="#fnref1" rev="footnote">&#8617;</a></p>
 </li>
 
 </ol>

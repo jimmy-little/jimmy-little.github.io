@@ -103,7 +103,7 @@ html: |-
   <pre>When the elephant comes to take a p. you...</pre>
 --- 
 name: html tags
-desc: You can certainly use HTML tags inside your Textile documents.  HTML will only be escaped if it&#8217;s found in a <code>pre</code> or <code>code</code> block.
+desc: You can certainly use HTML tags inside your Textile documents.  HTML will only be escaped if it's found in a <code>pre</code> or <code>code</code> block.
 in: |-
   I am <b>very</b> serious.
   
@@ -143,7 +143,7 @@ in: |-
   "It's wonderful."
 html: |-
   <p>&#8220;I first learned about this thing called &#8220;Redcloth&#8221; several years ago.</p>
-  <p>&#8220;It&#8217;s wonderful.&#8221;</p>
+  <p>&#8220;It's wonderful.&#8221;</p>
 --- 
 name: double hyphens
 desc: Double hyphens are replaced with an em-dash.
@@ -250,7 +250,7 @@ in: This is covered elsewhere[1].
 html: <p>This is covered elsewhere<sup class="footnote" id="fnr1"><a href="#fn1">1</a></sup>.</p>
 --- 
 name: footnote
-desc: To create the footnote that corresponds to its reference within the text, begin a new paragraph with fn and the footnote&#8217;s number, followed by a dot and a space.
+desc: To create the footnote that corresponds to its reference within the text, begin a new paragraph with fn and the footnote's number, followed by a dot and a space.
 in: fn1. Down here, in fact.
 html: <p class="footnote" id="fn1"><a href="#fnr1"><sup>1</sup></a> Down here, in fact.</p>
 --- 
@@ -283,7 +283,7 @@ html: |-
 name: citation
 desc: Use double question marks to indicate <em>citation</em>.  The title of a book, for instance.
 in: ??Cat's Cradle?? by Vonnegut
-html: <p><cite>Cat&#8217;s Cradle</cite> by Vonnegut</p>
+html: <p><cite>Cat's Cradle</cite> by Vonnegut</p>
 --- 
 name: code phrases
 desc: Code phrases can be surrounded by at-symbols.
@@ -298,7 +298,7 @@ html: <p>Please email why@domain.com or jason@domain.com.</p>
 name: del
 desc: To indicate a passage which has been deleted, surround the passage with hypens.
 in: I'm -sure- not sure.
-html: "<p>I&#8217;m <del>sure</del> not sure.</p>"
+html: "<p>I'm <del>sure</del> not sure.</p>"
 --- 
 name: del beginning a phrase
 in: -delete-
@@ -335,7 +335,7 @@ html: '<p>f(x, n) = log<sub>4</sub>x<sup>n</sup></p>'
 name: span
 desc: Lastly, if you find yourself needing to customize the style of a passage, use percent symbols to translate the passage as an HTML span.
 in: I'm %unaware% of most soft drinks.
-html: <p>I&#8217;m <span>unaware</span> of most soft drinks.</p>
+html: <p>I'm <span>unaware</span> of most soft drinks.</p>
 --- 
 name: style span
 desc: This way, you can apply style settings, as described in the next section to arbitrary phrases.
@@ -343,10 +343,10 @@ in: |-
   I'm %{color:red}unaware%
   of most %{font-size:0.5em;}soft drinks%.
 html: |-
-  <p>I&#8217;m <span style="color:red;">unaware</span><br />
+  <p>I'm <span style="color:red;">unaware</span><br />
   of most <span style="font-size:0.5em;">soft drinks</span>.</p>
 lite_mode_html: |-
-  I&#8217;m <span style="color:red;">unaware</span><br />
+  I'm <span style="color:red;">unaware</span><br />
   of most <span style="font-size:0.5em;">soft drinks</span>.
 ---
 name: percent sign
@@ -567,7 +567,7 @@ in: |-
   [hobix]http://hobix.com
 html: |-
   <p>I am crazy about <a href="http://hobix.com">Hobix</a><br />
-  and <a href="http://hobix.com">it&#8217;s</a> <a href="http://hobix.com">all</a> I ever<br />
+  and <a href="http://hobix.com">it's</a> <a href="http://hobix.com">all</a> I ever<br />
   <a href="http://hobix.com">link to</a>!</p>
 --- 
 name: image
@@ -1001,7 +1001,7 @@ html: |-
 name: citation including question mark
 in: "??What's the Matter with Kansas? How Conservatives Won the Heart of America?? is a great book!"
 html: |-
-  <p><cite>What&#8217;s the Matter with Kansas? How Conservatives Won the Heart of America</cite> is a great book!</p>
+  <p><cite>What's the Matter with Kansas? How Conservatives Won the Heart of America</cite> is a great book!</p>
 ---
 name: emphasized word including underscore
 in: |-
@@ -1013,7 +1013,7 @@ html: |-
 ---
 name: code captures spaces when made explicit with square brackets
 in: "Start a paragraph with [@p. @] (that's p, a period, and a space)."
-html: "<p>Start a paragraph with <code>p. </code> (that&#8217;s p, a period, and a space).</p>"
+html: "<p>Start a paragraph with <code>p. </code> (that's p, a period, and a space).</p>"
 ---
 name: unrecognized block starting with t not eaten
 in: "tel. 0 700 123 123"

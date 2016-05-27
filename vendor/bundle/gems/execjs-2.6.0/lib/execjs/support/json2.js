@@ -30,7 +30,7 @@
                         of nested structures. If it is omitted, the text will
                         be packed without extra whitespace. If it is a number,
                         it will specify the number of spaces to indent at each
-                        level. If it is a string (such as '\t' or '&nbsp;'),
+                        level. If it is a string (such as '\t' or ' '),
                         it contains the characters used to indent at each level.
 
             This method produces a JSON text from a JavaScript value.

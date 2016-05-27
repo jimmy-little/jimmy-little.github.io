@@ -11,7 +11,7 @@ class ERB
     # 
     # _Generates_
     # 
-    # 	<p>Isn&#8217;t <span class="caps">ERB</span> <strong>great</strong>?</p>
+    # 	<p>Isn't <span class="caps">ERB</span> <strong>great</strong>?</p>
     #
     def textilize( s )
       if s && s.respond_to?(:to_s)

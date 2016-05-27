@@ -2,17 +2,21 @@
 
 title: Quadricopters and James Bond
 
-date: 2012-03-03T22:52:35+00:00
+subtitle: <i class="fa fa-youtube"></i>
 
-author: jimmy
+category: External
 
-layout: post
+fromMy: YouTube
 
-image:
- header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/bond.jpg
+date: 2012-03-03
+
+
+
+layout: external
+
 
 categories:
-  - Linked
+  - External
 
 tags:
   - James Bond

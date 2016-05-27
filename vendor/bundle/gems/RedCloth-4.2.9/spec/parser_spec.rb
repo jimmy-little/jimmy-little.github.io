@@ -48,7 +48,7 @@ describe RedCloth do
   
   it "should not parse RedCloth::VERSION if it's not on a line by itself" do
     input = "RedCloth::VERSION won't output the RedCloth::VERSION unless it's on a line all by itself.\n\nRedCloth::VERSION"
-    html = "<p>RedCloth::<span class=\"caps\">VERSION</span> won&#8217;t output the RedCloth::<span class=\"caps\">VERSION</span> unless it&#8217;s on a line all by itself.</p>\n<p>#{RedCloth::VERSION::STRING}</p>"
+    html = "<p>RedCloth::<span class=\"caps\">VERSION</span> won't output the RedCloth::<span class=\"caps\">VERSION</span> unless it's on a line all by itself.</p>\n<p>#{RedCloth::VERSION::STRING}</p>"
     RedCloth.new(input).to_html.should == html
   end
   
