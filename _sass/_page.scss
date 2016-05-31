@@ -526,7 +526,7 @@ ul.social-buttons li a:active {
 	}
 	h1 {
 		font-weight: 700;
-		margin-bottom: 1em;
+		//margin-bottom: 1em;
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
 		display: block;
@@ -534,10 +534,10 @@ ul.social-buttons li a:active {
 			color: $white;
 		}
 		@media #{$medium} {
-			@include font-rem(26);
+			font-size: 3em;
 		}
 		@media #{$large} {
-			@include font-rem(26);
+			font-size: 4em;
 		}
 	}
 	h1.post-title{

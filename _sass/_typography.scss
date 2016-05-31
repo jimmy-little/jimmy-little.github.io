@@ -19,10 +19,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     text-transform: uppercase;
     text-align: center;
-	@include font-rem(28);
-	@media #{$medium} {
-		@include font-rem(28);
-	}
+    @include font-rem(28);
+	    @media #{$medium} {
+        @include font-rem(28);
+	    }
 }
 
 h4 {

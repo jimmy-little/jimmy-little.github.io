@@ -24,7 +24,14 @@
         {% endif %}
         
 <h4 class="post-title entry-title" align="center"><a href="{{post.link}}">{{ page.title }} <i class="fa fa-arrow-circle-right"></i></a></h4> 
-     <p> {{ content }} </p>
+{{ content }}
+        
+        <!-- PERMALINK --> 
+<a href="{{ site.url }}{{ post.url }}">        
+<span class="fa-stack">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-coffee fa-stack-1x"title="Permalink"></i></a>
+</span>
         {% if page.source %}
         <hr>
         <p align="center">via: <a href="{{ page.source }}">{{ page.via }}</a></p>
