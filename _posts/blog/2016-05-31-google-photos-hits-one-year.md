@@ -1,4 +1,4 @@
- ---
+---
 
 title: Google Photos Hits One Year
 
