@@ -8,16 +8,17 @@ tags: [Politics]
 
 layout: post
 
-images:
-  header:
-  featured:
+image:
+  header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg
+  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg
+  credit: LA Times
 
 via: 
 source: 
 link: 
 
 ---
-![LA Times](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg)
+
 
 
 I just got my vote-by-mail ballot for the primaries here in Los Angeles County.  

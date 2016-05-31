@@ -17,7 +17,6 @@
     <div class="entry-content">
         {% if page.image.feature %}
             <div class="entry-image-index">
-              <!--    <background-image url({{ page.image.feature }});></background-image> -->
               <img src="{{ page.image.feature }}" alt="{{ page.title }}"> 
               {% if page.image.credit %}<div class="image-credit">Image: <a target="_blank" href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
             </div>
@@ -27,8 +26,8 @@
 {{ content }}
         
         <!-- PERMALINK --> 
-<a href="{{ site.url }}{{ post.url }}">        
 <span class="fa-stack">
+<a href="{{ site.url }}{{ post.url }}">        
   <i class="fa fa-square-o fa-stack-2x"></i>
   <i class="fa fa-coffee fa-stack-1x"title="Permalink"></i></a>
 </span>
