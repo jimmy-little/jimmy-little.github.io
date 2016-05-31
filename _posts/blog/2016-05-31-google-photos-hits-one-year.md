@@ -10,7 +10,7 @@ layout: post
 
 image:
   header:
-  feature:https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/googlephotos.png
+  feature:  https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/googlephotos.png
 
 via: Google Blog
 source: https://googleblog.blogspot.com/2016/05/google-photos-one-year-200-million.html
