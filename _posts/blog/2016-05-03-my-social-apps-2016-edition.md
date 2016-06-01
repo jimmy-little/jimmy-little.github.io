@@ -30,6 +30,8 @@ When updating some tags, I saw [this post](http://www.cocktailsandcoffee.com/wri
 
 So, I decided to update.  Here ya go:
 
+<!-- more -->  
+
 ![iPhone 2016](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/2016social.PNG)
 
 ### Some observations:

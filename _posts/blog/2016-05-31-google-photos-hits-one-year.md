@@ -22,8 +22,11 @@ Google photos has been around for a year.  I use it and love it.  Besides the ob
 
 Check out the screenshot above.  I literally did nothing to the pictures I uploaded, but Google knows a dog when it sees it.  It also, apparently, knows a dog dressed as a penguin, which is crazy-pants awesome.
 
+<!-- more -->
 Some people may think it's creepy, but I think giving up a bit of privacy is well worth seeing pics of The Bug Dog whenever I type "dog" without all the fiddly tagging other systems (*cough*Apple*cough*) use.
 
 Also: Emoji search.
 
-<iframe src="http://www.youtube.com/embed/HQtGFBbwKEk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed">
+<iframe width="640" height="480" src="http://www.youtube.com/embed/HQtGFBbwKEk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>

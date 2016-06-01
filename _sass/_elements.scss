@@ -135,8 +135,10 @@ figure.center img{
   }
 }
 .btn-info {
+  padding: .25em 1em;    
   background-color: $info;
   color: $white;
+    @include rounded(4px);
   border-color: $info;
   &:visited {
     color: $white;

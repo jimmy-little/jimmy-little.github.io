@@ -8,21 +8,24 @@ tags: [Politics]
 
 layout: post
 
-images:
-  header:
-  featured:
+image:
+  header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg
+  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg
+  credit: LA Times
 
 via: 
 source: 
 link: 
 
 ---
-![LA Times](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg)
+
 
 
 I just got my vote-by-mail ballot for the primaries here in Los Angeles County.  
 
 Why doesn't everyone do this?  The [state of Washington](http://blog.thenewstribune.com/politics/2011/04/05/washington-to-shift-to-all-vote-by-mail-elections/) has eliminated all other options.  You vote by mail, or you don't vote. This is the way it should be. Why?  In my humble internet opinion, these are the big reasons:
+
+<!-- more -->
 
  - It's cheaper for the states to send out ballots than to open hundreds of polling locations all over the place
  - It's easier for those in rural areas to vote
