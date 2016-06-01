@@ -2,11 +2,11 @@
 
 title: The Internet Decapitalized
 
-category: 
+category: Linked
 
 tags: [Internet]
 
-layout: 
+layout: link
 
 image:
   header:
