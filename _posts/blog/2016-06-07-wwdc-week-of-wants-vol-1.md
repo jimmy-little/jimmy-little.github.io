@@ -1,7 +1,7 @@
 ---
 title: WWDC Week of Wants, Vol 1
 date: 2016-06-07
-subtitle: Today's Ramblings: Photos
+subtitle: "Today's Ramblings: Photos"
 fromMy: 
 category: Writing
 tags: [Apple, Google, Photos, WWDC]
