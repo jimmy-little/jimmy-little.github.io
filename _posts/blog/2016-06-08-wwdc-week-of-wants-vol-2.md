@@ -17,6 +17,8 @@ Messages (the concept) are very important.  Messages (the app) needs to live up 
 
 Messages (the app) seems kind of stuck.  Video and audio snippets have been added to compete with SnapChat and HeyTell, but that’s really it.  There are two main things I’d like to see improved in Messages.
 
+<!-- more -->
+
 ### Inline Previews
 
 Check out the screenshots above.  I messaged myself in Messages and Slack.  Look at how much better Slack is at handling rich media.  If I send a link, Slack shows the web site’s title, icon, and tagline.  If I send a YouTube link, a thumbnail is shown.  A Google Doc? The title and type is shown.  A giphy URL? I see the GIF!
