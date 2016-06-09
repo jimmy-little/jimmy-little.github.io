@@ -39,7 +39,7 @@ To install a third-party keyboard, here’s the process:
 
 Then, if you’re not an insane person who lets your home screen run wild, you have to drag the new keyboard app’s icon into a folder somewhere.
 
-That’s ridiculous.  If a keyboard “App” is only a keyboard, and not a feature of a larger app (like TextExpander’s keyboard), there shouldn’t be a home screen icon for it.  Here’s how I think it should work:
+That’s ridiculous.  If a keyboard “app” is only a keyboard, and not a feature of a larger app (like TextExpander’s keyboard), there shouldn’t be a home screen icon for it.  Here’s how I think it should work:
 	
 1. Download the keyboard from the App Store  
 2. See a pop-up that says “Would you like to install this keyboard?”
@@ -52,6 +52,7 @@ See how much easier that is?  To delete a keyboard, just swipe to delete like an
 The current system of switching keyboards, the “Globe” icon, is problematic.  First, only the stock keyboards can access the switcher pop-over to directly access a keyboard.  Once you’re in a third-party keyboard, you’re stuck. All keyboards need the switcher Globe icon, so why can’t all of them access the pop-over to switch to another?  As I said above, I only keep the bare minimum of keyboards (currently GBoard and the stock keyboard) because switching between them is so painful.  I’d love to keep my TextExpander keyboard, my [Copied][5] keyboard, and a GIF keyboard at the ready, but that’s just more to tap through when switching.
 
 And for the love of all that is good in this world, can Apple require a *standard* position for the switcher key.  It jumps around, even on Apple’s keyboards.
+
 ### Emoji Search
 
 I’ve been using Gboard for a few weeks, and it’s really nice. I’ve turned off the stock Emoji keyboard because swiping through hundreds of Emojis to find a cocktail glass is maddening.  With Gboard, I tap the Emoji button and type in `cocktail` or `martini` or even `glass` and get the little tiny picture I want.  Hell, even the GBoard auto-correct will suggest an Emoji based on just typing in a text field!
