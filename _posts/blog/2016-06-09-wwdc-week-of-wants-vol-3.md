@@ -18,7 +18,7 @@ Ever since third-party keyboards arrived with iOS8, things have pretty much been
 
 ### The Bad
 
-	- Third party keyboards don’t have access to the “Globe” button pop-over for keyboard switching.  The only option is to tap and tap and tap to cycle through.  This reduces the number of keyboards I want to keep active.
+* Third party keyboards don’t have access to the “Globe” button pop-over for keyboard switching.  The only option is to tap and tap and tap to cycle through.  This reduces the number of keyboards I want to keep active.
  	- There is no dictation option in third party keyboards.  I understand not allowing, say, Google to access the microphone for Google Assistant searches, but shouldn’t there be a button there for system-level dictation on all keyboards?
 	- Secure fields default back to the system keyboard.  I can understand this, too, from a security standpoint.  Some keyboards talk to a server, and you don’t want your keystrokes transmitted back from a password field.  But, can’t the system just disallow key logging from a secure input field?
 	- Third party keyboards are slow.  They switch slow, and are slow to appear on some screens.  I’m looking at you, Spotlight.
