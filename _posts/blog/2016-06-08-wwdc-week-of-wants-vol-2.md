@@ -2,6 +2,7 @@
 title: WWDC Week of Wants, Vol 2
 date: 2016-07-08
 subtitle: "Today's Ramblings: Messages"
+tags: [WWDC, Apple, Messages]
 fromMy: 
 category: Writing
 layout: post
