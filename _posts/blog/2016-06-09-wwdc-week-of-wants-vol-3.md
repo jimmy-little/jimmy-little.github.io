@@ -67,7 +67,7 @@ Has auto-correct been getting worse, or is it just me?  Time was, you could writ
 
 The iPhone 6 Plus is huge.  Can I get a number row on my keyboard, pretty please? I even made a pretty picture to demonstrate:
 
-![Fixed It!]  (https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Numberrowthereifixedit.png)
+![Fixed It!](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Numberrowthereifixedit.png)
 
 And while you’re “fixing” keyboard layouts, can we please have the split keyboard back on the iPad Pro?  Typing on this thing while holding it is damn near impossible.
 
