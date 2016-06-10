@@ -43,3 +43,4 @@ All of this is of course predicated Apple opening up Siri to third parties and t
 [2]: https://appsto.re/us/lTtgB.i?at=1001|3C5&ct=cocktailsandcoffee
 [3]: https://appsto.re/us/ny-Gs.i%3Fat=1001%7C3C5&ct=cocktailsandcoffee
 [4]: https://googleblog.blogspot.com/2016/05/allo-duo-apps-messaging-video.html
+[5]: http://amzn.to/1ZCF1jX
