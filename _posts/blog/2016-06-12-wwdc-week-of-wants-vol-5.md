@@ -25,7 +25,7 @@ iPads got a little love last year with split screen multitasking, but I think it
 
 The UI for multitasking needs to be thrown out and rewritten. When I open the picker in the right pane, I see three giant icons of the most recent apps that I used right pane. If I enter the system multitasker, both panes go away and I see the last couple apps I used in either pane. If I switch to a different app that I previously used full screen, it will pop into the left pane of multitasking, but if I switch from a full screen app to an app that I was previously multitasking with, it goes to full screen, not the split view. It's maddening.
 
-	>There is a 80% chance that when I open an app from the app switcher, I will have no fucking idea where it will appear.
+>There is a 80% chance that when I open an app from the app switcher, I will have no fucking idea where it will appear.
 	
 I made that quote up, but I'm sure it can be attributed to most iPad power users. There are a lot of ways to fix this, but I think the folks over at [MacStories][ms] have one of the best ideas:
 
