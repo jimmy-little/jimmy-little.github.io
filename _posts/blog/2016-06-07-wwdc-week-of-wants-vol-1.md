@@ -18,6 +18,8 @@ I use Apple’s Photos and iCloud for my main photo library, but I have [Dropbox
 
 Google Photos has search down pat.  I can type in `Jimmy dog` and get all the images and videos of me and my dog.  I can type in `train` and see all the pictures of trains I’ve taken. The “train” search will even show me pictures of people on a train, or standing next to train tracks.  It’s pretty incredible.
 
+<!-- more -->
+
 Google also does the logical thing with your [Live Photos][3].  It will take your Apple-proprietary Live Photos and make them into easily sharable GIFs with its [Motion Stills][4] app.
 
 Apple needs to catch up on the Photos front.  I appreciate the security of Apple using only on-device logic to identify what’s in my pictures, but devices aren’t smart enough, and _only my_ stuff isn’t enough data.  

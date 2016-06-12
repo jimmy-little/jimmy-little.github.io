@@ -16,6 +16,8 @@ image:
 
 Ever since third-party keyboards arrived with iOS8, things have pretty much been a mess. Here are some quick thoughts and wants, from my perspective.
 
+<!-- more -->
+
 ### The Bad
 
 *	Third party keyboards don’t have access to the “Globe” button pop-over for keyboard switching.  The only option is to tap and tap and tap to cycle through.  This reduces the number of keyboards I want to keep active.

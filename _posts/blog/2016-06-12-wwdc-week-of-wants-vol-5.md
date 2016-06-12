@@ -21,6 +21,8 @@ New software for the last few WWDCs have focused heavily on the iPhone.  This ma
 
 iPads got a little love last year with split screen multitasking, but I think it needs to go further.  Don't get me wrong. Multitasking on the iPad Pro has fundamentally changed the way I use my iPad in so many ways. But, can we talk about this:
 
+<!-- more -->
+
 ![Seriously?](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/IMG_0366.PNG)
 
 The UI for multitasking needs to be thrown out and rewritten. When I open the picker in the right pane, I see three giant icons of the most recent apps that I used right pane. If I enter the system multitasker, both panes go away and I see the last couple apps I used in either pane. If I switch to a different app that I previously used full screen, it will pop into the left pane of multitasking, but if I switch from a full screen app to an app that I was previously multitasking with, it goes to full screen, not the split view. It's maddening.

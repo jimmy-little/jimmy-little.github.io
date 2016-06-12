@@ -20,6 +20,8 @@ When HomeKit was announced in 2014, it showed a lot of promise.  Having one way 
 
 But here we are, almost two years later, and I have exactly ZERO HomeKit devices.  The HomeKit program is too limited to be practical.  Apple’s position on security means all devices have to have a secure chip in them to talk to each other, meaning all of my existing stuff is useless.  It’s time to change this.
 
+<!-- more -->
+
 ### Open up HomeKit
 
 I appreciate the security that HomeKit devices afford, but it’d be nice if the thousands of dollars of equipment I already have would work.  If HomeKit wants to get a foothold in the world, it needs to be easier. I am personally not worried about hackers getting in to my home automation network and, I don’t know, turning up my thermostat?  Is that a thing? My wifi network is pretty secure, and all the appropriate firewalls are in place on my router. Let me control my porch light with an app, please.
