@@ -1,4 +1,4 @@
-// Typography
+    // Typography
 // --------------------------------------------------
 
 $base-font: 'Lato', Calibri, Arial, sans-serif;
@@ -22,10 +22,10 @@ body {
 $white           		 : #fff;
 $black           		 : #000;
 $base-color				 : rgba(#222,0.8);
-$header-color			 : rgba(#000,0.8);
+$header-color			 : rgba(#222,1);
 $sub-item-color			 : rgba(#000, 0.1);
 $header-margin			 : #F45145;
-$menu-top				 : rgba(#222,0.8); //white;
+$menu-top				 : rgba(#222,1);//rgba(#222,0); 
 $menu-height			 : 70px;
 $menu-overflow			 : rgba(#222,0.8); //#2E2E2E;
 $body-color      		 : $white; //#e8e8e8;
@@ -34,8 +34,13 @@ $comp-color 	 		 : complement(#222);
 $border-color    		 : lighten(#222,60);
 $link-color 		     : rgb(29,171,230);
 $highlight-color         : rgb(230,88,29);
+$post-color              : $highlight-color;
+$youtube-color           : #bb0000; 
+$twitter-color           : #00aced;
+$instagram-color         : #517fa4;
+$linked-color            : $base-color;
 
-$primary			     : $highlight-color  ;
+$primary			     : $highlight-color;
 $success			     : #5cb85c;
 $warning			     : #dd8338;
 $danger				     : #C64537;
@@ -45,6 +50,6 @@ $info				     : rgb(29,171,230);
 // Screen Size
 // --------------------------------------------------
 
-$small               : "only screen and (min-width: 30em)";
+$small               : "only screen and (max-width: 30em)";
 $medium              : "only screen and (min-width: 48em)";
 $large               : "only screen and (min-width: 62.5em)";

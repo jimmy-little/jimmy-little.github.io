@@ -8,7 +8,7 @@ category: External
 
 fromMy: YouTube
 
-tags: [Apple, Music]
+tags: [Apple, Music, YouTube]
 
 layout: external
 

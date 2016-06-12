@@ -7,38 +7,66 @@ comments: false
 ---
 
 {% for post in paginator.posts %}
+
+
 <article class="hentry">
-  <header>
-<!-- HEADER IMAGE? -->      
+<header>
+<div class="meta-title">
+<!-- CATEGORY META  -->
+    <div class="category-meta">
+        {% if post.fromMy == 'Instagram' %}
+            <span class="category-instagram"><i class="fa fa-instagram fa-fw"></i> 
+            Linked  
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> 
+        {% elsif post.fromMy == 'Twitter' %}
+            <span class="category-twitter"><i class="fa fa-twitter fa-fw"></i> 
+            Linked 
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> 
+        {% elsif post.fromMy == 'YouTube' %}
+            <span class="category-youtube"><i class="fa fa-youtube fa-fw"></i> 
+            Linked 
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% elsif post.link %}
+            <span class="category-linked"><i class="fa fa-arrow-circle-o-right fa-fw"></i> 
+            Linked 
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% else %}
+            <span class="category-post"><i class="fa fa-glass fa-fw"></i> 
+            Posted 
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% endif %}
+        {% if site.reading_time %}
+            <span class="entry-reading-time">
+            <i class="fa fa-clock-o"></i>
+        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+            Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+            </span><!-- /.entry-reading-time -->
+        {% endif %}
+    </span> 
+</div>
+<!-- TITLE AND CATEGORY-->      
+<div class="post-title-meta">
+    <span class="entry-date date published updated">  
+        {% if post.fromMy == 'Instagram' %}
+            <h1><a class="instagram" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>    
+        {% elsif post.fromMy == 'Twitter' %}
+            <h1><a class="twitter" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>  
+        {% elsif post.fromMy == 'YouTube' %}
+            <h1><a class="youtube" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+        {% elsif post.link %}
+            <h1><a class="linked" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>  <a class="linked" href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"> <i class="fa fa-external-link fa-fw"></i></a></h1> 
+        {% else %}
+            <h1><a class="post" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1> 
+        {% endif %}
+    </span>      
+</div>
+</div> 
+         <!-- HEADER IMAGE? -->      
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-
       </div><!-- /.entry-image -->
-    {% endif %}
-<!-- TITLE AND HEADER-->      
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
-      {% if site.reading_time %}
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-      </span><!-- /.entry-reading-time -->
-      {% endif %}
-    </div><!-- /.entry-meta -->
-<!-- LINK? -->
-    {% if post.fromMy == 'Instagram' %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="http://www.instagram.com/jimmylittle" class="permalink" rel="bookmark" title="{{ post.title }}"> | <i class="fa fa-instagram"></i></a></h1> 
-    {% elsif post.fromMy == 'Twitter' %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="http://www.twitter.com/jimmylittle" class="permalink" rel="bookmark" title="{{ post.title }}"> | <i class="fa fa-twitter"></i></a></h1> 
-    {% elsif post.fromMy == 'YouTube' %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }} | <i class="fa fa-youtube"></i></a></h1>    
-    {% elsif post.link %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <a href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"> | <i class="fa fa-arrow-circle-o-right"></i></a></h1> 
-    {% else %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
   <div class="entry-content">
