@@ -52,19 +52,19 @@
 
 <div class="entry-header">
   <div class="header-title">
-      <div class="header-title-wrap" style="background-image: url({{ page.image.header }});">
-      <span><h1>{{ page.title }}</h1></span>
-      <span><h4>{{ page.subtitle }}</h4></span>   
+      <div class="header-title-wrap">
+<h1>{{ page.title }}</h1>
+      <p>{{ page.subtitle }}</p>   
 {% if page.date %}
-        <h6><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h6>
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></p>
       {% else %}
-        <h2><span class="entry-date"><time>&nbsp;</time></span></h2>
-      {% endif %}
-      
-</div><!-- /.header-title-wrap -->
+        <p><span class="entry-date"><time>&nbsp;</time></span></p>
+      {% endif %}  
+          
+<!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
-
+</div>
 
 <nav id="menu" style="display: none">
   <ul>
