@@ -1,19 +1,19 @@
-
 ---
-
-title: WWDC Week of Wants, Vol 6
+title: "WWDC Week of Wants, Vol 6"
 date: 2016-06-12
-subtitle: Today's Ramblings: Siri
+layout: post
+subtitle: "Today's Ramblings: Siri"
 category: Writing
 tags: [Apple, Siri, WWDC]
 image:
   feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/siriwave.jpg
-  
 ---
 
 Apple was the first compnay to put voice control in a phone with the iPhone 3GS. Siri took over for Voice Control with the iPhone 4S, and was a vast improvement.
 
 Then everything slowed down. Siri requires Apple to integrate the data into the system. There are a few partners - Wolfram Alpha, Bing, Yahoo for weather, and some sports data. Beyond that, it's still down to just telling you what's already on your phone.
+
+<!-- more -->
 
 Amazon's Alexa has an API, and Google's Home will offer one this fall. **Siri needs an API**. Allowing other developers to insert data into the conversational interface stream is imperative for Siri to be competitive.
 
