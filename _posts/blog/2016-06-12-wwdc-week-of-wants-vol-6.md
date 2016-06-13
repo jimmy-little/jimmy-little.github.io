@@ -2,7 +2,7 @@
 
 title: WWDC Week of Wants, Vol 6
 date: 2016-06-12
-subtitle: Today's Ramblings: Siri
+subtitle: "Today's Ramblings: Siri"
 category: Writing
 tags: [Apple, Siri, WWDC]
 image:
