@@ -1,4 +1,3 @@
-
 ---
 
 title: WWDC Week of Wants, Vol 6
