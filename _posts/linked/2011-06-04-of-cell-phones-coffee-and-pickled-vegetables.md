@@ -6,13 +6,12 @@ date: 2011-06-04T02:56:21+00:00
 
 author: jimmy
 
-layout: post
+layout: link
 
-source: href="http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
-
+source: http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
 via: IARC
 
-link: 
+link: http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
 
 categories: Writing
 

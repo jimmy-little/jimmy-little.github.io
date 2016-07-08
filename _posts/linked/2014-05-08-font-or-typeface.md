@@ -3,10 +3,13 @@
 title: Font or Typeface?
 date: 2014-05-08T02:12:45+00:00
 author: jimmy
-layout: post
+layout: link
 tags: [Font, Graphic Design]
 categories:
   - Linked
+link: http://www.fastcodesign.com/3028971/whats-the-difference-between-a-font-and-a-typeface
+source: http://www.fastcodesign.com/3028971/whats-the-difference-between-a-font-and-a-typeface
+via: Fast Company  
 ---
  
 
