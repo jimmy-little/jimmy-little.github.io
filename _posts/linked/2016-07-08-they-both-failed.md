@@ -1,5 +1,5 @@
 ---
-title: "'They Both Failed'"
+title: "They Both Failed"
 date: 2016-07-08
 subtitle: "When water resistant, isn't."
 tags: [Samsung, Phone]
@@ -8,7 +8,7 @@ category: Linked
 layout: link
 via: Chicago Tribune
 source: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html
-Link: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html
+link: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html
 image:
  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/samsungwaterphone.jpeg
 ---
