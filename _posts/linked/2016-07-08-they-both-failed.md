@@ -1,5 +1,5 @@
 ---
-title: "They Both Failed"
+title: "'They Both Failed'"
 date: 2016-07-08
 subtitle: "When water resistant, isn't."
 tags: [Samsung, Phone]
