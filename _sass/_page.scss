@@ -87,8 +87,8 @@ body {
 	right: 0;
 	margin: 0 auto;
 	max-width: 440px;
-	padding: 10px 15px;
-	background-color: rgba($base-color,0.5);
+	padding: 5px;
+	background-color: rgba($base-color,0.3);
 	color: $white;
 	@include font-rem(12);
 	text-align: right;
