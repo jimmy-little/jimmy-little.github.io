@@ -17,6 +17,10 @@ figure {
   @include clearfix();
   img {
     margin-bottom: 10px;
+ }
+	figcaption {
+  	text-align: center;
+	text-transform: uppercase;
   }
   a {
     img {
@@ -35,22 +39,27 @@ figure {
       img {
         width: 45%;
         float: left;
-        margin-right: 10px;
+        max-height: 250px;
+        margin-right: auto;
       }
       figcaption {
-        clear: left;
+      	clear: left;
+      	text-align: center;
+		text-transform: uppercase;     	
       }
     }
   }
   &.third {
     @media #{$large} {
       img {
-        width: 200px;
+        width: 33%;
         float: left;
-        margin-right: 10px;
+        margin-right: auto;
       }
       figcaption {
         clear: left;
+        	text-align: center;
+	text-transform: uppercase;
       }
     }
   }
