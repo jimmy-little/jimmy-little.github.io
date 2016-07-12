@@ -21,6 +21,12 @@ image:
 <a href="https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/imacUpgrade/restore.jpeg" rel="restore">![restore](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/imacUpgrade/restore_500.jpeg)
 
 
+![restore](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/imacUpgrade/restore
+.jpeg)
+
+
+
+
 
 [1]: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/Longtime.jpeg
 [2]: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/Before.jpeg
