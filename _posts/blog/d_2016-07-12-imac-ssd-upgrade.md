@@ -2,7 +2,7 @@
 title: "iMac SSD Upgrade"
 date: 2016-07-12
 subtitle: "Breathing new life into an old machine"
-tags: [Mac, Upgrade]
+tags: [draft] #[Mac, Upgrade]
 fromMy: 
 category: Writing
 layout: post
