@@ -8,7 +8,7 @@ words_per_minute: 200
 logo:             /assets/logo.png # logo visible in the topbar
 
 
-url: http://cocktailsandcoffee.com
+# url: http://cocktailsandcoffee.com
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -64,7 +64,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 7
+paginate: 20
 
 # if true, shows the floatting share buttons
 float_share: false
