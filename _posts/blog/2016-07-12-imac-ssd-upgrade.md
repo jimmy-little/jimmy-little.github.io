@@ -12,6 +12,8 @@ link:
 image:
   feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/iMacUpgradeHeader.jpeg
   header:
+published: false  
+  
 ---
 
 {% capture images %}
