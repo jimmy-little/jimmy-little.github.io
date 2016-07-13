@@ -93,7 +93,7 @@ https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/R
 
 I woke up the next day and it was done. I ran a few tests to check some stuff, and was so freakin' happy. The night before, it was taking several minutes to copy a file, now that same file copied so fast the progress bar didn't even have time to show on screen. Rebooting before took several minutes. Now, it takes 38 seconds. Mission accomplished, so the screen got glued back on with the adhesive that came with the OWC kit, and it looks like I never pried this thing apart.
 
-### 
+### Up And Running
 
 For just a little over $240, I have what feels like a brand new computer that will give me a few more years of service. And the best part is, by using a Time Machine backup, I was back up and running right where I left off the day before. 
 
