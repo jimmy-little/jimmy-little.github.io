@@ -1,6 +1,6 @@
 ---
 title: "The ClearChannel Connection?"
-date: 2012-06-24T03:24:14+00:00
+date: 2012-06-24
 author: jimmy
 layout: post
 categories:

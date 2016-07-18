@@ -1,6 +1,6 @@
 ---
 title: "Apple Wants You (to buy iPhone apps!)"
-date: 2008-06-04T08:31:42+00:00
+date: 2008-06-04
 author: jimmy
 layout: post
 categories:
