@@ -4,7 +4,7 @@ fromMy: YouTube
 date: 2011-11-29
 author: jimmy
 layout: external
-categories: [External]
+category: External
 tags:
   - Technology
   - Travel
