@@ -1,6 +1,5 @@
 ---
-
-title: 'Everything's Amazing'
+title: "Everything's Amazing"
 fromMy: YouTube
 date: 2011-11-29
 author: jimmy
