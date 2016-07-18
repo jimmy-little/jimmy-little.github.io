@@ -1,5 +1,5 @@
 ---
-title: "The ClearChannel Connection?"
+title: "The ClearChannel Connection"
 date: 2012-06-24
 author: jimmy
 layout: post

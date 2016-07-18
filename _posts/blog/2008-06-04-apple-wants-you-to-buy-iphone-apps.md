@@ -1,5 +1,5 @@
 ---
-title: "Apple Wants You (to buy iPhone apps!)"
+title: "Apple Wants You - to buy iPhone apps"
 date: 2008-06-04
 author: jimmy
 layout: post
