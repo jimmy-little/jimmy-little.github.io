@@ -1,7 +1,6 @@
 ---
 
 title: 'Everything's Amazing'
-subheading: Sitting on a chair in the sky
 fromMy: YouTube
 date: 2011-11-29
 author: jimmy
