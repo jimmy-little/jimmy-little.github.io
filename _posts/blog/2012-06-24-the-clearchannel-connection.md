@@ -7,8 +7,6 @@ categories:
   - Writing
 tags: [Politics, Media]
 ---
-
-
 You know what's weird? Squids. You know what else is weird? This: 
 
 ClearChannel plays to 190 million listeners around the country. That's more than half of Americans. More Conservative talk radio stations are run by ClearChannel than not. 
