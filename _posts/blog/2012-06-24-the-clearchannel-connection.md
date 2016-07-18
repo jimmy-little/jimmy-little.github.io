@@ -3,8 +3,7 @@ title: "The ClearChannel Connection?"
 date: 2012-06-24
 author: jimmy
 layout: post
-category:
-  - Writing
+category: [Writing]
 tags: [Politics, Media]
 ---
 

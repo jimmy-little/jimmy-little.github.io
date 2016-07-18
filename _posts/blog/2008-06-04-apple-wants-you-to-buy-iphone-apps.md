@@ -3,10 +3,10 @@ title: "Apple Wants You (to buy iPhone apps!)"
 date: 2008-06-04
 author: jimmy
 layout: post
-category:
-  - Writing
+category: [Writing]
 tags: [Apple, App Store, iPhone]
 ---
+
 Apple is going to release iPhone 2.0 software and open the App store soon. Very soon. Rumor has it that it will be June 9th at WWDC, and there's now one more reason to believe it. 
 
 Apple's Back-To-School promotion, usually held in late summer, offers a free iPod Nano to students buying a laptop or desktop Mac. This year, the promotion starts in early June, and includes the iPod Touch as one of the freebies. 
