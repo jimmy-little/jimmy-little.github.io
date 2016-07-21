@@ -7,7 +7,7 @@ comments: false
 ---
 
 {% for post in paginator.posts %}
-
+{% unless post.draft %}
 
 <article class="hentry">
 <header>
@@ -81,6 +81,7 @@ comments: false
     {% endif %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
+{% endunless %}
 {% endfor %}
 
 {% include pagination.html %}
