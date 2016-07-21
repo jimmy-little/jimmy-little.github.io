@@ -4,22 +4,11 @@ title: The ClearChannel Connection?
 date: 2012-06-24T03:24:14+00:00
 author: jimmy
 layout: post
-guid: http://localhost:8888/2012/06/24/2012623the-clearchannel-connection-html/
-permalink: /2012/06/24/2012623the-clearchannel-connection-html/
 categories:
-  - blog
-  - opinion
-  - politics
+  - Writing
+tags: [Politics]
 ---
 
-  <p>
-     
-  </p>
-  
-  <p>
-    <span class="full-image-float-left ssNonEditable"><span><img src="/static/51379f72e4b037a1b7ed040f/5169b6c0e4b0cc6cf13ab2c7/5169b6c1e4b0cc6cf13ab53e/1340508477047/www.clearchannel.gif/1000w" alt="" /></span></span>
-  </p>
-  
   <p>
     You know what's weird?  Squids.  You know what else is weird?  This:
   </p>
