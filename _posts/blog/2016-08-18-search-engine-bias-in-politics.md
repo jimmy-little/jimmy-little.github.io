@@ -94,4 +94,4 @@ One big thing I'm seeing is if you Google "Who will win 2016 election" you see H
 
 I don't see it. I see individuals expecting a result and not seeing what they want to see. But I could be wrong, this was in no way scientific.
 
-If you are seeing it, [tweet me some screenshots](https://twitter.com/jimmylittle), I'd love to see it.
+If you are seeing it, [tweet me some screenshots](https://twitter.com/jimmylittle), and hashtag it #SearchBias.  I'd love to see it.
