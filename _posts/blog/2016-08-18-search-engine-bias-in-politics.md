@@ -85,7 +85,7 @@ Bing's results had fewer overall negatives, but the negatives were a lot more vi
 ### Overall Stats for Bing
 ![Bing Stats](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/bingstats.PNG)
 
-- Trump had only two negatives, but they were "malignant narcissist" and "flying racist"
+- Trump had only two negatives, but they were "malignant narcissist" and "lying racist"
 - Clinton also had 2 negatives, both calling her a liar
 - Johnson and Stein had similar results. Mostly policy searches, but a little bent towards fraud or dishonesty.
 
