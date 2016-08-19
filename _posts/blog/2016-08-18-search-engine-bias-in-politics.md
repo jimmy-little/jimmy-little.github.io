@@ -20,7 +20,7 @@ I've been seeing a lot of hoopla lately about people thinking search engines wer
 I went to the 4 major search engines and tried a couple of searches. First, I searched for "2016 presidential candidates" on Duck Duck Go, Google, Yahoo, and Bing. Then, I searched for the candidate's name plus the word "is".  The results are below.
 
 Let's set some ground rules.
->
+
 - All of these searches were done on an iPad using Safari.
 - All the searches were done from the site's search bar (not the onmibox built into the browser). 
 - I was logged out of all search engines and I cleared my browser cache before starting this, so the results should be what a normal person will see on the public internet.
