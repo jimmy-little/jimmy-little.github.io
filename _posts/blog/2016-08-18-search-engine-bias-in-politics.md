@@ -26,7 +26,7 @@ Let's set some ground rules.
 - I was logged out of all search engines and I cleared my browser cache before starting this, so the results should be what a normal person will see on the public internet.
 - All the screenshots in "2016 Presidential Candidates" search are "above the fold", cropped to show only the top half of the screen, which is consistent with what a user would see on a tablet or phone with the keyboard visible.
 - For the auto-complete suggestion comparison, I typed the candidate's name plus the word "is" and looked at the auto-complete selections on each search engine.
-- Rules for the stats: I put all of the auto-fill responses from each search engine into a spreadsheet and graded them on negativity. A "-" means negative, a "=" is neutral, and a "+" is positive. I then graphed the responses for each candidate and each search engine. To keep things fair, I graded things like insults as negative, I graded complements as positive, and anything else, like policy questions, age questions, or party affiliation questions as neutral. To get the "Negativity Score", I gave each candidate a point for a positive result, and deducted a point for a negative result. Neutral results were not counted.
+- Rules for the stats: I put all of the auto-fill responses from each search engine into a spreadsheet and graded them on negativity. A "-" means negative, a "=" is neutral, and a "+" is positive. I then graphed the responses for each candidate and each search engine. To keep things fair, I graded things like insults as negative, I graded complements as positive, and anything else, like policy questions, age questions, or party affiliation questions as neutral. To get the "Favorability Score", I gave each candidate a point for a positive result, and deducted a point for a negative result. Neutral results were not counted.
 - Ignore the timestamps in the status bar. I've been trying a screenshot utility that randomizes time and battery status, and it's not working very well.
 
 ## DuckDuckGo
@@ -91,7 +91,7 @@ Bing's results had fewer overall negatives, but the negatives were a lot more vi
 
 ## Conclusions
 
-What does this all mean? We don't rally know. I can't see any pattern of a specific search engine skewing results towards or against one candidate or another, as is being suggested all over Twitter. 
+What does this all mean? We don't really know. I can't see any pattern of a specific search engine skewing results towards or against one candidate or another, as is being suggested all over Twitter. 
 ![2016 Search](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/2016bias.JPG)
 One big thing I'm seeing is if you Google "Who will win 2016 election" you see Hillary Clinton. I tried this in all 4 search engines and did not see  the same results. Again, these are above-the-fold screenshots. Google did come the closest to the above accusation after scrolling down, but it was in the form of a table that showed latest odds from [predictit.org.](https://www.predictit.org/market/1234/who-will-win-the-2016-us-presidential-election)
 
