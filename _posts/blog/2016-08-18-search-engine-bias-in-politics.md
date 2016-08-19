@@ -93,8 +93,8 @@ Bing's results had fewer overall negatives, but the negatives were a lot more vi
 
 What does this all mean? We don't really know. I can't see any pattern of a specific search engine skewing results towards or against one candidate or another, as is being suggested all over Twitter. 
 ![2016 Search](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/2016bias.JPG)
-One big thing I'm seeing is if you Google "Who will win 2016 election" you see Hillary Clinton. I tried this in all 4 search engines and did not see  the same results. Again, these are above-the-fold screenshots. Google did come the closest to the above accusation after scrolling down, but it was in the form of a table that showed latest odds from [predictit.org.](https://www.predictit.org/market/1234/who-will-win-the-2016-us-presidential-election)
+One big conspiracy I'm hearing is if you Google "Who will win 2016 election" you see Hillary Clinton. I tried this in all 4 search engines and did not see the same results. Again, these are above-the-fold screenshots. Google did come the closest to the above accusation after scrolling down, but it was in the form of a table that showed latest odds from [predictit.org.](https://www.predictit.org/market/1234/who-will-win-the-2016-us-presidential-election)
 
-I don't see it. I see individuals expecting a result and not seeing what they want to see. But I could be wrong, this was in no way scientific.
+I just don't see any search engine skewing search results, even a little. 
 
 If you are seeing it, [tweet me some screenshots](https://twitter.com/jimmylittle), and hashtag it #SearchBias.  I'd love to see it.
