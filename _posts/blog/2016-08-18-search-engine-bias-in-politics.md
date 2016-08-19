@@ -54,6 +54,7 @@ Google was far more positive overall than the other search engines.
 
 ### Overall Stats for Google
 ![Google Stats](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/googlestats.PNG)
+
 - Trump got an "awesome", but he also got "shape shifting lizard", so we'll call it a wash.
 - Clinton was compared to both a man and Cersi Lannister, so I don't know what to make of that.
 - Stein has only one negative, "unqualified"
@@ -69,7 +70,8 @@ Yahoo returns pretty middling search auto-complete, as far as negativity vs. pos
 
 ### Overall Stats for Yahoo
 ![Yahoo Stats](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/yahoostats.PNG)
-- Trump and Clinton both get 2/3 negativity ratings. Trump is an antichrist crazy idiot joke, while Clinton is an evil criminal liar devil.
+
+- Trump and Clinton both get 66% negativity ratings. Trump is an antichrist crazy idiot joke, while Clinton is an evil criminal liar devil.
 - Stein and Johnson are idiots who are wrong. And Yahoo also thinks Stein is hot. Weird.
 
 ## Bing
@@ -78,15 +80,16 @@ Bing easily wins the 2016 Candidates search. It returns the four people running 
 
 ### "CandidateName is" Search on Bing
 Bing's results had fewer overall negatives, but the negatives were a lot more vicious.
-![Bing Candidtates](https Is ://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/bing.JPG)
+![Bing Candidtates](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/bing.JPG)
 
 ### Overall Stats for Bing
 ![Bing Stats](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/bingstats.PNG)
+
 - Trump had only two negatives, but they were "malignant narcissist" and "flying racist"
 - Clinton also had 2 negatives, both calling her a liar
-- Johnson and Stein had similar results. Mostly policy searches, but a little bent towards fraud and dishonesty.
+- Johnson and Stein had similar results. Mostly policy searches, but a little bent towards fraud or dishonesty.
 
-## Conclusion
+## Conclusions
 
 What does this all mean? We don't rally know. I can't see any pattern of a specific search engine skewing results towards or against one candidate or another, as is being suggested all over Twitter. 
 ![2016 Search](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/searchenginebias/2016bias.JPG)
