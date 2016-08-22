@@ -19,4 +19,4 @@ I'm not a big fan of Business Insider, but there are some good quotes and links 
 
 >Most in the technology community rallied around Apple at the time, arguing that weakened encryption might help government investigators, but it would also make customers vulnerable to hackers.
 
-Now, with a massive top-secret archive of some of the NSA's own exploits having been leaked online, it appears they were right.
+>Now, with a massive top-secret archive of some of the NSA's own exploits having been leaked online, it appears they were right.
