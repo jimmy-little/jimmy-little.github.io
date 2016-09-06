@@ -21,6 +21,8 @@ Tomorrow is Apple's big fall event, and we're all expecting new iPhones. I sat o
 
 Nothing. It's all rumors and fairy dust as of now, as usual.
 
+<-- more -->
+
 ### What I Think
 
 #### New iPhones
