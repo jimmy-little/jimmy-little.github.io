@@ -37,7 +37,7 @@ Someone show Matt what a battery meter looks like. Oh wait, [Jim Dalrymple][5] a
 
 [Popular Mechanics][3], once you scroll past the “17 iPhone Tricks to Make Your Life Easier” persistent header, seems to think taking care of your property is such a chore:
 
-> but you'll have to deal with them _every time you take them out of your ears_ 
+> but you'll have to deal with them **every time you take them out of your ears**
 
 (emphasis theirs)
 
