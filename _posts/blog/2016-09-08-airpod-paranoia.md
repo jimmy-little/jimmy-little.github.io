@@ -49,8 +49,6 @@ That squirrel is a dick.
 
 Then, there’s the cesspool that is [Twitter][6].
 
-——----
-
 #### I have a simple solution to all of this:
 
  1. If you think $159 is too expensive ([it’s not][7]), **DON’T BUY THEM.**
