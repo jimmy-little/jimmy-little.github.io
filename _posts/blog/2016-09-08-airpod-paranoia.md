@@ -49,7 +49,7 @@ That squirrel is a dick.
 
 Then, there’s the cesspool that is [Twitter][6].
 
-——
+——----
 
 #### I have a simple solution to all of this:
 
