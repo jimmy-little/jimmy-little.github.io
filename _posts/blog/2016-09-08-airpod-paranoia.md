@@ -1,7 +1,7 @@
 ---
 title: "AirPod Paranoia"
 date: 2016-09-08
-subtitle: Just take care of your shit, people
+subtitle:
 tags: [Apple, AirPods]
 fromMy: 
 category: Writing
