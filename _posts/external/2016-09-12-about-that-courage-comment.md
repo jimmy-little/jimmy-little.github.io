@@ -25,6 +25,4 @@ Apple isn’t always right (no-button iPod Shuffle leaps to mind), but they were
 
 You can see the video below:
 
-<div class="embed">
-<iframe width="640" height="480" src="http://www.youtube.com/embed/https://youtu.be/65_PmYipnpk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/65_PmYipnpk" frameborder="0" allowfullscreen></iframe>
