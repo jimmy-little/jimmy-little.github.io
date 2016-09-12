@@ -30,6 +30,7 @@ You can see the video below:
 --------------
 
 ### Update
+
 After rewatching this video clip, I think the end is way more important than the "courage" part -  
 
  > If we succeed, they’ll buy them, and if we don’t, they won’t, and it’ll all work itself out.
