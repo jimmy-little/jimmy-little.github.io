@@ -27,7 +27,8 @@ You can see the video below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/65_PmYipnpk" frameborder="0" allowfullscreen></iframe>
 
----
+--------------
+
 ### Update
 After rewatching this video clip, I think the end is way more important than the "courage" part -  
 
