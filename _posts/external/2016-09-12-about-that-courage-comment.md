@@ -1,7 +1,7 @@
 ---
 title: "About That 'Courage' Comment"
 date: 2016-09-12
-subtitle: "This never would have happened if Steve Jobs was around" <i class="fa fa-youtube"></i>
+subtitle: "This never would have happened if Steve Jobs was around <i class="fa fa-youtube"></i>"
 tags: [Apple]
 fromMy: YouTube
 category: External
