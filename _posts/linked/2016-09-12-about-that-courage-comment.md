@@ -4,8 +4,8 @@ date: 2016-09-12
 subtitle: "This never would have happened if Steve Jobs was around"
 tags: [Apple]
 fromMy: YouTube
-category: Linked
-layout: link
+category: External
+layout: external
 via: YouTube
 source: https://www.youtube.com/watch?v=65_PmYipnpk
 ---
