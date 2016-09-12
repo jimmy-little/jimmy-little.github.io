@@ -13,7 +13,7 @@ link: https://www.youtube.com/watch?v=65_PmYipnpk
 
 Phil Schiller said Apple displayed “courage” in removing the headphone jack. He got a lot of flack for using that term, and maybe rightfully so.
 
-It was explained as such:
+It was explained as such (emphasis mine):
 
  >We’re trying to make great products for people, and we have at least the **courage of our convictions** to say we don’t think this is part of what makes a great product, we’re going to leave it out. Some people are going to not like that, they’re going to call us names […] but we’re going to take the heat [and] instead focus our energy on these technologies which we think are in their ascendancy and we think are going to be the right technologies for customers. And you know what? They’re paying us to make those choices […] If we succeed, they’ll buy them, and if we don’t, they won’t, and it’ll all work itself out.
  
