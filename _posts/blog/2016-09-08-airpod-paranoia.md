@@ -1,7 +1,7 @@
 ---
 title: "AirPod Paranoia"
 date: 2016-09-08
-subtitle: "Just take care of your shit, people."
+subtitle: "Take care of your shit, y'all"
 tags: [Apple, AirPods]
 fromMy: 
 category: Writing
@@ -48,8 +48,6 @@ Someone show Matt what a battery meter looks like. Oh wait, [Jim Dalrymple][5] a
 That squirrel is a dick.
 
 Then, there’s the cesspool that is [Twitter][6].
-
-——
 
 #### I have a simple solution to all of this:
 
