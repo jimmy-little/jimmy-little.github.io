@@ -26,3 +26,11 @@ Apple isn’t always right (no-button iPod Shuffle leaps to mind), but they were
 You can see the video below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/65_PmYipnpk" frameborder="0" allowfullscreen></iframe>
+
+---
+### Update
+After rewatching this video clip, I think the end is way more important than the "courage" part -  
+
+ > If we succeed, they’ll buy them, and if we don’t, they won’t, and it’ll all work itself out.
+ 
+Going back to my [AirPods post](http://www.cocktailsandcoffee.com/writing/airpod-paranoia/), if they're not for you **DON'T BUY THEM.** Same goes for any product. If you don't like it, don't buy it. If it works for you, go get it.
