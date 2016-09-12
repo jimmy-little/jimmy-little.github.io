@@ -1,5 +1,5 @@
 ---
-title: "About That Courage Thing"
+title: "About That 'Courage' Comment"
 date: 2016-09-12
 subtitle: "This never would have happened if Steve Jobs was around"
 tags: [Apple]
