@@ -9,7 +9,11 @@
 <meta name="twitter:site" content="@{% if site.twitter %}{{ site.twitter }}{% else %}{{ site.owner.twitter }}{% endif %}">
 <meta name="twitter:creator" content="@{% if site.owner.twitter %}{{ site.owner.twitter }}{% else %}{{ site.twitter }}{% endif %}">
 <meta name="twitter:title" content="{{ page.title }}">
+{% if page.image.feature %}
 <meta name="twitter:image" content="{{ page.image.feature }}">
+{% else %}
+<meta name="twitter:image" content="http://www.cocktailsandcoffee.com/assets/logo.png">
+{% endif %}
 {% endif %}
 
 <!-- Open Graph -->
