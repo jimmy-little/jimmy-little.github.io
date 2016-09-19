@@ -12,13 +12,13 @@ comments: false
 <article class="hentry">
 <header>
 <div class="meta-title">
-<!-- CATEGORY META  -->
+<!-- POST METADATA  -->
     <div class="category-meta">
         {% if post.fromMy == 'Instagram' %}
             <span class="category-instagram"><i class="fa fa-instagram fa-fw"></i> 
             Linked  <br />
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></br>
-        </span> 
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </span> 
         {% elsif post.fromMy == 'Twitter' %}
             <span class="category-twitter"><i class="fa fa-twitter fa-fw"></i> 
             Linked <br />
@@ -33,56 +33,64 @@ comments: false
         {% elsif post.link %}
             <span class="category-linked"><i class="fa fa-arrow-circle-o-right fa-fw"></i> 
             Linked <br />
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time><br />
+                Tags
             </span>
         {% else %}
             <span class="category-post"><i class="fa fa-glass fa-fw"></i> 
             Posted     <br />
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-
-    </span>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>     
+            </span>
         {% endif %}
+<!-- READ TIME -->        
+<!--
         {% if site.reading_time %}
             <span class="entry-reading-time">
             <i class="fa fa-clock-o"></i>
         {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
             Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-            </span><!-- /.entry-reading-time -->
+            </span> /.entry-reading-time 
         {% endif %}
     </span> 
+-->
 </div>
 <!-- TITLE AND CATEGORY-->      
 <div class="post-title-meta">
     <span class="entry-date date published updated">  
         {% if post.fromMy == 'Instagram' %}
-            <h1><a class="instagram" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>    
+            <h1><a class="instagram" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+            {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% elsif post.fromMy == 'Twitter' %}
-            <h1><a class="twitter" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>  
+            <h1><a class="twitter" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+            {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% elsif post.fromMy == 'YouTube' %}
             <h1><a class="youtube" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+            {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% elsif post.link %}
-            <h1><a class="linked" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>  <a class="linked" href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"> <i class="fa fa-arrow-circle-o-right fa-fw"" style="font-size:0.75em;"></i></a></h1> 
+            <h1><a class="linked" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>  <a class="linked" href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"> <i class="fa fa-arrow-circle-o-right fa-fw" style="font-size:0.75em;"></i></a></h1>
+            {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% else %}
             <h1><a class="post" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1> 
-            {% if post.subtitle %}
-            <h4>{{ post.subtitle }}</h4> {% endif %}
+            {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% endif %}
     </span>      
-</div>
 </div> 
-         <!-- HEADER IMAGE? -->      
+    
+<!-- HEADER IMAGE? -->      
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
       </div><!-- /.entry-image -->
     {% endif %}
-  </header>
+    
+</header>
+    
+<!-- READ MORE? -->
   <div class="entry-content">
     {% if post.content contains "<!-- more -->" %}
     {{ post.content | split:"<!-- more -->" | first % }} 
       <a href="{{ site.url }}{{ post.url }}" class="btn-info">Read More...</a>
-      
     {% else %}
       {{ post.content }}
     {% endif %}

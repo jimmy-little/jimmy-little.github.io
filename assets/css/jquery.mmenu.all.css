@@ -238,7 +238,7 @@ li.mm-vertical.mm-opened > .mm-panel {
   white-space: nowrap;
   overflow: hidden;
   font-size: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-indent: 20px;
   line-height: 25px; }
 

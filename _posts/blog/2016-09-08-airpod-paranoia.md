@@ -17,6 +17,8 @@ image:
 
 People are really irresponsible and paranoid, judging by their reactions to Apples AirPod announcement.
 
+<!-- more -->  
+
 [Kirk McElhearn][1] must live in some dystopian society where people are literally snatching electronics out of your cranial orifices:
 
 > I can also see that, as you get on a bus or subway, someone grabs at one of your AirPods to snatch it, and you’re listening only to one channel of music for the rest of the day.
