@@ -31,6 +31,7 @@ In the next year or two, I'd argue that apps that don't use AutoLayout to proper
 ### Speaking of Search
 
 Clearing out the cruft will improve search. Less junk automatically means more releavant results. To go further, Apple should also promote apps to up the search ladder based on:
+
  - Title and keywords (obviously)
  - Star ratings (obvioulsy)
  - Age (newer updates get more search juice)
