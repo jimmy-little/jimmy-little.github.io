@@ -1,15 +1,12 @@
 ---
 
-title: 'AT&#038;T (and everyone else) Charges $1497 per megabyte'
+title: "AT&T (and everyone else) Charges $1497 per megabyte"
 date: 2008-07-03T00:34:49+00:00
 author: jimmy
-
 layout: post
-guid: http://localhost:8888/2008/07/03/200873att-and-everyone-else-charges-1497-per-megabyte-html/
-permalink: /2008/07/03/200873att-and-everyone-else-charges-1497-per-megabyte-html/
-categories:
-  - blog
-  - tech
+categories: Writing
+tags: [iPhone, Media]
+
 ---
 
   <a href="http://s3.media.squarespace.com/production/453260/5085149/wordpress/wp-content/uploads/2008/07/att_logo_220x571.gif"><img class="alignleft size-medium wp-image-94" title="att_logo_220x571" src="http://s3.media.squarespace.com/production/453260/5085149/wordpress/wp-content/uploads/2008/07/att_logo_220x571.gif" alt="" width="121" height="57" /></a>In the ramp-up to the new iPhone 3G release, I've been doing some research on plan prices.  Yes, the new plan is $10 more every month.  Duh.  3G is faster and more expensive for AT&T, so it should be more expensive for us.  I get it.</p> 
@@ -19,7 +16,7 @@ categories:
   </p>
   
   <p>
-    <strong><<<MATH ALERT>>> </strong>
+    <strong>--MATH ALERT--</strong>
   </p>
   
   <p>
@@ -31,5 +28,5 @@ categories:
   </p>
   
   <p>
-    By the way, if you send lots of single letter texts, like "K", you're paying $29,959 per megabyte.  Welcome to the future&#8230;
+    By the way, if you send lots of single letter texts, like "K", you're paying $29,959 per megabyte.  Welcome to the future.
   </p>

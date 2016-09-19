@@ -1,16 +1,11 @@
 ---
 
-title: Movie Mandates on BDS!
-date: 2011-10-27T14:19:43+00:00
+title: "Movie Mandates on BDS!"
+date: 2011-10-27
 author: jimmy
 layout: post
-guid: http://localhost:8888/2011/10/27/20111027movie-mandates-on-bds-html/
-permalink: /2011/10/27/20111027movie-mandates-on-bds-html/
-categories:
-  - blog
-tags:
-  - Movie ManDates
-  - podcast
+categories: Writing
+tags: [Podcast]
 ---
 
   <p>
