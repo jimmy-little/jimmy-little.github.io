@@ -16,24 +16,31 @@ comments: false
     <div class="category-meta">
         {% if post.fromMy == 'Instagram' %}
             <span class="category-instagram"><i class="fa fa-instagram fa-fw"></i> 
-            Linked  
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> 
+            Linked  <br />
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></br>
+        </span> 
         {% elsif post.fromMy == 'Twitter' %}
             <span class="category-twitter"><i class="fa fa-twitter fa-fw"></i> 
-            Linked 
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> 
+            Linked <br />
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </span> 
         {% elsif post.fromMy == 'YouTube' %}
             <span class="category-youtube"><i class="fa fa-youtube fa-fw"></i> 
-            Linked 
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+            Linked <br />
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            <br />
+            </span>
         {% elsif post.link %}
             <span class="category-linked"><i class="fa fa-arrow-circle-o-right fa-fw"></i> 
-            Linked 
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+            Linked <br />
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </span>
         {% else %}
             <span class="category-post"><i class="fa fa-glass fa-fw"></i> 
-            Posted 
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+            Posted     <br />
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+
+    </span>
         {% endif %}
         {% if site.reading_time %}
             <span class="entry-reading-time">

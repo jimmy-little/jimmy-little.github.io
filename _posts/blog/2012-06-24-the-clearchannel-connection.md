@@ -38,4 +38,4 @@ To be fair, I tried to find some connections between ClearChannel's liberal host
    [9]: http://www.freerepublic.com/focus/f-bloggers/2875476/posts
    [10]: http://prospect.org/article/romney-youre-no-ronald-reagan
 
-
+<!-- #Politics #Media -->

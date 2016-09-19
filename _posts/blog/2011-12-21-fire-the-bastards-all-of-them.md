@@ -4,16 +4,10 @@ title: 'Fire The Bastards.  All Of Them.'
 date: 2011-12-21T23:39:08+00:00
 author: jimmy
 layout: post
-guid: http://localhost:8888/2011/12/21/20111221fire-the-bastards-all-of-them-html/
-permalink: /2011/12/21/20111221fire-the-bastards-all-of-them-html/
-categories:
-  - blog
-  - opinion
-  - politics
-tags:
-  - CSPAN
-  - House
-  - Republicans
+
+categories: Writing
+tags: [Politics]
+
 ---
 
   <p>
@@ -54,3 +48,5 @@ tags:
   <p>
     Where they belong.
   </p>
+
+<!-- #Politics -->

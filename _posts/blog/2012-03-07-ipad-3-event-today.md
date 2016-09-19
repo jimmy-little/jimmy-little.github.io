@@ -1,30 +1,19 @@
 ---
 
-title: iPad (3?) Event Today!
-date: 2012-03-07T13:45:57+00:00
-author: jimmy
+title: "iPad (3?) Event Today!"
+date: 2012-03-07
 layout: post
-guid: http://localhost:8888/2012/03/07/201237ipad-3-event-today-html/
-permalink: /2012/03/07/201237ipad-3-event-today-html/
-categories:
-  - blog
-  - tech
-tags:
-  - apple
-  - Haptic
-  - iPad
-  - iPhoto
-  - Keynote
-  - Prediction
-  - Touch
+categories: Writing
+tags: [Apple, iPad, iPhoto, Keynote, Predictions, Rumors]
+image:
+ feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/AppleInvites/ipad3.jpg
+ credit: Apple
 ---
 
-  <p>
-    <span class="full-image-float-left ssNonEditable"><img src="/static/51379f72e4b037a1b7ed040f/5169b6c0e4b0cc6cf13ab2c7/5169b6c1e4b0cc6cf13ab44c/1331128228363/241926-apple-invitation-to-an-event-on-7-march.jpg/1000w" alt="" /></span>Everyone knows I'm a giant nerd.  Today is no exception.  Apple is expected to announce the next-generation iPad today.  Last week, Apple sent out invitations to the press and tech elite to an event.  The invitiation shows what is obviously an iPad, and the tagline is typically cryptic.  In typical attention-to-detail fashion, the picture shows exactly what they want you too see.  You see a bit of the dock, with a map icon, a calendar icon, and the a Keynote icon.  All you need to know.  Yerba Buena, March 7, you'll be seeing a Keynote presentaion.  Everything else is left to the wild imagination of the internets.
-  </p>
-  
-  <p>
-    And wild it is.  There are rumors of the "<a href="http://www.washingtonpost.com/business/technology/report-forget-the-ipad-3-its-the-ipad-hd/2012/03/06/gIQADMEnuR_story.html" target="_blank">iPad HD</a>" as some are calling it, with the super-high resolution pixel-doubled (quadrupled?) <a href="http://mashable.com/2012/03/05/ipad-3-retina-display-overkill/" target="_blank">Retina display</a>.  There are rumors of an upcoming <a href="http://www.digitimes.com/news/a20120229PD220.html" target="_blank">7&#8243; version</a> to compete with the popular Kindle Fire.  There are rumors of<a href="http://www.theverge.com/2012/3/6/2849384/sources-apple-tv-update-ipad-3-ipad-hd-lte-verizon-att" target="_blank"> LTE data</a>, different international versions, a <a href="http://www.macrumors.com/2012/03/07/ipad-3-to-include-haptic-display-technology-to-provide-on-screen-textures/" target="_blank">haptic-feeback screen</a>, and more.
+Everyone knows I'm a giant nerd.  Today is no exception.  Apple is expected to announce the next-generation iPad today.  Last week, Apple sent out invitations to the press and tech elite to an event.  The invitiation shows what is obviously an iPad, and the tagline is typically cryptic.  In typical attention-to-detail fashion, the picture shows exactly what they want you too see.  You see a bit of the dock, with a map icon, a calendar icon, and the a Keynote icon.  All you need to know.  Yerba Buena, March 7, you'll be seeing a Keynote presentaion.  Everything else is left to the wild imagination of the internets.
+
+
+And wild it is.  There are rumors of the "<a href="http://www.washingtonpost.com/business/technology/report-forget-the-ipad-3-its-the-ipad-hd/2012/03/06/gIQADMEnuR_story.html" target="_blank">iPad HD</a>" as some are calling it, with the super-high resolution pixel-doubled (quadrupled?) <a href="http://mashable.com/2012/03/05/ipad-3-retina-display-overkill/" target="_blank">Retina display</a>.  There are rumors of an upcoming <a href="http://www.digitimes.com/news/a20120229PD220.html" target="_blank">7&#8243; version</a> to compete with the popular Kindle Fire.  There are rumors of<a href="http://www.theverge.com/2012/3/6/2849384/sources-apple-tv-update-ipad-3-ipad-hd-lte-verizon-att" target="_blank"> LTE data</a>, different international versions, a <a href="http://www.macrumors.com/2012/03/07/ipad-3-to-include-haptic-display-technology-to-provide-on-screen-textures/" target="_blank">haptic-feeback screen</a>, and more.
   </p>
   
   <p>
@@ -81,28 +70,20 @@ tags:
   
   <p>
     Oh, and Apple, as a personal favor to me, can you please fix the UI bulemia that is the Music App?  Give me the sidebar and list back.  Give me big buttons.  I have a 10&#8243; screen with a 1/4&#8243; play button on it.  Give me a <a href="http://www.tuaw.com/2011/10/12/ios-5-features-changes-in-music-app-for-ipad/" target="_blank">consistant UI</a> with colors other than light gray and dark gray.  
-  </p>
-  
-  <p>
-     
-  </p>
-  
-  <p>
-    <span style="font-size: 70%;"><strong>Full Disclosure:</strong>  All of the app links in this post are iTunes affiliate links.  If you buy something through these links, or the Amazon sidebar on the left, I will get a little kickback to expand my Star Wars Pez dispenser collection.</span>
-  </p>
-  
-  <div class='follow-up'>
-    <div class='follow-up-caption'>
-      <strong>Update</strong> on 2012-03-07 19:34 by jimmy
-    
-    
-    <div class='follow-up-body'>
-      <p>
-        So how did I do?  Retina display?  Check.  No 7&#8243;? Check.  LTE? Check.  Haptic? Nope, but we didn't really expect that, did we?  1080 Apple TV? Check.  Long, boring third party software demos?  Check.  Catalogs?  Not mentioned.  And my big personal win is iPhoto.  Pretty psyched about that one.
-      </p>
-      
-      <p>
-        iPhoto and iOS 5.1 is available today, and you can pre-order an iPad later this afternoon.  They will ship on March 16.
-      </p>
+    </p>
+
+--------
+
+
+### Update
+
+on 2012-03-07 19:34 by jimmy
+
+So how did I do?  Retina display?  Check.  No 7"? Check.  LTE? Check.  Haptic? Nope, but we didn't really expect that, did we?  1080 Apple TV? Check.  Long, boring third party software demos?  Check.  Catalogs?  Not mentioned.  And my big personal win is iPhoto.  Pretty psyched about that one.
+
+iPhoto and iOS 5.1 is available today, and you can pre-order an iPad later this afternoon.  They will ship on March 16.
+
+
+<!-- #Apple #iPad #iPhoto #Keynote #Predictions #Rumors -->
     
   

@@ -4,16 +4,9 @@ title: Mountain Lion Is Coming
 date: 2012-02-16T14:17:57+00:00
 author: jimmy
 layout: post
-guid: http://localhost:8888/2012/02/16/2012216mountain-lion-is-coming-html/
-permalink: /2012/02/16/2012216mountain-lion-is-coming-html/
-categories:
-  - blog
-  - tech
-tags:
-  - apple
-  - Gruber
-  - Mountain Lion
-  - OSX
+categories: Writing
+tags: [Apple, App Store, OSX]
+
 ---
 
   <p>
