@@ -55,17 +55,19 @@ body {
 	margin: 30px auto 0;
     
 	h1 {
-		margin: 5px;
+		//margin: 5px;
 		font-weight: 700;
-		@include font-rem(32);
+		@include font-rem(36);
 		color: lighten($base-color,20);
 		@media #{$medium} {
-			@include font-rem(32);
+			@include font-rem(36);
 		}
 		@media #{$large} {
-			@include font-rem(48);
-		}
-	}
+			@include font-rem(36);
+        }
+        
+}        
+
 	h2 {
 		margin: 0;
 		@include font-rem(18);
@@ -78,7 +80,9 @@ body {
 	p {
 		color: lighten($base-color,20);
 	}
+
 }
+
 
 
 // Feature Image Caption
@@ -274,7 +278,7 @@ h1, a, permalink {
 		}
 		@media #{$large} {
 			max-width: 800px;
-			margin: 50px auto 30px auto;
+			margin: 20px auto 30px auto;
 			padding: 50px 0px;
 			> p:first-child {
 				@include font-size(20);
@@ -344,20 +348,20 @@ h1, a, permalink {
 // Read More Module
 .read-more {
 	position: relative;
-	margin: 10px 2px 20px 2px;
+	margin: 20px 2px 20px 2px;
 	padding: 10px 15px 10px;
 	background-color: $white;
     border-top: 2px solid $highlight-color;
 	//box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
 	@include rounded(3px);
 	@media #{$medium} {
-		margin: 10px 10px 20px 10px;
+		margin: 20px 10px 20px 10px;
 		padding: 10px 40px 25px;
 	}
 	@media #{$large} {
 		max-width: 800px;
 		padding: 10px 80px;
-		margin: 10px auto;
+		margin: 20px auto;
 	}
 	text-align: center;
 	@include clearfix;
@@ -383,13 +387,13 @@ h1, a, permalink {
 		}
 	}
 	h3 {
-		margin: 0;
-		@include font-rem(28);
+		margin: 1em;
+		@include font-rem(20);
 		a {
 			color: $text-color;
 		}
 		@media #{$medium} {
-			@include font-rem(36);
+			@include font-rem(20);
 		}
 	}
 }
@@ -451,7 +455,7 @@ ul.social-buttons li a:active {
 }
 .list-item {
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	h4 {
 		@include font-rem(18);
 		margin-bottom: 0;
@@ -465,7 +469,7 @@ ul.social-buttons li a:active {
 		width: 49%;
 		float: left;
 		&:nth-child(2) {
-			text-align: right;
+			text-align: center;
 		}
 	}
 }
@@ -528,14 +532,15 @@ ul.social-buttons li a:active {
 // --------------------------------------------------
 .footer-wrapper {
 	@include clearfix;
+    border-top: 1px solid $base-color;
     background-color: $header-color;
     box-shadow: 0px 500px 0px 500px $header-color;
 	margin: 1em auto;
 	text-align: center;
-	color: $white;
+	color: $base-color;
     text-decoration: none;
 	a {
-		color: $white;
+		color: $base-color;
         text-decoration: none;
 	}
     hover {
@@ -597,13 +602,71 @@ ul.social-buttons li a:active {
 
 // Header
 // --------------------------------------------------
+.div-youtube {
+margin-left: auto;
+margin-right: auto;
+height: 1.4em;
+border: 0 none;
+z-index: 505; 
+background-color:$youtube-color;
+text-align: center;
+color: $white;
+vertical-align: middle;
+
+    }
+.div-instagram {
+margin-left: auto;
+margin-right: auto;
+height: 1.4em;
+border: 0 none;
+z-index: 505; 
+background-color:$instagram-color;
+text-align: center;
+color: $white;
+vertical-align: middle;    
+    
+    }
+.div-twitter {
+margin-left: auto;
+margin-right: auto;
+height: 1.4em;
+border: 0 none;
+z-index: 505; 
+background-color:$twitter-color;
+text-align: center;
+color: $white;
+    }
+.div-post {
+margin-left: auto;
+margin-right: auto;
+height: 1.4em;
+border: 0 none;
+z-index: 505; 
+background-color:$post-color;
+text-align: center;
+color: $white;
+vertical-align: middle;
+    }
+.div-linked {
+margin-left: auto;
+margin-right: auto;
+height: 1.4em;
+border: 0 none;
+z-index: 505; 
+background-color:$linked-color;
+text-align: center;
+color: $white;
+vertical-align: middle;    
+    }
+
 .entry-header {
 	position: relative;
 	width: 100%;
     margin-left: auto;
     margin-right: auto;
+
 	
-}
+}   
 .header-toggle{
 	display: block;
 	@media #{$large} {
@@ -631,40 +694,41 @@ ul.social-buttons li a:active {
 		color: $white;
 	}
 
-	h1 {
+
+h1 {
+        color: $base-color;
 		font-weight: 700;
          z-index: 500;
 		//margin-bottom: 1em;
-		color: $white;
-		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
+		//text-shadow: 1px 1px 4px rgba($base-color, 0.6);
 		display: block;
         text-align: center;
-        margin-bottom: 0px;
+        margin-bottom: 0px;     
         
 		a {
-			color: $white;
+			color: $base-color;
 		}
 		@media #{$medium} {
-			font-size: 3em;
+			font-size: 2em;
 		}
 		@media #{$large} {
-			font-size: 4em;
+			font-size: 3em;
 		}
 	}
-
-	h1.post-title{
-        text-align: center;
-		display: block;
-        z-index: 501;
-        
-	}
-
-	p {
-		color: $link-color;
-        //text-transform: uppercase;
-        padding-bottom: 5px;
-	}
 }
+
+//h1.post-title{
+//        text-align: center;
+//		display: block;
+//        z-index: 501;
+//	}
+//
+//	p {
+//		color: $link-color;
+//        //text-transform: uppercase;
+//        padding-bottom: 5px;
+//	}
+//}
 
 
 .header-menu {
@@ -695,15 +759,15 @@ ul.social-buttons li a:active {
 	//box-shadow: 0px 3px 3px $link-color;
 }
 .header-menu-overflow ul li a{
-	color: $white;
+	color: $base-color;
 }
 
 .header-menu-top .sub-item{
-	background-color: $menu-top;
+	background-color: $white;
 }
 
 .header-menu-overflow .sub-item{
-	background-color: $menu-overflow;
+	background-color: $white;
 }
 
 .header-item,

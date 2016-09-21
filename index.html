@@ -58,16 +58,16 @@ comments: false
 <div class="post-title-meta">
     <span class="entry-date date published updated">  
         {% if post.fromMy == 'Instagram' %}
-            <h1><a class="instagram" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h1><a class="instagram" href="{{ site.url }}{{ post.url }}"><i class="fa fa-instagram"></i>  {{ post.title }}</a></h1>
             {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% elsif post.fromMy == 'Twitter' %}
-            <h1><a class="twitter" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h1><a class="twitter" href="{{ site.url }}{{ post.url }}"><i class="fa fa-twitter"></i>  {{ post.title }}</a></h1>
             {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% elsif post.fromMy == 'YouTube' %}
-            <h1><a class="youtube" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h1><a class="youtube" href="{{ site.url }}{{ post.url }}"><i class="fa fa-youtube"></i>  {{ post.title }}</a></h1>
             {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% elsif post.link %}
-            <h1><a class="linked" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>  <a class="linked" href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"> <i class="fa fa-arrow-circle-o-right fa-fw" style="font-size:0.75em;"></i></a></h1>
+            <h1><a class="linked" href="{{ site.url }}{{ post.url }}"><i class="fa fa-arrow-circle-o-right fa-fw"></i>  {{ post.title }}</a>  <a class="linked" href="{{ post.link }}" class="permalink" rel="bookmark" title="{{ post.title }}"></a></h1>
             {% if post.subtitle %}<h6>{{ post.subtitle }}</h6>{% endif %}
         {% else %}
             <h1><a class="post" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1> 

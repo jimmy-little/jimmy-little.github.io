@@ -8,7 +8,7 @@ $code-font: monospace;
 $alt-font: serif;
 
 $doc-font-size: 16;
-$doc-line-height: 26;
+$doc-line-height: 20;
 
 
 // set-up the body font-size / line-height
@@ -22,12 +22,12 @@ body {
 $white           		 : #fff;
 $black           		 : #000;
 $base-color				 : rgba(#222,0.8);
-$header-color			 : rgba(#222,1);
-$sub-item-color			 : rgba(#000, 0.1);
+$header-color			 : $white;//rgba(#222,1);
+$sub-item-color			 : rgba(#000, 1);
 $header-margin			 : #F45145;
-$menu-top				 : rgba(#222,1);//rgba(#222,0); 
+$menu-top				 : rgba(#fff,.6);//rgba(#222,1);//rgba(#222,0); 
 $menu-height			 : 70px;
-$menu-overflow			 : rgba(#222,0.8); //#2E2E2E;
+$menu-overflow			 : rgba(#fff,0.8);//rgba(#222,0.8); //#2E2E2E;
 $body-color      		 : $white; //#e8e8e8;
 $text-color      		 : rgba(#222,0.8);
 $comp-color 	 		 : complement(#222);

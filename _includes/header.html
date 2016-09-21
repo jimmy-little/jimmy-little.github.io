@@ -9,8 +9,6 @@
           {% if site.logo %}
             <img class="logo" src="{{ site.logo }}" alt="{{ site.title }}">
           {% endif %}
-
-            
             <a href="{{site.url}}/" class="title"> {{ site.title }} <br />
                 <p class= "byline">a blog by {{site.byline}}</p></a>
         </a>
@@ -53,21 +51,51 @@
 
 <div class="entry-header">
   <div class="header-title">
-      <div class="header-title-wrap">
+      
+<div class="header-title-wrap">
+         
 {% if page.link %} 
 <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
 {% else %}      
 <h1>{{ page.title }}</h1>
 {% endif %}
-      <h4>{{ page.subtitle }}</h4>   
-{% if page.date %}
+<h4>{{ page.subtitle }}</h4>
+</div>     
+ <!-- -->
+
+{% if page.fromMy == 'Instagram' %}
+<div class="div-instagram">{% if page.date %}
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-instagram"></i> {{ page.date | date: "%B %d, %Y" }} <i class="fa fa-instagram"></i></time></span></p>
+      {% else %}
+        <p><span class="entry-date"><time><i class="fa fa-instagram"></i></time></span></p>
+      {% endif %}</div> 
+        {% elsif page.fromMy == 'Twitter' %}
+            <div class="div-twitter">{% if page.date %}
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-twitter"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-twitter"></i></time></span></p>
+      {% else %}
+        <p><span class="entry-date"><time><i class="fa fa-twitter"></i></time></span></p>
+      {% endif %}</div> 
+        {% elsif page.fromMy == 'YouTube' %}      
+            <div class="div-youtube">{% if page.date %}
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-youtube"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-youtube"></i></time></span></p>
+      {% else %}
+        <p><span class="entry-date"><time><i class="fa fa-youtube"></i></time></span></p>
+      {% endif %}</div>
+      {% elsif post.link %}
+       <div class="div-linked">{% if page.date %}
         <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></p>
       {% else %}
         <p><span class="entry-date"><time>&nbsp;</time></span></p>
-      {% endif %}  
-          
-<!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
+      {% endif %}</div>
+        {% else %}
+       <div class="div-post">{% if page.date %}
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></p>
+      {% else %}
+        <p><span class="entry-date"><time>&nbsp;</time></span></p>
+      {% endif %}</div>
+      {% endif %}
+<!-- /.header-title -->   
+
 </div><!-- /.entry-header -->
 </div>
 
@@ -97,7 +125,7 @@
         <li><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a></li>
       {% endif %}
     {% endfor %}
-  </ul>
+  </ul> 
 </nav>
 
 <!--

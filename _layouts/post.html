@@ -10,11 +10,13 @@
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
 
 {% include browser-upgrade.html %}
-{% include header.html %}
+{% include header.html %}    
 
 <div id="main" role="main">
   <article class="hentry">
+
     <div class="entry-content">
+        
         {% if page.image.feature %}
             <div class="entry-image-index">
               <img src="{{ page.image.feature }}" alt="{{ page.title }}">
@@ -22,9 +24,8 @@
             </div>
         {% endif %}  
 <!--<h1 class="post-title entry-title" align="center">{{ page.title }}</h1>-->
+         
       {{ content }}
-
-
 <!-- SOURCE SECTION -->
         {% if page.source %}
         <hr>
