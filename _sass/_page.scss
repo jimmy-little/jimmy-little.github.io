@@ -219,6 +219,7 @@ h1, a, permalink {
         		@media #{$small}{
 			font-size: .7em;
 		}
+    a {color: $instagram-color}
     }
     
 .category-youtube {
@@ -226,6 +227,7 @@ h1, a, permalink {
         		@media #{$small}{
 			font-size: .7em;
 		}
+    a {color: $youtube-color}
     }
     
 .category-twitter {
@@ -233,6 +235,7 @@ h1, a, permalink {
         		@media #{$small}{
 			font-size: .7em;
 		}
+    a {color: $twitter-color}
     }
     
 .category-linked {
@@ -240,6 +243,7 @@ h1, a, permalink {
         		@media #{$small}{
 			font-size: .7em;
 		}
+    a {color: $linked-color}
     }
     
 .category-post {   
@@ -247,6 +251,7 @@ h1, a, permalink {
     		@media #{$small}{
 			font-size: .7em;
 		}
+    a {color: $post-color}
     }    
     
 }
