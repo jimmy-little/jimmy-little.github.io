@@ -79,7 +79,6 @@ And wild it is.  There are rumors of the "<a href="http://www.washingtonpost.com
 
 on 2012-03-07 19:34 by jimmy
 
-So how did I do?  Retina display?  Check.  No 7"? Check.  LTE? Check.  Haptic? Nope, but we didn't really expect that, did we?  1080 Apple TV? Check.  Long, boring third party software demos?  Check.  Catalogs?  Not mentioned.  And my big personal win is iPhoto.  Pretty psyched about that one.
 
 iPhoto and iOS 5.1 is available today, and you can pre-order an iPad later this afternoon.  They will ship on March 16.
 

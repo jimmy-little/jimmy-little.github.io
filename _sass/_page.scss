@@ -348,10 +348,10 @@ h1, a, permalink {
 // Read More Module
 .read-more {
 	position: relative;
-	margin: 20px 2px 20px 2px;
+	margin: 30px 2px 20px 2px;
 	padding: 10px 15px 10px;
 	background-color: $white;
-    border-top: 2px solid $highlight-color;
+    border-top: 2px solid $base-color;
 	//box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
 	@include rounded(3px);
 	@media #{$medium} {
@@ -367,8 +367,9 @@ h1, a, permalink {
 	@include clearfix;
 }
 .read-more-header {
+    margin-top: 1em;
 	position: absolute;
-	top: -20px;
+	top: -2.5em;
 	left: 0;
 	right: 0;
 	height: 35px;
@@ -603,6 +604,7 @@ ul.social-buttons li a:active {
 // Header
 // --------------------------------------------------
 .div-youtube {
+max-width: 800px;  
 margin-left: auto;
 margin-right: auto;
 height: 1.4em;
@@ -615,6 +617,7 @@ vertical-align: middle;
 
     }
 .div-instagram {
+max-width: 800px; 
 margin-left: auto;
 margin-right: auto;
 height: 1.4em;
@@ -624,9 +627,19 @@ background-color:$instagram-color;
 text-align: center;
 color: $white;
 vertical-align: middle;    
-    
     }
+
+.div-instagram:after {
+  content: "\f16d"; 
+  font-family: FontAwesome;
+  position: absolute;
+  color: $white;
+  //top: 0%;
+ // left: 2em;
+}
+
 .div-twitter {
+max-width: 800px; 
 margin-left: auto;
 margin-right: auto;
 height: 1.4em;
@@ -637,6 +650,7 @@ text-align: center;
 color: $white;
     }
 .div-post {
+max-width: 800px; 
 margin-left: auto;
 margin-right: auto;
 height: 1.4em;
@@ -647,7 +661,17 @@ text-align: center;
 color: $white;
 vertical-align: middle;
     }
+.div-post:after {
+  content: "\f000"; 
+  font-family: FontAwesome;
+  position: absolute;
+  color: $white;
+  top: 0%;
+  left: 2em;
+}
+
 .div-linked {
+max-width: 800px; 
 margin-left: auto;
 margin-right: auto;
 height: 1.4em;
@@ -715,6 +739,160 @@ h1 {
 			font-size: 3em;
 		}
 	}
+      
+}
+
+.header-title-wrap-post {
+        width: 100%;
+		display: block;
+		vertical-align: middle;
+		margin: 0 auto;
+		text-align: center;
+        
+	h4 {
+		color: $link-color;
+	}
+
+
+h1 {
+        color: $highlight-color;
+		font-weight: 700;
+         z-index: 500;
+		display: block;
+        text-align: center;
+        margin-bottom: 0px;     
+        
+		a {
+			color: $highlight-color;
+		}
+		@media #{$medium} {
+			font-size: 2em;
+		}
+		@media #{$large} {
+			font-size: 3em;
+		}
+	}
+      
+}
+
+.header-title-wrap-instagram {
+        width: 100%;
+		display: block;
+		vertical-align: middle;
+		margin: 0 auto;
+		text-align: center;
+        
+	h4 {
+		color: $instagram-color;
+	}
+
+
+    h1 {
+        color: $instagram-color;
+		font-weight: 700;
+         z-index: 500;
+		display: block;
+        text-align: center;
+        margin-bottom: 0px;     
+
+		@media #{$medium} {
+			font-size: 2em;
+		}
+		@media #{$large} {
+			font-size: 3em;
+		}
+	}
+      
+}
+
+.header-title-wrap-twitter {
+        width: 100%;
+		display: block;
+		vertical-align: middle;
+		margin: 0 auto;
+		text-align: center;
+        
+	h4 {
+		color: $twitter-color;
+	}
+
+
+    h1 {
+        color: $twitter-color;
+		font-weight: 700;
+         z-index: 500;
+		display: block;
+        text-align: center;
+        margin-bottom: 0px;     
+
+		@media #{$medium} {
+			font-size: 2em;
+		}
+		@media #{$large} {
+			font-size: 3em;
+		}
+	}
+      
+}
+
+.header-title-wrap-youtube {
+        width: 100%;
+		display: block;
+		vertical-align: middle;
+		margin: 0 auto;
+		text-align: center;
+        
+	h4 {
+		color: $youtube-color;
+	}
+
+
+    h1 {
+        color: $youtube-color;
+		font-weight: 700;
+         z-index: 500;
+		display: block;
+        text-align: center;
+        margin-bottom: 0px;     
+
+		@media #{$medium} {
+			font-size: 2em;
+		}
+		@media #{$large} {
+			font-size: 3em;
+		}
+	}
+      
+}
+
+.header-title-wrap-linked {
+        width: 100%;
+		display: block;
+		vertical-align: middle;
+		margin: 0 auto;
+		text-align: center;
+        
+	h4 {
+		color: $base-color;
+	}
+
+
+    h1 {
+        color: $base-color;
+		font-weight: 700;
+         z-index: 500;
+		display: block;
+        text-align: center;
+        margin-bottom: 0px;     
+
+		@media #{$medium} {
+			font-size: 2em;
+		}
+		@media #{$large} {
+			font-size: 3em;
+		}
+	}
+      
 }
 
 //h1.post-title{
