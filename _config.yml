@@ -5,9 +5,7 @@ description:      Internet ramblings fueled by adult beverages.
 disqus_shortname: 
 reading_time:     false # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             /assets/logo.png # logo visible in the topbar
-
-
+logo:             /assets/logo.png
 url: http://cocktailsandcoffee.com
 
 # draw your top menu here
@@ -38,16 +36,9 @@ owner:
 # Used in Twitter cards.
 twitter: jimmylittle
 
-# Background image to be tiled on all pages
-#background:
-
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-76295212-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
 locale:      en_US
 future:      true
@@ -59,8 +50,7 @@ gems:
 sass:
   sass_dir: _sass
   style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
+  
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
