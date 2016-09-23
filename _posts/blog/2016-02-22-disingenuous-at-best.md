@@ -1,15 +1,13 @@
 ---
-
 layout:         link
 title:          Disingenuous, At Best
-subheadline: 
-author:         jimmy_little
-breadcrumb:     true
+subtitle:       
 date:           2016-02-22
 category:       Linked
 tags:           [Apple, Opinion, Privacy]
 link:           https://www.lawfareblog.com/we-could-not-look-survivors-eye-if-we-did-not-follow-lead
-source:         Lawfare Blog
+via:            Lawfare Blog
+source:         https://www.lawfareblog.com/we-could-not-look-survivors-eye-if-we-did-not-follow-lead
 image:  
     feature:   
 ---

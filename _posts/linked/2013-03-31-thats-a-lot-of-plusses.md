@@ -8,8 +8,9 @@ categories:
   - Linked
 tags:
   - Windows
-link: http://http://winsupersite.com/windows-8/what-i-ve-learned-dual-booting-blue  
-  
+link: http://http://winsupersite.com/windows-8/what-i-ve-learned-dual-booting-blue 
+source: http://http://winsupersite.com/windows-8/what-i-ve-learned-dual-booting-blue 
+via: Supersite for Windows  
 ---
 
   

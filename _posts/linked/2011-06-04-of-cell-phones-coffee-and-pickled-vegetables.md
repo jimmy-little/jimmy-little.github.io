@@ -13,11 +13,9 @@ via: IARC
 
 link: http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
 
-categories: Writing
+categories: Linked
 
-tags:
-  - Cancer
-  - Cell Phone
+tags: [Health]
   
 ---
 
