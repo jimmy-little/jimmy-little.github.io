@@ -3,16 +3,11 @@ title: "Materials Are Hard"
 date: 2016-09-23
 subtitle: ""
 tags: [Apple, Design]
-fromMy: 
 category: Linked
 layout: link
 via: Pixel Envy
 source: http://pxlnv.com/blog/novelty-and-legacy/
 link: http://pxlnv.com/blog/novelty-and-legacy/
-image:
-  feature:
-  header:
-
 ---
 
 Nick Heer, on the Apple Watch Editions use of gold, and now ceramic:
