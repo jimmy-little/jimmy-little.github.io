@@ -81,9 +81,9 @@
 <h4>{{ page.subtitle }}</h4>     
 <div class="div-youtube">
     {% if page.date %}
-        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-youtube"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-youtube"></i></time></span></p>
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-youtube-play"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-youtube"></i></time></span></p>
     {% else %}
-        <p><span class="entry-date"><time><i class="fa fa-youtube"></i></time></span></p>
+        <p><span class="entry-date"><time><i class="fa fa-youtube-play"></i></time></span></p>
     {% endif %}</div>
       
 {% elsif page.link %}

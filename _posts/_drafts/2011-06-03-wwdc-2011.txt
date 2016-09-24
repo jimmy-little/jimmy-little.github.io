@@ -4,16 +4,8 @@ title: WWDC 2011
 date: 2011-06-03T02:21:10+00:00
 author: jimmy
 layout: post
-guid: http://localhost:8888/2011/06/03/201162wwdc-2011-html/
-permalink: /2011/06/03/201162wwdc-2011-html/
-categories:
-  - blog
-  - tech
-tags:
-  - apple
-  - blog
-  - Pundit
-  - WWDC
+categories: Writing
+tags: [Apple, WWDC, Prediction]
 ---
 
   <p>
