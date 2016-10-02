@@ -2,7 +2,7 @@
 
 title: Quadricopters and James Bond
 
-subtitle: <i class="fa fa-youtube-play"></i>
+subtitle:
 
 category: External
 

@@ -1,11 +1,8 @@
 ---
-
-title: 'You're Secure'
-date: 2011-07-24T02:43:50+00:00
+title: "You're Secure"
+date: 2011-07-24
 author: jimmy
-layout: post
-link: https://plus.google.com/103674884380602564491/posts
-source: https://plus.google.com/103674884380602564491/posts
+layout: link
 via: Google+
 categories: Linked
 tags: [Video]
