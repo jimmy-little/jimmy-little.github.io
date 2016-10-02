@@ -13,8 +13,6 @@ image:
   feature: 
   header: http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016_AV3?wid=1290&hei=532&fmt=jpeg&qlt=80&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1472430091187
   credit: Apple
-  feature:
-  header:
 
 ---
 

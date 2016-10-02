@@ -10,9 +10,6 @@ via:
 source: 
 link: 
 image:
-  feature: 
-  header: http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016_AV3?wid=1290&hei=532&fmt=jpeg&qlt=80&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1472430091187
-  credit: Apple
   feature:
   header:
 
@@ -34,7 +31,6 @@ After a few days with the new phone, I have some thoughts...
 - The haptics are really nice. Little bumps here and there to denote deleting things, moving things, flipping switches, or reaching the limits of lists are really subtle and helpful. Taptic Engine is key in this, typical vibrations would be overkill. 
 - Is there even a vibrating motor anymore? Or is the Taptic Engine doing all of it? My guess would be the latter. 
 - Battery life is dramatically better than my 6 Plus. It may jut be because it's new, but I go to bed with 40-50% now. 
-
 
 
 
