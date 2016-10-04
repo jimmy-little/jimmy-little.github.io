@@ -31,7 +31,7 @@ After a few days with the new phone, I have some thoughts...
 - Similarly, AirPods are here because there will never be a headphone jack on an Apple Watch, but there will be an Apple Watch that will work without an iPhone. This is the next step in the wireless evolution. 
 - The haptics are really nice. Little bumps here and there to denote deleting things, moving things, flipping switches, or reaching the limits of lists are really subtle and helpful. Taptic Engine is key in this, typical vibrations would be overkill. 
 - Is there even a vibrating motor anymore? Or is the Taptic Engine doing all of it? My guess would be the latter. 
-- Battery life is dramatically better than my 6 Plus. It may jut be because it's new, but I go to bed with 40-50% now. 
+- Battery life is dramatically better than my 6 Plus. It may just be because it's new, but I go to bed with 40-50% now. 
 
 
 
