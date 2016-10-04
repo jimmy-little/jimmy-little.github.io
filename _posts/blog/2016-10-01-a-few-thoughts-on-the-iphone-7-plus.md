@@ -1,5 +1,5 @@
 ---
-title: "A Few Thoughts on the iPhone 7 Plus"
+title: "On the iPhone 7 Plus"
 date: 2016-10-01
 subtitle: "A few off-the-cuff impressions, unedited"
 tags: [Apple, iPhone]
