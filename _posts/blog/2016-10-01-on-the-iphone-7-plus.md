@@ -1,5 +1,5 @@
 ---
-title: "A Few Thoughts on the iPhone 7 Plus"
+title: "On the iPhone 7 Plus"
 date: 2016-10-01
 subtitle: "A few off-the-cuff impressions, unedited"
 tags: [Apple, iPhone]
@@ -10,12 +10,8 @@ via:
 source: 
 link: 
 image:
-  feature: 
-  header: http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016_AV3?wid=1290&hei=532&fmt=jpeg&qlt=80&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1472430091187
+  feature: http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016_AV3?wid=1290&hei=532&fmt=jpeg&qlt=80&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1472430091187
   credit: Apple
-  feature:
-  header:
-
 ---
 
 After a few days with the new phone, I have some thoughts...
@@ -33,7 +29,7 @@ After a few days with the new phone, I have some thoughts...
 - Similarly, AirPods are here because there will never be a headphone jack on an Apple Watch, but there will be an Apple Watch that will work without an iPhone. This is the next step in the wireless evolution. 
 - The haptics are really nice. Little bumps here and there to denote deleting things, moving things, flipping switches, or reaching the limits of lists are really subtle and helpful. Taptic Engine is key in this, typical vibrations would be overkill. 
 - Is there even a vibrating motor anymore? Or is the Taptic Engine doing all of it? My guess would be the latter. 
-- Battery life is dramatically better than my 6 Plus. It may jut be because it's new, but I go to bed with 40-50% now. 
+- Battery life is dramatically better than my 6 Plus. It may just be because it's new, but I go to bed with 40-50% now. 
 
 
 

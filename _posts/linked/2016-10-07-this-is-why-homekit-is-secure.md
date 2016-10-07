@@ -5,7 +5,11 @@ subtitle: "IoT BotNets are a thing."
 tags: [Apple, HomeKit, Home Automation, Internet of Things, Security]
 fromMy: 
 category: Linked
+<<<<<<< HEAD
 layout: post
+=======
+layout: link
+>>>>>>> b297286ab7d73bf83c7f2e106eb55633b7a53d28
 via: Motherboard
 source: http://motherboard.vice.com/read/we-need-to-save-the-internet-from-the-internet-of-things
 link: http://motherboard.vice.com/read/we-need-to-save-the-internet-from-the-internet-of-things
