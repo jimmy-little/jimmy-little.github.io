@@ -5,7 +5,7 @@ title: "It's No Wonder We're Fat"
 date: 2012-05-28
 subtitle: ""
 tags: [Health, Infographic]
-layout: link
+layout: post
 categories: Linked
 via: Center for Disease Control
 source: http://makinghealtheasier.org/newabnormal

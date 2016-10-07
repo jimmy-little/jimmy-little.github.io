@@ -5,7 +5,7 @@ subtitle: "Get off of my lawn!"
 tags: [Apple]
 fromMy: 
 category: Linked
-layout: link
+layout: post
 via: PCMag
 source: http://www.pcmag.com/commentary/345453/apple-should-spin-off-the-macintosh
 link: http://www.pcmag.com/commentary/345453/apple-should-spin-off-the-macintosh

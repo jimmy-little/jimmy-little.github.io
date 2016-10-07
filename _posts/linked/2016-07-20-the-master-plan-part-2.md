@@ -5,7 +5,7 @@ subtitle: "Elon Musk lays out his vision. Again."
 tags: [Tesla, Autonomous]
 fromMy: 
 category: Linked
-layout: link
+layout: post
 via: Tesla Motors Blog
 source: https://www.tesla.com/blog/master-plan-part-deux
 link: https://www.tesla.com/blog/master-plan-part-deux

@@ -4,7 +4,7 @@ title: SMART Cars Finally Shipping
 date: 2008-01-12
 author: jimmy
 category: Linked
-layout: link
+layout: post
 link: http://www.smartusa.com/
 source: http://www.smartusa.com/
 via: Smart

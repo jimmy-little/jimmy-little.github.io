@@ -6,7 +6,7 @@ category: Linked
 
 tags: [Internet]
 
-layout: link
+layout: post
 
 image:
   header:

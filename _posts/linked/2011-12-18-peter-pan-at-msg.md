@@ -3,7 +3,7 @@
 title: Peter Pan at MSG
 date: 2011-12-18T19:47:04+00:00
 author: jimmy
-layout: link
+layout: post
 categories: Linked
 tags: [Peter Pan]
 via: MSNBC

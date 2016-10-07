@@ -3,7 +3,7 @@
 title: Douche Bag
 date: 2012-10-16
 author: jimmy
-layout: link
+layout: post
 link: http://www.washingtonpost.com/blogs/election-2012/wp/2012/10/15/charity-president-unhappy-about-paul-ryan-soup-kitchen-photo-op/
 source: http://www.washingtonpost.com/blogs/election-2012/wp/2012/10/15/charity-president-unhappy-about-paul-ryan-soup-kitchen-photo-op/
 via: The Washington Post

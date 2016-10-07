@@ -5,7 +5,7 @@ subtitle: ""
 tags: [Apple, Design]
 fromMy: 
 category: Linked
-layout: link
+layout: post
 via: Nicholas Windsor Howard
 source: http://www.nicholaswindsorhoward.com/blog-directory/2016/7/20/the-apple-goes-mushy-part-i
 link: http://www.nicholaswindsorhoward.com/blog-directory/2016/7/20/the-apple-goes-mushy-part-i

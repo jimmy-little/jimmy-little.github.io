@@ -6,7 +6,7 @@ date: 2011-06-04T02:56:21+00:00
 
 author: jimmy
 
-layout: link
+layout: post
 
 source: http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
 via: IARC

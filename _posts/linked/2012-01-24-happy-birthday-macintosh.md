@@ -3,7 +3,7 @@
 title: Happy Birthday, Macintosh!
 date: 2012-01-24T14:15:29+00:00
 author: jimmy
-layout: link
+layout: post
 categories: Linked
 tags: [Apple, Mac]
 via: Wikipedia

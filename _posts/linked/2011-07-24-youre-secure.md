@@ -2,7 +2,7 @@
 title: "You're Secure"
 date: 2011-07-24
 author: jimmy
-layout: link
+layout: post
 via: Google+
 categories: Linked
 tags: [Video]

@@ -6,7 +6,8 @@ disqus_shortname:
 reading_time:     false # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             /assets/logo.png
-#url: http://cocktailsandcoffee.com
+
+url: http://cocktailsandcoffee.com
 
 # draw your top menu here
 # each item must have a title and a url.
