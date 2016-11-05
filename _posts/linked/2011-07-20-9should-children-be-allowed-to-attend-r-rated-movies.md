@@ -3,7 +3,7 @@
 title: Should Children Be Allowed To Attend R Rated Movies?
 date: 2011-07-20T00:35:36+00:00
 author: jimmy
-layout: link
+layout: post
 source: http://www.theonion.com/video/should-adults-be-allowed-to-bring-kids-to-rrated-m,20961
 link: http://www.theonion.com/video/should-adults-be-allowed-to-bring-kids-to-rrated-m,20961
 via: The Onion

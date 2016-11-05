@@ -3,7 +3,7 @@
 title: The Illusion of Choice
 date: 2011-11-26T23:58:23+00:00
 author: jimmy
-layout: link
+layout: post
 categories: Linked
 tags: [Infographic, Media]
 via: Frugal Dad

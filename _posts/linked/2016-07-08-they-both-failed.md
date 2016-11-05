@@ -5,7 +5,7 @@ subtitle: "When water resistant, isn't."
 tags: [Samsung, Phone]
 fromMy: 
 category: Linked
-layout: link
+layout: post
 via: Chicago Tribune
 source: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html
 link: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html

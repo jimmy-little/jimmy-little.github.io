@@ -3,7 +3,7 @@
 title: The Magic of Truth
 date: 2011-10-17
 author: jimmy
-layout: link
+layout: post
 via: TED
 source: http://www.ted.com/talks/marco_tempest_the_magic_of_truth_and_lies_on_ipods?language=en
 link: http://www.ted.com/talks/marco_tempest_the_magic_of_truth_and_lies_on_ipods?language=en

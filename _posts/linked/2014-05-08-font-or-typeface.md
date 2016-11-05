@@ -3,7 +3,7 @@
 title: Font or Typeface?
 date: 2014-05-08T02:12:45+00:00
 author: jimmy
-layout: link
+layout: post
 tags: [Font, Graphic Design]
 categories:
   - Linked

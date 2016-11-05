@@ -4,7 +4,7 @@ date: 2016-09-23
 subtitle: ""
 tags: [Apple, Design]
 category: Linked
-layout: link
+layout: post
 via: Pixel Envy
 source: http://pxlnv.com/blog/novelty-and-legacy/
 link: http://pxlnv.com/blog/novelty-and-legacy/

@@ -59,7 +59,7 @@
 <h4>{{ page.subtitle }}</h4>          
 <div class="div-instagram">
     {% if page.date %}
-        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-instagram"></i> {{ page.date | date: "%B %d, %Y" }} <i class="fa fa-instagram"></i></time></span></p>
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-instagram"></i> {{ page.date | date: "%B %d, %Y" }} </time></span></p>
     {% else %}
         <p><span class="entry-date"><time><i class="fa fa-instagram"></i></time></span></p>
     {% endif %}</div>
@@ -70,7 +70,7 @@
 <h4>{{ page.subtitle }}</h4>     
 <div class="div-twitter">
     {% if page.date %}
-        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-twitter"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-twitter"></i></time></span></p>
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-twitter"></i>  {{ page.date | date: "%B %d, %Y" }}  </time></span></p>
     {% else %}
         <p><span class="entry-date"><time><i class="fa fa-twitter"></i></time></span></p>
     {% endif %}</div>
@@ -81,7 +81,7 @@
 <h4>{{ page.subtitle }}</h4>     
 <div class="div-youtube">
     {% if page.date %}
-        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-youtube-play"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-youtube"></i></time></span></p>
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-youtube-play"></i>  {{ page.date | date: "%B %d, %Y" }} </time></span></p>
     {% else %}
         <p><span class="entry-date"><time><i class="fa fa-youtube-play"></i></time></span></p>
     {% endif %}</div>
@@ -96,7 +96,7 @@
 <h4>{{ page.subtitle }}</h4>    
 <div class="div-linked">
     {% if page.date %}
-        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-arrow-right"></i>  {{ page.date | date: "%B %d, %Y" }}  <i class="fa fa-arrow-right"></i></time></span></p>
+        <p><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-arrow-right"></i>  {{ page.date | date: "%B %d, %Y" }}  </time></span></p>
     {% else %}
         <p><span class="entry-date"><time>&nbsp;</time></span></p>
     {% endif %}</div>
