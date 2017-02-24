@@ -13,8 +13,7 @@ via:
 source: 
 
 image:
- feature: 
- header: http://www1.pcmag.com/media/images/486160-ipad-pro-1.jpg?thumb=y
+ feature: http://www1.pcmag.com/media/images/486160-ipad-pro-1.jpg?thumb=y
  credit: PC Mag
  creditlink: http://www.pcmag.com/article2/0,2817,2495348,00.asp
 

@@ -9,7 +9,6 @@ tags: [Politics]
 layout: post
 
 image:
-  header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg
   feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/LA-ballot.jpeg
   credit: LA Times
 

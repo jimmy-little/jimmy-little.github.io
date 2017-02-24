@@ -17,10 +17,6 @@ figure {
   @include clearfix();
   img {
     margin-bottom: 10px;
- }
-	figcaption {
-  	text-align: center;
-	//text-transform: uppercase;
   }
   a {
     img {
@@ -37,29 +33,24 @@ figure {
   &.half {
     @media #{$large} {
       img {
-        width: 45%;
+        width: 310px;
         float: left;
-        max-height: 250px;
-        margin-right: auto;
+        margin-right: 10px;
       }
       figcaption {
-      	clear: left;
-      	text-align: center;
-		//text-transform: uppercase;     	
+        clear: left;
       }
     }
   }
   &.third {
     @media #{$large} {
       img {
-        width: 33%;
+        width: 200px;
         float: left;
-        margin-right: auto;
+        margin-right: 10px;
       }
       figcaption {
         clear: left;
-        	text-align: center;
-	//text-transform: uppercase;
       }
     }
   }
@@ -79,7 +70,7 @@ figure.center img{
 .btn {
   display: inline-block;
   margin-bottom: 20px;
-  padding: 4px 20px;
+  padding: 8px 20px;
   @include font-rem(14);
   background-color: $primary;
   color: $white;
@@ -144,10 +135,8 @@ figure.center img{
   }
 }
 .btn-info {
-  padding: .25em 1em;    
   background-color: $info;
   color: $white;
-    @include rounded(4px);
   border-color: $info;
   &:visited {
     color: $white;

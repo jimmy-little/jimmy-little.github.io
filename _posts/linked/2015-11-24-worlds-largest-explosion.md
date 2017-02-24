@@ -4,7 +4,7 @@ date: 2015-11-24T04:50:39+00:00
 author: jimmy
 layout: post
 image:
- header: http://www.guinnessworldrecords.com/Images/largest-film-stunt-explosion-spectre-2_tcm25-405344.jpg
+ feature: http://www.guinnessworldrecords.com/Images/largest-film-stunt-explosion-spectre-2_tcm25-405344.jpg
  feature: 
  
  credit: Guiness

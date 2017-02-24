@@ -18,7 +18,7 @@ title: Microsoft Sues Over Gag Orders
 subtitle: Redmond thinks the ECPA goes too far
 
 image:
- header: https://farm9.staticflickr.com/8670/16510342158_185f09969a_k.jpg
+ feature: https://farm9.staticflickr.com/8670/16510342158_185f09969a_k.jpg
  credit: TechStage
  creditlink: https://www.flickr.com/photos/bestboyzde
  

@@ -53,7 +53,7 @@ $(document).ready(function(e) {
   $(window).scroll(function(){
     var header = $('.header-menu');
     var scroll = $(window).scrollTop();
-    if(scroll > 50){
+    if(scroll > 300){
       header.attr('class', 'header-menu header-menu-overflow');
     } else {
       header.attr('class', 'header-menu header-menu-top');
@@ -75,11 +75,23 @@ $(document).ready(function(){
     "counters": true,
     "navbars": [
       {
-        "position": "top",
-        "content": ["<a class='fa fa-search' href='/search'></a>", "<a class='fa fa-envelope' href='mailto:thejimmylittle@gmail.com'></a>", "<a class='fa fa-twitter' href='https://www.twitter.com/jimmylittle></a>", "<a class='fa fa-facebook' href='https://www.facebook.com/Jimmy-Little-99821220015/'></a>", "<a class='fa fa-info' href='/about'></a>"]
+        "position": "bottom",
+        "content": [
+          "<a class='fa fa-search' href='/search'></a>",
+          "<a class='fa fa-envelope' href='#/'></a>",
+          "<a class='fa fa-twitter' href='#/'></a>",
+          "<a class='fa fa-facebook' href='#/'></a>"
+        ]
       }
     ]
   });
 });
 
-
+var sharing = function(){
+    $(document).ready(function(){
+      $("body").floatingSocialShare({
+        buttons: ["facebook","twitter","google-plus", "linkedin", "pinterest"],
+        text: "Share with "
+      });
+    });
+};//sharing

@@ -10,7 +10,7 @@ via: Wikipedia
 link: https://en.wikipedia.org/wiki/Macintosh
 source: https://en.wikipedia.org/wiki/Macintosh
 image:
- header: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/200px-Macintosh_128k_transparency.png
+ feature:  https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/200px-Macintosh_128k_transparency.png
  credit: Wikipedia
 
 ---

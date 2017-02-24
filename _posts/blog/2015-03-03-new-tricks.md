@@ -8,8 +8,7 @@ category:  Writing
 tags: [Dog]
 
 image:
- feature:
- header: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/leBug.jpg
+ feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/leBug.jpg
 
 subtitle: What do you do when your dog goes deaf? Learn some new tricks.
 
