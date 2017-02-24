@@ -1,25 +1,16 @@
 ---
 title: "Hurricane Matthew"
 date: 2016-10-10
-<<<<<<< HEAD
 subtitle: "Donate. It's easy."
-=======
-subtitle: "Give a little."
->>>>>>> refs/remotes/origin/master
 tags: [Apple, Charity]
 fromMy: 
 category: Writing
 layout: post
-<<<<<<< HEAD
 via: App Store
-=======
-via: Apple
->>>>>>> refs/remotes/origin/master
 source: https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?&mt=6
 link: 
 image:
   feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/RedCross.png
-<<<<<<< HEAD
 ---
 Apple, as they regularly do after disasters, has again teamed with the Red Cross to facilitate collecting donations. 
 
