@@ -28,6 +28,14 @@ body {
 			border-bottom-style: solid;
 		}
 	}
+    
+    	img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+		@include border-radius(3px,0,0,3px); // round image corners
+	}
+    
 }
 
 ///sections
@@ -401,6 +409,9 @@ ul.social-buttons li a:active {
 		margin-bottom: 20px;
 	}
 	img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
 		@include border-radius(3px,0,0,3px); // round image corners
 	}
 }
