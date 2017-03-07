@@ -1,5 +1,5 @@
 ---
-layout:         link
+layout:         post
 title:          Disingenuous, At Best
 subtitle:       
 date:           2016-02-22

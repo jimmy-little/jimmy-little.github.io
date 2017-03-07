@@ -17,7 +17,7 @@ tags:
   
 image:
  header: 
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/WWDC2014.jpgWWDC2014.jpeg
+ feature: WWDC2014.jpgWWDC2014.jpeg
   
 ---
 

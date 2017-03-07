@@ -10,23 +10,13 @@ via: App Store
 source: https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?&mt=6
 link: 
 image:
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/RedCross.png
+  feature: RedCross.png
 ---
-Apple, as they regularly do after disasters, has again teamed with the Red Cross to facilitate collecting donations. 
 
-If you have a few bucks laying around, or an iTunes gift card you're not using, consider [donating.](https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?&mt=6)
-
-Every bit helps, and the Red Cross is a pretty solid charity. 
-=======
-
----
 Hurricane Matthew just swept Haiti, the Caribbean, & the East Coast of America and the Red Cross is doing what it does. 
 
 Apple has been working with the [Red Cross](https://www.charitywatch.org/ratings-and-metrics/american-red-cross/360) to accept donations for years, and this is no different. As always, it's easy and 100% of your donation goes straight to the Red Cross. No App Store cuts or credit card fees are kept by Apple. 
 
 [Give if you can.](https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?&mt=6)
->>>>>>> refs/remotes/origin/master
-
-
 
 <!-- #Apple, #Charity -->

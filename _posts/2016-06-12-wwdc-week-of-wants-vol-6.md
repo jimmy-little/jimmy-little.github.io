@@ -6,7 +6,7 @@ subtitle: "Today's Ramblings: Siri"
 category: Writing
 tags: [Apple, Siri, WWDC]
 image:
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/siriwave.jpg
+  feature: siriwave.jpg
 ---
 
 Apple was the first compnay to put voice control in a phone with the iPhone 3GS. Siri took over for Voice Control with the iPhone 4S, and was a vast improvement.

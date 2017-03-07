@@ -10,7 +10,7 @@ via:
 source: 
 link: 
 image:
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/iMacUpgradeHeader.jpeg
+  feature: iMacUpgrade/iMacUpgradeHeader.jpeg
   header:
 ---
 I have this 2012 iMac.  It's been on every day and night since I bought it. That's around 1400 days of pretty much non-stop service save a restart here and there along the way. I use it as a Plex server, a home for my Drobo, my iTunes and Photo library home, and my Backblaze online backup hub.  

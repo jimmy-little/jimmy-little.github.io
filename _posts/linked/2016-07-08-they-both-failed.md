@@ -10,7 +10,7 @@ via: Chicago Tribune
 source: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html
 link: http://www.chicagotribune.com/bluesky/technology/ct-consumer-reports-samsung-phone-not-waterproof-20160708-story.html
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/samsungwaterphone.jpeg
+ feature: samsungwaterphone.jpeg
 ---
 
 

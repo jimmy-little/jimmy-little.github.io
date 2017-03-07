@@ -10,7 +10,7 @@ category:       Writing
 tags:           [Apple, Law, Privacy]
 
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/Amicus.jpg
+ feature: Amicus.jpg
  
 link:    
      

@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: $body-color;
+	background-color: $white;
 	overflow-x: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
 	}
 }
 .hentry-dark {
-	background-color: $header-color;
+	background-color: ($header-color, 80);
 }
 .entry-content {
 	@include font-size(16);
@@ -34,9 +34,8 @@ body {
 
 .content-header-title {
 	text-align: center;
-	margin: 30px 0 0;
+	margin: 10px 0 0;
 	h1 {
-		margin: 10px 20px;
 		font-weight: 700;
 		@include font-rem(32);
 		color: lighten($base-color,20);
@@ -55,7 +54,7 @@ body {
 		@media #{$medium} {
 			@include font-rem(24);
 		}
-	}
+    }
 	p {
 		color: lighten($base-color,20);
 	}
@@ -91,6 +90,9 @@ body {
 // Single Post and Page
 // --------------------------------------------------
 .entry-meta {
+    //margin-bottom: 1em;
+    width: 100%;
+    text-align: center;
 	@include font-rem(12);
 	text-transform: uppercase;
 	color: lighten($base-color,60);
@@ -136,20 +138,20 @@ header .entry-meta {
 #post,
 #page {
 	.entry-content {
-		margin: 40px 2px 20px 2px;
-		padding: 10px 15px;
+		margin: 10px 2px 20px 2px;
+		//padding: 10px 15px;
 		background-color: $white;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
+		//box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
 		@include rounded(3px);
 		@media #{$medium} {
 			margin-left: 10px;
 			margin-right: 10px;
-			padding: 20px 30px;
+			padding: 10px 20px;
 		}
 		@media #{$large} {
 			max-width: 800px;
 			margin: 50px auto 30px auto;
-			padding: 50px 80px;
+			padding: 10px 20px;
 			> p:first-child {
 				@include font-size(20);
 			}
@@ -217,19 +219,20 @@ header .entry-meta {
 // Read More Module
 .read-more {
 	position: relative;
-	margin: 40px 2px 20px 2px;
-	padding: 40px 15px 25px;
+	margin: 10px 2px 10px 2px;
+	padding: 5px 5px 5px;
 	background-color: $white;
-	box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
-	@include rounded(3px);
+    border-top: solid $blue 1px;
+	//box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
+	//@include rounded(3px);
 	@media #{$medium} {
-		margin: 50px 10px 20px 10px;
-		padding: 50px 40px 25px;
+		margin: 20px 10px 20px 10px;
+		padding: 20px 40px 25px;
 	}
 	@media #{$large} {
 		max-width: 800px;
-		padding: 50px 80px;
-		margin: 60px auto;
+		padding: 20px 80px;
+		margin: 20px auto;
 	}
 	text-align: center;
 	@include clearfix;
@@ -266,8 +269,8 @@ header .entry-meta {
 	}
 }
 .author-img {
-	width: 150px;
-	height: 150px;
+	width: 75px;
+	height: 75x;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -279,7 +282,7 @@ header .entry-meta {
 	display: flex;
 }
 .author-bio{
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-left: 20px;
 	flex-grow: 1;
 }
@@ -319,7 +322,7 @@ ul.social-buttons li a:active {
     background-color: #fec503;
 }
 .read-more-list {
-	border-top: solid 2px lighten($base-color,80);
+	//border-top: solid 2px lighten($base-color,80);
 }
 .list-item {
 	width: 100%;
@@ -337,6 +340,9 @@ ul.social-buttons li a:active {
 		width: 49%;
 		float: left;
 		&:nth-child(2) {
+			text-align: right;
+		}
+        &:nth-child(4) {
 			text-align: right;
 		}
 	}
@@ -360,35 +366,38 @@ ul.social-buttons li a:active {
 	}
 	article {
 		background-color: $white;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
-		@include rounded(3px);
+        border-bottom: solid 2px $orange;
+		//box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
+		//@include rounded(3px);
 		margin-bottom: 20px;
-		padding: 25px 15px;
+		padding: 15px 15px;
 		@media #{$medium} {
-			padding: 30px;
+			padding: 25px;
 		}
 		@media #{$large} {
 			margin-bottom: 30px;
-			padding: 50px 80px;
+			padding: 20px 20px;
 		}
 	}
 }
 .entry-image-index {
-	margin-top: -25px;
-	margin-left: -15px;
-	margin-right: -15px;
+    text-align: center;
+    max-width: 768px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 10px;
 	position: relative;
 	@media #{$medium} {
-		margin-top: -30px;
-		margin-left: -30px;
-		margin-right: -30px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 15px;
 	}
 	@media #{$large} {
-		margin-top: -50px;
-		margin-left: -80px;
-		margin-right: -80px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 20px;
 	}
 	img {
@@ -400,11 +409,14 @@ ul.social-buttons li a:active {
 // --------------------------------------------------
 .footer-wrapper {
 	@include clearfix;
+    font-size: .75em;
+    background-color: $primary; 
+    box-shadow: 0px 500px 0px 500px $primary;
 	margin: 2em auto;
 	text-align: center;
-	color: lighten($text-color,20);
+	color: lighten($white,20);
 	a {
-		color: lighten($text-color,20);
+		color: lighten($white,20);
 	}
 }
 
@@ -463,16 +475,17 @@ ul.social-buttons li a:active {
 // Header
 // --------------------------------------------------
 .entry-header {
+    text-align: center;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: $menu-height;
 	overflow: hidden;
 	height: 50px;
 	@media #{$medium} {
 		background-color: $header-color;
-		min-height: 300px;
+		//min-height: 300px;
 	}
 }
 .header-toggle{
@@ -499,8 +512,9 @@ ul.social-buttons li a:active {
 		color: $white;
 	}
 	h1 {
+        text-align: center;
 		font-weight: 700;
-		margin-bottom: 20px;
+		//margin-bottom: 20px;
 		@include font-rem(32);
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
@@ -516,7 +530,9 @@ ul.social-buttons li a:active {
 		}
 	}
 	h1.post-title{
+        text-align: center;
 		display: block;
+        //margin: .5em;
 		@media #{$medium}{
 			display: none;
 		}
@@ -544,13 +560,15 @@ ul.social-buttons li a:active {
 }
 .header-menu-top{
 	background-color: $menu-top;
-	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: solid 2px $orange;
+	//box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
 }
 
 .header-menu-overflow{
 	background-color: $menu-overflow;
 	z-index: 100;
-	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: solid 2px $orange;
+	//box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
 }
 .header-menu-overflow ul li a{
 	color: $white;
@@ -615,7 +633,7 @@ ul.social-buttons li a:active {
 
 .header-item.active,
 .header-item:hover{
-  border-top-color: $header-margin;
+  //border-top-color: $header-margin;
 }
 
 .header-item:hover .header-submenu{
@@ -625,7 +643,7 @@ ul.social-buttons li a:active {
 
 .header-submenu {
 	display: none;
-	border-top: 2px solid $header-margin;
+	border-top: 2px solid $orange;
 	width: 200px;
 	z-index: 100;
 	list-style-type: none;
@@ -636,8 +654,8 @@ ul.social-buttons li a:active {
 	position: relative;
 	padding-left: 10px;
 	width: 100%;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid;
+	border-bottom: 1px solid $orange ;
+	//border-left: 1px solid;
 	height: 50px;
 	text-decoration: none;
 }
@@ -648,8 +666,8 @@ ul.social-buttons li a:active {
 	height: 50px;
 }
 .sub-item:hover {
-	border-bottom-color: $header-margin;
-	border-left-color: $header-margin;
+	border-bottom-color: $orange;
+	//border-left-color: $header-margin;
 }
 
 .button-twitter {

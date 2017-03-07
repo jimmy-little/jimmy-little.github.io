@@ -69,14 +69,14 @@ figure.center img{
 // --------------------------------------------------
 .btn {
   display: inline-block;
-  margin-bottom: 20px;
-  padding: 8px 20px;
+  margin-bottom: 10px;
+  padding: 8px 15px;
   @include font-rem(14);
-  background-color: $primary;
+  background-color: $orange;
   color: $white;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: $primary;
+  border-color: $orange;
   @include rounded(3px);
   &:visited {
     color: $white;
@@ -135,15 +135,15 @@ figure.center img{
   }
 }
 .btn-info {
-  background-color: $info;
+  background-color: $blue;
   color: $white;
-  border-color: $info;
+  border-color: $blue;
   &:visited {
     color: $white;
   }
   &:hover {
     background-color: $white;
-    color: $info;
+    color: $blue;
   }
 }
 

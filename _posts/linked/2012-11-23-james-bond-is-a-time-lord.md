@@ -9,7 +9,7 @@ author: jimmy
 layout: post
 
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/bond.jpg
+ feature: bond.jpg
 
 link: http://www.tor.com/blogs/2012/11/skyfall-proves-that-james-bond-is-a-time-lord
 

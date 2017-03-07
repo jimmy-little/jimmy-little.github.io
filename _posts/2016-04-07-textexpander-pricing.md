@@ -11,7 +11,7 @@ categories: Writing
 tags: [Software, Subscriptions, Customer]
 
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/textexpander-logo.png
+ feature: textexpander-logo.png
  
 via: The Smile Blog
 source: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta 

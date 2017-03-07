@@ -10,13 +10,15 @@ via:
 source: 
 link: 
 image: 
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/touche.png
+  feature: touche.png
   header:
 
 ---
 I've been playing with [Touché from Red Sweater Software](https://red-sweater.com/touche/), and I can really see a case for the TouchBar on an external Keyboard doohickey. 
 
 A lot of people say the TouchBar isn't that useful, but as a desktop user, I installed Touché and it has dramatically changed a couple of things for me.
+
+<!-- more -->  
 
  - I never use the Emoji picker anymore. It was such a pain. Now, I just type a word, and the auto-complete usually surfaces the right emoji. (I typed "happy" to get the three smileys in the screenshot above)
  - I can lock my screen with a tap. The Lock icon in the Control Strip is quick. I also have a Keyboard Maestro shortcut, and a Workflow.app trick to lock the Mac, but having all three, depending on context, is really handy.

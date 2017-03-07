@@ -9,7 +9,7 @@
           {% if site.logo %}
             <img class="logo" src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}">
           {% endif %}
-          <a href="{{site.url}}/" class="title"> {{ site.title }}</a>
+          <a href="{{site.url}}/" class="title"> {{ site.title }} </a> 
         </a>
       </li>
       {% for menu in site.menu reversed %}
@@ -47,7 +47,7 @@
     </ul>
   </div>
 <div class="entry-header">
-  <div class="header-title">
+   <div class="header-title">
     <div class="header-title-wrap">
       <h1>{{ page.title }}</h1>
       {% if page.date %}
@@ -67,8 +67,6 @@
             &nbsp;
           </p><!-- /.entry-reading-time -->
       {% endif %}
-
-        
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->

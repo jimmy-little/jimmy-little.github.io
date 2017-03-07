@@ -10,7 +10,7 @@ via:
 source: 
 link: 
 image:
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/IMG_0664.JPG
+  feature: IMG_0664.JPG
   header:
 
 ---

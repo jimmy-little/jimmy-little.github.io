@@ -10,7 +10,7 @@ via:
 source: 
 link: 
 image:
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/messagesvslack.png
+  feature: messagesvslack.png
   header:
 ---
 

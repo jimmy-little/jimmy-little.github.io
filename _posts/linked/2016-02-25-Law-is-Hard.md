@@ -1,6 +1,6 @@
 ---
 
-layout:         link
+layout:         post
 date:           2016-02-25 00:00:00 -0700
 categories:     Linked
 tags:           [Apple, Opinion, Privacy]

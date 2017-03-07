@@ -12,7 +12,7 @@ layout: post
 
 image:
   header:
-  feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/tronc.jpg
+  feature: tronc.jpg
   credit: MarketWatch
   creditlink: http://www.marketwatch.com/story/tribune-publishing-rebrands-to-tronc-drawing-internet-jeers-2016-06-02
 via: Tribune Press Release

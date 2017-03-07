@@ -6,7 +6,7 @@ layout: post
 categories: Writing
 tags: [Apple, iPad, iPhoto, Keynote, Predictions, Rumors]
 image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/AppleInvites/ipad3.jpg
+ feature: AppleInvites/ipad3.jpg
  credit: Apple
 ---
 
