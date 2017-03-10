@@ -11,6 +11,7 @@ source:
 link: 
 image:
   feature:  EmojiTags.png
+  index: EmojiTags-400.png
 ---
 
 I love the [Workflow][1] app. It's simply the most powerful automation tool on iOS. Workflow, along with [Working Copy][2] and [1Writer][3], are what keeps my blog going. But there is a small problem. When you have a ton of workflows, finding them can be a chore. That's where Emoji Tags come in.

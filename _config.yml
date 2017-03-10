@@ -56,6 +56,7 @@ background:
 
 # Image path
 img_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images'
+index_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/index-images'
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
