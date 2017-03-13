@@ -5,7 +5,7 @@
 
 {% if site.owner.twitter or site.twitter %}<!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-{% if page.image %}
+{% if page.image.feature %}
   <meta name="twitter:image:src" content="{{ site.img_url }}/{{ page.image.feature }}">
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png">
