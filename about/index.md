@@ -18,9 +18,9 @@ Everything here is written by me.  If I quote another site or video, it is alwa
 
 ### Workflow
 
-The new Cocktails and Coffee is a work in progress. It's a Jekyll blog, which means it's completely static. I type the posts in Markdown, and then let GitHub generate the pages. I do it this way because it lets me keep all my posts in plain text, and i use [Working Copy](https://geo.itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8) to push to GitHub. It's complicated, but I like it way better than my previous blogs that were on Wordpress, Joomla, and Squarespace. 
+The new Cocktails and Coffee is a work in progress. It's a Jekyll blog, which means it's completely static. I type the posts in Markdown, and then let GitHub generate the pages. I do it this way because it lets me keep all my posts in plain text, and i use [Working Copy](https://geo.itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8) to push to GitHub. It's a bitch to set up, but once it's working, it's seamless.
 
-Wordpress and Squarespace were super easy, but they were pretty heavy for a blog. Static is where it's at for me right now.
+Wordpress and Squarespace were super easy, but they were pretty heavy for a blog. Static is where it's at for me right now. If opening a terminal or looking at CSS scares you, stick with Squarespace. It really was awesome when I used it.
 
 ### Images
 
@@ -37,8 +37,6 @@ If the site doesn’t display properly it's because you are not using a standard
 By shopping through the Amazon link on this page, a small percentage of the purchases you make comes back to me.  I use the income to pay for this site.  Any income above and beyond that is donated to animal charities.  Also, most of the software and products I link to on this site use affiliate links.  If you click on a link and buy something through iTunes, the App Store, or Amazon, I will get a small percentage of the purchase price back from Apple or Amazon, and it costs you nothing.  That's a damn good deal for everyone.
 
 ### Colophon
- - Text Font: [Lato by Google Fonts](https://www.google.com/fonts/specimen/Lato)
- - Header Font: [Raleway by Google Fonts](https://www.google.com/fonts/specimen/Raleway)
  - Icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)
  - Built with the [Jekyll Blog Engine](https://jekyllrb.com)
  - Hosted on GitHub
@@ -46,3 +44,4 @@ By shopping through the Amazon link on this page, a small percentage of the purc
  - Typed in the fantastic open-source [Brackets](http://brackets.io) on a Mac, and [Editorial](https://geo.itunes.apple.com/us/app/editorial/id673907758?mt=8), [Byword](https://geo.itunes.apple.com/us/app/byword/id482063361?mt=8), or [Drafts](https://geo.itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8) on iOS
  - Pushed to Git with Terminal on the Mac, or [Working Copy](https://geo.itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8) on iOS
  - Design is a _heavily_ modified version of the fantastic [NEO-HPSTR](http://jekyllthemes.org/themes/neo-hpstr-jekyll-template/) by Aron Bordin 
+

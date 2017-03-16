@@ -701,3 +701,78 @@ ul.social-buttons li a:active {
 		}
 	}
 }
+
+// Microblog Formatting
+
+.social-avatar {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin: 7px;
+    padding: 4px;
+    
+}
+
+.social {
+    overflow: hidden;
+    position: relative;
+    //background-color: blanchedalmond;
+    width: 80%;
+    margin: 20px auto 20px auto;
+}
+
+.icon-twitter {
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    background-color: $twitter;
+    text-align: center;
+    font-size: 2em;
+    color: $white;
+    a {
+     color: $white;   
+    }
+}
+
+.icon-instagram {
+    width: 10%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $instagram;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2em;
+        a {
+     color: $white;   
+    }
+}
+
+.content-microblog {
+    width: 90%;
+    float: right;
+    border-top: 1px solid $grey;
+    border-right: 1px solid $grey;
+    padding: 10px;
+}
+
+.social-meta {
+    border-bottom: 1px solid $grey;
+    border-right: 1px solid $grey;
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: right;
+    padding: 4px;
+	@include font-rem(12);
+	text-transform: uppercase;
+	color: lighten($base-color,60);
+	a {
+		color: lighten($base-color,60);
+	}
+}
