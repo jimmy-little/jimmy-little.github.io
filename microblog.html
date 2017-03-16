@@ -11,6 +11,8 @@ subtitle: A hard copy of all my online posts
 <div class = "social">
 <div class = "icon-{{ social.network }}">
     <a href="{{ social.link }}"><i class="fa fa-{{ social.network }}" aria-hidden="true"></i></a>
+<div class="social-meta">
+    <span class="entry-date date published updated">{{ social.date | date: "%d %b<br>%Y" }}</span></div>     
 </div>
 <div class = "content-microblog">
     {% if social.avatar %}
@@ -19,8 +21,7 @@ subtitle: A hard copy of all my online posts
     {% if social.image %} <img src="{{ social.image }}">{% endif %}
     {% if social.caption %} <p>{{ social.caption }}</p> {% endif %}
     {{ social.content }}</div>     
-<div class="social-meta">
-    <span class="entry-date date published updated">{{ social.date | date: "%d %B %Y" }}</span></div>    
+   
 </div>
 {% endif %}
 {% endfor %}
