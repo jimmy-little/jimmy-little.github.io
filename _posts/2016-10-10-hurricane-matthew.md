@@ -10,7 +10,7 @@ via: App Store
 source: https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?&mt=6
 link: 
 image:
-  feature: RedCross.png
+  feature: RedCross.jpeg
 ---
 
 Hurricane Matthew just swept Haiti, the Caribbean, & the East Coast of America and the Red Cross is doing what it does. 

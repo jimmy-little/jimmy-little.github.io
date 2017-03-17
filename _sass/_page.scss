@@ -8,6 +8,18 @@ body {
 
 // Main
 // --------------------------------------------------
+
+//bg Image
+
+.background {
+    width: 100%;
+    position: fixed;
+    -webkit-filter: blur(10px); /* Safari */
+    filter: blur(10px);
+    opacity: 0.3;
+    filter: alpha(opacity=33); /* For IE8 and earlier */
+
+}
 .entry,
 .hentry {
 	@include clearfix;
