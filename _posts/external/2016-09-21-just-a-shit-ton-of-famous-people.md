@@ -4,8 +4,8 @@ date: 2016-09-21
 subtitle: "Save the Day. Vote."
 tags: [Politics]
 fromMy: YouTube
-category: External
-layout: external
+category: Linked
+layout: post
 via: Save The Day
 source: http://savetheday.vote
 link: http://savetheday.vote

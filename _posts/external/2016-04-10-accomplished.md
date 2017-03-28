@@ -6,9 +6,9 @@ fromMy: Instagram
 
 subtitle: <i class="fa fa-instagram"></i>
 
-layout: external
+layout: post
 
-category: External
+category: Linked
 
 tags: [Instagram, Dog]
 

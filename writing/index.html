@@ -1,0 +1,24 @@
+---
+layout: home
+title: "Writing"
+description: "Internet ramblings fueled by adult beverages"
+tags: []
+comments: false
+---
+<h1>Writing</h1>
+{% for post in site.categories.Writing %}
+<article class="hentry">
+  <header>    
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
+    </div><!-- /.entry-meta -->  
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+    {% if post.subtitle %}
+    <h5>{{ post.subtitle }}</h5> 
+    {% endif %}
+  </header>
+<div class="entry-content">
+    {{ post.content | truncatewords: 40, "" | strip_html | strip_xml}}<a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">...</a>
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}

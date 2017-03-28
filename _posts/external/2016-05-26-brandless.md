@@ -2,13 +2,13 @@
 
 title: Brandless
 
-category: External
+category: Linked
 
 fromMy: Twitter
 
 tags: [Apple]
 
-layout: external
+layout: post
 tags: [Twitter]
 images:
   header:

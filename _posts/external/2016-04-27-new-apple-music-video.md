@@ -4,13 +4,13 @@ title: New Apple Music Video
 
 subtitle: <i class="fa fa-youtube"></i>
 
-category: External
+category: Linked
 
 fromMy: YouTube
 
 tags: [Apple, Music, YouTube]
 
-layout: external
+layout: post
 
 images:
   header:

@@ -1,23 +1,10 @@
 ---
-
 title: Quadricopters and James Bond
-
 subtitle:
-
-category: External
-
+category: Linked
 fromMy: YouTube
-
 date: 2012-03-03
-
-
-
-layout: external
-
-
-categories:
-  - External
-
+layout: post
 tags:
   - James Bond
   - Quadricopter

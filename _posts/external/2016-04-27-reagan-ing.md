@@ -6,9 +6,9 @@ fromMy: Twitter
 
 subtitle: <i class="fa fa-twitter"></i>
 
-layout: external
+layout: post
 
-category: External
+category: Linked
 
 tags: [Twitter, Politics]
 

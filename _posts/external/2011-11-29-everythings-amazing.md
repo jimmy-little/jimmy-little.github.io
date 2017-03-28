@@ -3,8 +3,8 @@ title: "Everything's Amazing"
 fromMy: YouTube
 date: 2011-11-29
 author: jimmy
-layout: external
-category: External
+layout: post
+category: Linked
 tags:
   - Technology
   - Travel

@@ -3,8 +3,8 @@ date: 2016-09-17
 fromMy: Instagram
 title: Pallet Craze
 tags: [Instagram]
-layout: external
-categories: External
+layout: post
+categories: Linked
 subtitle: Am I doing this right?
 ---
 

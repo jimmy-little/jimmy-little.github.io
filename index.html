@@ -8,22 +8,23 @@ comments: false
 
 {% for post in paginator.posts %}
 <article class="hentry">
-  <header>
+  <header>    
+    {% if post.link %}
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
-    </div><!-- /.entry-meta -->      
-    {% if post.link %}
+    </div><!-- /.entry-meta -->  
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-glass"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% elsif post.original %}
+      
     {% else %}
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
+    </div><!-- /.entry-meta -->  
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
     {% if post.subtitle %}
     <h5>{{ post.subtitle }}</h5> 
     {% endif %}
-   <!-- /.entry-meta <div class="entry-meta">
-    <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
-    </div> -->
-  
     {% if post.image.feature %}
       <div class="entry-image-index">
     {% if post.image.feature contains "http" %}
@@ -36,13 +37,29 @@ comments: false
       </div><!-- /.entry-image -->
     {% endif %}
   </header>
-  <div class="entry-content">
-     {{ post.excerpt }}
-     {% if post.content contains "<!-- more -->" %}
+<div class="entry-content">
+{% if post.network %}
+    <div class="social">    
+        <div class = "icon-{{ post.network }}">
+        <a href="{{ post.original }}"><i class="fa fa-{{ post.network }}" aria-hidden="true"></i></a>
+    <div class="social-meta">
+        <span class="entry-date date published updated">{{ post.date | date: "%d %b<br>%Y" }}</span></div>     
+    </div>
+    <div class = "content-microblog">
+    {% if post.avatar %}
+        <img class="social-avatar" src="{{ post.avatar }}" <br />
+    {% endif %}
+    {% if post.image %} <img src="{{ post.image }}">{% endif %}
+    {% if post.caption %} <p>{{ post.caption }}</p> {% endif %}
+    {{ post.content }}</div> </div>     
+      {% else %}
+{{ post.excerpt }}
+{% if post.content contains "<!-- more -->" %}
           <div align="left">
               <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">continue reading <i class="fa fa-glass" aria-hidden="true"></i></a></div>
-          </div>
-      {% endif %}
+    </div>    
+      {% endif %} {% endif %}
+
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}

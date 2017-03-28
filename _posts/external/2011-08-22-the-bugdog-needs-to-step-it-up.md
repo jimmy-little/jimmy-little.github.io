@@ -3,12 +3,12 @@
 title: The BugDog Needs To Step It Up
 date: 2011-08-22T02:44:27+00:00
 author: jimmy
-layout: external
+layout: post
 link: http://www.zapiks.com/the-coolest-dog-in-the-world.html
 source: http://www.zapiks.com/the-coolest-dog-in-the-world.html
 via: Zapiks
 fromMy: YouTube
-categories: External
+categories: Linked
 tags: [Video, Dog]
 ---
 

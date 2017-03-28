@@ -2,9 +2,9 @@
 title: Brand Recognition From A 5 Year Old
 date: 2012-02-03T16:59:39+00:00
 author: jimmy
-layout: external
+layout: post    
 fromMy: YouTube
-categories: External
+categories: Linked
 tags: [Video, Marketing]
 via:  Ladd Designs
 source: http://www.ladd-design.com/ladd--fresh-impressions-on-brandmarks-(from-my-5-year-old).html
