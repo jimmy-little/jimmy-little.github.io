@@ -11,7 +11,7 @@ source:
 link: 
 image:
   feature: TrumpSmug-2.jpeg
-  Index: TrumpSmugIndex.jpeg
+  index: TrumpSmugIndex.jpeg
 published: false
 
 ---
