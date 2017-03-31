@@ -11,8 +11,7 @@ source:
 link: 
 image:
   feature: TrumpSmug-2.jpeg
-  Index: TrumpSmugIndex.jpeg
-published: false
+  
 
 ---
 Today, Republicans (and only Republicans) voted to strip the American people of their privacy online.
