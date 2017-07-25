@@ -32,4 +32,5 @@ Steve Jobs, in his [Thoughts on Flash](https://www.apple.com/hotnews/thoughts-on
 
 They probably should have taken the advice a while ago.
 
+
 <!-- #Opinion, #Flash -->
