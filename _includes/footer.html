@@ -1,9 +1,10 @@
 <p>{{ site.description }}</p>
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll.</span>
+
+<span> &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. <a href="http://jekyllrb.com">Powered by Jekyll.</a></span>
+    
 <ul class="list-inline social-buttons">
     {% for network in site.social %}
     <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
     {% endfor %}
     <li><a href="{{ site.url }}/about" target="_blank"><i class="fa fa-info fa-fw"></i></a></li>
-    
 </ul>

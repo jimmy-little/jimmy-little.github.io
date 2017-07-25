@@ -11,7 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 }
 h1 {
-    text-align: center;
+    text-align: left;
+    font-weight: 900;
     margin: 0;
 	@include font-rem(28);
 	@media #{$medium} {
@@ -21,10 +22,11 @@ h1 {
 
 h5 {
     color: $blue;
-    font-weight: 700;
+    @include font-rem(20);
     margin: 0;
-    text-align: center;
-    text-transform: uppercase;
+    text-align: left;
+    font-weight: normal;
+    //text-transform: uppercase;
 }
 
 // Links
