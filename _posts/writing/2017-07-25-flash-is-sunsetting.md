@@ -11,7 +11,7 @@ via: Adobe
 source: https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html
 link: 
 image:
-  feature: /www.jimmylittle.com/post-images/flash.jpeg
+  feature: flash.jpeg
   header:
 
 ---
