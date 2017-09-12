@@ -10,8 +10,8 @@ via:
 source: 
 link: 
 image:
-	feature: nine-eleven.jpg
-	header:
+ feature: nine-eleven.jpg
+ header:
 ---
 
 That picture was taken from the Brooklyn Promenade on September 11, 2003. It was the two year "anniversary" of the attacks of 2001. I was living in New York at the time, but I happened to be visiting my family in Northern Virginia that day. My mom called me from work to tell me there was a plane accident in New York, and I turned on the TV just in time to watch the second plane hit.
