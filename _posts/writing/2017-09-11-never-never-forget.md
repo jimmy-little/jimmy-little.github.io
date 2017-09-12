@@ -18,6 +18,8 @@ I took this picture from the Brooklyn Promenade on September 11, 2003. The Prome
 
 It was the two year anniversary of the attacks of 2001. I was living in New York at the time, but I happened to be visiting my family in Northern Virginia that day. My mom called me from work to tell me there was a plane accident in New York, and I turned on the TV just in time to watch the second plane hit.
 
+<-- read more -->
+
 First of all, if you are one of the conspiracy nuts who think it was all a government ruse, FUCK OFF. I saw it happen live on air, and the Pentagon was just a couple dozen miles from my house. My mom's company was at the Pentagon that day donating materials. I drove back to New York on September 12 and saw the hole in the ground. It was still on fire. I have no time for your crazy. Go back to talking about chem-trails or some other bat-shit ideas.
 
 That being said... 
