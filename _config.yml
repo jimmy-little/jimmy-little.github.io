@@ -25,8 +25,7 @@ menu:
   - title: 'Categories'
     url: '/categories'
     type: 'categories'
-  - title: 'Tweets'
-    url: '/tweets'
+
 
 # Owner/author information
 owner:
@@ -86,7 +85,7 @@ permalink:   /:categories/:title/
 # Amount of post to show on home page
 paginate: 13
 
-# if true, shows the floatting share buttons
+# if true, shows the floating share buttons
 float_share: false
 
 # Octopress

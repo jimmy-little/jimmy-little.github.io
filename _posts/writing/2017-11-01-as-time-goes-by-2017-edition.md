@@ -8,6 +8,10 @@ tags:
   - Apps
   - iPhone
   - Social
+image:
+ header: 2017-Social.png
+ feature: 2017-Social.png
+ 
 ---
 It’s November, so it’s time to talk about my social media habits again. I did this in [2016][1], [2012][2]. and [2010][3].
 

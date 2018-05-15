@@ -8,15 +8,7 @@
 </head>
 
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
-   <!--
-    {% if page.image.feature %}
-        {% if page.image.feature contains "http" %}
-              <img class = "background" src="{{ page.image.feature }}">
-        {% else %}
-              <img class="background" src="{{ site.img_url }}/{{ page.image.feature }}">
-        {% endif %}    
-        {% endif %}
--->
+
     
 {% include browser-upgrade.html %}
 {% include header.html %}
