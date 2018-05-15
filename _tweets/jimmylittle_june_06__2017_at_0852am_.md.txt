@@ -1,0 +1,2 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not entirely true. ML can learn from others, but still be performed on-device. Computing on-device based on learned info in the cloud, no?</p>&mdash; jimmy little 🤷‍♂️ (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/872118968022163456">June 6, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> via Twitter http://twitter.com/jimmylittle/status/872118968022163456

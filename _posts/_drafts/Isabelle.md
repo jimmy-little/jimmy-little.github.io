@@ -1,0 +1,34 @@
+---
+title: "Isabelle"
+date: 2018-02-27
+subtitle: "She had a great run"
+tags: [Personal]()
+fromMy: 
+category: Writing
+layout: post
+via: 
+source: 
+link: 
+image: 
+  feature: Bugdogdock.jpeg
+  header: Bugdogdock.jpeg
+---
+
+In the summer of 2003, I drove from New York down to Baltimore Washington International Airport and picked up a plucky little 5 week old Boston Terrier from the freight terminal. She was on a pet-carrier plane from a breeder in Oklahoma. This started the Age of Isabelle in my life.
+
+On February 27, the Age of Isabelle ended.
+
+\<!-- more --\>
+
+She had a great run. She was almost 15, and was active to the very end. Just that morning, she was running and playing tug-of-war with our other dog, Blanche.
+
+She lived a life most humans would be jealous of. She lived in Manhattan first, then moved to Brooklyn before it was cool. She travelled with me to over 200 cities on a dozen Broadway National Tours. She was the on-set mascot for 5 different TV shows. She was a trained seizure responder. She had a podcast network, a construction company, and a new recording studio project we’re working on named for her.
+
+She lived the last few years with us in Southern California, and  quite frankly I think the move added a few more years to her life. She liked the sun.
+
+This is a sad time in our house, but we take comfort in the fact that she passed in her sleep, curled up in her favorite spot right in front of the fireplace. Blanche is a little confused, and she’ll have to get used to not having a playmate. The humans in the house are learning to accept the loss and begin moving forward.
+
+It was nice knowing you, Bug Dog. You’ll be missed.
+
+\<!-- #Personal --\>
+

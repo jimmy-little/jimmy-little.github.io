@@ -1,0 +1,3 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Try <a href="https://twitter.com/backblaze?ref_src=twsrc%5Etfw">@backblaze</a>. They back up any connected drive. I clone my system to a portable hard drive every few days, then leave it plugged in overnight. Full disk image uploaded to Backblaze, and I can (and did, once) just have them send me a hard drive with the bootable backup on it.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/969606408390959111?ref_src=twsrc%5Etfw">March 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/969606408390959111

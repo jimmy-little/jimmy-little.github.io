@@ -1,0 +1,4 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I remember a time when everything &quot;computer&quot; was better server-side. 
+ 
+Won&#39;t always be the case with ML, either.</p>&mdash; jimmy little 🤷‍♂️ (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/871878276196651009">June 5, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> via Twitter http://twitter.com/jimmylittle/status/871878276196651009
