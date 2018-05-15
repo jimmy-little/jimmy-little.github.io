@@ -1,11 +1,12 @@
 ---
 
-title: 'US News &#038; World Report Screws Paleo Without Research'
-date: 2011-06-18T15:46:14+00:00
+title: 'US News & World Report Screws Paleo Without Research'
+date: 2011-06-18
 author: jimmy
 layout: post
 categories: Writing
 tags: [Health, Paleo]
+
 ---
 As many of you know, I "went Paleo" a couple months ago. After several years of being a [pescetarian][1], I discovered that I had a small issue with gluten. I'm not celiac or anything of that magnitude, but I do have a very noticeable sensitivity to gluten-containing foods. As a result, I cut out most of the bread, pasta, cereal, and other high-gluten foods, even beer! 
 

@@ -8,7 +8,7 @@ categories:
   - Writing
 tags:
   - blog
-  - Opinion
+  - opinion
   - politics
 ---
 
