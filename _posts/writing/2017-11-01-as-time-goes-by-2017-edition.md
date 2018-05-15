@@ -15,6 +15,8 @@ image:
 ---
 It’s November, so it’s time to talk about my social media habits again. I did this in [2016][1], [2012][2]. and [2010][3].
 
+<!-- read more -->
+
 Here’s the 2017 edition:
 * Still using [Tweetbot][4]. It works with my brain and is always rock-solid.
 * [Twitter][5] is here for “official” Twitter stuff like polls. Still don’t really like the app.

@@ -15,6 +15,7 @@ image:
   creditlink: http://bgr.com/2017/04/18/galaxy-s8-plus-review-samsung-galaxy-s8-review/
 
 ---
+
 Boy Genius reviewed the new Samsung Galaxy S8, and it's terrible. Not the phone, the review. 
 
 Let's start with the title:
