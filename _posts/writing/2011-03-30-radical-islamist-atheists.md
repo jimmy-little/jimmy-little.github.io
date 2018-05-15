@@ -5,8 +5,7 @@ date: 2011-03-30
 author: jimmy
 layout: post
 categories:
-  - blog
-  - news
+  - Writing
 tags:
   - blog
   - Opinion
