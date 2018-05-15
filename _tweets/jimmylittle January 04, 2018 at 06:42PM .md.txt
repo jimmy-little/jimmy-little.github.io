@@ -1,0 +1,9 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wish list:
+1. Cloud database actions beyond Mail Drop (API? IFTTT?)
+2. Tags. All the tags.
+3. Until 3rd party Siri Apple Watch face integration is allowed, sync tasks with due dates back to reminders app so tasks show on Watch face.
+4. Shared projects or contexts
+
+🤞</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/949108931531386881?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/949108931531386881

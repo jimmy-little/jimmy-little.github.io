@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>New Folder</string>
+	</array>
+	<key>resolutionData</key>
+	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>New Folder</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>536092330.79154402</real>
+				<key>lastModification</key>
+				<real>536092330.79154402</real>
+				<key>version</key>
+				<dict>
+					<key>305A3441-791B-492A-A2C3-D961718A086D</key>
+					<integer>1</integer>
+					<key>df048f1e17f3447a3bbbbd576423e04d415ccb4b5751b3468c91e6380368ef11</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+		</dict>
+		<key>sheetClusters</key>
+		<dict/>
+		<key>sheetOrder</key>
+		<real>536092924.55738598</real>
+	</dict>
+	<key>sheetClusters</key>
+	<array/>
+	<key>sheetOrder</key>
+	<string>modificationDate</string>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>305A3441-791B-492A-A2C3-D961718A086D</key>
+			<integer>1</integer>
+			<key>df048f1e17f3447a3bbbbd576423e04d415ccb4b5751b3468c91e6380368ef11</key>
+			<integer>2</integer>
+		</dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>305A3441-791B-492A-A2C3-D961718A086D</key>
+			<integer>2</integer>
+			<key>df048f1e17f3447a3bbbbd576423e04d415ccb4b5751b3468c91e6380368ef11</key>
+			<integer>2</integer>
+		</dict>
+		<key>sheetOrder</key>
+		<dict>
+			<key>305A3441-791B-492A-A2C3-D961718A086D</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

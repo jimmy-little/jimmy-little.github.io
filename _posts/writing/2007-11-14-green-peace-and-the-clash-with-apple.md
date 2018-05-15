@@ -1,7 +1,7 @@
 ---
 
 title: Green Peace and the Clash With Apple
-date: 2007-11-14T13:38:52+00:00
+date: 2007-11-14
 author: jimmy
 tags: [Green, Apple, Activist, iPhone]
 layout: post

@@ -1,0 +1,4 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Same effective width as the non-Plus, but ~145px  add&#39;l height
+
+Corner insets only eat into status bar and home-swipey area, effectively. <a href="https://cktls.xyz/2y9TJak">http://pic.twitter.com/ug3fG0td5F</a></p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/909908661371256832">September 18, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> via Twitter http://twitter.com/jimmylittle/status/909908661371256832

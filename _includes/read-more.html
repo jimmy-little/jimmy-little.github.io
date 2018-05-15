@@ -4,6 +4,11 @@
   <div class="read-more-list">
     {% for post in site.related_posts limit:4 %}
       <div class="list-item">
+        {% if post.image.feature contains "http" %}
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
+    {% else %}
+            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.index_url }}/{{ post.image.feature }}" alt="{{ post.title }}"></a>      
+          {% endif %} </ br>
         <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
         <span>{{ post.date | date: "%B %d, %Y" }}</span>
       </div><!-- /.list-item -->

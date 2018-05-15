@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>collapsed</key>
+	<false/>
+	<key>resolutionData</key>
+	<dict>
+		<key>collapsed</key>
+		<real>536092373.116292</real>
+		<key>userIconName</key>
+		<real>533676454.75748098</real>
+	</dict>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>userIconName</key>
+	<string>Dropbox</string>
+	<key>versioning</key>
+	<dict>
+		<key>collapsed</key>
+		<dict>
+			<key>27AF04A2-2EB4-4BAE-8410-466178BB5F2B</key>
+			<integer>2</integer>
+			<key>305A3441-791B-492A-A2C3-D961718A086D</key>
+			<integer>4</integer>
+			<key>CB552F7B-DB54-42F7-9058-006D379567DF</key>
+			<integer>2</integer>
+		</dict>
+		<key>userIconName</key>
+		<dict>
+			<key>CB552F7B-DB54-42F7-9058-006D379567DF</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

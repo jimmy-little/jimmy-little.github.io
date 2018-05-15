@@ -351,26 +351,43 @@ ul.social-buttons li a:active {
 	//border-top: solid 2px lighten($base-color,80);
 }
 .list-item {
-	width: 100%;
-	text-align: left;
+    position: relative;
+	text-align: center;h
+    
+    img {
+        width: 160px;
+        height: auto;
+    }
+    
 	h4 {
-		@include font-rem(18);
-		margin-bottom: 0;
+        text-transform: uppercase;
+        width: 80%;
+        display: block;
+        position: absolute;
+        height: 80%;
+        width: 80%;
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+		@include font-rem(32);
+        background-color: rgba(255, 255, 255, .8);
 	}
+
 	span {
 		display: block;
 		@include font-rem(14);
-		color: lighten($base-color,50);
+        background-color: rgba(255, 255, 255, .8);
 	}
-	@media #{$medium} {
+	
+    @media #{$medium} {
 		width: 49%;
 		float: left;
-		&:nth-child(2) {
-			text-align: right;
-		}
-        &:nth-child(4) {
-			text-align: right;
-		}
+//		&:nth-child(2) {
+//			text-align: center;
+//		}
+//        &:nth-child(4) {
+//			text-align: center;
+//		}
 	}
 }
 

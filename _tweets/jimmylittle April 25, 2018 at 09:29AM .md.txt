@@ -1,0 +1,7 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey, Federal Government:
+
+This is why programming a backdoor into encryption won’t work. A key “only the proper authorities” have access to doesn’t exist.
+
+If there’s ONE key out there, there may as well be a thousand. <a href="https://t.co/PfJVDj1TP4">https://t.co/PfJVDj1TP4</a></p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/989179498514927617?ref_src=twsrc%5Etfw">April 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/989179498514927617
