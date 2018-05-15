@@ -1,7 +1,6 @@
 ---
 title: Plastic Lasts Forever
-date: 2008-03-21T20:09:36+00:00
-author: jimmy
+date: 2008-03-21
 layout: post
 tags:   Green
 categories:
