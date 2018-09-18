@@ -47,8 +47,8 @@ twitter:
 social:
  - title: "twitter"
    url: "https://www.twitter.com/jimmylittle"
- - title: "facebook"
-   url: "https://www.facebook.com/thejimmylittle/"
+ #- title: "facebook"
+ #  url: "https://www.facebook.com/thejimmylittle/"
  - title: "instagram"
    url: "https://www.instagram.com/jimmylittle"
  - title: "linkedin"
@@ -60,8 +60,10 @@ background:
 
 
 # Image path
-img_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images'
-index_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/index-images'
+#img_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images'
+#index_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/index-images'
+img_url:  '/images/post-images'
+index_url:  '/images/index-images'
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -83,7 +85,7 @@ sass:
 permalink:   /:categories/:title/   
 
 # Amount of post to show on home page
-paginate: 13
+paginate: 12
 
 # if true, shows the floating share buttons
 float_share: false
