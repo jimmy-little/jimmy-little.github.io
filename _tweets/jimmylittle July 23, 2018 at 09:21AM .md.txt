@@ -1,0 +1,7 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not entirely true. If the app or browser is slower at rendering the content, a faster stream of data is useless. 
+
+Chrome runs faster on iOS than Android because Apple’s WebKit subsystem is so much faster. 
+
+It’s not just about internet speed, it’s the whole stack.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1021429987834916865?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/1021429987834916865

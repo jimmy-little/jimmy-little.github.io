@@ -1,0 +1,7 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not sure if this is new to iOS 12, but Apple is firmly in the one-space-after-a-period camp. 
+
+Double-spacing on iOS now gives you a period and a space. Last time I had this feature turned on, it was a period and double space.
+
+I approve.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1007682319619055616?ref_src=twsrc%5Etfw">June 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/1007682319619055616

@@ -1,0 +1,7 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">YouTube&#39;s 4K 60FPS bitrate uses 20 Mbps data stream. Netflix is 25Mbps (neither of which most mobile devices support...) 
+
+This is lower than the iPhone&#39;s 29Mbps average. 
+
+I argue: Regular users won&#39;t notice if Android&#39;s data is 35Mbps if videos still stream the same.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1021790466285559808?ref_src=twsrc%5Etfw">July 24, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/1021790466285559808
