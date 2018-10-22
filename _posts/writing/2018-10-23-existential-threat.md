@@ -1,6 +1,6 @@
 ---
 title: "Existential Threat"
-date: 2018-10-21
+date: 2018-10-23
 subtitle: "You may not be a person anymore"
 tags: [Politics, LGBTQ]
 category: Writing
