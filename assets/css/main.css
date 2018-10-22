@@ -1095,6 +1095,21 @@ table tfoot td {
   background-color: #515151;
 }
 
+.sidebar-menu ul {
+  display: block;
+  list-style: none;
+  text-align: right;
+}
+
+.sidebar-menu ul li{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+}
+
 .contact ul {
   margin: 0;
   padding: 0;
@@ -1128,6 +1143,11 @@ table tfoot td {
           transform: scale(1.2);
 }
 
+.bio {
+   font-size: 14px;
+  text-align: center;
+  margin: 0;   
+}
 footer .copyright {
   font-size: 14px;
   text-align: center;
