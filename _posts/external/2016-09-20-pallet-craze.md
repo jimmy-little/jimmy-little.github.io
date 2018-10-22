@@ -4,7 +4,8 @@ fromMy: Instagram
 title: Pallet Craze
 tags: [Instagram]
 layout: post
-categories: Linked
+category: Linked
+link: https://www.instagram.com/p/BKd7EeWB6kL/
 subtitle: Am I doing this right?
 ---
 

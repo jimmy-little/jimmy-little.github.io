@@ -3,24 +3,16 @@ title: "WWDC Week of Wants, Vol 4"
 date: 2016-06-10
 subtitle: "Today's Ramblings: Home"
 tags: [Apple, HomeKit, Automation, Siri, Echo, WWDC]
-fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image: 
-  feature: homeechowhat.png
-  header:
+img: homeechowhat.png
 ---
 
 Whatever happened to HomeKit?
 
 When HomeKit was announced in 2014, it showed a lot of promise.  Having one way to interface with all the fiddly bits of home automation seemed like a godsend to people like me.  I have Z-Wave light switches, wifi motion sensors, IP-controlled home theater equipment, security cameras, and more all jammed into my one-bedroom apartment.  My fiancée is very tolerant.
-
-But here we are, almost two years later, and I have exactly ZERO HomeKit devices.  The HomeKit program is too limited to be practical.  Apple’s position on security means all devices have to have a secure chip in them to talk to each other, meaning all of my existing stuff is useless.  It’s time to change this.
-
 <!-- more -->
+But here we are, almost two years later, and I have exactly ZERO HomeKit devices.  The HomeKit program is too limited to be practical.  Apple’s position on security means all devices have to have a secure chip in them to talk to each other, meaning all of my existing stuff is useless.  It’s time to change this.
 
 ### Open up HomeKit
 
@@ -28,7 +20,7 @@ I appreciate the security that HomeKit devices afford, but it’d be nice if the
 
 ### Siri In A Box
 
-[Amazon’s Echo][echo] and the still-unreleased [Google Home][home] devices are open and ready for integration.  Amazon has hundreds of “Skills” that the Echo can install, giving you control over lights, telling you the weather or sports scores, and (sadly) even a fart skill.  I would love to see Apple build a Siri box/speaker that competes.
+[Amazon’s Echo][1] and the still-unreleased [Google Home][2] devices are open and ready for integration.  Amazon has hundreds of “Skills” that the Echo can install, giving you control over lights, telling you the weather or sports scores, and (sadly) even a fart skill.  I would love to see Apple build a Siri box/speaker that competes.
 
 But, to compete, it NEEDS TO BE OPEN.  It can’t have the limited inputs that Siri currently has.  I want a Logitech input that lets me turn on the TV.  I want to control my lights, and ask for weather from Dark Sky and add things to my OmniFocus list.  These are all possible, some of these are even possible now with Siri on my phone. But I don’t want to take out my phone.  I want to scream into the air and then things happen.
 
@@ -38,11 +30,11 @@ There have been grumblings of the AppleTV getting this new home assistant, but t
 
 Apple loves to talk about how much they love music. I don’t think they’d release a “passable” speaker device.  Apple could go two ways on this:
 
-[eero][eero]-style wifi stations with speaker outputs and a microphone array (like a souped-up AirPort Express), that communicate with each other and back to a main AirPort.  This way, you get a wifi repeater and a microphone from Apple, but you can use your own speakers.
+[eero][3]-style wifi stations with speaker outputs and a microphone array (like a souped-up AirPort Express), that communicate with each other and back to a main AirPort.  This way, you get a wifi repeater and a microphone from Apple, but you can use your own speakers.
 
 or, more likely
 
-A Sonos-style system that has high quality speakers on a mesh network that all speak to each other, and have all the microphones and smarts to do the Alexa thing.  Remember a couple years ago when Apple bought a [certain headphone and speaker company][beats]? Put that to good use and build a networked speaker.  I like [Myke Hurley’s][myke] idea of calling these speakers iPods, but it seems Apple is pulling away from the “i”.
+A Sonos-style system that has high quality speakers on a mesh network that all speak to each other, and have all the microphones and smarts to do the Alexa thing.  Remember a couple years ago when Apple bought a [certain headphone and speaker company][4]? Put that to good use and build a networked speaker.  I like [Myke Hurley’s][5] idea of calling these speakers iPods, but it seems Apple is pulling away from the “i”.
 
 ### Smarter Phones
 
@@ -53,8 +45,8 @@ Example: I get home from work every day about the same time. My Nest thermostat 
 To wrap up, what I really want doesn’t exist right now, and I want it to. The Echo and Home are getting closer, but an integrated approach seems like it can move a lot faster towards a world where people don’t have to touch things.
 
 
-[echo]: http://amzn.to/22Z2C0a
-[home]: https://home.google.com
-[eero]: https://eero.com
-[beats]: https://www.apple.com/pr/library/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics.html
-[myke]: https://www.relay.fm/upgrade/92
+[1]:	http://amzn.to/22Z2C0a
+[2]:	https://home.google.com
+[3]:	https://eero.com
+[4]:	https://www.apple.com/pr/library/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics.html
+[5]:	https://www.relay.fm/upgrade/92

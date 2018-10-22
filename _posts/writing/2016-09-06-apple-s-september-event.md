@@ -3,25 +3,16 @@ title: "Apple's September Event"
 date: 2016-09-06
 subtitle: "It's pronounced bo-kay"
 tags: [Apple, Watch, iPad, iPhone]
-fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature: FullSizeRender.jpg
-  header:
-
+img: FullSizeRender.jpg
 ---
 
 Tomorrow is Apple's big fall event, and we're all expecting new iPhones. I sat out last year's upgrade for the first time ever, so I'm certainly ready for a new phone. But will anything else be there to tempt my wallet?
-
+<!-- more -->
 ### What We Know
 
 Nothing. It's all rumors and fairy dust as of now, as usual.
-
-<!-- more -->
 
 ### What I Think
 
@@ -32,7 +23,7 @@ New iPhones are a given, really. There have been so many leaks, it's insane to t
 There is also talk of the Plus getting a 256GB option and 3GB of RAM. I think this makes sense. It's also pretty well accepted at this point that there will be no headphone jack. I'm OK with this, I haven't plugged headphones into my phone in years, but it's going to piss a lot of people off.
 
 ##### iPhone Pro?
-There were some rumors back in early summer that there would be a "Pro" model of the phone. I'd actually like to see this. I could imagine a lineup of the iPhone 7 and 7 Plus, standard upgrades of the 6S line, and an additional 5.5" iPhone Pro. This is where Apple could jam in the 256GB storage option, a fancier finish ([piano black][5]?), wireless earbuds, and even Apple Pencil support. I'd pay extra for those features, for sure.
+There were some rumors back in early summer that there would be a "Pro" model of the phone. I'd actually like to see this. I could imagine a lineup of the iPhone 7 and 7 Plus, standard upgrades of the 6S line, and an additional 5.5" iPhone Pro. This is where Apple could jam in the 256GB storage option, a fancier finish ([piano black][1]?), wireless earbuds, and even Apple Pencil support. I'd pay extra for those features, for sure.
 
 #### New Watch
 
@@ -56,13 +47,13 @@ Apple released HomeKit a couple years ago, and products are (finally) starting t
 
 #### What else?
 
-MacBook Pro updates are in the near future, but signs point to them not being revealed here. I think they should be mentioned, even if they say "shipping next month". If the rumored [touch-sensitive function row][1] is a thing, it'll require a little demo and a mention of software APIs. In a dream world, they'd also announce lower iCloud Drive pricing, and the ability to share a 1TB or 2TB iCloud bucket with your Family Plan members.
+MacBook Pro updates are in the near future, but signs point to them not being revealed here. I think they should be mentioned, even if they say "shipping next month". If the rumored [touch-sensitive function row][5] is a thing, it'll require a little demo and a mention of software APIs. In a dream world, they'd also announce lower iCloud Drive pricing, and the ability to share a 1TB or 2TB iCloud bucket with your Family Plan members.
 
 
 Luckily, I get to watch the event at work, so I'll be watching with an open mind and an open wallet.
 
-[1]: https://9to5mac.com/2016/06/28/roundup-apples-new-macbook-pro-oled-usb-c/
-[2]: http://amzn.to/2c2bkHV
-[3]: http://amzn.to/2cyQbrD
-[4]: http://amzn.to/2cyTHzd
-[5]: http://www.macrumors.com/2016/09/03/iphone-7-5-colors-ipx7-12mp-cameras/
+[1]:	http://www.macrumors.com/2016/09/03/iphone-7-5-colors-ipx7-12mp-cameras/
+[2]:	http://amzn.to/2c2bkHV
+[3]:	http://amzn.to/2cyQbrD
+[4]:	http://amzn.to/2cyTHzd
+[5]:	https://9to5mac.com/2016/06/28/roundup-apples-new-macbook-pro-oled-usb-c/

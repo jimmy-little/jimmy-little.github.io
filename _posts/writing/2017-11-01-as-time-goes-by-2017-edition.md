@@ -8,14 +8,13 @@ tags:
   - Apps
   - iPhone
   - Social
-image:
- header: 2017-Social.png
- feature: 2017-Social.png
+img: 2017-Social.png
+ 
  
 ---
 It’s November, so it’s time to talk about my social media habits again. I did this in [2016][1], [2012][2]. and [2010][3].
 
-<!-- read more -->
+<!-- more -->
 
 Here’s the 2017 edition:
 * Still using [Tweetbot][4]. It works with my brain and is always rock-solid.
@@ -28,14 +27,13 @@ Here’s the 2017 edition:
 
 So there you have it. I still consider these time wasters, hence the ⏰🚽 folder title.  I am happy that I’m a lot more streamlined in my social media usage these days. I no longer auto-post tweets to Facebook. I do crosspost Instagram to Facebook, but my Twitter audience is ay different than my Facebook friends list, so mixing those conversations became toxic at times.  Ignore the second screen of this folder - it’s full of games. 
 
-2010:
+### 2010:
 ![][image-1]
-2012:
+### 2012:
 ![][image-2]
-2016:
+### 2016:
 ![][image-3] 
-2017:
-![][image-4]
+
 
 [1]:	http://www.cocktailsandcoffee.com/writing/my-social-apps-2016-edition/
 [2]:	http://www.cocktailsandcoffee.com/writing/as-time-goes-by/
@@ -47,7 +45,6 @@ So there you have it. I still consider these time wasters, hence the ⏰🚽 fol
 [8]:	%3Ca%20href=%22https://itunes.apple.com/us/app/snapchat/id447188370?mt=8&at=1001l3C5%22%3ESnapchat%20-%20Snap,%20Inc.%3C/a%3E
 [9]:	%3Ca%20href=%22https://itunes.apple.com/us/app/linkedin/id288429040?mt=8&at=1001l3C5%22%3ELinkedIn%20-%20LinkedIn%20Corporation%3C/a%3E
 
-[image-1]:	https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/astimegoesby/before.jpeg "2010"
-[image-2]:	https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/site_images/astimegoesby/after.jpeg "2012"
-[image-3]:	https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/2016social.PNG "2016"
-[image-4]:	https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/2017-Social.png "2017"
+[image-1]:	/assets/img/post/before.jpeg "2010"
+[image-2]:	/assets/img/post/after.jpeg "2012"
+[image-3]:	/assets/img/post/2016social.PNG "2016"

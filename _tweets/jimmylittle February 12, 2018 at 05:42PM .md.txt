@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you mean emphasis as in “em tag in HTML”, or emphasis as in “make this bold so it stands out”?
-
-I’m a *bold* and _italics_  guy by (Slack and SMS) habit, but would rather be a *bold* /italics/ _underline_ guy.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/963226778540982272?ref_src=twsrc%5Etfw">February 13, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/963226778540982272

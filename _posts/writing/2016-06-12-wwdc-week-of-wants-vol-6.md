@@ -5,8 +5,7 @@ layout: post
 subtitle: "Today's Ramblings: Siri"
 category: Writing
 tags: [Apple, Siri, WWDC]
-image:
-  feature: siriwave.jpg
+img: siriwave.jpg
 ---
 
 Apple was the first compnay to put voice control in a phone with the iPhone 3GS. Siri took over for Voice Control with the iPhone 4S, and was a vast improvement.
@@ -27,7 +26,7 @@ Why do I have to talk to Siri? Let me type, especially if/when Siri comes to Mac
 
 ### Hardware
 
-There's the Echo, and there's Google Home. I want a Siri box in my house. In [Volume 4][v4] of this series, I talked about the [eero][eero] system that I would love to see emulated with Siri boxes. I also wrote about wanting Siri to high-five Beats and make a Sonos-style system I can put all over the house. That's the real dream.
+There's the Echo, and there's Google Home. I want a Siri box in my house. In [Volume 4][1] of this series, I talked about the [eero][2] system that I would love to see emulated with Siri boxes. I also wrote about wanting Siri to high-five Beats and make a Sonos-style system I can put all over the house. That's the real dream.
 
 ### Smarter Siri
 
@@ -37,9 +36,9 @@ Siri needs chain logic to remember it's place (yes, I call Siri an it. the US-ce
 
 Also, can we please name Siri something else? I use the British male voice, and call my Siri "Jarvis". But, I can only do that antecdotally, Siri won't answer to Jarvis. But it should.
 
-Siri started the voice assistant revolution, but it hasn't evolved much in 5 years. Siri 2.0 needs to be a huge leap in openness, functionality, and utility in order to have a hope of staying competitive. Apple's notorious privacy stance already puts it at a disadvantage to companies like Google who have massive databases for machine learning. I hope that Apple's [aquisition of VocalIQ][viq] last year really pays off for the next generation of OSes.
+Siri started the voice assistant revolution, but it hasn't evolved much in 5 years. Siri 2.0 needs to be a huge leap in openness, functionality, and utility in order to have a hope of staying competitive. Apple's notorious privacy stance already puts it at a disadvantage to companies like Google who have massive databases for machine learning. I hope that Apple's [aquisition of VocalIQ][3] last year really pays off for the next generation of OSes.
 
 
-[v4]: http://www.cocktailsandcoffee.com/writing/wwdc-week-of-wants-vol-4/
-[eero]: https://eero.com/
-[viq]: http://www.wsj.com/articles/apple-acquires-artificial-intelligence-startup-vocaliq-1443815801
+[1]:	http://www.cocktailsandcoffee.com/writing/wwdc-week-of-wants-vol-4/
+[2]:	https://eero.com/
+[3]:	http://www.wsj.com/articles/apple-acquires-artificial-intelligence-startup-vocaliq-1443815801

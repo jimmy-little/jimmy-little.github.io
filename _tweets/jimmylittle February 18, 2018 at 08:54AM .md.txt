@@ -1,3 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Don’t forget that if you’re a <a href="https://twitter.com/1Password?ref_src=twsrc%5Etfw">@1Password</a> user, the app can create two-factor codes as well. Bonus- it automatically puts the two factor code on the clipboard after it fills in your password. 🤓</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/965268397612187648?ref_src=twsrc%5Etfw">February 18, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/965268397612187648

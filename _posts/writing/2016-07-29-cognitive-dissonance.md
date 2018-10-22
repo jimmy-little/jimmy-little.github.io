@@ -3,26 +3,17 @@ title: "Cognitive Dissonance"
 date: 2016-07-29
 subtitle: "Do these guys even talk to each other?"
 tags: [Opinion, Politics, Twitter]
-fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature:
-  header:
-
 ---
 
-
-Part of a Hugh Hewitt interview with VP nominee Mike Pence, quoted on [Vox](http://www.vox.com/2016/7/29/12324660/mike-pence-trump-obama-name-calling).
+Part of a Hugh Hewitt interview with VP nominee Mike Pence, quoted on [Vox][1].
 
 High Hewitt asks Pence about Obama calling Trump a demagogue:
+<!-- more -->
+> HUGH HEWITT: So you dismiss the demagogue?
 
->HUGH HEWITT: So you dismiss the demagogue?
-
->MIKE PENCE: But I’ve found him to be, well, you know, **I don’t think name-calling has any place in public life**...
+> MIKE PENCE: But I’ve found him to be, well, you know, **I don’t think name-calling has any place in public life**...
 
 Meanwhile, on Twitter...
 
@@ -44,3 +35,5 @@ Meanwhile, on Twitter...
 
 <blockquote class="twitter-tweet tw-align-center" data-partner="tweetdeck"><p lang="en" dir="ltr">Lyin&#39; Ted Cruz consistently said that he will, and must, win Indiana. If he doesn&#39;t he should drop out of the race-stop wasting time &amp; money</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/727636035149139968">May 3, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[1]:	http://www.vox.com/2016/7/29/12324660/mike-pence-trump-obama-name-calling

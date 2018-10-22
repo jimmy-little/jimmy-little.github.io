@@ -26,7 +26,6 @@ Sadly, the hard drive was getting a little flaky, and as a result the computer h
 {% capture images %}
 https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/Slow.jpeg
 {% endcapture %}
-{% include gallery images=images caption="" cols=1 %}
 
 So, I decided to take the plunge and upgrade. After some research, I discovered that I can put an SSD into the 27" iMac. I also discovered I can roll my own Fusion Drive. So, of course, I did it.
 
@@ -56,7 +55,6 @@ The first thing (after all the backups, of course...) I had to do was get the sc
 {% capture images %}
 https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/theGuts.jpeg
 {% endcapture %}
-{% include gallery images=images caption="" cols=1 %}
 
 Peeling the glue gunk off the back of the screen and the iMac frame is a bitch, but if you can get under a corner it'll peel right up like three day old sunburnt skin.
 
@@ -67,14 +65,13 @@ Now, after all those screws and wine, you end up with a pile of parts and a loos
 {% capture images %}
 https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/Disassembled.jpeg
 {% endcapture %}
-{% include gallery images=images caption="" cols=1 %}
 
 Next comes the fun part. On the bottom of the logic board, you plug in the SSD. 480GB of marvelous speed and power. Woo hoo! I deserve a drink.
 
 {% capture images %}
 https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/SSD.jpeg
 {% endcapture %}
-{% include gallery images=images caption="" cols=1 %}
+
 
 Cool, now I just have to follow the instructions in reverse. The engineering inside this machine is pretty incredible. It's amazing how well fitted and detailed the parts are, when in reality most people will never see them. 
 
@@ -89,7 +86,6 @@ Once the OS is installed, it'll ask where to get data. I chose "Restore from Tim
 {% capture images %}
 https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/iMacUpgrade/Restoring-3.jpeg
 {% endcapture %}
-{% include gallery images=images caption="" cols=1 %}
 
 I woke up the next day and it was done. I ran a few tests to check some stuff, and was so freakin' happy. The night before, it was taking several minutes to copy a file, now that same file copied so fast the progress bar didn't even have time to show on screen. Rebooting before took several minutes. Now, it takes 38 seconds. Mission accomplished, so the screen got glued back on with the adhesive that came with the OWC kit, and it looks like I never pried this thing apart.
 

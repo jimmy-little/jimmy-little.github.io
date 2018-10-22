@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is Dropbox/Box/etc. not an option for Linux? 
-
-I use Dropbox, but I also use my local Synology NAS (and the iOS Synology app) to xfer files I don&#39;t want (or legally can&#39;t have) on the cloud.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1030210318947864576?ref_src=twsrc%5Etfw">August 16, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1030210318947864576

@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A setting where the two options are “slow phone down under load as battery craps out” or “spontaneously shut down phone when battery craps out” isn’t really a setting. 
-
-Just an alert pop up: “Your phone’s battery can’t keep up with the CPU anymore. Slowing down some tasks”</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/943656863723220992?ref_src=twsrc%5Etfw">December 21, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/943656863723220992

@@ -1,5 +1,4 @@
 ---
-
 title: "Flash Is Sunsetting"
 date: 2017-07-25
 subtitle: "What is dead may never die"
@@ -9,14 +8,12 @@ category: Writing
 layout: post
 via: Adobe
 source: https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html
-link: 
-image:
-  feature: flash.jpeg
-  header:
+img: flash.jpeg
+ 
 
 ---
 
-[Adobe](https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html) announced today that 2020 is the end of the line for Flash.
+[Adobe][1] announced today that 2020 is the end of the line for Flash.
 
 Finally™
 
@@ -26,7 +23,7 @@ Listen, I think Flash was great in the early 2000’s. I designed quite a few we
 
 Those days passed long ago, and Adobe is late to the game on letting Flash go. Google, Apple, and Microsoft all ship browsers without Flash on by default. Apple famously never allowed Flash on iOS devices. YouTube stopping Flash streams was probably the straw that killed the camel. (I’m really bad at metaphors.)
 
-Steve Jobs, in his [Thoughts on Flash](https://www.apple.com/hotnews/thoughts-on-flash/) essay, predicted this day would someday come back in 2010 and offered Adobe some advice:
+Steve Jobs, in his [Thoughts on Flash][2] essay, predicted this day would someday come back in 2010 and offered Adobe some advice:
 
 > New open standards created in the mobile era, such as HTML5, will win on mobile devices (and PCs too). Perhaps Adobe should focus more on creating great HTML5 tools for the future
 
@@ -34,3 +31,6 @@ They probably should have taken the advice a while ago.
 
 
 <!-- #Opinion, #Flash -->
+
+[1]:	https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html
+[2]:	https://www.apple.com/hotnews/thoughts-on-flash/

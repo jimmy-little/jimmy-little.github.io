@@ -9,9 +9,9 @@ layout: post
 via: The FCC
 source: http://transition.fcc.gov/Daily_Releases/Daily_Business/2017/db0928/DOC-346949A1.pdf
 link: http://transition.fcc.gov/Daily_Releases/Daily_Business/2017/db0928/DOC-346949A1.pdf
-image:
-  feature: ajit-pai.jpg
-  header:
+img: ajit-pai.png
+tn: ajit-pai-400.png
+fig-caption: "Screengrab from The Daily Caller's Stupid Video"
 
 ---
 Chairman of the FCC, Ajit Pai, [recently put out a statement](http://transition.fcc.gov/Daily_Releases/Daily_Business/2017/db0928/DOC-346949A1.pdf) asking all cell phone manufacturers (including Apple *by name*) to “flip the switch” on the FM radios built into iPhones to help during natural disasters.

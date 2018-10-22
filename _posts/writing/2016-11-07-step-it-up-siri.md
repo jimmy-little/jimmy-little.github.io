@@ -3,21 +3,15 @@ title: "Step It Up, Siri"
 date: 2016-11-07
 subtitle: "Isn't this one obvious?"
 tags: [Apple, Siri]
-fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature: IMG_0664.JPG
-  header:
-
+img: siri.png
+tn: siri.png
 ---
 Siri is great at a lot of things, but Apple really needs to get the obvious things into her (it?). I hear it's great at telling me when the next Braves game is, but I don't even watch hockey. 
-
+<!-- more -->
 One thing nearly every American should know is where they should go to vote.
-
+http://bgr.com/2017/04/18/galaxy-s8-plus-review-samsung-galaxy-s8-review/
 I asked a simple question - Where can I vote tomorrow?
 
 Siri gave me a bunch of irrelevant web searches. So, I opened the Google app and asked the exact same question using Google voice search. 

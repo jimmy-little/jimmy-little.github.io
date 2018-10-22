@@ -1,4 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">beta 4 did it for me. Every 5 minutes at the office (logged into test ATV there), never at home.
-
-Same tvOS version on both. Weird</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/895032772321984513">August 8, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> via Twitter http://twitter.com/jimmylittle/status/895032772321984513

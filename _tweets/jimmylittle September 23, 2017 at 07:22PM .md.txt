@@ -1,2 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yay. Signposts are important to users. They don’t “waste” space. If there’s more info than can fit, they shrink when scrolled anyway.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/911777888726261760">September 24, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> via Twitter http://twitter.com/jimmylittle/status/911777888726261760

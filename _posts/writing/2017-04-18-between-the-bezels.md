@@ -6,18 +6,15 @@ tags: [Apple, Samsung, Design]
 fromMy: 
 category: Writing
 layout: post
-via: http://bgr.com/2017/04/18/galaxy-s8-plus-review-samsung-galaxy-s8-review/
+via: Boy Genius Report
 source: 
-link: 
-image:
-  feature: http://cdn.bgr.com/2017/04/samsung-galaxy-s8-plus-1.jpg?quality=98&strip=all&w=1125
-  credit: BGR
-  creditlink: http://bgr.com/2017/04/18/galaxy-s8-plus-review-samsung-galaxy-s8-review/
-
+link: http://bgr.com/2017/04/18/galaxy-s8-plus-review-samsung-galaxy-s8-review/
+img: bgrSamsung.jpg
+fig-caption: '📷 BGR'
 ---
 
 Boy Genius reviewed the new Samsung Galaxy S8, and it's terrible. Not the phone, the review. 
-
+<!-- more -->
 Let's start with the title:
 
 > Samsung Galaxy S8 review: Meet the envy of every iPhone user
@@ -28,7 +25,7 @@ By all accounts, Samsung has hit it out of the park with the S8 design. It looks
 
 But, Zach Epstein's review is garbage.
 
-<!-- more -->
+
 
 > They’re industry leaders in terms of specs, as Samsung’s flagship phones always have been.
  

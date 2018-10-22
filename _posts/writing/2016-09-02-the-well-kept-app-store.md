@@ -6,17 +6,12 @@ tags: [Apple, Apps]
 fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature:
-  header:
+img: appstore2016.jpg
 ---
 
 Apple has announced to developers that they are cleaning up their app store. This is good news. The two big steps Apple is taking are cleaning up metadata by limiting title lengths and being more strict on keywords, and clearing out the old apps that no longer work. This is welcome news, but in my opinion, they should have been doing this all along.
-
-### Two Many Millions 
+<!-- more -->
+### Two Many Millions
 
 The App Store currently houses over two million apps. And, dare I say, most of them are _crap_. There are probably a million and a half pieces of shit we have to wade through to get to the half-million or so acutal functional apps, and  them dig even further to get to the couple of thousand that are worth downloading.
 
@@ -39,7 +34,6 @@ Clearing out the cruft will improve search. Less junk automatically means more r
  - Review favorability (algorithms can easily determine if a written review is positive or negative)
 
 The best part is, these two things (App Store cleanup and Search improvemets) can be done mostly by machines, clearing time for App Store staff to properly review apps and keep the App Store running from the editorial side without interruption.
-
 
 
 

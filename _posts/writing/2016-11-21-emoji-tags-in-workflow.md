@@ -6,12 +6,8 @@ tags: [Automation, Workflow, iPad, iPhone]
 fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature:  EmojiTags.png
-  index: EmojiTags-400.png
+img:  EmojiTags.png
+tn: EmojiTags.png
 ---
 
 I love the [Workflow][1] app. It's simply the most powerful automation tool on iOS. Workflow, along with [Working Copy][2] and [1Writer][3], are what keeps my blog going. But there is a small problem. When you have a ton of workflows, finding them can be a chore. That's where Emoji Tags come in.
@@ -40,9 +36,9 @@ As you can see from the screenshots above, I use the widget to start a lot of th
 
 It's pretty slick in practice, and you can copy that workflow and just replace the emoji in the "if" statement to get a list matching that Emoji Tag.
 
-[1]: https://itunes.apple.com/us/app/workflow-powerful-automation/id915249334?mt=8&at=1001|3C5
-[2]: https://itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8&at=1001|3C5
-[3]: https://itunes.apple.com/us/app/1writer-note-taking-writing/id680469088?mt=8&at=1001|3C5
-[4]: https://workflow.is/workflows/73419f1df4334bb9826ddde75d44d316
-
 <!-- #Automation, #Workflow, #iPad, #iPhone -->
+
+[1]:	https://itunes.apple.com/us/app/workflow-powerful-automation/id915249334?mt=8&at=1001%7C3C5
+[2]:	https://itunes.apple.com/us/app/working-copy-powerful-git/id896694807?mt=8&at=1001%7C3C5
+[3]:	https://itunes.apple.com/us/app/1writer-note-taking-writing/id680469088?mt=8&at=1001%7C3C5
+[4]:	https://workflow.is/workflows/73419f1df4334bb9826ddde75d44d316

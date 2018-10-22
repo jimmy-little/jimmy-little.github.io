@@ -15,7 +15,7 @@ image:
 ---
 
 In a rambling Dvorak-esque anti-logic diatribe on pcmag.com, resident crazy-pants get-off-my-lawn commentator John C. Dvorak thinks that [Apple Should Spin Off the Macintosh][1]
-
+<!-- more -->
 > A recent "little change" got me thinking that Apple might spin it off its computer division into something I'm calling the Macintosh Computer Company: the renaming of OS X back to _[sic]_ MacOS. Because what's the point...unless something is up?”
 
 Something is up, John.  It’s called consistency.  iOS, tvOS, watchOS, macOS.  Get it?  They renamed it to better fit in with their existing marketing, not make it ripe for selling off.

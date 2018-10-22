@@ -1,106 +1,36 @@
-title:            Cocktails & Coffee    
-description:      Internet ramblings fueled by adult beverages.
+title: Cocktails & Coffee
+description: Internet ramblings fueled by adult beverages
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.cocktailsandcoffee.com"
+site-twitter: #if your site has a twitter account, enter it here
+excerpt_separator: <!-- more --> 
+future: false
 
-# put your disqus here
-disqus_shortname:
-reading_time:     false # if true, shows the estimated reading time for a post
-words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
-excerpt_separator: <!-- more -->  
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
+# Author Settings
+author: Jimmy Little
+author-img: 'assets/img/favicon/apple-touch-icon-180x180.png' # add your photo
+about-author: Internet ramblings fueled by adult beverages. # add description
+social-twitter: jimmylittle # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: jimmy-little # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: thejimmylittle@gmail.com # add your Email address
 
-url: http://www.cocktailsandcoffee.com
+# Disqus
+discus-identifier: # add your discus identifier
 
-# draw your top menu here
-# each item must have a title and a url.
-#   To list post categories. use type: 'categories'
-#   To create sub categories. add a submenu item
-# See the example
-menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
+# Tracker
+analytics: # Google Analytics
 
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-# Owner/author information
-owner:
-  name:           Jimmy Little
-  site:           http://jimmylittle.com
-  avatar:         images/avatar.jpg
-  bio:            "I write stuff occasionally. Mostly about technology and productivity, but sometimes about politics."
-  email:          thejimmylittle@gmail.com
-  # Twitter nick for use in Twitter cards and follow button.
-  twitter:  # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  # github: jimmylittle
+paginate: 100
+paginate_path: "/page/:num"
 
-# Twitter account associated with the site if different from owner/author twitter account.
-# Used in Twitter cards.
-twitter:
-
-# Social networking links used in author block underneath posts. Update and remove as you like.
-social:
- - title: "twitter"
-   url: "https://www.twitter.com/jimmylittle"
- #- title: "facebook"
- #  url: "https://www.facebook.com/thejimmylittle/"
- - title: "instagram"
-   url: "https://www.instagram.com/jimmylittle"
- - title: "linkedin"
-   url: "https://linkedin.com/in/jimmylittle"
-
-
-# Background image to be tiled on all pages
-background:
-
-
-# Image path
-#img_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images'
-#index_url:  'https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/index-images'
-img_url:  '/images/post-images'
-index_url:  '/images/index-images'
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Los_Angeles
-locale:      en_US
-future:      true
-highlighter: rouge
-markdown:    kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/   
-
-# Amount of post to show on home page
-paginate: 12
-
-# if true, shows the floating share buttons
-float_share: false
-
-# Octopress
-# Default extensions
-post_ext: md
-page_ext: md
-# Found in _templates/
-post_layout: post
-page_layout: page
-# Format titles with titlecase?
-titlecase: true
-
-include: [".htaccess"]
-exclude: ["/vendor", "demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]
-# theme: neo-hpstr-jekyll-theme
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "/vendor"]

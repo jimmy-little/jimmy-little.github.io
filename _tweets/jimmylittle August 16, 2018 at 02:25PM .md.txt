@@ -1,7 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why do you need it to work with Linux?  I haven’t plugged my phone into a computer in years.
-
-Can’t you just use it standalone and sync contacts/calendars through CalDAV or Gmail? 
-
-There’s no showstopper reason you have to use iTunes or even iCloud anymore.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1030203958508150784?ref_src=twsrc%5Etfw">August 16, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1030203958508150784

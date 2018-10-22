@@ -1,3 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/OvercastFM?ref_src=twsrc%5Etfw">@OvercastFM</a> users: is there a way to share/save the show notes for an episode without copy/pasting (which doesn’t preserve links)? All the share sheets I can find just send a podcast link or Overcast url/timestamp.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/980295286961524737?ref_src=twsrc%5Etfw">April 1, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/980295286961524737

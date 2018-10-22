@@ -6,13 +6,8 @@ tags: [Apple, iPhone]
 fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature: face-touch-id.png
-  header:
-
+img: face-touch-id.png
+tn: face-touch-id.png
 ---
 
 In the latest public beta of iOS, the TouchID interface changed from a solid white panel that slid up from the bottom to a full screen blurred overlay.

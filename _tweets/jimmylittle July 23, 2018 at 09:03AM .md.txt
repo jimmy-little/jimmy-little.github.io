@@ -1,9 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Again, this is Nerds Chasing Numbers™. Raw speed is important, but I’d like to see a comparison of actual user experience. 
-
-Is Safari on iOS faster than Chrome on Android? 
-
-Does an app like Netflix start streaming faster on Android? 
-
-Just like CPUs, numbers aren’t the story.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1021425524239839232?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1021425524239839232

@@ -3,17 +3,11 @@ title: "DongleGate"
 date: 2016-11-05
 subtitle: "When a dongle, isn't."
 tags: [Apple, Mac, iPad, iPhone]
-fromMy: 
 category: Writing
 layout: post
-via: 
-source: 
-link: 
-image:
-  feature: donglegate.png
-  header:
-
+img: donglegate.png
 ---
+
 A lot has been said over Apple's recent move away from "legacy" ports. Laptops are USB-C, the headphone jack is gone from the iPhone, and everyone's talking about dongles.
 
 <!-- more -->

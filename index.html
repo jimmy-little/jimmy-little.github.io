@@ -1,67 +1,34 @@
 ---
-layout: home
-title: "Home"
-description: "Internet ramblings fueled by adult beverages"
-tags: []
-comments: false
+layout: main
 ---
-
 {% for post in paginator.posts %}
-<article class="hentry">
-  <header>    
-    {% if post.link %}
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
-    </div><!-- /.entry-meta -->  
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-glass"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% elsif post.original %}
-      
-    {% else %}
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
-    </div><!-- /.entry-meta -->  
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
-    {% if post.subtitle %}
-    <h5>{{ post.subtitle }}</h5> 
-    {% endif %}
-    {% if post.image.feature %}
-      <div class="entry-image-index">
-    {% if post.image.feature contains "http" %}
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
-    {% else %}
-            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.index_url }}/{{ post.image.feature }}" alt="{{ post.title }}"></a>      
-        {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->
-          {% endif %}
-          {% endif %}
-      </div><!-- /.entry-image -->
-    {% endif %}
-  </header>
-<div class="entry-content">
-{% if post.network %}
-    <div class="social">    
-        <div class = "icon-{{ post.network }}">
-        <a href="{{ post.original }}"><i class="fa fa-{{ post.network }}" aria-hidden="true"></i></a>
-    <div class="social-meta">
-        <span class="entry-date date published updated">{{ post.date | date: "%d %b<br>%Y" }}</span></div>     
-    </div>
-    <div class = "content-microblog">
-    {% if post.avatar %}
-        <img class="social-avatar" src="{{ post.avatar }}" <br />
-    {% endif %}
-    {% if post.image %} <img src="{{ post.image }}">{% endif %}
-    {% if post.caption %} <p>{{ post.caption }}</p> {% endif %}
-    {{ post.content }}</div> </div>     
-      {% else %}
-{{ post.excerpt }}
-{% if post.content contains "<!-- more -->" %}
-          <div align="left">
-              <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">continue reading <i class="fa fa-glass" aria-hidden="true"></i></a></div>
-    </div>    
-      {% endif %} {% endif %}
+<article class="post">
+  {% if post.category == "Linked" %}
+    <div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
+  {% elsif post.category == "Video" %}
+    <div class="post-linkthumb"><h1 class="videopost"> 📽 </h1></div>
+  {% elsif post.tn %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% elsif post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+        {% if post.subtitle %}
+          <h4 class="post-subtitle">{{post.subtitle}}</h3>
+        {% endif %}
+    <p>{{ post.excerpt }}{% if post.content contains "<!-- more -->" %}
+        <div class="read-more">
+    <a href="{{ site.baseurl }}{{ post.url }}">read more</a></div>
+{% endif %}</p>
 
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
+    <span class="post-date">{{post.date | date: '%B %d, %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    {% if post.via %}<span class="post-date"><a href="{{post.link}}" class="post-tag">🔗&nbsp;&nbsp;{{post.via}}</a></span>
+    {% else %}
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>    
+    {% endif %}
+  </div>
+</article>
 {% endfor %}
 
 {% include pagination.html %}

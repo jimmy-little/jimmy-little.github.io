@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m a pretty smart guy who is a product manager in technology and I can’t figure out how the hell mastodon is supposed to help the issue. 
-
-It’s like I have to sign up for 42 different Twitters.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1031353238853844992?ref_src=twsrc%5Etfw">August 20, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1031353238853844992

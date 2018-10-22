@@ -1,2 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Safari ½ full-screen on a 15&quot; rMBP. I think it&#39;s just a CSS breakpoint issue. I use share-button blocker on Chrome, so don&#39;t notice there. <a href="https://cktls.xyz/2sQT6iT">http://pic.twitter.com/krLNOYBuIH</a></p>&mdash; jimmy little 🇺🇸 (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/883013636490317824">July 6, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> via Twitter http://twitter.com/jimmylittle/status/883013636490317824

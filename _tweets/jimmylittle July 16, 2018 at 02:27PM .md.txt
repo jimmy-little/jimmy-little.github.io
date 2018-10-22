@@ -1,7 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The DNC server was cloned and is in FBI custody. This is standard practice for any computer-related investigation.
-
-You make a forensic copy of the data, you don&#39;t use the actual computer. 
-
-This way, you ensure nothing can be changed after the confiscation.</p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1018970507083853825?ref_src=twsrc%5Etfw">July 16, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1018970507083853825

@@ -9,11 +9,6 @@ layout: post
 via: Nicholas Windsor Howard
 source: http://www.nicholaswindsorhoward.com/blog-directory/2016/7/20/the-apple-goes-mushy-part-i
 link: http://www.nicholaswindsorhoward.com/blog-directory/2016/7/20/the-apple-goes-mushy-part-i
-image:
-  feature: http://www.nicholaswindsorhoward.com/images/blog/2016/7/20/goodbye-metaphors.png
-  header:
-  credit: Nicolas Windsor Howard
-  creditlink: http://www.nicholaswindsorhoward.com/blog-directory/2016/7/20/the-apple-goes-mushy-part-i
 
 ---
 

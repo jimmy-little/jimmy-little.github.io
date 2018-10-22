@@ -1,35 +1,22 @@
 ---
-
 layout: post
-
 date: 2016-04-07
-
 modified: 2016-04-12
-
 categories: Writing
-
 tags: [Software, Subscriptions, Customer]
-
-image:
- feature: textexpander-logo.png
- 
-via: The Smile Blog
-source: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta 
- 
+img: textexpander-logo.png
 title: "On TextExpander Pricing [UPDATED]"
-
-subtitle: When a company changes pricing models...
-
+subtitle: 'When a company changes pricing models...'
 ---
 
 
-This post has been [UPDATED](#UPDATE)
+This post has been [UPDATED][1]
 
 First, let me say I LOVE TextExpander. I've been using it for years, every day. On my 8 month old laptop, I've expanded snippets over 8500 times, saving 34 hours of typing.
 
-![TextExpander Stats](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/text-expander-stats.png)
+![TextExpander Stats][image-1]
 
-Smile Software posted [on their blog][1] that they were changing the pricing model for TextExpander. I'm not sure how I feel about it, but I do know that I will have to seriously consider whether I'm going to switch to the new model.
+Smile Software posted [on their blog][2] that they were changing the pricing model for TextExpander. I'm not sure how I feel about it, but I do know that I will have to seriously consider whether I'm going to switch to the new model.
 
 <!-- more -->
 
@@ -47,12 +34,12 @@ The new model will cost me $5 per month. In the same 10 years, I would have spen
 Smile will keep the lights on "through El Capitain and the next version of OS X" for current users, but after that, who knows what will happen...
 
 ### On the Mac
-I don't need or want all the collaboration features of the forthcoming [textexpander.com][2] service. I want to keep my snippets in Dropbox and call it a day. I'd happily pay $20 a year for a TextExpander subscription without all the collaboration features. Without a reasonable option, I will either migrate my snippets to [Keyboard Maestro][km], or check out another expansion utility like [TypeIt4Me][t4] or [Typinator][tn]
+I don't need or want all the collaboration features of the forthcoming [textexpander.com][3] service. I want to keep my snippets in Dropbox and call it a day. I'd happily pay $20 a year for a TextExpander subscription without all the collaboration features. Without a reasonable option, I will either migrate my snippets to [Keyboard Maestro][4], or check out another expansion utility like [TypeIt4Me][5] or [Typinator][6]
 
 ### On iOS
-I find myself rarely using TextExpander on my iOS devices anymore. I keep regular snippets in the stock Keyboard settings, because the TextExpander Touch keyboard is virtually unusable. Most apps that I use that sync snippets with TextExpander Touch have their own snippet libraries ([Drafts][3], [Editorial][4]), and I'm using [Copied][cp] to keep longer blocks of text at the ready. 
+I find myself rarely using TextExpander on my iOS devices anymore. I keep regular snippets in the stock Keyboard settings, because the TextExpander Touch keyboard is virtually unusable. Most apps that I use that sync snippets with TextExpander Touch have their own snippet libraries ([Drafts][7], [Editorial][8]), and I'm using [Copied][9] to keep longer blocks of text at the ready. 
 
-On top of my dwindling use of [TextExpander Touch][0], the iOS app doesn't seem to background sync, so every time I add a snippet on my Mac, I have to open the iOS app and force a sync. AND, there is still not an iPad Pro-optimized version of the app five months later. 
+On top of my dwindling use of [TextExpander Touch][10], the iOS app doesn't seem to background sync, so every time I add a snippet on my Mac, I have to open the iOS app and force a sync. AND, there is still not an iPad Pro-optimized version of the app five months later. 
 
 ### My Future With TextExpander
 I will spend the next few months exporing alternatives, and hoping Smile comes up with a more realistic pricing structure. If, by the end of the "next version of OS X", the pricing structure doesn't get more realistic, I'll move away from TextExpander. 
@@ -67,9 +54,9 @@ Photoshop and Microsoft Office are each $10 per month, and I don't think TextExp
 
 ---
 
-Today, [TextExpander][te] has listened to long time customers, and have adjusted.
+Today, [TextExpander][11] has listened to long time customers, and have adjusted.
 
->We will apply a lifetime discount of 50% off the Life Hacker pricing to customers of any past version of TextExpander. That amounts to just US $20 per year. In our initial rollout, we offered the discount for the first year only, and that was a mistake. We value our long-term customers, and it’s important for us to demonstrate that in our actions. Thanks for bearing with us as we sorted this out.
+> We will apply a lifetime discount of 50% off the Life Hacker pricing to customers of any past version of TextExpander. That amounts to just US $20 per year. In our initial rollout, we offered the discount for the first year only, and that was a mistake. We value our long-term customers, and it’s important for us to demonstrate that in our actions. Thanks for bearing with us as we sorted this out.
 
 So, it looks like I'll be staying on the TE bandwagon.  I am so happy about this, because I was not looking forward to moving 600+ snippets to another utility.  $20 a year is reasonable and sustainable for both the customers and the developers.
 
@@ -77,13 +64,16 @@ Strong work, Smile.
 
 
 
-[0]: https://geo.itunes.apple.com/us/app/textexpander-+-keyboard-type/id1075927186?mt=8
-[1]: https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta
-[2]: http://www.textexpander.com
-[3]: https://geo.itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8
-[4]: https://geo.itunes.apple.com/us/app/editorial/id673907758?mt=8
-[km]: http://www.keyboardmaestro.com/main/
-[t4]: http://www.ettoresoftware.com/products/typeit4me/
-[tn]: http://www.ergonis.com/products/typinator/
-[cp]: https://geo.itunes.apple.com/us/app/copied-copy-paste-everywhere/id1015767349?mt=8
-[te]: https://smilesoftware.com/textexpander/entry/textexpander-adjustments
+[1]:	#UPDATE
+[2]:	https://smilesoftware.com/press/entry/smile-launches-textexpander-com-with-apps-for-mac-iphone-and-windows-beta
+[3]:	http://www.textexpander.com
+[4]:	http://www.keyboardmaestro.com/main/
+[5]:	http://www.ettoresoftware.com/products/typeit4me/
+[6]:	http://www.ergonis.com/products/typinator/
+[7]:	https://geo.itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8
+[8]:	https://geo.itunes.apple.com/us/app/editorial/id673907758?mt=8
+[9]:	https://geo.itunes.apple.com/us/app/copied-copy-paste-everywhere/id1015767349?mt=8
+[10]:	https://geo.itunes.apple.com/us/app/textexpander-+-keyboard-type/id1075927186?mt=8
+[11]:	https://smilesoftware.com/textexpander/entry/textexpander-adjustments
+
+[image-1]: /assets/img/post/text-expander-stats.png

@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HEIF is obviously smaller and better, but the usability is still odd. Airdrop a pic to my Mac desktop, arrives as HEIF (can&#39;t send to twitter...). Also, the JPG conversion gained longitude for some reason.
-
-¯\(°_o)/¯ <a href="https://t.co/kd0nBBgmcd">pic.twitter.com/kd0nBBgmcd</a></p>&mdash; jimmy little (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1008856665641242624?ref_src=twsrc%5Etfw">June 18, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1008856665641242624
