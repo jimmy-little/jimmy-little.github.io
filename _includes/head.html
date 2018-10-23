@@ -43,7 +43,7 @@
     {% endfor %}
   {% endif %}
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.site-twitter }}">
     <meta name="twitter:creator" content="@{{ site.social-twitter }}">
   {% if page.title %}
@@ -54,8 +54,8 @@
   {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
-  {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
+  {% if page.subtitle %}
+    <meta name="twitter:description" content="{{ page.subtitle }}">
   {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
