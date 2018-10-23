@@ -2,7 +2,7 @@ title: Cocktails & Coffee
 description: Internet ramblings fueled by adult beverages
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.cocktailsandcoffee.com/"
+url: "https://www.cocktailsandcoffee.com"
 site-twitter: jimmylittle
 excerpt_separator: <!-- more --> 
 future: false
