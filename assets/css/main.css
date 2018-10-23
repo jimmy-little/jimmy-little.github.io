@@ -1098,12 +1098,7 @@ table tfoot td {
 .sidebar-menu ul {
   display: block;
   list-style: none;
-  text-align: right;
-}
-
-.sidebar-menu ul li{
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 
 .sidebar-menu ul li a {
@@ -1496,7 +1491,11 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  } 
+   .about-small {
+    display: none;     
   }
+
 }
 
 /* Small Devices, Tablets */
@@ -1537,6 +1536,19 @@ a.newer-posts:hover {
             border-radius: 100%;
     margin-bottom: 10px;
   }
+    
+  .about-small {
+    text-align: center;
+    max-width: 480px;
+    margin: 5px auto auto;
+  }
+  .about-small img {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    margin-bottom: 5px;
+  }
   .content-box {
     padding: 20px 10px;
     display: -webkit-box;
@@ -1559,6 +1571,11 @@ a.newer-posts:hover {
   .contact-title, .copyright {
     display: none;
   }
+    
+  .about, .contact, .sidebar-menu ul li {
+    display: none;
+  } 
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1588,6 +1605,11 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+    
+  .about, .contact, .sidebar-menu ul li {
+    display: none;
+  }
+
 }
 
 .videoWrapper {
