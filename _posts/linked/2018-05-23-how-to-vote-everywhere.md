@@ -1,8 +1,8 @@
 ---
 
 title: "How To Vote Everywhere"
-date: 2018-05-23
-subtitle: "Just do it. Please. "
+date: 2018-10-23
+subtitle: "Just do it. Please."
 tags: [Video, Politics, YouTube]
 category: Video
 layout: post
