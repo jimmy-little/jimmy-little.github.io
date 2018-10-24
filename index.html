@@ -11,6 +11,7 @@ layout: main
     <div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
   {% elsif post.category == "Video" %}
     <div class="post-linkthumb"><h1 class="videopost"> 📽 </h1></div>
+{% else %}
 {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
