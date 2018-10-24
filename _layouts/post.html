@@ -3,18 +3,19 @@ layout: main
 ---
 <article class="article-page">
   <div class="page-content">
-    {% if page.category == "Linked" %}  
-      <h1 class="linkpost"> 🔗 </h1>      
-    {% elsif page.category == "Video" %}
-      <h1 class="videopost">📽</h1>
-    {% elsif page.img %}
+      {% if page.img %}
     <div class="page-cover-image">
       <figure>
         <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
         {% if page.fig-caption %}
-          <figcaption>{{page.fig-caption}}</figcaption>
+          <figcaption>{{page.fig-caption}}</figcaption> </figure>
+    {% elsif page.category == "Linked" %}  
+      <h1 class="linkpost"> 🔗 </h1>      
+    {% elsif page.category == "Video" %}
+      <h1 class="videopost">📽</h1>
+      {% else %}
         {% endif %}
-      </figure>
+     
     </div>
     {% else %}  <!-- End Page Cover Image -->
     {% endif %}
