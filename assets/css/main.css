@@ -1,3 +1,5 @@
+
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -946,6 +948,31 @@ table tfoot td {
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+
+/* unvisited link */
+a:link {
+    color: #24aee4;
+    font-weight: bolder;
+}
+
+/* visited link */
+a:visited {
+    color: #a856aa;
+    font-weight: bolder;
+}
+
+/* mouse over link */
+a:hover {
+    color: #73c25c;
+    font-weight: bolder;
+}
+
+/* selected link */
+a:active {
+    color: #24aee4;
+    font-weight: bolder;
+}
+
 .sidebar {
   display: -webkit-box;
   display: -webkit-flex;
@@ -966,12 +993,12 @@ table tfoot td {
   bottom: 0;
   width: 240px;
   height: 100%;
-  padding: 20px 10px;
+padding: 20px 10px;
   background-color: #ffffff;
 }
 
 .about {
-  margin: 0 0 40px;
+  margin: 0 0;
   text-align: center;
 }
 
@@ -1098,12 +1125,11 @@ table tfoot td {
 .sidebar-menu ul {
   display: block;
   list-style: none;
-  text-align: right;
+  text-align: center;
 }
 
-.sidebar-menu ul li{
-  margin: 0;
-  padding: 0;
+.sidebar-menu ul li {
+  margin-left: -40px;
 }
 
 .sidebar-menu ul li a {
@@ -1416,6 +1442,15 @@ a.newer-posts:hover {
   text-decoration: underline;
 }
 
+.home-button{
+  width:16px;
+  height:16px;
+  background-image: url(assets/img/icons/favicon/apple-touch-icon-57x57.png); 
+  position: absolute;
+  top: 10px;
+  left: 10px;     
+}
+
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
@@ -1496,7 +1531,11 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  } 
+   .about-small {
+    display: none;     
   }
+
 }
 
 /* Small Devices, Tablets */
@@ -1525,18 +1564,7 @@ a.newer-posts:hover {
   .sidebar footer {
     margin-bottom: 10px;
   }
-  .about {
-    text-align: center;
-    max-width: 480px;
-    margin: 10px auto auto;
-  }
-  .about img {
-    width: 100px;
-    height: 100px;
-    -webkit-border-radius: 100%;
-            border-radius: 100%;
-    margin-bottom: 10px;
-  }
+
   .content-box {
     padding: 20px 10px;
     display: -webkit-box;
@@ -1556,9 +1584,35 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  .contact-title, .copyright {
+
+.contact-title, .copyright, .contact, .about p, .author-name, .about hr {
     display: none;
   }
+    
+.about {
+  width: 30%;    
+  float: left; 
+    vertical-align: middle;
+    }
+    
+.sidebar-menu {
+        float: right;
+    }    
+.sidebar-menu ul {       
+  display: block;
+  list-style: none;
+  text-align: right;
+}
+
+.sidebar-menu ul li {
+      
+  display: block;    
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1588,6 +1642,33 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+    
+.contact, .about p, .author-name, .about hr {
+    display: none;
+  }
+    
+.about {
+  width: 30%;    
+  float: left; 
+    vertical-align: middle;
+    }
+    
+.sidebar-menu {
+        float: right;
+    }    
+.sidebar-menu ul {       
+  display: block;
+  list-style: none;
+  text-align: right;
+}
+
+.sidebar-menu ul li {
+      
+  display: block;    
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
 }
 
 .videoWrapper {

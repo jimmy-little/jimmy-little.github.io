@@ -7,11 +7,13 @@ layout: default
     <div class="about">
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/{{site.author-img}}" alt="{{site.author}}"></a>
-      </div>
+      </div>  
+        
       <div class="author-name">{{site.author}}</div>
       <p>{{site.description}}</p>
+     
+     <hr>
     </div>
-      <hr>
       <div class="sidebar-menu">
     <ul>
       <li><a href = "/">Home</a></li>    
@@ -19,14 +21,16 @@ layout: default
       <li><a href = "/tags">Tags</a></li>
       <li><a href = "/about">About</a></li>
     </ul>    
-      </div>
-  </header> 
+      </div> 
+</header> 
 
     <!-- End Header -->
   <footer>
+ 
+
     <section class="contact">
       <h3 class="contact-title">This is My Blog</h3>
-      <p class="bio">{{site.about-author}}<
+        <p class="bio">{{site.about-author}}</p>
       <ul>
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -43,7 +47,7 @@ layout: default
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
-  </footer> <!-- End Footer -->
+  </footer>      <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   {{ content }}
