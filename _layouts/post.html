@@ -8,7 +8,7 @@ layout: main
       <figure>
         <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
         {% if page.fig-caption %}
-          <figcaption>{{page.fig-caption}}</figcaption> </figure>
+          <figcaption>{{page.fig-caption}}</figcaption> {% endif %}</figure>
     {% elsif page.category == "Linked" %}  
       <h1 class="linkpost"> 🔗 </h1>      
     {% elsif page.category == "Video" %}
