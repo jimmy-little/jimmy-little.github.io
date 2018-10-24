@@ -7,7 +7,7 @@ layout: main
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
   {% elsif post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% elsif post.category == "Linked" %}
+  {% elsif post.category == "Linked" %} 
     <div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
   {% elsif post.category == "Video" %}
     <div class="post-linkthumb"><h1 class="videopost"> 📽 </h1></div>
