@@ -3,15 +3,20 @@ layout: main
 ---
 {% for post in paginator.posts %}
 <article class="post">
-  {% if post.category == "Linked" %}
-    <div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
-  {% elsif post.category == "Video" %}
-    <div class="post-linkthumb"><h1 class="videopost"> 📽 </h1></div>
-  {% elsif post.tn %}
+{% if post.tn %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% elsif post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% endif %}
+{% elsif page.img %}
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        {% if page.fig-caption %}
+          <figcaption>{{page.fig-caption}}</figcaption> {% endif %}</figure>
+    {% elsif page.category == "Linked" %}  
+      <h1 class="linkpost"> 🔗 </h1>      
+    {% elsif page.category == "Video" %}
+      <h1 class="videopost">📽</h1>
+      {% else %}
+        {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
         {% if post.subtitle %}
