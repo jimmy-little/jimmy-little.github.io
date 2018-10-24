@@ -1,3 +1,6 @@
+---
+---
+
 @import 'normalize';
 @import 'syntax';
 @import 'variables';
@@ -12,7 +15,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: $body-color;
+  color: #515151;
   background-color: #fbfbfb;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -23,13 +26,44 @@ h1 {
   font-weight: 400;
 }
 
-img {
-    max-width: 80%;
-    text-align: center;
-    vertical-align: middle;
-    display: block;
+h1.linkpost {
+
+    text-decoration: none;
     margin-left: auto;
     margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+    background-color: #fdc334;
+    text-align: center;
+    font-size: 2em;
+}
+
+h1.videopost {
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+    background-color: #e75351;
+    text-align: center;
+    font-size: 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  
 }
 
 img + em {
@@ -42,11 +76,11 @@ img + em {
 }
 
 blockquote {
-  border-left: 5px solid #000;
+  border-left: 3px dotted #f37834;
   padding-left: 1.1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   font-style: italic;
-  color: #ada8a8;
+  color: gray;
 }
 
 pre {
@@ -55,16 +89,16 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+}
 
-  code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-    overflow: auto;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    word-break: break-all;
-  }
+pre code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 table {
@@ -74,27 +108,35 @@ table {
   text-align: left;
   border-collapse: collapse;
 }
+
 table td, table.blueTable th {
   border: 1px solid #aaa;
   padding: 3px 2px;
 }
+
 table tbody td {
   font-size: 13px;
 }
+
 table tr:nth-child(even) {
   background: #adbecc;
 }
 table thead {
   background: #a9c4d1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bed3dc), color-stop(66%, #b1cad5), to(#A9C4D1));
+  background: -webkit-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
+  background: -o-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
   background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
   border-bottom: 1px solid #8c8c8c;
 }
+
 table thead th {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
   border-left: 1px solid #d0e4f5;
 }
+
 table thead th:first-child {
   border-left: none;
 }
@@ -104,9 +146,13 @@ table tfoot {
   font-weight: bold;
   color: #fff;
   background: #d0e4f5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dcebf7), color-stop(66%, #d4e6f6), to(#D0E4F5));
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -o-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   border-top: 2px solid #444;
 }
+
 table tfoot td {
   font-size: 14px;
 }
@@ -122,12 +168,12 @@ table tfoot td {
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
-  color: $white;
+  color: #ffffff;
 }
 
 ::selection {
   background: rgba(38, 57, 89, 0.8);
-  color: $white;
+  color: #ffffff;
 }
 
 .clearfix::before, .clearfix::after {
@@ -137,6 +183,30 @@ table tfoot td {
 
 .clearfix::after {
   clear: both;
+}
+
+/* unvisited link */
+a:link {
+    color: $blue;
+    font-weight: bolder;
+}
+
+/* visited link */
+a:visited {
+    color: $purple;
+    font-weight: bolder;
+}
+
+/* mouse over link */
+a:hover {
+    color: $green;
+    font-weight: bolder;
+}
+
+/* selected link */
+a:active {
+    color: $red;
+    font-weight: bolder;
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */

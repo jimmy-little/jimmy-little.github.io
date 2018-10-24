@@ -33,4 +33,7 @@ plugins:
 paginate: 100
 paginate_path: "/page/:num"
 
+sass: 
+    sass_dir: /assets/css/_scss
+
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "/vendor"]

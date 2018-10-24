@@ -15,16 +15,15 @@ layout: main
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
         {% if post.subtitle %}
-          <h4 class="post-subtitle">{{post.subtitle}}</h3>
+          <h4 class="post-subtitle">{{post.subtitle}}</h4>
         {% endif %}
-    <p>{{ post.excerpt }}{% if post.content contains "<!-- more -->" %}
-        <div class="read-more">
-    <a href="{{ site.baseurl }}{{ post.url }}">read more</a></div>
-{% endif %}</p>
+    <p>{{ post.excerpt }}</p>
+<div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">read more</a></div>
+    {% if post.via %}
+<div class="read-source"><a href="{{post.link}}" class="post-tag">🔗&nbsp;&nbsp;{{post.via}}</a></div>
+    {% endif %}
     <span class="post-date">{{post.date | date: '%B %d, %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    {% if post.via %}<span class="post-date"><a href="{{post.link}}" class="post-tag">🔗&nbsp;&nbsp;{{post.via}}</a></span>
-    {% else %}
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>    
+    <span class="post-date">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>    
     {% endif %}
   </div>
 </article>
