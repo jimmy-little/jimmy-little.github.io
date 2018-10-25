@@ -2,7 +2,7 @@
 title: 2007 Gadget of the Year
 date: 2007-12-28
 layout: post
-categories: [Writing]
+category: Writing
 tags: [Apple, iPhone]
 img: original-iphone-2g-2007-3.jpeg
 ---

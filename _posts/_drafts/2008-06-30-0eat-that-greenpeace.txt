@@ -7,9 +7,7 @@ author: jimmy
 layout: post
 guid: http://localhost:8888/2008/06/30/2008630eat-that-greenpeace-html/
 permalink: /2008/06/30/2008630eat-that-greenpeace-html/
-categories:
-  - blog
-  - green
+categories: Writing
 ---
 
   <img src="images/articles/paperfoam.gif" alt="PaperFoam" hspace="10" vspace="10" width="106" height="66" align="left" />There's another chapter in the long, long, battle between Greenpeace and everyone, including all electronic companies.</p> 
