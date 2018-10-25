@@ -5,7 +5,7 @@ date: 2014-09-09T05:26:07+00:00
 author: jimmy
 layout: post
 
-categories: Writing
+category: Writing
 tags:
   - Apple
   - iPhone

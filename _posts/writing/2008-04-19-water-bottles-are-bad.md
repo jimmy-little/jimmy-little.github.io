@@ -3,7 +3,7 @@
 title: Water Bottles are Bad
 date: 2008-04-19T21:09:49+00:00
 layout: post
-categories: Writing
+category: Writing
 tags: [Green]
 ---
 

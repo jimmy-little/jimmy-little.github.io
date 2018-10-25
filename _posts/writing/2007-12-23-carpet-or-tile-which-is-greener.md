@@ -9,7 +9,7 @@ tags:
   - Green
   - Home
   
-categories: Writing
+category: Writing
 
 ---
 To answer to this question, you need to decide what is more important to you.  Carpet and Tile can both be green, if you make the right decisions. 

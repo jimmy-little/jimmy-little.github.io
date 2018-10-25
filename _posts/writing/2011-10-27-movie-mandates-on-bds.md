@@ -4,7 +4,7 @@ title: "Movie Mandates on BDS!"
 date: 2011-10-27
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [Podcast]
 ---
 

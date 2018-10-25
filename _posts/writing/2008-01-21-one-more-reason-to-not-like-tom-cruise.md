@@ -6,7 +6,7 @@ author: jimmy
 
 layout: post
 
-categories: Writing
+category: Writing
 tags: [Green]
 
 ---

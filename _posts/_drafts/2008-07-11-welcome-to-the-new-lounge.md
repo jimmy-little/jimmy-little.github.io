@@ -4,7 +4,7 @@ title: Welcome to the NEW Lounge!
 date: 2008-07-11T13:01:59+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 ---
 
   So, as you've no doubt noticed, things are a bit different around here.  I've transferred the entire site to a new <a href="http://en.wikipedia.org/wiki/Back-end_database" target="_blank">backend</a>.  I'm now using <a href="http://wordpress.com/" target="_blank">WordPress</a>, and I'm liking it.  It was a little bit of a chore, to rewrite all the links and reorganize all the posts, but I think it's worth it.</p> 

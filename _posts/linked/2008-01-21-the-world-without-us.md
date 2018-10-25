@@ -1,6 +1,6 @@
 --- 
-layout: stuff
-categories: Stuff
+layout: post
+category: Stuff
 author: jimmy
 date: 2008-01-21
 title: The World Without Us

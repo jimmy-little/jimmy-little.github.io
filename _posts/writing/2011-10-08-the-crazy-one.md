@@ -4,7 +4,7 @@ title: The Crazy One
 date: 2011-10-08T03:17:25+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [Apple]
 
 ---

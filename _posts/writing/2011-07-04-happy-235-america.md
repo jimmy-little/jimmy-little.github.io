@@ -4,7 +4,7 @@ title: Happy 235, America.
 date: 2011-07-04T17:03:15+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [America, Holiday]
 ---
 [![][1]][2](C) museinthecity via Flickr

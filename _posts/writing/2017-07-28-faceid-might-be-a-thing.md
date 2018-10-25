@@ -10,8 +10,8 @@ img: face-touch-id.png
 tn: face-touch-id.png
 ---
 
-In the latest public beta of iOS, the TouchID interface changed from a solid white panel that slid up from the bottom to a full screen blurred overlay.
-
+In the latest public beta of iOS, the TouchID interface changed from a solid white panel that slid up from the bottom to a full screen blurred overlay. Wonder why...
+<!-- more -->
 It struck me that this is the same overlay that FaceTime uses when choosing someone to call. 
 
 I’m beginning to think all the rumors about a facial recognition system may be legit. If the “authorize my phone to do this thing” screen looks like FaceTime but works with TouchID, it’s not too much of a stretch to think that “FaceID” could be an option on this screen.

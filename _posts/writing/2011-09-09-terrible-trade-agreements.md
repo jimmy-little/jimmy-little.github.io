@@ -4,7 +4,7 @@ title: Terrible Trade Agreements
 date: 2011-09-09T13:42:10+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [Politics]
 ---
 

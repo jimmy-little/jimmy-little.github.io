@@ -30,7 +30,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 100
+paginate: 20
 paginate_path: "/page/:num"
 
 sass: 

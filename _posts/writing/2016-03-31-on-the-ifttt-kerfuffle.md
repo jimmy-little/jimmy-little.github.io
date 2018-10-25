@@ -4,7 +4,7 @@ date: 2016-03-31
 
 layout: post
 
-categories: Writing
+category: Writing
 
 subtitle: When free, isn't.
 

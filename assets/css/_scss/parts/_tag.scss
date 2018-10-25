@@ -12,7 +12,7 @@
 }
 
 .blog-tags h2 {
-  color: #263959;
+  color: $blue;
   margin: 10px 0;
 }
 
@@ -57,8 +57,5 @@
 }
 
 .tag-count {
-    border: 1px black solid;
-    border-radius: .5em;
-    padding: 2px;
-    background-color: $yellow;
+    color: $green;
 }

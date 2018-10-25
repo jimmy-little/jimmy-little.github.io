@@ -7,7 +7,7 @@ author: jimmy
 
 layout: post
 
-categories: Writing
+category: Writing
 tags: [BluRay, HDDVD, DVD, Home Theater]
 
 ---

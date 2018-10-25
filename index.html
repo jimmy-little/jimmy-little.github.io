@@ -3,35 +3,47 @@ layout: main
 ---
 {% for post in paginator.posts %}
 <article class="post">
-{% if post.tn %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
-{% elsif page.img %}
-    <div class="page-cover-image">
-      <figure>
-        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        {% if page.fig-caption %}
-          <figcaption>{{page.fig-caption}}</figcaption> {% endif %}</figure>
-    {% elsif page.category == "Linked" %}  
-      <h1 class="linkpost"> 🔗 </h1>      
-    {% elsif page.category == "Video" %}
-      <h1 class="videopost">📽</h1>
-      {% else %}
-        {% endif %}
-  <div class="post-content">
+{% if post.category == "Writing" %}
+    {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}<div class="post-linkthumb"><h1 class="defaultpost"> 🍸 </h1></div>
+    {% endif %}
+{% elsif post.category == "Linked" %}
+    {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}<div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
+    {% endif %}
+{% elsif post.category == "Video" %}
+    {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}<div class="post-linkthumb"><h1 class="videopost"> 📽 </h1></div>
+    {% endif %}
+{% elsif post.category == "Stuff" %}
+    {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}<div class="post-linkthumb"><h1 class="stuffpost"> 🛒 </h1></div>
+    {% endif %}
+{% endif %}
+<div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
         {% if post.subtitle %}
-          <h4 class="post-subtitle">{{post.subtitle}}</h4>
+            <h4 class="post-subtitle">{{post.subtitle}}</h4>
         {% endif %}
-    <p>{{ post.excerpt }}</p>
-<div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">read more</a></div>
+      <p>{{ post.excerpt }}</p>
+<div class="index-read-pill">
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">read more&nbsp;&nbsp;🍸 </a></div>
     {% if post.via %}
-<div class="read-source"><a href="{{post.link}}" class="post-tag">🔗&nbsp;&nbsp;{{post.via}}</a></div>
+          <div class="read-source"><a href="{{post.link}}" class="post-tag">🔗&nbsp;&nbsp;{{post.via}}</a></div>
     {% endif %}
-    <span class="post-date">{{post.date | date: '%B %d, %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-date">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>    
-    {% endif %}
-  </div>
+</div>
+      
+<div class="index-metadata">      
+    <span class="post-date">{{post.date | date: '%B %d, %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;
+    {% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+</div>
+</div>
 </article>
+    
 {% endfor %}
 
 {% include pagination.html %}

@@ -1,7 +1,7 @@
 ---
 date: 2015-12-15
 layout: post
-categories: Writing
+category: Writing
 tags: [Apple, iPad Pro, Pencil]
 image: 
  feature: 

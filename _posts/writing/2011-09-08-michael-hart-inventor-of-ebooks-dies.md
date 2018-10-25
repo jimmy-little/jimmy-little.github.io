@@ -4,7 +4,7 @@ title: Michael Hart, Inventor of eBooks Dies
 date: 2011-09-08T13:48:35+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [eBooks]
 
 ---

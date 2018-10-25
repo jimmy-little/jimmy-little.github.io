@@ -5,7 +5,7 @@ date: 2008-10-20T20:27:35+00:00
 author: jimmy
 
 layout: post
-categories: Writing
+category: Writing
 tags: [Travel, Gear]
 
 ---

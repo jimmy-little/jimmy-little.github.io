@@ -6,6 +6,7 @@ subtitle: "Just do it. Please."
 tags: [Video, Politics, YouTube]
 category: Video
 layout: post
+via: Vlog Brothers
 link: https://www.youtube.com/watch?v=8spm2Qh60U4&feature=share
 youtubeId: 8spm2Qh60U4
 img: howtovoteeverywhere.jpg

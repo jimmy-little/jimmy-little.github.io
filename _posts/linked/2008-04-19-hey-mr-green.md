@@ -3,10 +3,9 @@
 title: Hey Mr. Green
 date: 2008-04-19T20:41:48+00:00
 author: jimmy
-layout: stuff
+layout: post
 tags: [Green, Book]
-categories:
-  - Stuff
+category: Stuff
 ---
 
 <div class="iframe-left"><a href="http://www.amazon.com/Hey-Mr-Green-Magazines-Questions/dp/1578051436/ref=as_li_ss_il?ie=UTF8&qid=1458768807&sr=8-12&keywords=hey+mr+green&linkCode=li3&tag=jimmlitt-20&linkId=c33f499103cbe6cc08163f8840a087fb" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1578051436&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=jimmlitt-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=jimmlitt-20&l=li3&o=1&a=1578051436" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
