@@ -6,8 +6,7 @@ author: jimmy
 layout: post
 guid: http://localhost:8888/2013/11/03/2013113daylight-savings-and-security/
 permalink: /2013/11/03/2013113daylight-savings-and-security/
-categories:
-  - Writing
+category: Writing
 tags:
   - Apple
   - Mac

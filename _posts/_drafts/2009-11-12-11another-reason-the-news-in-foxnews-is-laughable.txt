@@ -6,9 +6,7 @@ author: jimmy
 layout: post
 guid: http://localhost:8888/2009/11/12/20091111another-reason-the-news-in-foxnews-is-laughable-html/
 permalink: /2009/11/12/20091111another-reason-the-news-in-foxnews-is-laughable-html/
-categories:
-  - blog
-  - video
+category: Writing
 tags:
   - DailyShow
   - FoxNews
@@ -19,7 +17,7 @@ tags:
   <p>
     Now, I know MSNBC and Fox News are not really "news".  They are both opinion networks that do some news stories.  And, they both run mostly-news during the day and the prime time lineup is completely partisan personality driven punditry.  I get it.  But don't freakin' lie to me.
   </p>
-  
+  <!-- more -->
   <p>
     Hannity, O'Reily, Olbermann, Maddow, and the like each twist the facts to fit their agenda.  I get it.  And I watch it.  I can't just watch one side or the other, I flip.  Olbermann's left-leaning snarkiness is easily overshadowed by Glenn Becks right-wing nutjobbery.  I like to stay balanced, so sue me.  And it's freakin' funny!
   </p>

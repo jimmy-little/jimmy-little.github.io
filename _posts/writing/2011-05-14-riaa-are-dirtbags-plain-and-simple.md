@@ -3,7 +3,7 @@ title: 'RIAA Are Dirtbags.  Plain and Simple.'
 date: 2011-05-14 23:41:28+00:00
 author: jimmy
 layout: post
-categories: [Writing]
+category: Writing
 tags:
   - MPAA
   - music

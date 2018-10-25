@@ -2,7 +2,7 @@
 title: Happy Friday, Everyone!
 date: 2011-04-15
 layout: post
-categories: [Writing]
+category: Writing
 tags:
   - twitter
 ---

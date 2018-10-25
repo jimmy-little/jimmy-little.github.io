@@ -4,9 +4,7 @@ title: Happy National Dog Day
 date: 2013-08-26T17:03:39+00:00
 author: jimmy
 layout: post
-
-categories:
-  - Writing
+category: Writing
 tags:
   - Dog
   
