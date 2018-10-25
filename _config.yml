@@ -6,6 +6,7 @@ url: "https://www.cocktailsandcoffee.com"
 site-twitter: jimmylittle
 excerpt_separator: <!-- more --> 
 future: false
+port: 4100
 
 # Author Settings
 author: Jimmy Little
@@ -16,6 +17,7 @@ social-facebook: # add your Facebook handle
 social-github: jimmy-little # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: thejimmylittle@gmail.com # add your Email address
+social-rss: feed.json
 
 # Disqus
 discus-identifier: # add your discus identifier
