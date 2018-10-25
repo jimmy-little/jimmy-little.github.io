@@ -10,6 +10,7 @@ port: 4100
 
 # Author Settings
 author: Jimmy Little
+author_url: "https://twitter.com/jimmylittle"
 author-img: 'assets/img/favicon/apple-touch-icon-180x180.png' # add your photo
 about-author: Jimmy is a Southern California based Product Manager, tech enthusiast, husband, father, and all around fun guy. Former basic cable microcelebrity and currenly working for The Mouse. Opinions on this site are my own. # add description
 social-twitter: jimmylittle # add your Twitter handle
