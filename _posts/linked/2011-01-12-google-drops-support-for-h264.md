@@ -7,8 +7,7 @@ layout: post
 link: http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html
 source: http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html
 via: Chromium Blog
-categories:
-  - Linked
+category: Linked
   
 ---
 
