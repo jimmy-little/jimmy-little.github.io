@@ -5,7 +5,7 @@ date: 2007-10-03
 modified: 2007-10-05
 author: jimmy
 categories: Micro
-layout: micro
+layout: post
 
 ---
 
