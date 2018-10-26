@@ -1,11 +1,11 @@
 ---
 
-title: 'Religious "Freedom"?'
+title: 'Religious Freedom?'
 date: 2012-07-07T00:45:18+00:00
 author: jimmy
 layout: post
 
-categories: Linked
+category: Linked
 tags: 
  - Politics
  - Religion
