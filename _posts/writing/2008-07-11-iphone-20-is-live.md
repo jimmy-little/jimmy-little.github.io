@@ -10,7 +10,7 @@ img: iphone2.jpg
 
 ---
 
-Anyone who REALLY cares already knows this, but iTunes is pushing the new iPhone 2.0 software finally.  I've been on the 2.0 software for a couple days now, thanks to a leaked firmware update on <a href="http://www.macrumors.com/2008/07/10/iphone-2-0-firmware-5a347-available-early/" target="_blank">MacRumors</a>.
+Anyone who REALLY cares already knows this, but iTunes is pushing the new iPhone 2.0 software finally.  <!-- more --> I've been on the 2.0 software for a couple days now, thanks to a leaked firmware update on <a href="http://www.macrumors.com/2008/07/10/iphone-2-0-firmware-5a347-available-early/" target="_blank">MacRumors</a>.
   
 So far, so good.  I tapped the shiny blue App Store icon on the home screen, and I've downloaded a few apps from the app store, and it just works.  I've got a few freebies, like the Facebook, MySpace, AIM and New York Times apps.  I also got the <a href="http://www.omnigroup.com/applications/omnifocus/" target="_blank">OmniFocus</a> companion program, which I've been waiting for.  I'm a religious <a href="http://en.wikipedia.org/wiki/Getting_Things_Done" target="_blank">GTD</a> follower and a long-time OmniFocus user.  Totally worth the $20.
 

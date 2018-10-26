@@ -28,7 +28,7 @@ title: Brush Your Teeth, Flush Your Toilet
 ---
 
 Yes you can. You can use a device like the Aqus grey-water recycler to conserve and reuse! The Aqus, from Water Saver Technologies, and other systems like it can reuse the water you swish down the drain and use it to flush your toilet.
-
+<!-- more --> 
 
 It sounds gross, I know. But it really works. First, a brief history of gray (or grey? who knows anymore...) water: Gray water is simply water that is dirty and used, but non-toxic. Most sinks and shower drains produce gray water. If the water contains toxic or decidedly un-nice things, like a toilet, it is NOT gray water. Gray water can be cleaned and filtered using relatively low-tech means, so it can be done in your house. In this case, right under your sink.
 
