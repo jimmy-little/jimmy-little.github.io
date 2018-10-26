@@ -61,11 +61,14 @@ layout: main
 <div class="page-footer">
 <div class="page-tag">
         {% if page.via %}
-            <a href="{{page.link}}" class="tag">🔗  {{page.via}}</a> 
-            {% endif %}
-            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Tweet This</a>
+            <a href="{{page.link}}" class="tag"><i class="fa fa-link"></i> {{page.via}}</a> 
+        {% endif %}
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+        {% if site.social-rss %}
+    <a href={{site.baseurl}}/{{site.social-rss}}><i class="fa fa-rss"></i> RSS</a>
+        {% endif %}
           {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">#{{ tag }}</a>
+    <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
           {% endfor %}
         </div>
       </div>
