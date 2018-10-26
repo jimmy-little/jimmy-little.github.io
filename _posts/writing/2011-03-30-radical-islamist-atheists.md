@@ -4,8 +4,7 @@ title: Radical Islamist Atheists
 date: 2011-03-30
 author: jimmy
 layout: post
-categories:
-  - Writing
+category: Writing
 tags:
   - blog
   - opinion
@@ -16,7 +15,7 @@ Oh Lord.
 
 Wait, can I say "Lord", Newt?
 
-In a [recent speech](http://religion.blogs.cnn.com/2011/03/28/gingrich-fears-atheist-country-dominated-by-radical-islamists/), our former Speaker of the House and future former Republican presidential candidate said this:
+In a [recent speech](http://religion.blogs.cnn.com/2011/03/28/gingrich-fears-atheist-country-dominated-by-radical-islamists/), our former Speaker of the House and future former Republican presidential candidate said this:<!-- more -->
 
  > I am convinced that if we do not decisively win the struggle over the nature of America, by the time they're my age they will be in a secular atheist country, potentially one dominated by radical Islamists and with no understanding of what it once meant to be an American.
 

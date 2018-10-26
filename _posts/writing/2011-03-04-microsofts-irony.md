@@ -3,8 +3,7 @@
 date: 2011-03-04
 author: jimmy
 layout: post
-categories:
-  - Writing
+category: Writing
 tags:
   - App Store
   - Apple
@@ -19,7 +18,7 @@ title: "Microsoft's Irony"
 
   
 Short one today, folks.  Apparently, Microsoft&trade; is trying to block Apple&trade;'s trademark application for the term "App Store." (<a class="offsite-link-inline" href="http://www.techflashpodcast.com/wp-content/uploads/2011/01/ttabvue-91195582-OPP-5.pdf" target="_blank">here's the actual motion</a>)
-  
+<!-- more -->
 They say "App Store" is a generic term used to describe a place to buy applications.  As a long-time mobile technology user, I have to disagree.  I've used Palm and Windows Mobile devices since the Palm Pilot came out in 1997.  Never once did I go anywhere that was called the "App Store" until the iPhone&trade; went 2.0 and Apple&trade; opened their App Store.
   
 While it is part of the lexicon now, it doesn't mean it's generic.  Kleenex&trade; and QTip&trade; are trademarked.  I've never heard someone ask me for a cotton swab.  

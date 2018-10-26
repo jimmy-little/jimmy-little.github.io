@@ -13,7 +13,7 @@ category: Writing
 
 ---
 To answer to this question, you need to decide what is more important to you.  Carpet and Tile can both be green, if you make the right decisions. 
- 
+<!-- more -->
 Tile is a great alternative to natural stone.  Most tile is made from locally mined clay, and glazed locally.  If you find a company that produces tile locally, it can be a very green choice.  Also consider tile made from recycled glass, which can be both beautiful and durable.
 
 Try to avoid natural stone unless you know where it came from.  Italian Marble sounds elegant, until you realize how much fuel it takes to float a big rock on a boat from Italy to the U.S.  Then, it just seems silly.  Even locally mined stone can cause environmental impact.  Mines can cause wildlife displacement, disruption of water tables and river flows, and cause other unintended environmental problems.  Do your homework if you want to go with natural stone.  Let your concience guide you on this one.
