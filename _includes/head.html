@@ -20,9 +20,10 @@
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 <meta name="twitter:domain" content="{{ site.url }}">
-{% if page.tags %}{% for tag in page.tags %}<meta name="twitter:label1" value="Tags">
-<meta name="twitter:data1" value="{{ tag }}">{% endfor %}{% endif %}
-<meta name="twitter:label2" value="By">
+{% if page.tags %}
+<meta name="twitter:label1" value="🏷️ Tags">
+<meta name="twitter:data1" value="{{ page.tags | array_to_sentence_string }}">{% endif%}
+<meta name="twitter:label2" value="🙋‍♂️By">
 <meta name="twitter:data2" value="{{ site.author }}">
 {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% elsif page.subtitle %}<meta name="twitter:description" content="{{ page.subtitle }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}        
 {% if page.tn %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/index/{{ page.tn }}">
