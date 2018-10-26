@@ -31,6 +31,8 @@
 <meta name="twitter:label1" value="Tags">
 <meta name="twitter:data1" value="{{ tag }}">
 {% endfor %}
+<meta name="twitter:label2" value="By">
+<meta name="twitter:data2" value="{{ site.author }}">
 {% endif %}
 {% if page.description %}<meta name="twitter:description" content="{{ page.subtitle }}">
 {% elsif page.subtitle %}<meta name="twitter:description" content="{{ site.description }}">
