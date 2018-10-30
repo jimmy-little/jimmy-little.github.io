@@ -1,4 +1,6 @@
 ---
+layout: post
+category: Writing
 title: Do Your Duty!
 subtitle: "Hehe. He said 'duty'"
 date: 2018-10-30
@@ -11,6 +13,8 @@ via: Vote.org
 Just a quick reminder that there's just one week to election day! 
 
 I mailed in my ballot today, and that's where I got that sweet sticker. I'll proudly wear it next Tuesday.
+
+<!-- more -->
 
 If you haven't yet, make sure you're properly registered in your state. [Vote.org](https://www.vote.org/am-i-registered-to-vote/) has a great tool to verify. It takes less than a minute.
 
