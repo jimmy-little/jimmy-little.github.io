@@ -5,8 +5,8 @@ subtitle: "A few off-the-cuff impressions, unedited"
 tags: [Apple, iPhone]
 category: Writing
 layout: post
-img: iphone7bigboy.jpeg
-fig-caption: Apple
+
+
 ---
 
 After a few days with the new phone, I have some thoughts...

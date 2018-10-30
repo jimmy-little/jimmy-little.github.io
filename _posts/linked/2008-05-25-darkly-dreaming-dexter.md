@@ -8,13 +8,13 @@ date: 2008-05-25T19:55:45+00:00
 
 author: jimmy
 
-layout: stuff
+layout: post
 
-categories:
-  - Stuff
+category: Stuff
 
 tags: [Books, Audible, Fiction] 
 
+img: 
 ---
 
 <div class="iframe-left">

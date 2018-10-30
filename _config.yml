@@ -6,9 +6,11 @@ url: "https://www.cocktailsandcoffee.com"
 site-twitter: jimmylittle
 excerpt_separator: <!-- more --> 
 future: false
+port: 4100
 
 # Author Settings
 author: Jimmy Little
+author_url: "https://twitter.com/jimmylittle"
 author-img: 'assets/img/favicon/apple-touch-icon-180x180.png' # add your photo
 about-author: Jimmy is a Southern California based Product Manager, tech enthusiast, husband, father, and all around fun guy. Former basic cable microcelebrity and currenly working for The Mouse. Opinions on this site are my own. # add description
 social-twitter: jimmylittle # add your Twitter handle
@@ -16,6 +18,7 @@ social-facebook: # add your Facebook handle
 social-github: jimmy-little # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: thejimmylittle@gmail.com # add your Email address
+social-rss: feed.json
 
 # Disqus
 discus-identifier: # add your discus identifier
@@ -30,7 +33,10 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 100
+paginate: 20
 paginate_path: "/page/:num"
+
+sass: 
+    sass_dir: /assets/css/_scss
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "/vendor"]

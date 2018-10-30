@@ -5,14 +5,14 @@ date: 2008-10-20T20:27:35+00:00
 author: jimmy
 
 layout: post
-categories: Writing
+category: Writing
 tags: [Travel, Gear]
 
 ---
 
   Some people have e-mailed me asking just what I bring with me on the road when traveling.   
   
-I bring a LOT of stuff.  In this post, We'll talk electronics.  I love gadgets and I don't like to leave them home.  I'll attempt to not only list what I have with me, but try to justify why I bring all this crap with me.  There is a lot of stuff.  Some I keep in my workbox, some in an airline case I keep in my workbox and carry to the hotel in each city, and some I keep in my luggage or carry-on.  
+I bring a LOT of stuff.  In this post, We'll talk electronics.  <!-- more -->I love gadgets and I don't like to leave them home.  I'll attempt to not only list what I have with me, but try to justify why I bring all this crap with me.  There is a lot of stuff.  Some I keep in my workbox, some in an airline case I keep in my workbox and carry to the hotel in each city, and some I keep in my luggage or carry-on.  
   
  - I always have my **MacBook Pro**.  It's a couple years old, but still runs like a charm.  It's beat up, scratched, and keeps getting full.  I keep upgrading the hard drive, and keep taking more pictures, more video, and saving more stuff.  It currently has 3Gb of RAM, and a 250Gb hard drive.
 

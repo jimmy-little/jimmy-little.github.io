@@ -4,7 +4,7 @@ title: "AT&T (and everyone else) Charges $1497 per megabyte"
 date: 2008-07-03T00:34:49+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [iPhone, Media]
 
 ---

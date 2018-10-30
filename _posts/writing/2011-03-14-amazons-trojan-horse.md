@@ -5,8 +5,7 @@ date: 2011-03-14T22:17:56+00:00
 author: jimmy
 layout: post
 
-categories:
-  - Writing
+category: Writing
 tags:
   - Amazon
   - Android
@@ -18,7 +17,7 @@ tags:
   
 Amazon will build an Android tablet or Android tablet OS this year.  
   
-There, I said it.  And you know what?  They are the only ones who have a chance against the iPad.  Suck on that, Motorola.  Amazon has been slipping features to its customers on the sly lately, and it all adds up to one thing:  A full-fledged OS that can compete with iOS.
+There, I said it.  And you know what?  They are the only ones who have a chance against the iPad.  Suck on that, Motorola.  <!-- more -->Amazon has been slipping features to its customers on the sly lately, and it all adds up to one thing:  A full-fledged OS that can compete with iOS.
   
 Think about it...  The one thing Apple has going for them (other than near-perfect, if underpowered, hardware) is an ecosystem.  You can buy an iPad, and never ever do anything but plug in your Apple ID.  You can buy anything you want with one password, and one login.
   

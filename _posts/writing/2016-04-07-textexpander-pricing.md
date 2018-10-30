@@ -2,7 +2,7 @@
 layout: post
 date: 2016-04-07
 modified: 2016-04-12
-categories: Writing
+category: Writing
 tags: [Software, Subscriptions, Customer]
 img: textexpander-logo.png
 title: "On TextExpander Pricing [UPDATED]"

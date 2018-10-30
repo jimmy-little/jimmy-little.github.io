@@ -6,7 +6,6 @@ tags: [Apple, Design]
 category: Linked
 layout: post
 via: Pixel Envy
-source: http://pxlnv.com/blog/novelty-and-legacy/
 link: http://pxlnv.com/blog/novelty-and-legacy/
 ---
 

@@ -7,13 +7,13 @@ author: jimmy
 
 layout: post
 
-categories: Writing
+category: Writing
 tags: [BluRay, HDDVD, DVD, Home Theater]
 
 ---
 
 
-Remember VHS vs. Beta?  Those days have been living again in my mind the last few months.  Two incompatible formats, two similar technologies, and only one winner.  It looks as though HD-DVD is going the way of Beta.  Sony lost in the 80's, but they're winning now.  I have an HD DVD and a BluRay player, with several discs on each format.  I don't care who wins, as long as SOMEONE does.  Two sets of incompatible discs that are externally identical is a recipe for disaster.
+Remember VHS vs. Beta?  Those days have been living again in my mind the last few months.  Two incompatible formats, two similar technologies, and only one winner.  It looks as though HD-DVD is going the way of Beta. <!-- more -->Sony lost in the 80's, but they're winning now.  I have an HD DVD and a BluRay player, with several discs on each format.  I don't care who wins, as long as SOMEONE does.  Two sets of incompatible discs that are externally identical is a recipe for disaster.
 
 ---
 

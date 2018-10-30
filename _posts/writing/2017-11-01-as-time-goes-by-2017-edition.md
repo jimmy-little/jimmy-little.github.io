@@ -3,14 +3,14 @@
 title: As Time Goes By, 2017 Edition
 date: 2017-11-01
 layout: post
-categories: Writing
+category: Writing
 tags:
   - Apps
   - iPhone
   - Social
 img: 2017-Social.png
- 
- 
+tn: 2017-Social.png
+
 ---
 It’s November, so it’s time to talk about my social media habits again. I did this in [2016][1], [2012][2]. and [2010][3].
 

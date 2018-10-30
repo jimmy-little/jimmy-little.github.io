@@ -3,7 +3,7 @@
 title: "iPad (3?) Event Today!"
 date: 2012-03-07
 layout: post
-categories: Writing
+category: Writing
 tags: [Apple, iPad, iPhoto, Keynote, Predictions, Rumors]
 image:
  feature: AppleInvites/ipad3.jpg

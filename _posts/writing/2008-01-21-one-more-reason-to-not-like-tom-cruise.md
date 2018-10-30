@@ -6,12 +6,13 @@ author: jimmy
 
 layout: post
 
-categories: Writing
+category: Writing
 tags: [Green]
 
 ---
 
 OK, so Tom Cruise USED to be cool.  "Top Gun", "Risky Business".  Then it was all downhill to "The Last Samauri" and "Vanilla Sky".  Scientology is fine, if you're into that sort of thing.  But he made a comment in "STAR" magazine last month (I don't read STAR, really...) that really got my panties in a bunch.
+<!-- more -->
 
 He claims to have spent over a million dollars in gas over the last year.  Now, he spent it on his cars and planes.  That's planes with an "s".  Tom Cruise gets my vote for Earth Killer of the Year.   
 

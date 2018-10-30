@@ -16,7 +16,8 @@ layout: default
     </div>
       <div class="sidebar-menu">
     <ul>
-      <li><a href = "/">Home</a></li>    
+      <li><a href = "/">Home</a></li> 
+      <li><a href = "/archive">Archive</a></li>
       <li><a href = "/categories">Categories</a></li>
       <li><a href = "/tags">Tags</a></li>
       <li><a href = "/about">About</a></li>
@@ -29,18 +30,17 @@ layout: default
  
 
     <section class="contact">
-      <h3 class="contact-title">This is My Blog</h3>
+      <h3 class="contact-title">This is My Site</h3>
         <p class="bio">{{site.about-author}}</p>
       <ul>
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
-        {% else %}
-          <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-rss %}
+          <li class="rss"><a href={{site.baseurl}}/{{site.social-rss}}><i class="fa fa-rss"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->

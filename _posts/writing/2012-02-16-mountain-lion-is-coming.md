@@ -4,7 +4,7 @@ title: Mountain Lion Is Coming
 date: 2012-02-16T14:17:57+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [Apple, App Store, OSX]
 
 ---

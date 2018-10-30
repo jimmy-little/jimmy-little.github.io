@@ -4,7 +4,7 @@ title: If THIS, then THAT
 date: 2014-02-22
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags:
   - Automation
   - Automator

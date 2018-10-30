@@ -3,9 +3,9 @@
 title: The Second Coming of Steve Jobs
 date: 2007-10-06
 author: jimmy
-layout: stuff
+layout: post
 tags: [Book, Apple, Steve Jobs]
-categories: Stuff
+category: Stuff
   
 ---
 

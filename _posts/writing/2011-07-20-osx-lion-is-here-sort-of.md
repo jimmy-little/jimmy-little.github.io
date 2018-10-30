@@ -4,8 +4,7 @@ title: 'OSX Lion Is Here!  Sort Of.'
 date: 2011-07-20T18:08:54+00:00
 author: jimmy
 layout: post
-categories:
-  - Writing
+category: Writing
 tags:
   - Wpple
   - Issues
@@ -16,7 +15,7 @@ tags:
 ---
 
 I woke up this morning after an unusually restful night. I was ready to take on the world, hit the gym, install Apple's operating system upgrade, and order a new laptop for my upcoming tour.
-  
+<!-- more -->  
   
 As a loyal Apple citizen of the world, I launched the App Store on my MacBook Pro and clicked the Lion upgrade. It downloaded quicker an I expected, considering the 4 GB file was probably being downloaded by thousands of people, and away it went. I let it do it's thing while I cooked breakfast, then that's when my day got bad. *Real bad.*
   

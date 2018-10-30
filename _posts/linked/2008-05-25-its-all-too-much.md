@@ -2,8 +2,8 @@
 title: "It's All Too Much"
 subtitle: by Peter Walsh
 date: 2008-05-25
-layout: stuff
-categories: Stuff
+layout: post
+category: Stuff
 tags: [Books, Home]
 
 ---

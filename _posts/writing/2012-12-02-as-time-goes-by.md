@@ -3,7 +3,7 @@
 title: As Time Goes By
 date: 2012-12-02
 layout: post
-categories: Writing
+category: Writing
 tags:
   - Apps
   - iPhone

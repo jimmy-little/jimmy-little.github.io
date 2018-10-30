@@ -4,7 +4,7 @@ title: Linkbait Bullshit from TUAW
 date: 2012-11-28T19:21:15+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags:
   - LinkBait
   - TUAW

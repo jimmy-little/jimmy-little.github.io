@@ -2,7 +2,7 @@
 date: 2015-11-13T05:10:22+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags:
   - Apple
   - Apple Watch

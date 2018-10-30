@@ -4,7 +4,7 @@ title: 'US News & World Report Screws Paleo Without Research'
 date: 2011-06-18
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [Health, Paleo]
 
 ---

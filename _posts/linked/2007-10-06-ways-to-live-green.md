@@ -1,8 +1,8 @@
 ---
 date: 2007-10-06
 author: jimmy
-layout: stuff
-categories: Stuff
+layout: post
+category: Stuff
 tags: [Book, Green]
 title: 365 Ways to Live Green
 ---

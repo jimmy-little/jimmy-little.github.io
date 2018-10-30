@@ -5,7 +5,7 @@ date: 2011-12-21T23:39:08+00:00
 author: jimmy
 layout: post
 
-categories: Writing
+category: Writing
 tags: [Politics]
 
 ---

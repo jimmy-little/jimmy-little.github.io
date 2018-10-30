@@ -9,7 +9,7 @@ layout: post
 via: Motherboard
 source: http://motherboard.vice.com/read/we-need-to-save-the-internet-from-the-internet-of-things
 link: http://motherboard.vice.com/read/we-need-to-save-the-internet-from-the-internet-of-things
-img: link.jpg
+
 ---
 Bruce Schneier, on [Motherboard:](http://motherboard.vice.com/read/we-need-to-save-the-internet-from-the-internet-of-things)
  

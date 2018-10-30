@@ -2,24 +2,55 @@
 layout: main
 ---
 <article class="article-page">
-  <div class="page-content">
-      {% if page.img %}
-    <div class="page-cover-image">
-      <figure>
+
+<div class="page-cover-image">
+{% if page.category == "Writing" %}
+    {%if page.img %}
+        <figure>
         <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        {% if page.fig-caption %}
-          <figcaption>{{page.fig-caption}}</figcaption> </figure>
-    {% elsif page.category == "Linked" %}  
-      <h1 class="linkpost"> 🔗 </h1>      
-    {% elsif page.category == "Video" %}
-      <h1 class="videopost">📽</h1>
-      {% else %}
-        {% endif %}
-     
-    </div>
-    {% else %}  <!-- End Page Cover Image -->
+            {% if page.fig-caption %}
+            <figcaption>{{page.fig-caption}}</figcaption> 
+            {% endif %}
+        </figure>
+    {% else %}<div class="post-linkthumb"><h1 class="defaultpost"> 🍸 </h1></div>
     {% endif %}
-    <div class="wrap-content">
+{% elsif page.category == "Linked" %}
+    {%if post.img %}
+        <figure>
+        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+            {% if page.fig-caption %}
+            <figcaption>{{page.fig-caption}}</figcaption> 
+            {% endif %}
+        </figure>
+    {% else %}<div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
+    {% endif %}
+{% elsif page.category == "Video" %}
+    {%if post.img %}
+        <figure>
+        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+            {% if page.fig-caption %}
+            <figcaption>{{page.fig-caption}}</figcaption> 
+            {% endif %}
+        </figure>
+    {% else %}<div class="post-linkthumb"><h1 class="videopost"> 📽 </h1></div>
+    {% endif %}
+{% elsif page.category == "Stuff" %}
+    {%if post.img %}
+        <figure>
+        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+            {% if page.fig-caption %}
+            <figcaption>{{page.fig-caption}}</figcaption> 
+            {% endif %}
+        </figure>
+    {% else %}<div class="post-linkthumb"><h1 class="stuffpost"> 🛒 </h1></div>
+    {% endif %}
+{% endif %}
+</div>        
+
+<!-- End Page Cover Image -->
+<div class="wrap-content">
+  <div class="page-content">  
+
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         {% if page.subtitle %}
@@ -28,24 +59,23 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
       </header>
       {{content | markdownify}}
-        
-    
-      <div class="page-footer">
-        <!--<div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
-        </div>-->
-        <div class="page-tag">
+<div class="page-footer">
+<div class="page-tag">
         {% if page.via %}
-            <a href="{{page.link}}" class="tag">🔗 {{page.via}}</a> 
-            {% endif %}
+            <a href="{{page.link}}" class="tag"><i class="fa fa-link"></i> {{page.via}}</a> 
+        {% endif %}
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+        {% if site.social-rss %}
+    <a href={{site.baseurl}}/{{site.social-rss}}><i class="fa fa-rss"></i> RSS</a>
+        {% endif %}
           {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">{{ tag }}</a>
+    <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
           {% endfor %}
         </div>
+    <div class="page-date">
+    <i class="fa fa-calendar"></i>  {{page.date | date: '%B %d, %Y'}}
+    </div>
       </div>
-      {% include disqus.html %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->

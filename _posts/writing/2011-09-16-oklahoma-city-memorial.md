@@ -4,7 +4,7 @@ title: Oklahoma City Memorial
 date: 2011-09-16T18:27:01+00:00
 author: jimmy
 layout: post
-categories: Writing
+category: Writing
 tags: [Photos]
 ---
 
