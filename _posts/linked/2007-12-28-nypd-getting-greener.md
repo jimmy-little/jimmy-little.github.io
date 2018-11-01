@@ -20,7 +20,7 @@ image:
 
 subtitle: 
 
-title: “Freeze! Or I’ll Scoot!"
+title: "Freeze! Or I’ll Scoot!"
 
 ---
 
