@@ -36,7 +36,7 @@ I dug my old 5🅂 out of a drawer just to see how I felt about it. After a bit 
 
  - Here are the two keyboards for comparison. I can't believe we typed on that tiny thing.
  
-![Tiny Keyboards!](/assets/img/post/20181101/keyboards.jpg)
+![Tiny Keyboards!](/assets/img/post/20181101/keyboard-comparison.png)
 
 I've installed the Shortcuts app and put a few shortcuts on the phone (including the one to frame the iPhone 5🅂 screenshots). I've connected it to the WiFi and did some web browsing. The browser is still reasonably snappy. I loaded this site on both phones, and the 5🅂 managed load the home page just as quickly as the X🅂. Of course, I don't use a bunch of trackers or javascript, so your mileage may vary.
 
