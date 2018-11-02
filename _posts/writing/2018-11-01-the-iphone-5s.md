@@ -28,7 +28,7 @@ I dug my old 5🅂 out of a drawer just to see how I felt about it. After a bit 
  - The bring-your-phones-close-together setup thing worked flawlessly. Brought my X🅂 Max next to the 5🅂 and my AppleID, Wifi Password, and other info was transferred immediately. After a couple minutes of "Setting up your Apple ID", we were up and running. I chose to set up the little guy as a new phone.
  - I immediately took a screenshot of the home screen. I Air Dropped it to my iPad, and it took nearly 30 seconds to "Prepare" the image to send. This thing is pretty slow by today's standards.
 
-![iPhone 5S is SLOOOOOW](/assets/img/post/20181101/iphone-5s-prepare.png)
+![iPhone 5S is SLOOOOOW](/assets/img/post/20181101/iPhone-5s-prepare.PNG)
 
  - Here are the two screens, side by side in all their glory. That screen is tiny.
 
