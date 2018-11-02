@@ -1,21 +1,14 @@
 ---
 
 title: 'Music is Dead.  Long Live Music.'
-date: 2011-03-19T18:42:39+00:00
+date: 2011-03-19
 author: jimmy
 layout: post
-guid: http://localhost:8888/2011/03/19/2011319music-is-dead-long-live-music-html/
-permalink: /2011/03/19/2011319music-is-dead-long-live-music-html/
-categories:
-  - blog
-  - opinion
+category: Writing
 tags:
-  - amazon
-  - apple
-  - blog
-  - bon jovi
-  - music
-  - steve jobs
+  - Amazon
+  - Apple
+  - Music
 ---
 
   <p>

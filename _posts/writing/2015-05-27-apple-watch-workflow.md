@@ -12,12 +12,6 @@ tags: [Apple Watch, Mac, Automation, Launch Center Pro, iOS, Dropbox, Hazel]
 via: 
 source: 
 
-image:
- feature: 
- header: 
- credit: 
- creditlink: 
-
 subtitle: Do more with that little computer on your wrist
 
 title: Using Your Apple Watch To Trigger Your Screensaver
