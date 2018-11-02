@@ -17,9 +17,11 @@ title: Tags
   </ul>
 <!--cycles through tag list and creates subheader for each tag name...-->
   {% for this_word in tag_words %}
-    <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+    <h3 class="tag-header" id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+
 <!--  lists all posts corresponding to specific tag...-->
     {% for post in site.tags[this_word] %}{% if post.title != null %}
+    
     <div class="tag-list">
         <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
         <small><span>| {{ post.date | date_to_string }}</span></small>

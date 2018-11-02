@@ -5,13 +5,7 @@ date: 2014-02-22
 author: jimmy
 layout: post
 category: Writing
-tags:
-  - Automation
-  - Automator
-  - Hazel
-  - IFTTT
-image:
- feature: https://d2huu43w4jjmdn.cloudfront.net/feature_images/optomized/getting_started_if_hero.jpg
+tags: [Automation, Hazel, IFTTT]
   
 ---
 

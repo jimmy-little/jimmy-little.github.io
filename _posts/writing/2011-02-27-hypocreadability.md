@@ -1,13 +1,11 @@
 ---
 
-title: Hypocreadability
-date: 2011-02-27T03:47:59+00:00
-author: jimmy
+title: Hypocr-eadability
+subtitle: That portmanteau doesn't really work, does it?
+date: 2011-02-27
 layout: post
-guid: http://localhost:8888/2011/02/27/2011226hypocreadability-html/
-permalink: /2011/02/27/2011226hypocreadability-html/
-categories:
-  - Uncategorized
+category: Writing
+tags: [iOS, Subscription, Apple]
 ---
 
   <p>

@@ -1,20 +1,12 @@
 ---
 
 title: Snowpocalypse Snow Job
-date: 2010-12-29T21:18:42+00:00
+date: 2010-12-29
 author: jimmy
 layout: post
-guid: http://localhost:8888/2010/12/29/20101229snowpocalypse-snow-job-html/
-permalink: /2010/12/29/20101229snowpocalypse-snow-job-html/
 categories:
-  - blog
-tags:
-  - bloomberg
-  - booker
-  - new york
-  - newark
-  - politics
-  - Rant
+  - Writing
+tags: [Opinion, Snow]
 ---
 
   <p>

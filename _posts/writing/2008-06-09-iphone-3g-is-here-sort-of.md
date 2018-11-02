@@ -1,20 +1,17 @@
 ---
 
 title: iPhone 3G is here, sort of.
-date: 2008-06-09T16:23:48+00:00
-author: jimmy
-
+date: 2008-06-09
 layout: post
-guid: http://localhost:8888/2008/06/09/200869iphone-3g-is-here-sort-of-html/
-permalink: /2008/06/09/200869iphone-3g-is-here-sort-of-html/
-categories:
-  - tech
+category: Writing
+tags: [Apple, iPhone]
+img: iphone3g.jpg
+
 ---
 
-  <a href="http://s3.media.squarespace.com/production/453260/5085149/wordpress/wp-content/uploads/2008/06/wwdc_2008_shirt.jpg"><img class="alignleft alignnone size-medium wp-image-91" style="border: 0pt none; margin: 10px; float: left;" title="wwdc_2008_shirt" src="http://s3.media.squarespace.com/production/453260/5085149/wordpress/wp-content/uploads/2008/06/wwdc_2008_shirt.jpg" alt="" width="287" height="200" /></a>The shirt says it all.  10:00, June 9, Moscone West.</p> 
   
   <p>
-    Being an out-of-the-loop basic cable carpenter with a penchant for expensive gadgets, I was not there.  But, thanks to sites like <a href="http://www.engadget.com" target="_blank">Engadget</a> , and <a href="http://www.twit.tv" target="_blank">twit.tv</a> (thanks, Leo) and <a href="http://www.geekbrief.tv" target="_blank">Geek Brief</a> (thanks, Cali!)streaming on <a href="http://www.ustream.com" target="_blank">Ustream</a> , I got a play by play of what went on.  It's like being there, but I can't see anything, and I don't need to wear pants.
+    Being an out-of-the-loop basic cable carpenter with a penchant for expensive gadgets, I was not there. But, thanks to sites like <a href="http://www.engadget.com" target="_blank">Engadget</a> , and <a href="http://www.twit.tv" target="_blank">twit.tv</a> (thanks, Leo) and <a href="http://www.geekbrief.tv" target="_blank">Geek Brief</a> (thanks, Cali!)streaming on <a href="http://www.ustream.com" target="_blank">Ustream</a> , I got a play by play of what went on.  It's like being there, but I can't see anything, and I don't need to wear pants.
   </p>
   
   <p>

@@ -6,17 +6,14 @@ author: jimmy
 layout: post
 guid: http://localhost:8888/2011/03/30/2011330the-workflow-opus-or-find-your-hammer-html/
 permalink: /2011/03/30/2011330the-workflow-opus-or-find-your-hammer-html/
-categories:
-  - blog
-  - opinion
-  - tech
+category: Writing
 tags:
-  - elements
+  - Elements
   - iPad
-  - notational velocity
+  - Notational Velocity
   - OmniFocus
-  - textexpander
-  - workflow
+  - TextExpander
+  - Workflow
 ---
 
   <p>

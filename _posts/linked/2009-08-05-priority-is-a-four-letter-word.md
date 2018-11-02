@@ -1,19 +1,13 @@
 ---
 
 title: Priority is a four letter word
-date: 2009-08-05T12:25:52+00:00
-author: jimmy
-
+date: 2009-08-05
 layout: post
-guid: http://localhost:8888/2009/08/05/200985priority-is-a-four-letter-word-html/
-permalink: /2009/08/05/200985priority-is-a-four-letter-word-html/
 category: Linked
- 
 tags: [Priorities, Productivity]
-
 link: http://www.43folders.com/2009/04/28/priorities
-source: http://www.43folders.com/2009/04/28/priorities
 via: 43 Folders
+
 ---
 
 I've been thinking a lot about priorities lately.  Turns out, there's really no way to prioritize things.  It's just not possible.  <!-- more -->The same week I start pondering my personal paradox of priorities, I read over on another site an article from my favorite life-commentator, Merlin Mann.

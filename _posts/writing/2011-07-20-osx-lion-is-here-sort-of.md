@@ -5,12 +5,7 @@ date: 2011-07-20T18:08:54+00:00
 author: jimmy
 layout: post
 category: Writing
-tags:
-  - Wpple
-  - Issues
-  - Lion
-  - Macbook
-  - Upgrade
+tags: [Apple, macOS]
   
 ---
 
