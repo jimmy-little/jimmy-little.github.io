@@ -1,5 +1,5 @@
 ---
-title: This will forever drive me crazy
+title: Crazy Maker
 via: Instagram
 link: https://www.instagram.com/p/BepVKQyHqhR/
 category: Social

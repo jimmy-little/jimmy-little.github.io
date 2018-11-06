@@ -1,5 +1,5 @@
 ---
-title: That tongue
+title: That Tongue
 via: Instagram
 link: https://www.instagram.com/p/BgsKIg-ntZX/
 category: Social

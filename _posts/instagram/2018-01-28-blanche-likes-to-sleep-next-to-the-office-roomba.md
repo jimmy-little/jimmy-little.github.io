@@ -1,5 +1,5 @@
 ---
-title: Blanche likes to sleep next to the office Roomba
+title: Blanche ❤️ Roomba
 via: Instagram
 link: https://www.instagram.com/p/BeeaEsfnrlI/
 category: Social
