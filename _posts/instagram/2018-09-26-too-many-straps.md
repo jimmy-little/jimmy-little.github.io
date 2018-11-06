@@ -1,4 +1,3 @@
-
 ---
 title:Too Many Apple Watch straps.
 via: Instagram
