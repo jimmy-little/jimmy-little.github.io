@@ -2,6 +2,7 @@
 title: iMac SSD Upgrade!
 layout: post
 via: Instagram
+category: Social
 link: https://www.instagram.com/p/BHiveVfBlT7/
 tn: BHiveVfBlT7.jpg
 tags: [Instagram]
