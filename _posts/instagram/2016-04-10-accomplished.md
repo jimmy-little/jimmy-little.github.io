@@ -1,5 +1,4 @@
 ---
-
 title: Accomplished
 via: Instagram
 link: https://www.instagram.com/p/BC-rs2IhXcz/
