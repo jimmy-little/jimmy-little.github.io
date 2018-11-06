@@ -1,0 +1,5 @@
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I have a Synology that Carbon-Copy-Clones to a pair of direct-connected 6TB USB drives. Backblaze sucks USB-connected drives up just fine. 
+Bonus: this process gives me a LOCAL and an ONLINE backup of my NAS
+And, 2 6TB drives cost less than all that iSCSI nonsense. Super simple</p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1059905222514958336?ref_src=twsrc%5Etfw">November 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ via Twitter http://twitter.com/jimmylittle/status/1059905222514958336

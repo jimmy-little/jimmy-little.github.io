@@ -4,12 +4,21 @@ date:
 title: Archive
 ---
 <div class="post-linkthumb"><h1 class="videopost"> 🗄️ </h1></div>
-{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
   <h3>{{ yearMonth.name }}</h3>
 <ul>
-    {% for post in yearMonth.items %}
-        <li>{{ post.category }}:  <a href="{{ post.url }}">"{{ post.title }}"</a></li>
-      {% endfor %}
+{% for post in yearMonth.items %}
+    {% if post.via == "Instagram" %}
+    <li><i class="fa fa-instagram"></i>:  <a href="{{ post.link }}">{{ post.title }} ➛</a></li>
+    {% elsif post.via == "Twitter" %}
+    <li><i class="fa fa-twitter"></i>:  <a href="{{ post.link }}">{{ post.date | date: "%b %d, %Y"}} ➛</a></li>
+    {% elsif post.category == "Writing" %}
+    <li><i class="fa fa-glass"></i>:  <a href="{{ post.url }}">"{{ post.title }}"</a></li>
+    {% elsif post.category == "Linked" %}
+    <li><i class="fa fa-link"></i>:  <a href="{{ post.url }}">"{{ post.title }}"</a> via {{ post. via }}</li>
+    {% endif %}
+{% endfor %}
     </ul>
 {% endfor %}
