@@ -1,5 +1,5 @@
 ---
-title: Very Iron Man.
+title: Very Iron Man
 via: Instagram
 link: https://instagram.com/p/BpPnisFBTu4/
 category: Social
