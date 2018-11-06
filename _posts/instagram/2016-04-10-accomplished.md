@@ -1,17 +1,12 @@
 ---
 
 title: Accomplished
-
 via: Instagram
 link: https://www.instagram.com/p/BC-rs2IhXcz/
 subtitle: <i class="fa fa-instagram"></i>
-
 layout: post
-
 category: Social
-
 tags: [Instagram, Dog]
-
 date: 2016-04-10
 
 ---
