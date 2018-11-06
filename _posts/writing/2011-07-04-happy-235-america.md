@@ -10,7 +10,7 @@ tags: [America, Holiday]
 [![][1]][2](C) museinthecity via Flickr
 
 It was 85,831 days ago today when the Continental Congress adopted the Declaration of Independence and announced that the colonies were no longer going to be a part of the British Empire. And Larry King was born. I think. 
-
+<!-- more --> 
 I'm not a super-patriotic person. I don't know all the presidents and I don't know when New York, or my home state of Virginia, became states (or commonwealths). I do know about [Paul Revere's Ride][3] and who the [Founding Fathers][4] were, so I guess I could be president. But I don't want to be. Seems like a lot of work. 
 
 Independence Day is probably my favorite holiday. I love Christmas and Thanksgiving because I can go see family. I like any day that gives me a day off work. But Independence Day is special. 

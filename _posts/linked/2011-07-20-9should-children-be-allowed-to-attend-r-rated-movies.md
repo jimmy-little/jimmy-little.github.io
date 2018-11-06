@@ -7,7 +7,7 @@ layout: post
 source: http://www.theonion.com/video/should-adults-be-allowed-to-bring-kids-to-rrated-m,20961
 link: http://www.theonion.com/video/should-adults-be-allowed-to-bring-kids-to-rrated-m,20961
 via: The Onion
-categories: Linked
+category: Linked
 tags: [Funny]
 ---
 
