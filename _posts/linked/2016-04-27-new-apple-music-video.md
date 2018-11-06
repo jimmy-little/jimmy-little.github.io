@@ -1,21 +1,11 @@
 ---
 
 title: New Apple Music Video
-
-category: Video
-
-fromMy: YouTube
-
+category: Social
 tags: [Apple, Music, YouTube]
-
 layout: post
-
-images:
-  header:
-  featured:
 youtubeId: fK_zwl-lnmc
 via: YouTube
-source: https://www.youtube.com/watch?v=fK_zwl-lnmc&list=RDfK_zwl-lnmc#t=0
 link: https://www.youtube.com/watch?v=fK_zwl-lnmc&list=RDfK_zwl-lnmc#t=0
 
 ---

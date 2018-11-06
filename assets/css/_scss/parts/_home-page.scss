@@ -240,7 +240,7 @@ footer .copyright {
 //          transform: translate(0px, -2px);
 //  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 //          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-border: solid 2px $black;
+border: solid 1px $dark-gray;
 }
 
 
@@ -291,26 +291,84 @@ border: solid 2px $black;
   padding: 5px 10px;
   margin-left: 0px;
   color: $white;
-  background-color: $green;
+  background-color: $dark-gray;
   text-transform: uppercase;
   border: 1px solid;
-  border-color: $green;    
+  border-color: $dark-gray;    
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;  
   float: right;
 }
 
-
+.post .read-more-pill a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 0px;
+  color: $white;
+  background-color: $dark-gray;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-color: $dark-gray;    
+  border-radius: 15px;  
+  float: right;
+}
 .post .read-source a {
   text-decoration: none;
   font-weight: bold;    
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
-  color: $green;
+  color: $black;
   text-transform: uppercase;
   border: 1px solid;
-  border-color: $green;
+  border-color: $dark-gray;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;  
+  float: right;
+}
+
+.post .read-source-twitter a {
+  text-decoration: none;
+  font-weight: bold;    
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: $twitter;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-color: $twitter;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;  
+  float: right;
+}
+
+.post .read-source-instagram a {
+  text-decoration: none;
+  font-weight: bold;    
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: $instagram;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-color: $instagram;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;  
+  float: right;
+}
+
+.post .read-source-youtube a {
+  text-decoration: none;
+  font-weight: bold;    
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: $youtube;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-color: $youtube;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;  
   float: right;

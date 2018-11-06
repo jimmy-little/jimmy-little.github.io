@@ -3,8 +3,9 @@ title: "If You're A Geek, You'll Love This."
 date: 2011-06-05
 author: jimmy
 layout: post   
-category: Video
-fromMy: YouTube
+category: Social
+via: YouTube
+link: https://www.youtube.com/embed/dULOjT9GYdQ
 youtubeId: dULOjT9GYdQ
 tags: [Video, Music, Geek]
 ---

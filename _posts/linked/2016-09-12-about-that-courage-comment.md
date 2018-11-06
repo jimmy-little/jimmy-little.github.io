@@ -3,11 +3,9 @@ title: "About That 'Courage' Comment"
 date: 2016-09-12
 subtitle: "This never would have happened if Steve Jobs was around"
 tags: [Apple]
-fromMy: YouTube
-category: Video
+category: Social
 layout: post
 via: YouTube
-source: https://www.youtube.com/watch?v=65_PmYipnpk
 link: https://www.youtube.com/watch?v=65_PmYipnpk
 youtubeId: 65_PmYipnpk
 ---

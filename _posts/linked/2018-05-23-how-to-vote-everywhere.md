@@ -4,9 +4,9 @@ title: "How To Vote Everywhere"
 date: 2018-10-23
 subtitle: "Just do it. Please."
 tags: [Video, Politics, YouTube]
-category: Video
+category: Social
 layout: post
-via: Vlog Brothers
+via: YouTube
 link: https://www.youtube.com/watch?v=8spm2Qh60U4&feature=share
 youtubeId: 8spm2Qh60U4
 img: howtovoteeverywhere.jpg

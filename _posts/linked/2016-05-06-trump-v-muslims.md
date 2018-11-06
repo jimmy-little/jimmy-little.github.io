@@ -1,19 +1,12 @@
 ---
 
 title: Trump v. Muslims
-
-fromMy: Twitter
-
-subtitle: <i class="fa fa-twitter"></i>
-
 layout: post
-
-category: Linked
-
+category: Social
 tags: [Twitter, Politics]
-
+via: Twitter
 date: 2016-05-06
-
+link: https://twitter.com/jimmylittle/status/728735528246337536
 
 ---
 

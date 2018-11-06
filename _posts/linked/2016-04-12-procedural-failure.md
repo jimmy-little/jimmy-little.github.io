@@ -3,11 +3,10 @@ via: MacStories
 source: https://www.macstories.net/news/apple-pulls-third-party-reddit-clients-for-nsfw-content/
 title: "Procedural Failure"
 layout: post
-categories: Linked
+category: Linked
 link: https://www.macstories.net/news/apple-pulls-third-party-reddit-clients-for-nsfw-content/
 date: 2016-04-12
 ---
-
 
 
 Over at [MacStories][1], Graham Spencer wraps up a piece saying:

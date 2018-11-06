@@ -1,26 +1,13 @@
 ---
 
 layout: post
-
 link: https://consumermediallc.files.wordpress.com/2016/04/microsoftcomplaint.pdf
-
 category: Linked
-
 tags: [Privacy, Microsoft, Cloud]
-
 via: Consumerist
-source: https://consumerist.com/2016/04/14/microsoft-sues-justice-dept-wants-to-be-able-to-tell-users-when-govt-reads-their-files
-
 date: 2016-04-14
-
 title: Microsoft Sues Over Gag Orders
-
 subtitle: Redmond thinks the ECPA goes too far
-
-image:
- feature: https://farm9.staticflickr.com/8670/16510342158_185f09969a_k.jpg
- credit: TechStage
- creditlink: https://www.flickr.com/photos/bestboyzde
  
 ---
 

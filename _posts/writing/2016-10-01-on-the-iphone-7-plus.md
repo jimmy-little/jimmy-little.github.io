@@ -5,7 +5,9 @@ subtitle: "A few off-the-cuff impressions, unedited"
 tags: [Apple, iPhone]
 category: Writing
 layout: post
-
+img: iphone7plus.jpg
+tn: iphone7plus.jpg
+fig-caption: 📷 Apple.com
 
 ---
 

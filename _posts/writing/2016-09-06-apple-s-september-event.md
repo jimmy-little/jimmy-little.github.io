@@ -6,6 +6,7 @@ tags: [Apple, Watch, iPad, iPhone]
 category: Writing
 layout: post
 img: FullSizeRender.jpg
+fig-caption: 📷 Apple.com
 ---
 
 Tomorrow is Apple's big fall event, and we're all expecting new iPhones. I sat out last year's upgrade for the first time ever, so I'm certainly ready for a new phone. But will anything else be there to tempt my wallet?

@@ -1,17 +1,12 @@
 ---
 
 title: Reagan-ing
-
-fromMy: Twitter
-
+via: Twitter
+link: https://twitter.com/jimmylittle/status/725415887520550912
 subtitle: <i class="fa fa-twitter"></i>
-
 layout: post
-
-category: Linked
-
+category: Social
 tags: [Twitter, Politics]
-
 date: 2016-04-27
 
 ---

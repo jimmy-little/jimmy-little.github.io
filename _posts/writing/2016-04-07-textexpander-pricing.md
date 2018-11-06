@@ -9,16 +9,13 @@ title: "On TextExpander Pricing [UPDATED]"
 subtitle: 'When a company changes pricing models...'
 ---
 
-
 This post has been [UPDATED][1]
 
 First, let me say I LOVE TextExpander. I've been using it for years, every day. On my 8 month old laptop, I've expanded snippets over 8500 times, saving 34 hours of typing.
-
+<!-- more -->  
 ![TextExpander Stats][image-1]
 
 Smile Software posted [on their blog][2] that they were changing the pricing model for TextExpander. I'm not sure how I feel about it, but I do know that I will have to seriously consider whether I'm going to switch to the new model.
-
-<!-- more -->
 
 From the Smile Blog:
 

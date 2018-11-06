@@ -1,10 +1,11 @@
 ---
 title: "Everything's Amazing"
-fromMy: YouTube
+via: YouTube https://www.youtube.com/embed/ZFsOUbZ0Lr0
+link:
 date: 2011-11-29
 author: jimmy
 layout: post
-category: Video
+category: Social
 tags:
   - Technology
   - Travel
