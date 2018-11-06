@@ -1,7 +1,7 @@
 ---
-title:Too Many Apple Watch straps.
+title:Too Many Straps
 via: Instagram
-link: https://www.instagram.com/p/BoLcRABBBul/?utm_source=ig_web_button_share_sheet
+link: https://www.instagram.com/p/BoLcRABBBul/
 category: Social
 date: 2018-09-26
 tags: [Instagram]
