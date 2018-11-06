@@ -1,5 +1,5 @@
 ---
-title:Too Many Straps
+title: Too Many Straps
 via: Instagram
 link: https://www.instagram.com/p/BoLcRABBBul/
 category: Social
