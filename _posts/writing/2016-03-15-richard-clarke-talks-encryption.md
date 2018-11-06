@@ -1,22 +1,11 @@
 ---
 layout: post
-
 date: 2016-03-15
-
 category:  Writing 
-
 tags: [Apple, Encryption, FBI, Privacy, iPhone]
-
 via: NPR
-
 source: http://www.npr.org/2016/03/14/470347719/encryption-and-privacy-are-larger-issues-than-fighting-terrorism-clarke-says
-
-image:
- header: 
- feature:
- 
 subtitle: '"Not as interested in solving the problem"'
-
 title: Richard Clarke Talks Encryption
 
 ---
@@ -25,7 +14,7 @@ title: Richard Clarke Talks Encryption
 Richard Clarke, former National Security Council leader and security advisor to Clinton, Bush and Obama, in an [interview with NPR][1]
 
 > If I were in the job now, I would have simply told the FBI to call Fort Meade, the headquarters of the National Security Agency, and NSA would have solved this problem for them. They're not as interested in solving the problem as they are in getting a legal precedent.
-
+<!-- more -->  
 and later...
 
 > Every expert I know believes that NSA could crack this phone. They want the precedent that the government can compel a computer device manufacturer to allow the government in.

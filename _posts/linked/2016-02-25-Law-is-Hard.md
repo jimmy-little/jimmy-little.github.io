@@ -2,16 +2,12 @@
 
 layout:         post
 date:           2016-02-25 00:00:00 -0700
-categories:     Linked
+category:     Linked
 tags:           [Apple, Opinion, Privacy]
 link:           https://www.washingtonpost.com/news/volokh-conspiracy/wp/2016/02/19/preliminary-thoughts-on-the-apple-iphone-order-in-the-san-bernardino-case-part-2-the-all-writs-act
 via:            The Washington Post
-source:         https://www.washingtonpost.com/news/volokh-conspiracy/wp/2016/02/19/preliminary-thoughts-on-the-apple-iphone-order-in-the-san-bernardino-case-part-2-the-all-writs-acthttps://www.washingtonpost.com/news/volokh-conspiracy/wp/2016/02/19/preliminary-thoughts-on-the-apple-iphone-order-in-the-san-bernardino-case-part-2-the-all-writs-act
-
-image:  
-    feature: 
-    header:
 title:          Law Is Hard
+
 ---
 
 [Orin Kerr][1], writing for The Washington Post, has a great breakdown of the challenges both sides face in the Apple vs. FBI phone-unlocking saga
