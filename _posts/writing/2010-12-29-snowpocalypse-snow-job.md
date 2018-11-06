@@ -4,8 +4,7 @@ title: Snowpocalypse Snow Job
 date: 2010-12-29
 author: jimmy
 layout: post
-categories:
-  - Writing
+category: Writing
 tags: [Opinion, Snow]
 ---
 
@@ -20,7 +19,7 @@ tags: [Opinion, Snow]
   <p>
     First, let's all agree that 20&#8243; of snow is not the end of humanity.  Quit calling it "Snowpocalypse."  What are we going to call it when we get 22&#8243; of snow? Let's save the apocalypse references for when the shit really hits the fan.
   </p>
-  
+  <!-- more -->
   <p>
     People on Fox News, MSNBC, and CNN are all praising Newark, NJ mayor Cory Booker for taking care of business during the blizzard over the weekend, and decrying New York City mayor Michael Bloomberg as a "plutocrat" who doesn't care about the little people.
   </p>

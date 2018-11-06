@@ -13,7 +13,7 @@ via: IARC
 
 link: http://monographs.iarc.fr/ENG/Classification/ClassificationsAlphaOrder.pdf
 
-categories: Linked
+category: Linked
 
 tags: [Health]
   
@@ -23,7 +23,7 @@ tags: [Health]
 Cell phones have been put in the Class 2B by the World Health Organization. This means there's a possible cancer risk.
   
 Also in the 2B Class of 2011 are these winners:
-  
+  <!-- more --> 
   
   <ul>
     <li>

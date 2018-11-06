@@ -13,7 +13,7 @@ tags:
 
 
 According to <a href="http://www.businesswire.com/news/home/20110320005040/en/ATT-Acquire-T-Mobile-USA-Deutsche-Telekom" target="_blank">BusinessWire</a>, AT&T has just purchased T-Mobile for about $39 billion. For that money, AT&T gets T-Mo's 34 million subscribers, and T-Mobile gets 8% ownership in AT&T.  Oh, and Apple gets 34 million potential iPhone customers.
-
+<!-- more --> 
 As part of the deal, AT&T is said to be accellerating it's LTE/4G rollout, spending over $8 billion in the process.  Coupling AT&T and T-Mobile coverage will allow 94% of Americans (294 million people) to be covered in the wireless high speed goodness that LTE promises to be.  
 
 The good news for consumers is that once the deal's done, AT&T and T-Mobile towers will be indistinguishable to your phone, so theoretically service-strapped areas like New York and San Fransisco will see better service, since the availability of GSM signal will increase.  As a lot of iPhone jailbreakers have noticed in the past, the iPhone only gets EDGE data speeds on T-Mobile, but getting millions of voice calls off of AT&T's towers and spreading the load can't hurt.

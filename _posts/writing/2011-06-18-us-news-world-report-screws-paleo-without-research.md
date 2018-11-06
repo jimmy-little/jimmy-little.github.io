@@ -9,7 +9,7 @@ tags: [Health, Paleo]
 
 ---
 As many of you know, I "went Paleo" a couple months ago. After several years of being a [pescetarian][1], I discovered that I had a small issue with gluten. I'm not celiac or anything of that magnitude, but I do have a very noticeable sensitivity to gluten-containing foods. As a result, I cut out most of the bread, pasta, cereal, and other high-gluten foods, even beer! 
-
+<!-- more --> 
 I decided my gluten-free mostly vegetarian diet was both too limiting for my busy schedule, and quite frankly, not much fun. I am very careful about what I eat and drink. I am by no means perfect, mind you. I like my occasional Diet Coke or dessert. I love wine. But I try. So I started reading about new ways to eat. 
 
 I read Robb Wolf's [The Paleo Solution][2]. I read Mark Sisson's [The Primal Blueprint][3]. I started listening to podcasts about Paleo eating. I read dozens of blogs. I read the medical papers that some of those well-researched blogs linked to. Then I did it. I started eating real meat again. I cut out the gluten. I reduced my dairy. It was easy for me, since I don't eat fast food, and I'd cut out most processed food years ago. My grocery bags are now full of fruit, vegetables, meat, and dairy-free dark chocolate. Gone are the boxes of pasta, the crackers, the cereal. Even [whole grains][4] are out. 

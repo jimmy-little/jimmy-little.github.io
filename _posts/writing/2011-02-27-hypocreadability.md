@@ -11,7 +11,7 @@ tags: [iOS, Subscription, Apple]
   <p>
     I've been out of the loop for a bit, but this story just irks me.  Richard Ziade, of Readability, posted an <a href="http://blog.readability.com/2011/02/an-open-letter-to-apple/">Open Letter to Apple</a> about the App Store's new subscription policy.
   </p>
-  
+<!-- more --> 
   <p>
     If you haven't heard, Apple announced a new subscription policy for Apps on iOS.  If you break it down, it basically says if you offer a subscription service, you now have to offer the subscription for the same (or lower) price through Apple's In-App Purchase system.  That's great for users, but content providers will have to abide by the App Store's 30% rule.  Any App or In-App Purchase gives you 70%, and Apple 30%.
   </p>

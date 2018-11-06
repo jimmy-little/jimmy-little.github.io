@@ -14,7 +14,7 @@ tags:
   <p>
     <span class="full-image-float-left ssNonEditable"><span><img src="http://ecx.images-amazon.com/images/I/61rWmthOk-L._SL500_AA280_.jpg?__SQUARESPACE_CACHEVERSION=1300561191139" alt="" /></span></span>There has been a lot of brou-ha-ha lately about Jon Bon Jovi's idiot attempt to justify his sagging record sales to an aging audience by blaming it on digital music:
   </p>
-  
+<!-- more --> 
   <blockquote>
     <p>
       Kids today have missed the whole experience of putting the headphones on, turning it up to 10, holding the jacket, closing their eyes and getting lost in an album; and the beauty of taking your allowance money and making a decision based on the jacket, not knowing what the record sounded like, and looking at a couple of still pictures and imagining it.  I hate to sound like an old man now&hellip;

@@ -19,7 +19,7 @@ tags:
   <p>
     I'm primarily a carpenter. I make my living by building things. I may build them for television, for stage, or for individual clients. Any way you slice it, I build things to survive. And I'm pretty damn good at it.
   </p>
-  
+<!-- more --> 
   <p>
     One thing is a constant. I always have a hammer. Personally, I prefer an <a href="http://www.amazon.com/gp/product/B0045LSEJ4/ref=as_li_ss_tl?ie=UTF8&tag=jimmlitt-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0045LSEJ4" target="_blank">Estwing 20 oz. hammer</a>. I've been using this brand and size of hammer for 15 years and I think it's perfect. Twenty ounces is big enough to drive a framing nail into a deck joist, and small enough to tack up some door casing. It's the perfect size. As an added bonus, they're 16&#8243; long, which is the spacing between most floor joists and wall studs, so spacing nails is pretty easy. It's multi-purpose, useful, convenient.  It's there when I need it, it's just hanging around when I don't.  Workflows should be your hammer.
   </p>

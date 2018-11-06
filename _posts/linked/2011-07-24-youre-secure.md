@@ -4,7 +4,7 @@ date: 2011-07-24
 author: jimmy
 layout: post
 via: Google+
-categories: Linked
+category: Linked
 tags: [Video]
 ---
 So, here's a fun video that [Jaime Walters][1] just posted over on the Google+ of me getting locked in a Murphy Bed while she films and [Erica][2] has a cocktail. 
