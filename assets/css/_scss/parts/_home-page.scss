@@ -209,6 +209,7 @@ footer .copyright {
 .post {
   width: 100%;
   max-width: 100%;
+  position: relative;
   margin-bottom: 1.2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -276,12 +277,13 @@ border: solid 1px $dark-gray;
 
 .index-read-pill {
     float:right;
-    width: 60%
+    width: 50%;
 }
 
 .index-metadata {
     float: left;
-    width: 40%
+    width: 50%;
+    text-align: left;
 }
 
 .post .read-more a {
@@ -339,8 +341,7 @@ border: solid 1px $dark-gray;
   text-transform: uppercase;
   border: 1px solid;
   border-color: $twitter;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;  
+  border-radius: 15px;
   float: right;
 }
 
@@ -354,8 +355,7 @@ border: solid 1px $dark-gray;
   text-transform: uppercase;
   border: 1px solid;
   border-color: $instagram;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;  
+  border-radius: 15px;  
   float: right;
 }
 

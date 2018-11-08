@@ -1,21 +1,11 @@
 ---
 layout: post
-
 link: http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa/
 title: Open Always Wins, Vol. 32
 date: 2015-12-04
-
 category:  Linked 
-
-tags: [Android, Malware, Open]
-
+tags: [Android, Malware]
 via: We Live Security
-source: http://www.welivesecurity.com/2015/09/10/aggressive-android-ransomware-spreading-in-the-usa/
-
-image:
- feature: https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/AndroidRain_16x9_Q25.jpg
- credit: searchwallpapers.org
- creditlink: http://www.searchwallpapers.org/download/Android-Logo-In-Rain-HD-Wallpaper-Flickr-Photo/?n=aHR0cHM6Ly9mYXJtMy5zdGF0aWNmbGlja3IuY29tLzI5MTEvMTQ2MDQ1NDcwNThfNDkxZTJmOTFhNV9vLmpwZw==&search=wallpaper+hd+rain
 subtitle: Your pants are locked
 
 ---

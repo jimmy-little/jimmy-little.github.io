@@ -8,7 +8,7 @@ source: http://www.theonion.com/video/should-adults-be-allowed-to-bring-kids-to-
 link: http://www.theonion.com/video/should-adults-be-allowed-to-bring-kids-to-rrated-m,20961
 via: The Onion
 category: Linked
-tags: [Funny]
+tags: [Fun]
 ---
 
 More to the point, should children be allowed to attend R rated movies where consenting adults are masturbating? 

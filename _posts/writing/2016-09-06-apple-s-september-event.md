@@ -2,7 +2,7 @@
 title: "Apple's September Event"
 date: 2016-09-06
 subtitle: "It's pronounced bo-kay"
-tags: [Apple, Watch, iPad, iPhone]
+tags: [Apple, Apple Watch, iPad, iPhone]
 category: Writing
 layout: post
 img: FullSizeRender.jpg

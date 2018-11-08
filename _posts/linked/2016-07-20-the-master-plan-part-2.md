@@ -2,16 +2,11 @@
 title: "The Master Plan, Part 2"
 date: 2016-07-20
 subtitle: "Elon Musk lays out his vision. Again."
-tags: [Tesla, Autonomous]
-fromMy: 
+tags: [Tesla, Car]
 category: Linked
 layout: post
 via: Tesla Motors Blog
-source: https://www.tesla.com/blog/master-plan-part-deux
 link: https://www.tesla.com/blog/master-plan-part-deux
-image:
-  feature:
-  header:
 
 ---
 

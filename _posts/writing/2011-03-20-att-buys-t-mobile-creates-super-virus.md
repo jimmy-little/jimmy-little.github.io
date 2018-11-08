@@ -7,7 +7,6 @@ category: Writing
 tags:
   - ATT
   - iPhone
-  - Merger
   - TMobile
 ---
 

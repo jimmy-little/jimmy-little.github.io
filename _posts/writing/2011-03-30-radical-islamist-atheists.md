@@ -2,13 +2,11 @@
 
 title: Radical Islamist Atheists
 date: 2011-03-30
-author: jimmy
 layout: post
 category: Writing
-tags:
-  - blog
-  - opinion
-  - politics
+tags: [Opinion, Politics]
+link: http://religion.blogs.cnn.com/2011/03/28/gingrich-fears-atheist-country-dominated-by-radical-islamists/
+via: CNN
 ---
 
 Oh Lord.  
