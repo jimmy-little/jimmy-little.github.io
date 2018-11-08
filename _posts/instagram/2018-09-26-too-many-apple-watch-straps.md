@@ -8,8 +8,7 @@ tn: BoLcRABBBul.jpg
 tags: [Instagram]
 date: 2018-09-26
 ---
-<h1 align="center"><i class="fa fa-instagram" aria-hidden="true"></i></h1>
-Well, I’m happy the new Apple Watch is compatible with the old straps.
+<i class="fa fa-instagram" aria-hidden="false"></i> Well, I’m happy the new Apple Watch is compatible with the old straps.
 
 Because I have too many Apple Watch straps.
 <!-- more --> 
