@@ -4,7 +4,7 @@ subtitle:
 layout: post
 category: Social
 via: Instagram
-link: https://www.instagram.com/p/BmmRbtSBuS_/?utm_source=ig_embed&ig_mid=W-EFAgAAAAGUnfmaZp-QJvQii-X9
+link: https://www.instagram.com/p/BmmRbtSBuS_
 tn: BmmRbtSBuS_.jpg
 tags: [Instagram]
 date: 2018-08-17
