@@ -9,7 +9,7 @@ tn: Bp2Lc6qBZjV.jpg
 tags: [Instagram]
 date: 2018-11-06
 ---
-<i class="fa fa-instagram" aria-hidden="true" font-size="2em"></i> Happy Election Day!  New rule: If you don’t vote, I’m not going to listen to you complain on the internet.
+<i class="fa fa-instagram" aria-hidden="false"></i> Happy Election Day!  New rule: If you don’t vote, I’m not going to listen to you complain on the internet.
 
 Skip school, be late for work, miss your soap operas. Whatever. Go vote!
 <!-- more --> 
