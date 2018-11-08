@@ -5,10 +5,10 @@ layout: post
 category: Social
 via: Instagram
 link: https://www.instagram.com/p/BmmRbtSBuS_/?utm_source=ig_embed&ig_mid=W-EFAgAAAAGUnfmaZp-QJvQii-X9
-tn: BmmRbtSBuS_?utm_source=ig_embed&ig_mid=W-EFAgAAAAGUnfmaZp-QJvQii-X9.jpg
+tn: BmmRbtSBuS_.jpg
 tags: [Instagram]
 date: 2018-08-17
-img: BmmRbtSBuS_.jpg
+
 ---
 <i class="fa fa-instagram" aria-hidden="true"></i> Happy Anniversary to this lady. Wife, mother, best friend.
 <!-- more --> 
