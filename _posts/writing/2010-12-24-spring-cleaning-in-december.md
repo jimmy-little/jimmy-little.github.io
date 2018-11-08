@@ -4,10 +4,8 @@ title: Spring Cleaning in December
 date: 2010-12-24T16:50:51+00:00
 author: jimmy
 layout: post
-guid: http://localhost:8888/2010/12/24/20101224spring-cleaning-in-december-html/
-permalink: /2010/12/24/20101224spring-cleaning-in-december-html/
-categories:
-  - Uncategorized
+category: Writing
+tags: [Digital, Media]
 ---
 
   <p>
