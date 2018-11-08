@@ -4,7 +4,7 @@ date: 2011-04-15
 layout: post
 category: Writing
 tags:
-  - twitter
+  - Twitter
 ---
 
 It's Friday!  That means the regular work week is over and it's time to wind down and enjoy your weekend.  Maybe get a few of those projects done around the house.  It's spring-y outside, at least here in New York, so get out there and do something!  Work, play, sit, read, or whatever.  Just go outside and get some sun.  It'll increase your Vitamin D, lower cortisol, and generally make you a happier person.

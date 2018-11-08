@@ -5,9 +5,7 @@ author: jimmy
 layout: post
 category: Writing
 tags:
-  - MPAA
-  - music
-  - RIAA
+  - Music
 via: cnet
 link: href="http://news.cnet.com/8301-31001_3-20062418-261.html
 ---

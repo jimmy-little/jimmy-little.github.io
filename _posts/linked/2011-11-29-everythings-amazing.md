@@ -9,7 +9,7 @@ category: Social
 tags:
   - Technology
   - Travel
-  - Funny
+  - Fun
   - Video
 youtubeId: ZFsOUbZ0Lr0
 

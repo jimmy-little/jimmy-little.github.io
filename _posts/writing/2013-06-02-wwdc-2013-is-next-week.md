@@ -3,19 +3,13 @@
 title: WWDC 2013 is Next Week
 date: 2013-06-02T15:28:06+00:00
 author: jimmy
-
 layout: post
-
-image:
- feature: http://9to5mac.files.wordpress.com/2013/04/screen-shot-2013-04-24-at-8-40-22-am.png
- credit: 9to5mac
- creditlink: http://9to5mac.com/2013/04/24/wwdc-2013-announced-for-june-10-14-apple-to-talk-future-of-ios-os-x-tickets-on-sale-tomorrow/
 category: Writing
 tags:
   - Apple
   - iOS
   - OSX
-  - Rumor
+  - Rumors
   - WWDC
 
 subtitle: Big changes are rumored.

@@ -4,11 +4,9 @@ title: "R.I.P. HD-DVD. Long Live Blu-Ray!"
 date: 2008-02-11
 modified: 2008-02-22
 author: jimmy
-
 layout: post
-
 category: Writing
-tags: [BluRay, HDDVD, DVD, Home Theater]
+tags: [Media, Home Theater]
 
 ---
 

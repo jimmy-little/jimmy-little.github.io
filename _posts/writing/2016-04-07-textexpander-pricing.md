@@ -3,7 +3,7 @@ layout: post
 date: 2016-04-07
 modified: 2016-04-12
 category: Writing
-tags: [Software, Subscriptions, Customer]
+tags: [Software, Subscriptions]
 img: textexpander-logo.png
 title: "On TextExpander Pricing [UPDATED]"
 subtitle: 'When a company changes pricing models...'

@@ -31,7 +31,7 @@
   font-size: .8em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #263959;
+  color: $dark-blue;
   display: inline-block;
   padding: 5px 10px;
   border: 1px solid #ecf0f1;
@@ -48,7 +48,7 @@
 
 .tag-list span a {
   text-decoration: none;
-  color: #263959;
+  color: $dark-blue;
 }
 
 .tag-list span a:hover {
@@ -57,5 +57,5 @@
 }
 
 .tag-count {
-    color: $green;
+    color: $red;
 }

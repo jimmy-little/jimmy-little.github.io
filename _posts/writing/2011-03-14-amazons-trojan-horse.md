@@ -11,7 +11,6 @@ tags:
   - Android
   - iOS
   - iPad
-  - Speculation
 ---
 
   

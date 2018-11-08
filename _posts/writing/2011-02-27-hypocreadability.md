@@ -5,7 +5,7 @@ subtitle: That portmanteau doesn't really work, does it?
 date: 2011-02-27
 layout: post
 category: Writing
-tags: [iOS, Subscription, Apple]
+tags: [iOS, Subscriptions, Apple]
 ---
 
   <p>

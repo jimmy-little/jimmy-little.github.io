@@ -7,6 +7,8 @@ link: https://www.instagram.com/p/HwN6/
 tn: HwN6.jpg
 tags: [Instagram]
 date: 2010-11-01
+img: HwN6.jpg
+excerpt: 'The way football used to be...'
 ---
 
 <center>

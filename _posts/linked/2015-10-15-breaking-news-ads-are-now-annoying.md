@@ -2,16 +2,10 @@
 
 title: 'Breaking News: Ads Are Now Annoying'
 date: 2015-10-15T17:05:47+00:00
-author: jimmy
 layout: post
-
-categories:
-  - Linked
-tags:
-  - ads
-  
+category: Linked
+tags: Ads
 link: http://www.iab.com/news/lean/
-source: http://www.iab.com/news/lean/
 via:  IAB
 
 ---
