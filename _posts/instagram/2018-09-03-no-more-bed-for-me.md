@@ -9,7 +9,7 @@ tn: BnQBCnYnLXn.jpg
 tags: [Instagram]
 date: 2018-09-03
 ---
-<h1><i class="fa fa-instagram" aria-hidden="true"></i></h1>
+<h1 align="center"><i class="fa fa-instagram" aria-hidden="true"></i></h1>
 There’s a good chance I’ll never see my side of the bed ever again.
 <!-- more --> 
 <center>
