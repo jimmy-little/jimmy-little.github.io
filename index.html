@@ -7,12 +7,12 @@ layout: main
 {% if post.category == "Writing" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %}<div class="post-linkthumb"><h1 class="defaultpost"> 🍸 </h1></div>
+    {% else %}<div class="post-linkthumb"><h1 class="defaultpost"><i class="fa fa-glass" aria-hidden="true"></i></h1></div>
     {% endif %}
 {% elsif post.category == "Linked" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %}<div class="post-linkthumb"><h1 class="linkpost"> 🔗 </h1></div>
+    {% else %}<div class="post-linkthumb"><h1 class="linkpost"><i class="fa fa-link" aria-hidden="true"></i></h1></div>
     {% endif %}
 {% elsif post.category == "Stuff" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -54,13 +54,13 @@ layout: main
 {% elsif post.via == "Instagram" %}
     <div class="read-source-instagram"><a href="{{post.link}}" class="post-tag"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via == "YouTube" %}
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">read more&nbsp;&nbsp;🍸 </a></div>
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">READ STORY&nbsp;&nbsp;<i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-youtube"><a href="{{post.link}}" class="post-tag"><i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via %}    
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">read more&nbsp;&nbsp;🍸 </a></div>
-    <div class="read-source"><a href="{{post.link}}" class="post-tag">🔗&nbsp;&nbsp;{{post.via}}</a></div>
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">READ STORY&nbsp;&nbsp;<i class="fa fa-glass" aria-hidden="true"></i></a></div>
+    <div class="read-source"><a href="{{post.link}}" class="post-tag"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% else %} 
-     <div class="read-more-pill"><a href="{{ site.baseurl }}{{ post.url }}">read more&nbsp;&nbsp;🍸 </a></div>
+     <div class="read-more-pill"><a href="{{ site.baseurl }}{{ post.url }}">READ STORY&nbsp;&nbsp;<i class="fa fa-glass" aria-hidden="true"></i></a></div>
 {% endif %}
 </div>
 <!---------------------- POST METADATA ----------------------> 
