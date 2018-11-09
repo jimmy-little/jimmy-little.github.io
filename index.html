@@ -37,6 +37,10 @@ layout: main
 <!---------------------- ARTICLE TITLE AND SUBTITLE ---------------------->
 <div class="post-content">
 {% if post.via == "Twitter" or post.category == "Micro" %}  
+{% elsif post.via == "Instagram" %}
+<h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-instagram" aria-hidden="true"></i> {{post.title}}</a></h2>
+    {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>
+    {% endif %}
 {% else %}<h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>
     {% endif %}

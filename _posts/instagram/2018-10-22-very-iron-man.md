@@ -8,7 +8,6 @@ tn: BpPnisFBTu4.jpg
 tags: [Instagram]
 date: 2018-10-22
 ---
-<h1><i class="fa fa-instagram" aria-hidden="true"></i></h1>
 The gold Apple Watch with the ProductRED band is very Iron Man.
 <!-- more --> 
 <center>
