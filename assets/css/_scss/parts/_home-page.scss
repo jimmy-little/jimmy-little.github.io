@@ -247,8 +247,9 @@ border: solid 1px $dark-gray;
 
 .post .post-thumbnail {
   width: 30%;
-  min-height: 11em;
   padding-bottom: 56.25%;
+  position: relative;
+  min-height: 11em;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
@@ -256,6 +257,7 @@ border: solid 1px $dark-gray;
 
 .post .post-linkthumb {
     display: flex;
+    position: absolute;
     align-items: center;
     justify-content: center;
     text-decoration: none;
