@@ -27,7 +27,7 @@ h1 {
 }
 
 h1.linkpost {
-
+    color: $white;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
@@ -42,6 +42,7 @@ h1.linkpost {
 }
 
 h1.videopost {
+    color: $white;
     display: block;
     vertical-align: middle;    
     text-decoration: none;
@@ -119,22 +120,6 @@ h1.youtubepost, h1.youtubepost a {
     text-align: center;
 }
 
-.post .post-linkthumb {
-width: 100%;
-  padding-bottom: 56.25%;
-  position: relative;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: 50% 50%;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle }
-
 h1.instapost, h1.instapost a {
     color: $white;
     display: block;
@@ -152,6 +137,7 @@ h1.instapost, h1.instapost a {
 }
 
 h1.defaultpost {
+    color: $white;
     display: block;
     vertical-align: middle;    
     text-decoration: none;
@@ -173,7 +159,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
-  
 }
 
 img + em {
