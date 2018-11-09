@@ -118,7 +118,32 @@ h1.youtubepost, h1.youtubepost a {
     background-color: $youtube;
     text-align: center;
 }
+<!--
+.post .post-thumbnail {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+}
 
+.post .post-linkthumb {
+width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: midd
+    -->
 h1.instapost, h1.instapost a {
     color: $white;
     display: block;
