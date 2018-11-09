@@ -9,7 +9,7 @@ tn: BLPxitwhin_.jpg
 tags: [Instagram, Disney]
 date: 2016-10-07
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> Having a big employee discount and a virtually unlimited stable of characters to Tsum-ify makes my desk very crowded. 
+Having a big employee discount and a virtually unlimited stable of characters to Tsum-ify makes my desk very crowded. 
 #disney #tsumtsum
 <!-- more --> 
 <center>

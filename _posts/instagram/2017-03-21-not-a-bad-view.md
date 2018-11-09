@@ -9,7 +9,7 @@ tn: BR6ixgehUoW.jpg
 tags: [Instagram]
 date: 2017-03-21
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> So, this is where we're getting married!
+So, this is where we're getting married!
 #TheLittleBigDay @carlybracco
 <!-- more --> 
 <center>

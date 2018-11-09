@@ -9,7 +9,7 @@ tn: BcrB2_Wnowp.jpg
 tags: [Instagram, Star Wars, Art]
 date: 2017-12-14
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> Post It Pixel Art: Holiday 2017 Edition. 
+Post It Pixel Art: Holiday 2017 Edition. 
 May the Schwartz Be With You. 
 Merry Happy Whatever!
 <!-- more --> 

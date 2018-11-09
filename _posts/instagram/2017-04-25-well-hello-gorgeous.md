@@ -9,7 +9,7 @@ tn: BTUIjtahD-h.jpg
 tags: [Instagram, Dog]
 date: 2017-04-25
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> My dog looks in the mirror. 
+My dog looks in the mirror. 
 Like, a lot. 
 #LookinGood #ForAnOldLady #nofilter 
 @thebugdog

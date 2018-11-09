@@ -9,7 +9,7 @@ tn: BaPKSEVH_vS.jpg
 tags: [Instagram, Dog]
 date: 2017-10-14
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> This is definitely our dog. She fell asleep with a wine cork in her mouth. 
+This is definitely our dog. She fell asleep with a wine cork in her mouth. 
 #BlancheDevereaux #thebugdogs @carlybracco
 <!-- more --> 
 <center>

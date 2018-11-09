@@ -9,7 +9,7 @@ tn: BcG42K1HWtm.jpg
 tags: [Instagram, Christmas]
 date: 2017-11-30
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> The Friki Iki Tiki is ready for the holidays!
+The Friki Iki Tiki is ready for the holidays!
 
 Mele Kalikimaka
 <!-- more --> 

@@ -9,7 +9,7 @@ tn: BPF4701Bswe.jpg
 tags: [Instagram, Apple Watch]
 date: 2017-01-10
 ---
-<i class="fa fa-instagram" aria-hidden="true"></i> Welp, it finally happened. For the first time since May 9, 2015, I forgot my Apple Watch. 
+Welp, it finally happened. For the first time since May 9, 2015, I forgot my Apple Watch. 
 Whomp Whomp.
 <!-- more --> 
 <center>
