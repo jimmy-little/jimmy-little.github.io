@@ -6,7 +6,7 @@ category: Writing
 tags: [Instagram, Shortcuts, iOS, Automation]
 img: instagram-shortcut-to-blog.jpg
 tn: instagram-shortcut-to-blog.jpg
-date: 2018-11-20
+date: 2018-11-
 ---
 
 I'm not a super heavy [Instagram][insta] user, but I do occasionally post. When I do, I like to save that post to this blog. Why? Maybe because I'm not a huge Facebook fan and contemplate deleting all my Facebook-owned data weekly. Maybe because I like to see where my Instagram posts fit in with all my other random thoughts. Maybe a little of both.
