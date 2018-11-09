@@ -5,6 +5,7 @@ tags: [Instagram]
 layout: post
 category: Social
 via: Instagram
+tn: BKd7EeWB6kL.jpg
 link: https://www.instagram.com/p/BKd7EeWB6kL/
 subtitle: Am I doing this right?
 ---
