@@ -18,7 +18,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  
+
 .post .post-thumbnail {
   width: 100%;
   padding-bottom: 56.25%;
@@ -36,16 +36,16 @@
     margin-right: auto;
     vertical-align: middle;
 }
-  
+
   .post .post-content {
     width: 100%;
   }
   .post .post-content .post-title {
-    margin: 0 0 5px;
+    margin: 5px 0 5px;
   }
   .post .post-content .post-title a {
     font-size: 21px;
-  } 
+  }
 }
 
 /* Small Devices, Tablets */
@@ -98,40 +98,40 @@
 .contact-title, .copyright, .contact, .about p, .author-name, .about hr {
     display: none;
   }
-    
+
 .about {
-  width: 30%;    
+  width: 30%;
   float: left;
   vertical-align: middle;
     }
-    
+
 .sidebar-menu {
         float: right;
-    }    
-.sidebar-menu ul {       
+    }
+.sidebar-menu ul {
   display: block;
   list-style: none;
   text-align: right;
 }
 
 .sidebar-menu ul li {
-      
-  display: block;    
+
+  display: block;
 }
 
 .sidebar-menu ul li a {
   text-decoration: none;
 }
-    
+
 .index-read-pill {
 
 }
-    .read-more {
-        float: right;
+.read-more {
+    float: right;
         }
 
-    .read-source {
-        float: right;  
+.read-source {
+    float: right;
         }
 }
 
@@ -178,29 +178,29 @@
   .post .post-content .post-title a {
     font-size: 21px;
   }
-    
+
 .contact, .about p, .author-name, .about hr {
     display: none;
   }
-    
+
 .about {
-  width: 30%;    
-  float: left; 
+  width: 30%;
+  float: left;
     vertical-align: middle;
     }
-    
+
 .sidebar-menu {
         float: right;
-    }    
-.sidebar-menu ul {       
+    }
+.sidebar-menu ul {
   display: block;
   list-style: none;
   text-align: right;
 }
 
 .sidebar-menu ul li {
-      
-  display: block;    
+
+  display: block;
 }
 
 .sidebar-menu ul li a {
@@ -208,13 +208,13 @@
 }
 
 .index-read-pill {
-    
+
 }
     .read-more {
         float: right;
         }
 
     .read-source {
-        float: right;  
+        float: right;
         }
 }

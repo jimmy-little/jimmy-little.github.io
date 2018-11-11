@@ -6,7 +6,7 @@ category: Social
 via: Instagram
 link: https://www.instagram.com/p/BPF4701Bswe/
 tn: BPF4701Bswe.jpg
-tags: [Instagram, Apple Watch]
+tags: [Apple Watch, Instagram]
 date: 2017-01-10
 ---
 Welp, it finally happened. For the first time since May 9, 2015, I forgot my Apple Watch. 

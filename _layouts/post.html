@@ -87,12 +87,12 @@ layout: main
           {% for tag in page.tags %}
     <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
           {% endfor %}
-        </div>
     <div class="page-date">
     <i class="fa fa-calendar"></i>  {{page.date | date: '%B %d, %Y'}}
     </div>
-    <hr>
-      </div>
+</div><!-- End page-tag -->
+</div><!-- End page-footer -->
+{% include related-posts.html %}      
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
