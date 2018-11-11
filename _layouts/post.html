@@ -70,7 +70,6 @@ layout: main
         {% if page.subtitle %}
           <h3 class="page-subtitle">{{page.subtitle}}</h3>
         {% endif %}
-        <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
       </header>
 {% endif %}
       {{content | markdownify}}
