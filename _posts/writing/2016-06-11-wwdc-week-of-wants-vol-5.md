@@ -2,7 +2,7 @@
 title: "WWDC Week of Wants, Vol 5"
 date: 2016-06-11
 subtitle: "The not-iPhones"
-tags: [Apple, Apple Watch, iPad, iPhone, WWDC]
+tags: [Apple Watch, iPad, iPhone, WWDC, Apple]
 category: Writing
 layout: post
 img: IMG_0366.PNG

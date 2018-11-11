@@ -2,7 +2,7 @@
 layout: post
 date: 2016-03-30
 category:  Writing 
-tags: [iOS, Apple Watch, Drafts]
+tags: [Apple Watch, Drafts, iOS]
 img: drafts-watch-ss.png
 subtitle: Add notes without typing!
 title: Draft Notes with Apple Watch

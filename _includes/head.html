@@ -25,11 +25,14 @@
 <meta name="twitter:data1" value="{{ page.tags | array_to_sentence_string }}">{% endif%}
 <meta name="twitter:label2" value="✏️ By">
 <meta name="twitter:data2" value="{{ site.author }}">
-{% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% elsif page.subtitle %}<meta name="twitter:description" content="{{ page.subtitle }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}        
+{% if page.subtitle %}<meta name="twitter:description" content="{{ page.subtitle }}">
+{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}        
 {% if page.tn %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/index/{{ page.tn }}">
-{% elsif page.img %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/post/{{ page.img }}">{% else %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ site.author-img }}">{% endif %}
+{% elsif page.img %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/post/{{ page.img }}">
+{% else %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ site.author-img }}">{% endif %}
 <!-------------- Generic Metadata -------------->
-{% if page.description }<meta name="description" content="{{ page.description }}">{% elsif page.subtitle %}<meta name="description" content="{{ page.subtitle }}">{% else %}<meta name="description" content="{{ site.description }}">
+{% if page.subtitle %}<meta name="description" content="{{ page.subtitle }}">
+{% else %}<meta name="description" content="{{ site.description }}">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:image" content="/assets/img/favicon/apple-touch-icon-144x144.png">

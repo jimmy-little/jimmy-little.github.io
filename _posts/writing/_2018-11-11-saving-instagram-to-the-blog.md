@@ -49,7 +49,7 @@ Then, we `Ask for Input` for the blog post title. I have it set to default to th
 
 Then, a couple `Replace Text` actions strip out spaces and punctuation, then `Change Case` to lowercase and save it as a URL `slug` variable.
 
-`COPY REGEX INTO HERE`
+`[?:;{}\[\]\\|<>/"',.!@#$%^&*()]`
 
 ![Step 5](/assets/img/post/instablog/step5.jpg)
 
@@ -113,7 +113,6 @@ Lastly, I made a Working Copy URL scheme to just open the file in Working Copy t
 
 It seems really complicated, but it took me longer to write this post than it did to make the Shortcut. And now, it takes a few seconds to post on this site to permanently save any Instagram posts I make. 
 
-INSERT VIDEO OF PROCESS>>>>
 
 [wc]: https://itunes.apple.com/us/app/working-copy/id896694807?mt=8&uo=4at=1001|3C5&c-and-c
 [insta]: https://wwww.instagram.com/jimmylittle

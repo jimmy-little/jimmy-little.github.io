@@ -110,8 +110,10 @@
 }
 
 .page-footer .page-tag {
-    float: left;
-    max-width: 75%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
 }
 .page-footer .page-tag a {
   float:left;
@@ -136,7 +138,9 @@
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
+    margin-top: .25em;
   color: $orange;
+  border: 1px solid $orange;
   text-transform: uppercase;
 }
 
@@ -158,4 +162,50 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* RELATED POSTS CSS */
+
+.related-posts {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.2em;
+    text-align: center;
+    border-top: 1px solid $green;
+}
+
+.related-posts h4 {
+    color: $green;
+    background-color: $white;
+    width: 40%;
+    margin-top: -1em;
+    padding: 3px;
+    border: 1px solid $green;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.related-posts a {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-left: 1px;
+    border-right: 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    
+}
+
+/* IMAGES AND CAPTIONS IN POSTS - MUST SURROUND CAPTION IN EM TAGS */
+
+img + em { 
+    text-align: center;
+    width: 100%;
+    font-size: .7em;
+    font-style: italic;
+    color: $dark-gray;
 }

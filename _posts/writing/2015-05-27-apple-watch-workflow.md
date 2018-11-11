@@ -1,19 +1,10 @@
 ---
 layout: post
-
 link: 
-
 date: 2015-05-27
-
 category:  Writing 
-
 tags: [Apple Watch, Mac, Automation, Launch Center Pro, iOS, Dropbox, Hazel]
-
-via: 
-source: 
-
 subtitle: Do more with that little computer on your wrist
-
 title: Using Your Apple Watch To Trigger Your Screensaver
 
 ---
@@ -52,7 +43,7 @@ Then, paste in the following simple AppleScript, which starts the screensaver.
 {% endhighlight %}     
 
 
-![Hazel Prefs](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/HazelPrefs.png)   
+![Hazel Prefs](/assets/img/post/HazelPrefs.png)   
 
 
 Great. What the hell just happened? You just told Hazel that if the **sleep.txt** file has changed in the last minute, then run this script that starts the screensaver. You can test this by just opening **sleep.txt** and typing a letter or two then saving. Once the save is complete, the Last Modified timecode changes to now, which is obviously in the last minute. So, the screensaver starts up. Pretty sweet. Now, to activate this from the Watch.
@@ -67,7 +58,7 @@ On your iPhone, fire up Workflow and create a new one. Make sure it's set up as 
       * Make New Line (optional, but I leave it on)
       
       
-![Workflow Screenshot](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/WF-Sleep-Mac.PNG)      
+![Workflow Screenshot](/assets/img/post/WF-Sleep-Mac.PNG)      
 
 
 Now, when you tap this Workflow from your Watch, a line of text is appended to the text file, which changes the modify date, which launches a screensaver. 
