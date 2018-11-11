@@ -16,13 +16,15 @@ I struggled for a while to try to figure out how to do this automatically, and I
 I have two main requirements for my Instagram Scraping Machine.
   1. It must pull the comment and picture and save it outside of the Instagram ecosystem. If Instagram goes away, I'll still have my images.
   2. It must also embed the original Instagram post in my blog post. As long as Instagram is around, this will allow the "native" view with all the comments and likes and whatnot.
+  
+This shortcut will embed any Instagram post, not just your own. If you're into quoting Instagram posts on your blog, this may help a bit.
 
 There are a lot of things happening in this Shortcut, so buckle up. Here we go. If you want to follow along, [grab the shortcut here][icloudlink]. You'll also need to build a Github Credentials sub-Shortcut if you're planning on storing this in Github, which I do for my Jekyll-powered site. That's a whole other story.
 
 Create the shortcut, and set it to "Show in Share Sheet" and accept Safari Web Pages and URLs. This will prevent it from showing up in _every_ share sheet, but it will appear  when you share a URL.
 ### Step 1
 
-![Step 1](/assets/img/post/instablog/step1.jpg)
+<img src="/assets/img/post/instablog/step1.jpg" align="center" width="75%">
 
 First action is to save the URL to a variable. I cleverly name it `url`.
 
@@ -30,7 +32,7 @@ Next, we add a couple of `Replace Text` actions that remove the URL part of the 
 
 ### Step 2
 
-![Step 2](/assets/img/post/instablog/step2.jpg) 
+<img src="/assets/img/post/instablog/step2.jpg" align="center" width="75%">
 
 Then, we send the `url` variable into the Instagram API.
 
@@ -42,43 +44,46 @@ To get the actual embed code, `Get Dictionary Value` of the `html` key. This val
 
 Save that as `date` variable. We'll use it in the YAML to set the blog post's date. I pull it from the Instagram API to make sure the date of the post matches the date of the Instagram, in case I don't run the Shortcut immediately.
 ## Step 3
-![Step 3](/assets/img/post/instablog/step3.jpg)
+<img src="/assets/img/post/instablog/step3.jpg" align="center" width="75%">
 
 Grab that `apiDictionary` variable again and get the value of `title`. This will be saved as the content of the blog post. Set a `comment` variable.
 ## Step 4
-![Step 4](/assets/img/post/instablog/step4.jpg)
+<img src="/assets/img/post/instablog/step4.jpg" align="center" width="75%">
 
 Then, we `Ask for Input` for the blog post title. I have it set to default to the title we pulled in the last step, but I usually change it. The titles on Instagram are sometimes too long. Type into the popup, and save it as a `title` variable.
 
 Then, a couple `Replace Text` actions strip out spaces and punctuation, then `Change Case` to lowercase and save it as a URL `slug` variable.
 
-`[?:;{}\[\]\\|<>/"',.!@#$%^&*()]`
+Searching for `[?:;{}\[\]\\|<>/"',.!@#$%^&*()]`using a Regular Expression covers any punctuation I would use. If you need to add some, just make sure you don't need to escape any characters In this expression, I need to escape the brackets and backslases, because they are RegEx operators. Escape them by adding a `\` before each one. (Yes, that's a backslash to escape a backslash. I don't write the rules. ¯\(°_o)/¯ )
+
 ### Step 5
-![Step 5](/assets/img/post/instablog/step5.jpg)
+<img src="/assets/img/post/instablog/step5.jpg" align="center" width="75%">
 
 Grab that trusty `apiDictionary` and pull the `thumbnail_url` key. This is the path to the thumbnail image of your Instagram post. It's not the full size image, but it's good enough for my purposes, which is a thumbnail image on the homepage of this blog. I also use an IFTTT recipe to save the full size image to Dropbox, [but that’s a different story][ifttt].
 
 We then grab the image and Base-64 Encode it. Encoding it with Base-64 turns your image into an impossibly long series of letters and numbers. But, it’s a pretty universal and old-school way to send things like images over text-only channels. In our case, we’ll be sending it over a URL scheme, so it needs to be text. Set that encoded text as the variable `thumbnailImage`.
 ### Step 6
-![Step 6](/assets/img/post/instablog/step6.jpg)
+<img src="/assets/img/post/instablog/step6.jpg" align="center" width="75%">
 
-Next, we call my `Set Github Credentials` sub-routine Shortcut. I keep this separate so I can update all my Github credentials once, and they update in all of my Github Shortcuts. I’ll write up that Shortcut at some other time, but just know this: It ends up copying the `&key=[MY WORKING COPY KEY]&repo=[MY REPO NAME]` to the clipboard. I’d rather not cycle through the clipboard, but that’s the only way to easily pass info between Shortcuts. Hopefully Apple will add Global Variables at some point.
+Next, we call my `Set Github Credentials` sub-routine Shortcut. I keep this separate so I can update all my Github credentials once, and they update in all of my Github Shortcuts. I’ll write up that Shortcut at some other time, but just know this: It ends up copying the `&key=[MY WORKING COPY KEY]&repo=[MY REPO NAME]` bit of the URL to the clipboard. I’d rather not hop through the clipboard, but that’s the only way to easily pass info between Shortcuts. Hopefully Apple will add Global Variables at some point.
 
 Then, we grab the clipboard and set it as a `githubCreds` variable so we can reuse it.
+
 ### Step 7
-![Step 7](/assets/img/post/instablog/step7.jpg)
+<img src="/assets/img/post/instablog/step7.jpg" align="center" width="75%">
 
 Now the fun part starts. We put together a URL scheme to first send the Instagram thumbnail to Working Copy. 
 
 The URL grabs the variables we set before for the `Base 64 Encoded Image`, the `githubCreds` and `gramID` then sends it to Working Copy to the right folder, which for me is `assets/img/index/[FILENAME]`. Working Copy knows from the `write/?base64` bit of the URL to decode the text back into whatever file type it should be. I use the `gramID` variable to name the image, because why not?
 
 `working-copy://x-callback-url/write/?base64=[BASE64 ENCODED IMAGE] [GITHUBCREDS]&path=assets/img/index/[GRAMID].jpg`
+
 ### Step 8
-![Step 8](/assets/img/post/instablog/step8.jpg)
+<img src="/assets/img/post/instablog/step8.jpg" align="center" width="75%">
 
 Next, we `Ask for Input` for a subtitle. I don’t always add one, but sometimes an extra snarky comment is required. Set the variable as `sub`.
 ### Step 9
-![Step 9](/assets/img/post/instablog/step9.jpg)
+<img src="/assets/img/post/instablog/step9.jpg" align="center" width="75%">
 
 Now, in a `Text` block, we put together the Jekyll YAML and post. 
 
@@ -116,6 +121,7 @@ Lastly, I made a Working Copy URL scheme to just open the file in Working Copy t
 
 It seems really complicated, but it took me longer to write this post than it did to make the Shortcut. And now, it takes a few seconds to post on this site to permanently save any Instagram posts I make. 
 
+If you're interested, [here is the full Shortcut](/assets/img/post/instablog/InstagramToBlogFullShortcut.jpg), in all its screenshot glory.
 
 [wc]: https://itunes.apple.com/us/app/working-copy/id896694807?mt=8&uo=4at=1001|3C5&c-and-c
 [insta]: https://wwww.instagram.com/jimmylittle
