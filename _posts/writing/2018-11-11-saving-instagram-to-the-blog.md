@@ -51,7 +51,7 @@ Save that as `date` variable. We'll use it in the YAML to set the blog post's da
 
 Grab that `apiDictionary` variable again and get the value of `title`. This will be saved as the content of the blog post. Set a `comment` variable.
 
-## Set the Title
+### Set the Title
 
 <img src="/assets/img/post/instablog/step4.jpg" align="center" width="75%">
 
