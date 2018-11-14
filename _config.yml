@@ -19,7 +19,7 @@ social-facebook: # add your Facebook handle
 social-github: jimmy-little # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: thejimmylittle@gmail.com # add your Email address
-social-rss: feed.json
+social-rss: feeds/feed.json
 
 # Disqus
 discus-identifier: # add your discus identifier
