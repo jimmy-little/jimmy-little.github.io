@@ -8,7 +8,7 @@ date: 2012-03-03
 layout: post
 tags:
   - James Bond
-  - Quadricopter
+  - Drone
   - Video
 youtubeId: _sUeGC-8dyk
 ---

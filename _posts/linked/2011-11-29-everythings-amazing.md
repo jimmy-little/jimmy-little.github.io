@@ -7,7 +7,7 @@ author: jimmy
 layout: post
 category: Social
 tags:
-  - Technology
+  - Tech
   - Travel
   - Fun
   - Video

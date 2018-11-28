@@ -5,7 +5,7 @@ date: 2014-10-29T20:41:28+00:00
 author: jimmy
 layout: post
 category: Linked
-tags: [Internet, Taxes, Verizon] 
+tags: [Internet, Taxes] 
 link: http://sugarstring.com/2014/10/23/hungarys-internet-tax/
 via: SugarString
   
