@@ -4,7 +4,9 @@ subtitle: by Peter Walsh
 date: 2008-05-25
 layout: post
 category: Stuff
-tags: [Books, Home]
+tags: [Book, Home]
+via: Amazon
+link: http://www.amazon.com/Its-All-Too-Much-Living-ebook/dp/B000N2HCP6/ref=as_li_ss_il?_encoding=UTF8&qid=1458768452&sr=1-1&linkCode=li3&tag=jimmlitt-20&linkId=5b3781649df85b30a2a1acdc46bd5d97
 
 ---
 <p align="center">
