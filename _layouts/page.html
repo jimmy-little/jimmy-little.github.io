@@ -12,10 +12,7 @@ layout: main
         {% endif %}
         <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
       </header>
-{% if page.category != "Instagram" %}
-{% else %}
       {{content | markdownify}}
-{% endif %}
 <div class="page-footer">
 <div class="page-tag">
         {% if page.via %}
