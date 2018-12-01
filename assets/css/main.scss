@@ -13,6 +13,7 @@ html {
   line-height: 1.5;
 }
 
+
 body {
   font-family: 'Lato', sans-serif;
   color: #515151;
@@ -263,7 +264,7 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
   border-radius: 12px;
-  border: 2px solid $lightgray;
+  border: 1px solid $lightgray;
   min-width: 100%;
 }
 

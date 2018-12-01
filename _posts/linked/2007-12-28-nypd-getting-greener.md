@@ -7,7 +7,7 @@ date: 2007-12-28
 
 category:  Linked 
 
-tags: [NYPD, Scooter, Green]
+tags: [NYPD, Green]
 
 via: Autoblog
 source: http://www.autoblog.com/2007/12/24/nypd-to-test-vectrix-electric-scooters-next-month/

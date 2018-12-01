@@ -5,9 +5,7 @@ date: 2012-11-28T19:21:15+00:00
 author: jimmy
 layout: post
 category: Writing
-tags:
-  - LinkBait
-  - TUAW
+tags: [Clickbait]
 ---
 
 TUAW's headline:

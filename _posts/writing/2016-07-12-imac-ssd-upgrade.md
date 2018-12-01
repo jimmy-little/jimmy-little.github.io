@@ -2,16 +2,15 @@
 title: "iMac SSD Upgrade"
 date: 2016-07-12
 subtitle: "Breathing new life into an old machine"
-tags: [Mac, Upgrade]
+tags: [Mac]
 fromMy: 
 category: Writing
 layout: post
 via: 
 source: 
 link: 
-image:
-  feature: iMacUpgrade/iMacUpgradeHeader.jpeg
-  header:
+img: iMacUpgrade/iMacUpgradeHeader.jpeg
+
 ---
 I have this 2012 iMac.  It's been on every day and night since I bought it. That's around 1400 days of pretty much non-stop service save a restart here and there along the way. I use it as a Plex server, a home for my Drobo, my iTunes and Photo library home, and my Backblaze online backup hub.  
 
