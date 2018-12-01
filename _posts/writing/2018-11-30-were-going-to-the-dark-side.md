@@ -82,9 +82,9 @@ $dm-light-gray : #2e2f33;
 $dm-white: #dddddd;
 ```
 
-and that was it. When I added the CSS rules for dark mode, I used these three new colors, along with the original color variables, and made a passable dark mode that took me less than a half an hour to implement.  The reason I use a variables file is: If I ever want to change my color scheme, I edit one variables file, and all the instances change. For example, if I want to change my dark gray color, I just edit eh `$dm-dark-gray` hex value in the variables file, and everywhere the color is used, it gets updated.
+and that was it. When I added the CSS rules for dark mode, I used these three new colors, along with the original color variables, and made a passable dark mode that took me less than a half an hour to implement.  The reason I use a variables file is: If I ever want to change my color scheme, I edit one variables file, and all the instances change. For example, if I want to change my dark gray color, I just edit the `$dm-dark-gray` hex value in the variables file, and everywhere the color is used, it gets updated.
 
-### If You Want To Get Fancy
+### If You Want To Get Fancy With Scroll Bars
 
 You can also pretty easily change the scroll bar colors when going to dark mode. Just add these CSS properties to your dark mode CSS
 
