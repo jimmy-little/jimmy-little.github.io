@@ -1,6 +1,6 @@
 ---
-title:
-subtitle:
+title: Mojave Dark Mode in Safari
+subtitle: Come to the dark side
 layout: post
 category: Writing
 tags: [Safari, Dark Mode, CSS]
@@ -8,7 +8,8 @@ img: darkmode.jpg
 tn: darkmode.jpg
 ---
 
-If you haven't heard, macOS Mojave has a dark mode. A lot of apps support dark mode, and there are hooks in [upcoming version of Safari](https://developer.apple.com/safari/technology-preview/) that will also support dark mode.
+If you haven't heard, macOS Mojave has a dark mode. A lot of apps support dark mode, and there are hooks in [upcoming version of Safari](https://developer.apple.com/safari/technology-preview/) that will also support dark mode. Now, Cocktails and Coffee will support dark mode as well
+<!-- more -->
 
 I'll be honest, I'm not a huge fan right now. It's a little buggy, not all apps support it, and on a non-Retina screen like my 2012 (ahem, _EARLY_ 2012) iMac, text looks a little fuzzy. I'm sure it looks great on a Retina screen, but I have a 2012 iMac and a 2011 MacBook Air, so I don't get that luxury.
 
