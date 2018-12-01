@@ -112,7 +112,7 @@ Fancy.
 
 Finally, here's how it looks when we go to the dark side:
 
-<img src="/assets/img/post/instablog/darkmode.gif" align="center" width="75%">
+<img src="/assets/img/post/darkmode.gif" align="center" width="75%">
 
 ----
 
