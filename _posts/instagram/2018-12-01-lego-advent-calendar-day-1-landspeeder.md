@@ -1,6 +1,6 @@
 ---
-title: Lego Advent Calendar Day 1: Landspeeder
-subtitle: http://
+title: "Lego Advent Calendar Day 1: Landspeeder"
+subtitle:
 layout: post
 category: Social
 via: Instagram
