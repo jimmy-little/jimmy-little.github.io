@@ -5,7 +5,7 @@ layout: post
 category: Social
 via: Instagram
 link: https://www.instagram.com/p/Bq3LvPiByAT/?utm_source=ig_share_sheet&igshid=19j6ly6ha5mdw
-tn: Bq3LvPiByAT?utm_source=ig_share_sheet&igshid=19j6ly6ha5mdw.jpg
+tn: Bq3LvPiByAT.jpg
 tags: [Lego, Instagram]
 date: 2018-12-01
 excerpt: "Lego Advent Calendar Day 1: Landspeeder"
