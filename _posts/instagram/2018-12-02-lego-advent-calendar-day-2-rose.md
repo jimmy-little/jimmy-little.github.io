@@ -1,16 +1,14 @@
 ---
-title: Lego Advent Calendar Day 2: Rose
-subtitle: http://
+title: "Lego Advent Calendar Day 2: Rose"
+subtitle:
 layout: post
 category: Social
 via: Instagram
-link: https://www.instagram.com/p/Bq4_k4yheqK/?utm_source=ig_share_sheet&igshid=1pwrzf3hlrk0k
+link: https://www.instagram.com/p/Bq4_k4yheqK
 tn: Bq4_k4yheqK.jpg
 tags: [Instagram, Lego, Star Wars]
 date: 2018-12-02
-excerpt: "Lego Advent Calendar Day 2: Rose
-
-#starwars #lego"
+excerpt: "Lego Advent Calendar Day 2: Rose"
 ---
 
 <center>
