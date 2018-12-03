@@ -1,5 +1,5 @@
 ---
-title: Lego Advent Calendar Day 3: Arrowhead
+title: "Lego Advent Calendar Day 3: Arrowhead"
 subtitle:
 layout: post
 category: Social
