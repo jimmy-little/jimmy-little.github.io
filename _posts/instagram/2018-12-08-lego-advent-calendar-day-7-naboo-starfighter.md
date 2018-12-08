@@ -1,5 +1,5 @@
 ---
-title: "Lego Advent Calendar Day 7: Naboo Statfighter"
+title: "Lego Advent Calendar Day 7: Naboo Starfighter"
 subtitle: 
 layout: post
 category: Social
@@ -8,7 +8,7 @@ link: https://www.instagram.com/p/BrG2lO-BpOP
 tn: BrG2lO-BpOP.jpg
 tags: [Instagram, Lego, Star Wars]
 date: 2018-12-08
-excerpt: "Lego Advent Calendar Day 7: Naboo Statfighter"
+excerpt: "Lego Advent Calendar Day 7: Naboo Starfighter"
 ---
 
 <center>
