@@ -1,5 +1,5 @@
 ---
-title: "Star Wars Advent Calendar Day 8: Battle Droid"
+title: "Lego Advent Calendar Day 8: Battle Droid"
 subtitle: 
 layout: post
 category: Social
@@ -8,7 +8,7 @@ link: https://www.instagram.com/p/BrIsEUjh3lq
 tn: BrIsEUjh3lq.jpg
 tags: [Instagram, Lego, Star Wars]
 date: 2018-12-08
-excerpt: "Star Wars Advent Calendar Day 8: Battle Droid"
+excerpt: "Lego Advent Calendar Day 8: Battle Droid"
 ---
 
 <center>
