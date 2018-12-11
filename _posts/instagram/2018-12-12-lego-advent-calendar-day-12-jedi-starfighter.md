@@ -7,7 +7,7 @@ via: Instagram
 link: https://www.instagram.com/p/BrQWs37B6ju
 tn: BrQWs37B6ju.jpg
 tags: [Instagram, Lego, Star Wars]
-date: 2018-12-11
+date: 2018-12-12
 excerpt: "Lego Advent Calendar Day 12: Jedi Starfighter"
 ---
 
