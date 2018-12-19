@@ -6,7 +6,7 @@ category: Social
 via: Instagram
 link: https://www.instagram.com/p/Brk94Ygh4L1
 tn: Brk94Ygh4L1.jpg
-tags: [Instagram, Lego, Star Wars]
+tags: [Fun]
 date: 2018-12-19
 excerpt: "Lego Advent Calendar Day 19: AT-ACT"
 ---
