@@ -1,7 +1,5 @@
 ---
-title: "Lego Advent Calendar Day 24: Snowman
-
-"
+title: "Lego Advent Calendar Day 24: Snowman"
 subtitle: 
 layout: post
 category: Social
@@ -10,7 +8,7 @@ link: https://www.instagram.com/p/Brx4XT8hitA
 tn: Brx4XT8hitA.jpg
 tags: [Instagram, Lego, Star Wars]
 date: 2018-12-24
-excerpt: "Lego Advent Calendar Day 24: Snowman (with Merrick’s Helmet)"
+excerpt: "Lego Advent Calendar Day 24: Snowman"
 ---
 
 <center>
