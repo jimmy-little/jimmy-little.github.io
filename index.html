@@ -54,13 +54,13 @@ layout: main
 {% elsif post.via == "Instagram" %}
     <div class="read-source-instagram"><a href="{{post.link}}" class="post-tag"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via == "YouTube" %}
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">READ STORY&nbsp;&nbsp;<i class="fa fa-glass" aria-hidden="true"></i></a></div>
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-youtube"><a href="{{post.link}}" class="post-tag"><i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via %}    
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">READ STORY&nbsp;&nbsp;<i class="fa fa-glass" aria-hidden="true"></i></a></div>
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source"><a href="{{post.link}}" class="post-tag"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% else %} 
-     <div class="read-more-pill"><a href="{{ site.baseurl }}{{ post.url }}">READ STORY&nbsp;&nbsp;<i class="fa fa-glass" aria-hidden="true"></i></a></div>
+     <div class="read-more-pill"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
 {% endif %}
 </div>
 <!---------------------- POST METADATA ----------------------> 
