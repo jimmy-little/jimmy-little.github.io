@@ -30,8 +30,8 @@
     }
   .tags li a {
     color: $dm-white;
-    border: none;
-    background-color: $purple;
+    border-color: $blue;
+    background-color: $dm-light-gray;
     }
   .tag-count {
     color: $yellow;    
@@ -39,7 +39,9 @@
   .tag-list span a {
     color: $dm-white;    
     }
-  .highlight, .highlighter-rouge {color: $yellow; background-color: $dm-dark-gray; border: 1px solid $yellow;}
+  .highlighter-rouge {color: $yellow; background-color: $dm-dark-gray; border: 1px solid $yellow;}
+  
+  .highlight {color: $yellow; background-color: $dm-dark-gray;}
      
 
 ::-webkit-scrollbar {
