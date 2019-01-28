@@ -1,7 +1,7 @@
 ---
 
 title: "Full Circle"
-date: 2019-46-28
+date: 2019-01-28
 subtitle: "I love this stuff."
 tags: [Apple, Design, YouTube]
 category: Video
