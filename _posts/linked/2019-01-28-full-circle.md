@@ -4,7 +4,7 @@ title: "Full Circle"
 date: 2019-01-28
 subtitle: "I love this stuff."
 tags: [Apple, Design, YouTube]
-category: Video
+category: Social
 layout: post
 link: https://youtube.com/watch?v=ggL3OdWaZxM
 youtubeId: ggL3OdWaZxM
