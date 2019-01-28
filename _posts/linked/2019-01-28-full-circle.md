@@ -8,6 +8,7 @@ category: Video
 layout: post
 link: https://m.youtube.com/watch?v=ggL3OdWaZxM
 youtubeId: ggL3OdWaZxM
+via: YouTube
 ---
 
 It always amazes me the things smart engineers and deaigners can come up with. No matter your phone or camera preference, this is some pretty cool shit.
