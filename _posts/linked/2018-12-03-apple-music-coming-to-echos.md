@@ -1,9 +1,7 @@
 ---
-title: Apple Music Coming to Echos"
+title: Apple Music Coming to Echos
 subtitle: Finally™
 date: 2018-12-03
-img: applemusicamazonecho.jpg
-tn: applemusicamazonecho.jpg
 layout: post
 category: Linked
 tags: [Apple Music, Amazon]
