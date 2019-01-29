@@ -4,7 +4,7 @@ title: "Full Circle"
 date: 2019-01-28
 subtitle: "Nifty!"
 tags: [Apple, YouTube]
-category: Video
+category: Social
 layout: post
 link: https://www.youtube.com/ggL3OdWaZxM
 youtubeId: ggL3OdWaZxM

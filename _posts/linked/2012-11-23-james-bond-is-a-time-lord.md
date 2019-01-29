@@ -13,7 +13,7 @@ image:
 
 link: http://www.tor.com/blogs/2012/11/skyfall-proves-that-james-bond-is-a-time-lord
 
-categories: Video
+category: Social
 
 tags:
   - Dr Who
