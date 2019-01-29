@@ -1,7 +1,7 @@
 ---
 
 title: "Full Circle"
-date: 2019-37-28
+date: 2019-01-28
 subtitle: "Nifty!"
 tags: [Apple, YouTube]
 category: Video
