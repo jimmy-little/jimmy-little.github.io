@@ -1,0 +1,43 @@
+{
+  body {
+    color: $dm-white;
+    background-color: $dm-dark-gray;
+  }
+  .sidebar {
+    background-color: $dm-light-gray;
+    color: $dm-white;
+    }
+  .about .author-name, .contact .contact-title, .post .read-source a {
+    color: $dm-white;    
+    }
+  .post {
+    background-color: $dm-light-gray;
+    border-color: $dm-light-gray;
+    }  
+  .article-page {
+    border-color: $dm-light-gray;
+    } 
+  .page-cover-image {
+    background-color: $dm-dark-gray;      
+    }
+  .wrap-content {
+    background-color: $dm-dark-gray;
+    }   
+  .related-posts h4 {
+    background-color: $green;
+    color: $dm-white;
+    }
+  .tags li a {
+    color: $dm-white;
+    border-color: $blue;
+    background-color: $dm-light-gray;
+    }
+  .tag-count {
+    color: $yellow;    
+    }
+  .tag-list span a {
+    color: $dm-white;    
+    }
+  .highlighter-rouge {color: $yellow; background-color: $dm-dark-gray; border: 1px solid $yellow;}
+  
+  .highlight {color: $yellow; background-color: $dm-dark-gray;}
