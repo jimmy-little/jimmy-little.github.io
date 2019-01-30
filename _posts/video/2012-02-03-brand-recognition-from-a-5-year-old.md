@@ -2,7 +2,7 @@
 title: Brand Recognition From A 5 Year Old
 date: 2012-02-03T16:59:39+00:00
 author: jimmy
-layout: post    
+layout: video    
 category: Video
 tags: [Video, Marketing]
 via:  YouTube
@@ -15,8 +15,6 @@ youtubeId: N4t3-__3MA0
   Two and a half minutes of adorable.  A 5 year old's take on brand recognition.  She recognizes what almost every logo is, such as the "Eye" of CBS, but doesn't know what they stand for.
 
 <!-- more -->  
-{% include youtube.html %}
-
 
 She recognizes, by name, the following brands:
 

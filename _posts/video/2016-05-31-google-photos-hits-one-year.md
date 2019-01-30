@@ -2,7 +2,7 @@
 title: Google Photos Hits One Year
 category: Video
 tags: [Google, Photos]
-layout: post
+layout: video
 img:  googlephotos.png
 via: Google Blog
 link: http://www.youtube.com/embed/HQtGFBbwKEk
@@ -17,5 +17,3 @@ Check out the screenshot above.  I literally did nothing to the pictures I uploa
 Some people may think it's creepy, but I think giving up a bit of privacy is well worth seeing pics of The Bug Dog whenever I type "dog" without all the fiddly tagging other systems (*cough*Apple*cough*) use.
 
 Also: Emoji search.
-
-{% include youtube.html %}

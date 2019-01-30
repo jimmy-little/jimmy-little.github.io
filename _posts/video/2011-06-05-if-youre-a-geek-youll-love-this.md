@@ -13,6 +13,3 @@ tags: [Video, Music, Geek]
 Leonard Nimoy, The Big Lebowski, and being lazy. What more could a neck-beard ask for?
 
 
-{% include youtube.html %}
-
-
