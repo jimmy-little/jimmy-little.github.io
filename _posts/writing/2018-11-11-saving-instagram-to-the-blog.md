@@ -9,7 +9,7 @@ tn: instagram-shortcut-to-blog.jpg
 date: 2018-11-11
 ---
 
-I'm not a super heavy [Instagram][insta] user, but I do occasionally post. When I do, I like to save that post to this blog. Why? Maybe because I'm not a huge Facebook fan and contemplate deleting all my Facebook-owned data weekly. Maybe because I like to see where my Instagram posts fit in with all my other random thoughts. Maybe a little of both.
+I'm not a super heavy [Instagram][insta] user, but I do occasionally post. When I do, I like to save what post to this blog. Why? Maybe because I'm not a huge Facebook fan and contemplate deleting all my Facebook-owned data weekly. Maybe because I like to see where my Instagram posts fit in with all my other random thoughts. Maybe a little of both.
 <!-- more --> 
 I struggled for a while to try to figure out how to do this automatically, and I found the answer in the [Shortcuts App for iOS][shortcuts]. Together with my Githuib client, [Working Copy][wc], it’s now a one-button operation. I love the Shortcuts app, and will be posting a lot more about it in the coming months.
 
