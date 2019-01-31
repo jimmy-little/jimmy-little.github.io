@@ -17,9 +17,8 @@ First thing you'll notice is I have one fewer watch face. This is mainly due to 
 
 ---
 ### The Daily Face
-#### Infograph
 
-My daily face is now the Infograph face. I keep it full, and use every bit of it. The complications I use, starting at the top and working my way down:
+My daily face is now the **Infograph** face. I keep it full, and use every bit of it. The complications I use, starting at the top and working my way down:
 
  - Top left is Reminders. I actually use the [GoodTask][gt] app as my Reminders frontend, but the complication isn't as good. So I use the Reminders complication.
  
@@ -36,16 +35,14 @@ The new Infograph face allows for a tremendous amount of data to be available. C
 
 ---
 ### The Baby Face
-#### Extra Large
 
 If you follow me on [Instagram][ig], you'll know I had a son last summer. He's awesome, but he's getting to the age where he likes to grab onto things. 
-When I'm playing with the little man, I just quickly swipe to this watch face. It has _no_ complications on it. I built this face because with a dense face like Infograph, every touch of his fat little fingers would open an app, or send a message, or inadvertently check off a task. With this Extra Large face, his taps are ignored.
+When I'm playing with the little man, I just quickly swipe to this **Extra Large** watch face. It has _no_ complications on it. I built this face because with a dense face like Infograph, every touch of his fat little fingers would open an app, or send a message, or inadvertently check off a task. With this Extra Large face, his taps are ignored.
 
 ---
 ### The Workout Face
-#### Infograph Modular
 
-This face is built solely to be a launchpad to the apps I use at the gym. 
+This **Infograph Modular** face is built solely to be a launchpad to the apps I use at the gym. 
 
  - Top left is the Workout App
  - Middle is the heartrate. I don't typically look at this very often, but it's nice to see at the end of a workout. Plus, there weren't any other useful complications to fill the space.
@@ -57,9 +54,8 @@ There is nothing useful on the face per-say, but having this as a home base when
 
 ---
 ### The Night Face
-#### Modular
 
-This is the only face that really hasn't changed with the new watch. I'd like to convert this to Infograph Modular, but for some ridiculous reason the old and new complications are incompatible, and not all the apps on this screen have updated their complications for the Series 4.
+This **Modular Classic** is the only face that really hasn't changed with the new watch. I'd like to convert this to Infograph Modular, but for some ridiculous reason the old and new complications are incompatible, and not all the apps on this screen have updated their complications for the Series 4.
 
  - Top left is Battery, just for my info. I never have battery issues with this watch.
  - Bottom left is the [AutoWake][aw] app. It used to gently wake me up based on my sleep cycle. Since the baby got here, I haven't slept late enough to need an alarm.
@@ -71,18 +67,18 @@ When I flip to this face (and the *Baby Face*), I also swipe up Control Center a
 ---
 ### The Siri Face
 
-I keep this one at the end, and may be removing it entirely soon. I used to use the Siri face daily, but the promise of Siri being smart enough to pull in relevant stuff has fallen short for me. Every once in a while I'll try it out again, but never stay long. So far, I get Music controls, random pictures, and directions home. None of which are useful most of the time. Carrot Weather's app has a setting to fool the Siri face into pulling in data every hour, but I live in Southern California and the weather rarely changes.
+I keep this one at the end, and may be removing it entirely soon. I used to use the **Siri face** daily, but the promise of Siri being smart enough to pull in relevant stuff has fallen short for me. Every once in a while I'll try it out again, but never stay long. So far, I get Music controls, random pictures, and directions home. None of which are useful most of the time. Carrot Weather's app has a setting to fool the Siri face into pulling in data every hour, but I live in Southern California and the weather rarely changes.
 
 So, that's it. These are the faces I use regularly. The two big ones are the Infograph daily face and the Baby Face, both of wich I use, well, daily. 
 
 I'm a heavy watch user, and am really looking forward to even more improvements. Apple has taken watchOS from a barely usable mismash of random features to the most sophisticated and useul wearable OS anywhere in just 4 years. That's pretty impressive, but I'm still anxiously awaiting watchOS 6 this summer.
 
-[watchpost]: "https://www.cocktailsandcoffee.com/productive-watch-faces/"
-[gt]: "https://itunes.apple.com/us/app/goodtask-3-to-do-list/id1068039220?mt=8&uo=4"
-[fant]: "https://itunes.apple.com/us/app/fantastical-2-for-iphone/id718043190?mt=8&uo=4"
-[cal5]: "https://itunes.apple.com/us/app/calendars-5-by-readdle/id697927927?mt=8&uo=4"
-[drafts]: "https://itunes.apple.com/us/app/drafts-5-capture-act/id1236254471?mt=8&uo=4"
-[carrot]: "https://itunes.apple.com/us/app/carrot-weather/id961390574?mt=8&uo=4"
-[ig]: "https://www.instagram.com/jimmylittle/"
-[aw]: "https://itunes.apple.com/us/app/autowake-smart-sleep-alarm/id1279650551?mt=8&uo=4"
-[as]: "https://itunes.apple.com/us/app/autosleep-tracker-for-watch/id1164801111?mt=8&uo=4"
+[watchpost]: https://www.cocktailsandcoffee.com/productive-watch-faces/
+[gt]: https://itunes.apple.com/us/app/goodtask-3-to-do-list/id1068039220?mt=8&uo=4
+[fant]: https://itunes.apple.com/us/app/fantastical-2-for-iphone/id718043190?mt=8&uo=4
+[cal5]: https://itunes.apple.com/us/app/calendars-5-by-readdle/id697927927?mt=8&uo=4
+[drafts]: https://itunes.apple.com/us/app/drafts-5-capture-act/id1236254471?mt=8&uo=4
+[carrot]: https://itunes.apple.com/us/app/carrot-weather/id961390574?mt=8&uo=4
+[ig]: https://www.instagram.com/jimmylittle/
+[aw]: https://itunes.apple.com/us/app/autowake-smart-sleep-alarm/id1279650551?mt=8&uo=4
+[as]: https://itunes.apple.com/us/app/autosleep-tracker-for-watch/id1164801111?mt=8&uo=4
