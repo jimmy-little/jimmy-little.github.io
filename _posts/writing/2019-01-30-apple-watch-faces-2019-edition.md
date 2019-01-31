@@ -6,7 +6,7 @@ layout: post
 tags: [Apple Watch]
 img: 2019watchfaces.png
 tn: 2019watchfaces.png
-date: 2010-01-30
+date: 2019-01-30
 ---
 
 It's a new year, and I've rebuilt my watch faces. I got a Series 4 Apple Watch last fall. After playing with the new faces and going through a big life change, I've streamlined and updated my watch faces since I wrote about it [the last time.][watchpost]
