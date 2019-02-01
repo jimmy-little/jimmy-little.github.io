@@ -152,6 +152,10 @@ h1.defaultpost {
     text-align: center;
     font-size: 2em;
 }
+
+hr {
+    clear: both;
+}
 img {
   display: block;
   max-width: 100%;
@@ -164,7 +168,7 @@ img.right{
   display: block;
   max-width: 100%;
   float: right;
-  margin-right: 15px;
+  margin-left: 15px;
   margin-bottom: 15px;
   vertical-align: middle;
 }
