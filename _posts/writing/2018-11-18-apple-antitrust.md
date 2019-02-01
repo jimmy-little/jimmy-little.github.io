@@ -4,9 +4,6 @@ title: Apple App Store Anti Trust Lawsuit Going Forward
 subtitle: "If you can't beat 'em, sue 'em"
 link: http://www.scotusblog.com/2018/11/argument-analysis-justices-poised-to-allow-antitrust-dispute-against-apple-over-apps-to-go-forward/
 via: SCOTUS Blog
-img: scotus-apple.jpg
-tn: scotus-apple.jpg
-fig-caption: 📷 Art Lien via SCOTUS Blog
 layout: post
 category: Writing
 tags: [Apple, SCOTUS, Anti-Trust]
