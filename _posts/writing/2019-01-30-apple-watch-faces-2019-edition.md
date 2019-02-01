@@ -74,8 +74,8 @@ When I flip to this face (and the *Baby Face*), I also swipe up Control Center a
 
 ---
 ### The Siri Face
-<img src="/assets/img/post/2019watch/siri.png" float="right" width="200">
-*Limited Usefulness these days*
+<img src="/assets/img/post/2019watch/siri.png" align="center" width="200">
+*Limited Usefulness These Days*
 
 I keep this one at the end, and may be removing it entirely soon. I used to use the **Siri face** daily, but the promise of Siri being smart enough to pull in relevant stuff has fallen short for me. Every once in a while I'll try it out again, but never stay long. So far, I get Music controls, random pictures, and directions home. None of which are useful most of the time. Carrot Weather's app has a setting to fool the Siri face into pulling in data every hour, but I live in Southern California and the weather rarely changes.
 
