@@ -17,8 +17,7 @@ First thing you'll notice is I have one fewer watch face. This is mainly due to 
 
 ---
 ### The Daily Face
-<img src="/assets/img/post/2019watch/infograph.png" align="center" width="200">
-*So many colors*
+<img class="right" src="/assets/img/post/2019watch/infograph.png" width="200">
 
 My daily face is now the **Infograph** face. I keep it full, and use every bit of it. The complications I use, starting at the top and working my way down:
 
@@ -37,16 +36,14 @@ The new Infograph face allows for a tremendous amount of data to be available. C
 
 ---
 ### The Baby Face
-<img src="/assets/img/post/2019watch/baby.png" align="center" width="200">
-*No buttons!*
+<img class="right" src="/assets/img/post/2019watch/baby.png" width="200">
 
 If you follow me on [Instagram][ig], you'll know I had a son last summer. He's awesome, but he's getting to the age where he likes to grab onto things. 
 When I'm playing with the little man, I just quickly swipe to this **Extra Large** watch face. It has _no_ complications on it. I built this face because with a dense face like Infograph, every touch of his fat little fingers would open an app, or send a message, or inadvertently check off a task. With this Extra Large face, his taps are ignored.
 
 ---
 ### The Workout Face
-<img src="/assets/img/post/2019watch/infographmodular.png" align="center" width="200">
-*Dashboard by Design*
+<img class="right" src="/assets/img/post/2019watch/infographmodular.png" width="200">
 
 This **Infograph Modular** face is built solely to be a launchpad to the apps I use at the gym. 
 
@@ -60,8 +57,7 @@ There is nothing useful on the face per-say, but having this as a home base when
 
 ---
 ### The Night Face
-<img src="/assets/img/post/2019watch/night.png" align="center" width="200">
-*Zzzzzzzzzz*
+<img class="right" src="/assets/img/post/2019watch/night.png" width="200">
 
 This **Modular Classic** is the only face that really hasn't changed with the new watch. I'd like to convert this to Infograph Modular, but for some ridiculous reason the old and new complications are incompatible, and not all the apps on this screen have updated their complications for the Series 4.
 
@@ -75,7 +71,6 @@ When I flip to this face (and the *Baby Face*), I also swipe up Control Center a
 ---
 ### The Siri Face
 <img class="right" src="/assets/img/post/2019watch/siri.png" align="center" width="200">
-*Limited Usefulness These Days*
 
 I keep this one at the end, and may be removing it entirely soon. I used to use the **Siri face** daily, but the promise of Siri being smart enough to pull in relevant stuff has fallen short for me. Every once in a while I'll try it out again, but never stay long. So far, I get Music controls, random pictures, and directions home. None of which are useful most of the time. Carrot Weather's app has a setting to fool the Siri face into pulling in data every hour, but I live in Southern California and the weather rarely changes.
 
