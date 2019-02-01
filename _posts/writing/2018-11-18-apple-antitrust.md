@@ -10,6 +10,7 @@ fig-caption: 📷 Art Lien via SCOTUS Blog
 layout: post
 category: Writing
 tags: [Apple, SCOTUS, Anti-Trust]
+date: 2018-11-25
 ---
 
 This comes up every few years, and there have been tons of lawsuits between people and Apple over Apple's App Store policy.
