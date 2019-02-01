@@ -13,10 +13,10 @@ permalink: /categories/
 <article>
 <h2 class="tag-heading">{{ this_word }}</h2>
 <ul>
-{% for post in site.categories[this_word] %}{% if post.title != null %}
+{% for post in site.categories[this_word] %}
 <li class="entry-title">
-<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endif %}{% endfor %}
+<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>  
+{% endfor %}
 </ul>
 </article>
 {% endunless %}{% endfor %}
