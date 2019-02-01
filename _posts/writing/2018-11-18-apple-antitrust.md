@@ -11,6 +11,7 @@ layout: post
 category: Writing
 tags: [Apple, SCOTUS, Anti-Trust]
 date: 2018-11-25
+excerpt: Should Apple be forced to allow side-loading apps like Microsoft and Google do? The Supreme Court is going to hear the case.
 ---
 
 This comes up every few years, and there have been tons of lawsuits between people and Apple over Apple's App Store policy.
@@ -21,5 +22,5 @@ Apple runs the iOS App Store for iPhones, iPads, Apple Watches, and Apple TV. In
 
 But, that was a long time ago. Online delivery of software is mainstream, and 30% may be a bit high these days. It should be noted that Microsoft and Google's app stores also keep 30%, but they are not part of this case.
 
-Why? Because Microsoft and Google allow users, once they set certain permissions, to "side load" apps. Side loadoing an app is a way for users to load an app directly from the developer without going through any sort of third party. There are serious security risks involved in side-loading, but if you have a trusted developer and are careful, it can be a good way to try things that aren't necessarily "app store approved", and it allows the developers to keep more of their profits.
+Why? Because Microsoft and Google allow users, once they set certain permissions, to "side load" apps. Side loading an app is a way for users to load an app directly from the developer without going through any sort of third party. There are serious security risks involved in side-loading, but if you have a trusted developer and are careful, it can be a good way to try things that aren't necessarily "app store approved", and it allows the developers to keep more of their profits.
 
