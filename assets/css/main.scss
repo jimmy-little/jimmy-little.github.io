@@ -285,7 +285,7 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
   border-radius: 12px;
-  border: 1px solid $lightgray;
+  /*border: 1px solid $lightgray;*/
   min-width: 100%;
 }
 
@@ -332,19 +332,8 @@ a:active {
     font-weight: bolder;
 }
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-    }
+
+
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
