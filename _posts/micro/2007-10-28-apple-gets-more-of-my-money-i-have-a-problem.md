@@ -1,6 +1,6 @@
 ---
 
-title: 'Apple gets more of my money...'
+title: '2007-10-28'
 date: 2007-10-28
 author: jimmy
 layout: post
