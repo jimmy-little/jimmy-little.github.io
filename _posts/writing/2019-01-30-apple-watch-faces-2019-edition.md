@@ -15,7 +15,7 @@ It's a new year, and I've rebuilt my watch faces. I got a Series 4 Apple Watch l
 
 First thing you'll notice is I have one fewer watch face. This is mainly due to the new Infograph faces providing much more data. The other is that I've streamlined the way I use the watch. The gesture to switch faces by simply swiping side-to-side on the watchface dictates the order. Looking at the header image, let's walk through them from left to right.
 
----
+<hr class="clear">
 ### The Daily Face
 <img class="right" src="/assets/img/post/2019watch/infograph.png" width="200">
 
@@ -34,14 +34,14 @@ My daily face is now the **Infograph** face. I keep it full, and use every bit o
  
 The new Infograph face allows for a tremendous amount of data to be available. Choosing complications wisely keeps it readable.
 
----
+<hr class="clear">
 ### The Baby Face
 <img class="right" src="/assets/img/post/2019watch/baby.png" width="200">
 
 If you follow me on [Instagram][ig], you'll know I had a son last summer. He's awesome, but he's getting to the age where he likes to grab onto things. 
 When I'm playing with the little man, I just quickly swipe to this **Extra Large** watch face. It has _no_ complications on it. I built this face because with a dense face like Infograph, every touch of his fat little fingers would open an app, or send a message, or inadvertently check off a task. With this Extra Large face, his taps are ignored.
 
----
+<hr class="clear">
 ### The Workout Face
 <img class="right" src="/assets/img/post/2019watch/infographmodular.png" width="200">
 
@@ -55,7 +55,7 @@ This **Infograph Modular** face is built solely to be a launchpad to the apps I 
 
 There is nothing useful on the face per-say, but having this as a home base when I'm at the gym gives me one-tap access to jump between apps.
 
----
+<hr class="clear">
 ### The Night Face
 <img class="right" src="/assets/img/post/2019watch/night.png" width="200">
 
@@ -68,7 +68,7 @@ This **Modular Classic** is the only face that really hasn't changed with the ne
  
 When I flip to this face (and the *Baby Face*), I also swipe up Control Center and turn on Theater Mode so the screen doesn't pop on when I move. I'm still waiting for Apple to allow me to apply Control Center settings on a per-face basis, but I'm not holding my breath.
 
----
+<hr class="clear">
 ### The Siri Face
 <img class="right" src="/assets/img/post/2019watch/siri.png" width="200">
 
