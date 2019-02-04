@@ -77,6 +77,8 @@ I'm a heavy watch user, and am really looking forward to even more improvements.
 
 [watchpost]: https://www.cocktailsandcoffee.com/productive-watch-faces/
 [ped]: https://itunes.apple.com/us/app/pedometer/id712286167?mt=8&uo=4
+[oc]: https://itunes.apple.com/us/app/overcast/id888422857?mt=8&uo=4
+[gym]: https://itunes.apple.com/us/app/gymaholic-workout-tracker/id648518560?mt=8&uo=4
 [gt]: https://itunes.apple.com/us/app/goodtask-3-to-do-list/id1068039220?mt=8&uo=4
 [fant]: https://itunes.apple.com/us/app/fantastical-2-for-iphone/id718043190?mt=8&uo=4
 [cal5]: https://itunes.apple.com/us/app/calendars-5-by-readdle/id697927927?mt=8&uo=4
