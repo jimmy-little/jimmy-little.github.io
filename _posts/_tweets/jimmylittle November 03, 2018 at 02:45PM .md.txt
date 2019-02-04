@@ -1,7 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Apple sold 2x more iPads than Macs last year. I don’t think keeping people on the platform is the problem. 
-
-Sass companies need to design for their customers. If customers are on iOS and Android browsers, make your thing work with iOS and Android browsers.
-
-Looking at you, <a href="https://twitter.com/Jira?ref_src=twsrc%5Etfw">@Jira</a></p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1058837502805520384?ref_src=twsrc%5Etfw">November 3, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1058837502805520384

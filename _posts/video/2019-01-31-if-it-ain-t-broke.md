@@ -14,6 +14,3 @@ tn: 3djg59JUrmc.jpg
 ---
 
 I've heard some people argue that changes could be made faster if all this was in a prompter, but I like that cue cards are still an art form.
-
-<!-- more --> 
-
