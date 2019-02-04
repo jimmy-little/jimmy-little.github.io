@@ -1,6 +1,6 @@
 ---
 
-title: "Let's face it: iPhones are cool..."
+title: "2007-10-03"
 date: 2007-10-03
 modified: 2007-10-05
 author: jimmy

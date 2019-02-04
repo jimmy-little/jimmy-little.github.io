@@ -13,7 +13,6 @@ html {
   line-height: 1.5;
 }
 
-
 body {
   font-family: 'Lato', sans-serif;
   color: #515151;
@@ -154,6 +153,10 @@ h1.defaultpost {
     font-size: 2em;
 }
 
+hr.clear {
+    clear: both;
+    display: block;
+}
 img {
   display: block;
   max-width: 100%;
@@ -162,7 +165,25 @@ img {
   vertical-align: middle;
 }
 
-img + em {
+img.right {
+  display: block;
+  max-width: 100%;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+
+img.left {
+  display: block;
+  max-width: 100%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+
+img.right + em {
   text-align: center;
   display: block;
   margin-top: 10px;
@@ -264,7 +285,7 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
   border-radius: 12px;
-  border: 1px solid $lightgray;
+  /*border: 1px solid $lightgray;*/
   min-width: 100%;
 }
 
@@ -311,19 +332,8 @@ a:active {
     font-weight: bolder;
 }
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-    }
+
+
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
