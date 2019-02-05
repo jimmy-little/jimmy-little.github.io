@@ -47,8 +47,9 @@ layout: main
 {% elsif page.category == "Micro" %}
 <div class="post-linkthumb"><h1 class="micropost"><i class="fa fa-quote-left" aria-hidden="true"></i></h1></div>
 {% endif %}
-</div>
-<!-- End Page Cover Image -->
+    </div>
+    
+    <!-- End Page Cover Image -->
 <div class="wrap-content">
   <div class="page-content">
 {% if page.via == "Twitter" or page.category == "Micro" %}
@@ -71,7 +72,15 @@ layout: main
         {% endif %}
       </header>
 {% endif %}
+{% if page.category != "Micro" %}
       {{content | markdownify}}
+{% else %}
+      <div class="social">
+      {{content | markdownify}}
+          {% if page.img %}
+      <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}"></div>
+          {% endif%}
+{% endif %}
 <div class="page-footer">
 <div class="page-tag">
         {% if page.via == "Twitter" %}
