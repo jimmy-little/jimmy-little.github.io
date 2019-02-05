@@ -224,7 +224,6 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 11rem;
   -webkit-border-radius: 10px;
           border-radius: 10px;
   overflow: hidden;
@@ -294,8 +293,7 @@ width: 30%;
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 0px;
-  color: $white;
-  background-color: $dark-gray;
+  color: $black;
   text-transform: uppercase;
   border: 1px solid;
   border-color: $dark-gray;    
@@ -310,8 +308,7 @@ width: 30%;
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 0px;
-  color: $white;
-  background-color: $dark-gray;
+  color: $black;
   text-transform: uppercase;
   border: 1px solid;
   border-color: $dark-gray;    
@@ -319,7 +316,7 @@ width: 30%;
   float: right;
 }
 .post .read-source a {
-  text-decoration: none;
+  text-decoration: none;    
   font-weight: bold;    
   font-size: 10px;
   padding: 5px 10px;
@@ -343,7 +340,8 @@ width: 30%;
   text-transform: uppercase;
   border: 1px solid;
   border-color: $twitter;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;  
   float: right;
 }
 
@@ -357,7 +355,8 @@ width: 30%;
   text-transform: uppercase;
   border: 1px solid;
   border-color: $instagram;
-  border-radius: 15px;  
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;  
   float: right;
 }
 
