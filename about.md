@@ -7,6 +7,10 @@ permalink: /about/
 
 This site is completely written, researched, and updated by me, Jimmy Little.  It is meant to be a personal and sometimes professional outlet for information about me, what I'm interested in, and what I'm doing. All views here are my own. It's called Cocktails & Coffee because a lot of what I write is fueled by caffeine and alcohol. Or internet rage, But `cocktailsandcoffeeandinternetrage.com` doesn't fit on a business card.
 
+### RSS Feed
+
+Really Simple Syndication is a great, free, open source way to follow the content of blogs you love. Cocktails and Coffee uses a JSON RSS Feed, and it can be found at [https://www.cocktailsandcoffee.com/feeds/feed.json](https://www.cocktailsandcoffee.com/feeds/feed.json). If you subscribe, new articles will magically show up in your RSS reader whenever I publish.
+
 ### Content
 
 Everything here is written by me.  If I quote another site or video, it is always attributed and linked to.  Don't steal content.  That makes you an unproductive douche.

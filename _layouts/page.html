@@ -1,5 +1,6 @@
 ---
 layout: main
+date: 2019-02-04
 ---
 <article class="article-page">
 <div class="wrap-content">
@@ -27,11 +28,9 @@ layout: main
           {% endfor %}
         </div>
     <div class="page-date">
-    <i class="fa fa-calendar"></i>  {{page.date | date: '%B %d, %Y'}}
+    <i class="fa fa-calendar"></i>  Last Updated: {{page.date | date: '%b %d, %Y'}}
     </div>
       </div>
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
-
-
