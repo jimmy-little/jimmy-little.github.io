@@ -54,7 +54,6 @@ layout: main
   <div class="page-content">
 {% if page.via == "Twitter" or page.category == "Micro" %}
     <header class="header-page">
-        <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
       </header>
 {% elsif page.via == "Instagram" %}
     <header class="header-page">
@@ -62,7 +61,6 @@ layout: main
         {% if page.subtitle %}
           <h3 class="page-subtitle">{{page.subtitle}}</h3>
         {% endif %}
-        <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
       </header>
 {% else %}
       <header class="header-page">
@@ -84,9 +82,9 @@ layout: main
 <div class="page-footer">
 <div class="page-tag">
         {% if page.via == "Twitter" %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-twitter"></i> Originally posted on {{page.via}}</a>
+            <a href="{{page.link}}" class="tag"><i class="fa fa-twitter"></i> On {{page.via}}</a>
         {% elsif page.via == "Instagram" %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-instagram"></i> Originally posted on {{page.via}}</a>
+            <a href="{{page.link}}" class="tag"><i class="fa fa-instagram"></i> On {{page.via}}</a>
         {% elsif page.via %}
             <a href="{{page.link}}" class="tag"><i class="fa fa-link"></i> {{page.via}}</a>
         {% endif %}

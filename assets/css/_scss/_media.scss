@@ -193,13 +193,12 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .content-box {
-    padding: 10px;
+    padding: 0px;
   }
   .post {
-    width: 98%;
+    border-radius: 0px;
     max-width: 100%;
     min-height: 20em;
-    margin: 2%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -208,6 +207,7 @@
   }
 
 .post .post-thumbnail {
+  border-radius: 0px;    
   width: 100%;
   padding-bottom: 56.25%;
   -webkit-background-size: cover;
@@ -231,7 +231,7 @@
     margin: 0 0 5px;
   }
   .post .post-content .post-title a {
-    font-size: 21px;
+    font-size: 18px;
   }
 
 .contact, .about p, .author-name, .about hr {
