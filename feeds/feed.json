@@ -5,7 +5,7 @@ layout: null
 {
     "version": "https://jsonfeed.org/version/1",
     "user_comment": "JSON feed for cocktailsandcoffee.com",
-    "title": "Cocktails and Coffe",
+    "title": "Cocktails and Coffee",
     "description": "Internet Ramblings Fueled by Adult Beverages",
     "home_page_url": "https://www.cocktailsandcoffee.com",
     "feed_url": "https://www.cocktailsandcoffee.com/feeds/feed.json",
