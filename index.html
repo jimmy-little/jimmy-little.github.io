@@ -52,8 +52,10 @@ layout: main
 <!---------------------- READ MORE AND EXTERNAL LINK PILL ---------------------->
 <div class="index-read-pill">
 {% if post.via == "Twitter" %}
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-twitter"><a href="{{post.link}}" class="post-tag"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via == "Instagram" %}
+    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-instagram"><a href="{{post.link}}" class="post-tag"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via == "YouTube" %}
     <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
