@@ -122,6 +122,8 @@
             justify-content: space-between;
     width: 100%;
     padding: 10px;
+    border-bottom: 2px solid $dark-gray;
+    margin-bottom: 1em;
     background-color: #ffffff;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
@@ -194,6 +196,7 @@
 @media only screen and (max-width: 480px) {
   .content-box {
     padding: 0px;
+      border-radius: 0px;
   }
   .post {
     border-radius: 0px;
@@ -238,6 +241,10 @@
     display: none;
   }
 
+.page-cover-image, .page-image, .article-page, .page-cover-image, .page-cover-image .page-image {
+        border-radius: 0px;
+    }
+    
 .about {
   width: 30%;
   float: left;
