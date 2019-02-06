@@ -207,7 +207,6 @@ footer .copyright {
 }
 
 .post {
-  width: 100%;
   max-width: 100%;
   position: relative;
   margin-bottom: 1.2rem;
@@ -250,6 +249,15 @@ border: solid 1px $dark-gray;
           background-size: cover;
   background-position: 50% 50%;
 }
+
+.post .post-thumbnail-micro {
+  width: 35%;
+  min-height: 11em;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+}
+
 .post .post-linkthumb {
 width: 35%;
   -webkit-background-size: cover;
@@ -266,27 +274,35 @@ width: 35%;
 
 .post .post-content {
   clear: both;
-  padding: 1em;
+  padding-bottom: 5em;
+  padding-left: 1em;
   padding-top: 0;
   width: 70%;
 }
 
 .post .post-content .post-date,
-.post .post-content .post-words .read-more{
+.post .post-content .post-words .read-more {
   font-size: 12px;
 }
 
 .index-read-pill {
-    float:right;
-    width: 65%;
 }
 
 .index-metadata {
     float: left;
-    width: 35%;
     text-align: left;
 }
 
+.index-metabar {
+    position: absolute;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    margin-top: 1em;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 5px;
+}
 .post .read-more a {
   text-decoration: none;
   font-weight: bold;

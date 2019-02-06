@@ -11,10 +11,12 @@ title: Archive
 <ul>
 {% for post in yearMonth.items %}
     {% if post.via == "Instagram" %}
-    <li><i class="fa fa-instagram"></i>:  <a href="{{ post.link }}">{{ post.title }} ➛</a></li>
+    <li><a href="{{ post.link }}"><i class="fa fa-instagram"></i></a>:  <a href="{{ post.url }}">{{ post.title }}  </a><a href="{{ post.link }}"></a></li>
+        
     {% elsif post.via == "Twitter" %}
-    <li><i class="fa fa-twitter"></i>:  <a href="{{ post.link }}">{{ post.date | date: "%b %d, %Y"}} ➛</a></li>
+    <li><a href="{{ post.link }}"><i class="fa fa-twitter"></i></a>:  <a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a></li>
     {% elsif post.category == "Writing" %}
+        
     <li><i class="fa fa-glass"></i>:  <a href="{{ post.url }}">"{{ post.title }}"</a></li>
     {% elsif post.category == "Linked" %}
     <li><i class="fa fa-link"></i>:  <a href="{{ post.url }}">"{{ post.title }}"</a> via {{ post. via }}</li>

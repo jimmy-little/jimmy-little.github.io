@@ -49,51 +49,49 @@ layout: main
 {% endif %}
     </div>
     
-    <!-- End Page Cover Image -->
+<!-- End Page Cover Image -->
+    
 <div class="wrap-content">
   <div class="page-content">
-{% if page.via == "Twitter" or page.category == "Micro" %}
+{% if page.category == "Social" or page.category == "Micro" %}
     <header class="header-page">
-      </header>
-{% elsif page.via == "Instagram" %}
-    <header class="header-page">
-        <h1 class="page-title"><i class="fa fa-instagram" aria-hidden="true"></i> {{page.title}}</h1>
-        {% if page.subtitle %}
-          <h3 class="page-subtitle">{{page.subtitle}}</h3>
-        {% endif %}
       </header>
 {% else %}
-      <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
+    <header class="header-page">
+    <h1 class="page-title">{{page.title}}</h1>
         {% if page.subtitle %}
-          <h3 class="page-subtitle">{{page.subtitle}}</h3>
+        <h3 class="page-subtitle">{{page.subtitle}}</h3>
         {% endif %}
-      </header>
+    </header>
 {% endif %}
-{% if page.category != "Micro" %}
+{% if page.category == "Linked" or page.category == "Writing" %}
       {{content | markdownify}}
-{% else %}
-      <div class="social">
+{% elsif page.category == "Social" or page.category == "Micro" %}
+<div class="social">
+{% if page.img %}
+      <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+{% endif%}      
       {{content | markdownify}}
-          {% if page.img %}
-      <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}"></div>
-          {% endif%}
+    
+ {% if page.via == "Twitter" %}
+            <a href="{{page.link}}" class="tag-social"><i class="fa fa-twitter"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}
+ {% elsif page.via == "Instagram" %}
+            <a href="{{page.link}}" class="tag-social"><i class="fa fa-instagram"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}
+ {% endif %}
+</div>
 {% endif %}
 <div class="page-footer">
 <div class="page-tag">
-        {% if page.via == "Twitter" %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-twitter"></i> On {{page.via}}</a>
-        {% elsif page.via == "Instagram" %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-instagram"></i> On {{page.via}}</a>
-        {% elsif page.via %}
+        {% if page.category == "Linked" %}
             <a href="{{page.link}}" class="tag"><i class="fa fa-link"></i> {{page.via}}</a>
         {% endif %}
-          {% for tag in page.tags %}
+        {% for tag in page.tags %}
     <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
           {% endfor %}
+        {% if page.category == "Writing" or page.category == "Linked" or page.category == "Stuff" %}
     <div class="page-date">
     <i class="fa fa-calendar"></i>  {{page.date | date: '%b %d, %Y'}}
-    </div>
+    </div> {% endif %}
 </div><!-- End page-tag -->
 </div><!-- End page-footer -->
 {% if page.category != "Micro" %}
