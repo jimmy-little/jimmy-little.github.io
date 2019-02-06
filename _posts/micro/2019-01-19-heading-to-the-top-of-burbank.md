@@ -1,5 +1,5 @@
 ---
-title: Heading to the top of Burbank!
+title: "Heading to the top of Burbank!"
 layout: post
 category: Micro
 via: Instagram
