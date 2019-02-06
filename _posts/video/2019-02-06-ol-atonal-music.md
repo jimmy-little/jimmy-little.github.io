@@ -5,7 +5,7 @@ date: 2019-02-06
 subtitle: "Paging Mr. Glass..."
 tags: [Music]
 category: Video
-layout: post
+layout: video
 link: https://www.youtube.com/gzodB0Sp6ZI&feature=youtu.be
 via: YouTube
 youtubeId: gzodB0Sp6ZI
