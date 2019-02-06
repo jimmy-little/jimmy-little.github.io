@@ -1,6 +1,6 @@
 ---
 title: 230 New Emojis Coming This Year
-subtitle:
+subtitle: "Now, if we could just search for them, Apple..."
 date: 2019-02-06
 layout: post
 category: Linked
