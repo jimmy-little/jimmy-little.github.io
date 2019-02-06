@@ -1,7 +1,7 @@
 ---
 title: 230 New Emojis Coming This Year
 subtitle:
-date: 2018-02-06
+date: 2019-02-06
 layout: post
 category: Linked
 tags: [Emoji]
