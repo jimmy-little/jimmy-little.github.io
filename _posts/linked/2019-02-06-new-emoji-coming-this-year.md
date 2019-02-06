@@ -21,3 +21,5 @@ Jeremy Burge, at [Emojipedia](https://blog.emojipedia.org/230-new-emojis-in-fina
 It's great to see all these new inclusive groups represented in Emoji. Same-sex couples, various disabilities, prosthetic appendages, more skin tone options, and gender options for jobs. 
 
 The Unicode Consortium must get thousands of requests every year for new glyphs. Deciding must be a slog. I'm still waiting on my Tiki emoji, but at least I have a Flamingo for now.
+
+![2019 Emojis][/assets/img/post/emoji2019.jpg]
