@@ -1,5 +1,5 @@
 ---
-title: "2018-12-23-Instagram"
+title: "Lego Advent Calendar Day 23: General Merrick"
 layout: post
 category: Micro
 via: Instagram

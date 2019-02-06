@@ -1,5 +1,5 @@
 ---
-title: "2018-12-24-Instagram"
+title: "Lego Advent Calendar Day 24: Snowman"
 layout: post
 category: Micro
 via: Instagram
