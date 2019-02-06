@@ -3,37 +3,17 @@ layout: null
 ---
 {% assign first = true %}
 {
-    "version": "https://jsonfeed.org/version/1",
-    "user_comment": "JSON feed for cocktailsandcoffee.com",
-    "title": "Cocktails and Coffee",
-    "description": "Internet Ramblings Fueled by Adult Beverages",
-    "home_page_url": "https://www.cocktailsandcoffee.com",
-    "feed_url": "https://www.cocktailsandcoffee.com/feeds/feed.json",
-    "author": {
-        "name": "Jimmy Little",
-        "url": "https://www.cocktailsandcoffee.com"
-    },
-    "items": 
-[
-{% for collection in site.collections %}
-    {% for item in collection %}
-        {% for item in site.item.label %}
-            {% if item.title != null and item.title != empty %}
-            {% unless first %},{% endunless %}{
-                "title": {{item.title | jsonify}},
-                "content": {{item.content | markdownify | strip_html | jsonify}},
-                "link": "{{ site.baseurl }}{{ item.url }}",
-                "date": "{{ item.date }}",
-                "excerpt": "{{ item.snippet }}",
-                "search_omit": "{{ item.search_omit }}"
-            }
-            {% assign first = false %}
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
-{% endfor %}
-
-
+"version": "https://jsonfeed.org/version/1",
+"user_comment": "JSON feed for cocktailsandcoffee.com",
+"title": "JSON Feed",
+"description": "Internet Ramblings Fueled by Adult Beverages",
+"home_page_url": "https://www.cocktailsandcoffee.com",
+"feed_url": "https://www.cocktailsandcoffee.com/feeds/feed.json",
+"author": {
+"name": "Jimmy Little",
+"url": "https://www.cocktailsandcoffee.com"
+},
+"items": [
 {% for post in site.posts %}
     {% if post.title != null and post.title != empty %}
     {% unless first %},{% endunless %}{
@@ -42,21 +22,8 @@ layout: null
         "link": "{{ site.baseurl }}{{ post.url }}",
         "date": "{{ post.date }}",
         "excerpt": "{{ post.snippet }}",
-        "search_omit": "{{ post.search_omit }}"
-    }
-    {% assign first = false %}
-    {% endif %}
-{% endfor %}
-
-{% for page in site.pages %}
-    {% if page.title != null and page.title != empty %}
-    {% unless first %},{% endunless %}{
-        "title": {{page.title | jsonify}},
-        "content": {{page.content | strip_html | jsonify}},
-        "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
-        "date": {{ page.date | jsonify }},
-        "excerpt": {{ page.description | jsonify }},
-        "search_omit": "{{ page.search_omit }}"
+        "search_omit": "{{ post.search_omit }}",
+        "img": "{{ site.baseurl }}/assets/img/post/{{post.img}}"
     }
     {% assign first = false %}
     {% endif %}
