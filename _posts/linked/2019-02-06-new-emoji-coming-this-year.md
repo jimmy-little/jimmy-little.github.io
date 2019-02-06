@@ -22,4 +22,4 @@ It's great to see all these new inclusive groups represented in Emoji. Same-sex 
 
 The Unicode Consortium must get thousands of requests every year for new glyphs. Deciding must be a slog. I'm still waiting on my Tiki emoji, but at least I have a Flamingo for now.
 
-![2019 Emojis][/assets/img/post/emoji2019.jpg]
+![2019 Emojis](/assets/img/post/emoji2019.jpg)
