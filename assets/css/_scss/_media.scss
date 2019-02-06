@@ -240,6 +240,17 @@ padding-bottom: 56.25%;
     margin: 0;
 }
 
+.social {
+    background-color: $dm-light-gray;
+    border: 4px solid $dm-light-gray;
+    color: $dm-white;
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+    max-height: 80%;
+    padding-bottom: 1em;
+}
+
 .index-metabar {
     width: 95%;
     margin: auto;
