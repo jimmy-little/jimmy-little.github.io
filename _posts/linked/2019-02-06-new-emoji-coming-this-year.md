@@ -7,6 +7,7 @@ category: Linked
 tags: [Emoji]
 img: emoji2019.jpg
 tn: emoji2019.jpg
+fig-caption: Emojipedia
 link: https://blog.emojipedia.org/230-new-emojis-in-final-list-for-2019/
 via: Emojipedia
 excerpt: "It's great to see all these new inclusive groups represented in Emoji. Same-sex couples, various disabilities, prosthetic appendages, more skin tone options, and gender options for jobs."
