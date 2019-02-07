@@ -5,7 +5,7 @@ author: jimmy
 layout: post
 category: Video
 via: YouTube
-link: https://www.youtube.com/embed/dULOjT9GYdQ
+link: https://www.youtube.com/watch?v=dULOjT9GYdQ
 youtubeId: dULOjT9GYdQ
 tags: [Video, Music, Geek]
 ---

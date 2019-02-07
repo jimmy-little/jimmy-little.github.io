@@ -6,7 +6,7 @@ subtitle: "Sometimes paper is best"
 tags: [Video, YouTube]
 category: Video
 layout: video
-link: https://www.youtube.com/3djg59JUrmc
+link: https://www.youtube.com/watch?v=3djg59JUrmc
 via: YouTube
 youtubeId: 3djg59JUrmc
 img: 3djg59JUrmc.jpg

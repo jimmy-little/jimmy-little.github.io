@@ -6,7 +6,7 @@ author: jimmy
 layout: video
 youtubeId: 0u_ztHyOW70
 category: Video
-link: https://www.youtube.com/embed/0u_ztHyOW70
+link: https://www.youtube.com/watch?v=0u_ztHyOW70
 via: YouTube
 tags: [Video, Fun]
 ---
