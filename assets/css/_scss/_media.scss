@@ -108,6 +108,11 @@ padding-bottom: 56.25%;
   .post .post-content {
     width: 100%;
   }
+    .post .post-content p
+    {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
   .post .post-content .post-title {
     margin: 5px 0 5px;
   }
