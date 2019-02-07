@@ -65,14 +65,15 @@
 @media only screen and (max-width: 948px) {
   .post {
     width: 48%;
-    max-width: 100%;
-    min-height: 20em;
+      margin: 0 0.9% 1.5%;
+      background-color: $white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
 .index-metabar {
     width: 95%;
     margin: auto;
@@ -172,6 +173,18 @@ padding-bottom: 56.25%;
 .contact-title, .copyright, .contact, .about p, .author-name, .about hr {
     display: none;
   }
+    
+    .post {
+    width: 100%;
+      margin-bottom: 1em;;
+      background-color: $white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;     
+    }
+    
 .post .post-thumbnail-micro {
   width: 100%;
   min-height: 11em;
