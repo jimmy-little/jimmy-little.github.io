@@ -208,6 +208,7 @@ footer .copyright {
 
 .post {
   max-width: 100%;
+    background-color: $white;
   position: relative;
   margin-bottom: 1.2rem;
   display: -webkit-box;
@@ -226,20 +227,19 @@ footer .copyright {
   -webkit-border-radius: 10px;
           border-radius: 10px;
   overflow: hidden;
-//  -webkit-transition: all .3s ease;
-//  -o-transition: all .3s ease;
-//  transition: all .3s ease;
-//  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-//          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 
 .post:hover {
-//  -webkit-transform: translate(0px, -2px);
-//      -ms-transform: translate(0px, -2px);
-//          transform: translate(0px, -2px);
-//  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-//          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-border: solid 1px $dark-gray;
+  -webkit-transform: translate(0px, -2px);
+      -ms-transform: translate(0px, -2px);
+          transform: translate(0px, -2px);
+  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 }
 
 
