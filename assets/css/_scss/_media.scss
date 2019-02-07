@@ -173,6 +173,18 @@ padding-bottom: 56.25%;
 .contact-title, .copyright, .contact, .about p, .author-name, .about hr {
     display: none;
   }
+    
+    .post {
+    width: 100%;
+      margin-bottom: 1em;;
+      background-color: $white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;     
+    }
+    
 .post .post-thumbnail-micro {
   width: 100%;
   min-height: 11em;
