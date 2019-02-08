@@ -6,7 +6,7 @@ subtitle: "Paging Mr. Glass..."
 tags: [Music]
 category: Video
 layout: video
-link: https://www.youtube.com/gzodB0Sp6ZI&feature=youtu.be
+link: https://www.youtube.com/watch?v=gzodB0Sp6ZI
 via: YouTube
 youtubeId: gzodB0Sp6ZI
 img: gzodB0Sp6ZI.jpg

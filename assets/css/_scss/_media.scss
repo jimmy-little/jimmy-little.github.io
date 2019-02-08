@@ -62,7 +62,7 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 948px) {
+@media only screen and (max-width: 1024px) {
   .post {
     width: 48%;
       margin: 0 0.9% 1.5%;
@@ -108,16 +108,25 @@ padding-bottom: 56.25%;
   .post .post-content {
     width: 100%;
   }
+    .post .post-content p
+    {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
   .post .post-content .post-title {
     margin: 5px 0 5px;
   }
   .post .post-content .post-title a {
     font-size: 21px;
   }
+.social {
+    width: 80%;
+    font-size: 1em;
+}
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 640px) {
   .sidebar {
     position: relative;
     display: -webkit-box;
@@ -173,6 +182,18 @@ padding-bottom: 56.25%;
 .contact-title, .copyright, .contact, .about p, .author-name, .about hr {
     display: none;
   }
+    
+    .post {
+    width: 100%;
+      margin-bottom: 1em;;
+      background-color: $white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;     
+    }
+    
 .post .post-thumbnail-micro {
   width: 100%;
   min-height: 11em;
@@ -204,18 +225,10 @@ padding-bottom: 56.25%;
 .sidebar-menu ul li a {
   text-decoration: none;
 }
-
-/*.index-read-pill {
-
+.social {
+    width: 80%;
+    font-size: 1em;
 }
-.read-more {
-    float: right;
-        }
-
-.read-source {
-    float: right;
-        }
-*/
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -242,20 +255,15 @@ padding-bottom: 56.25%;
 }
 
 .social {
-    background-color: $dm-light-gray;
-    border: 4px solid $dm-light-gray;
-    color: $dm-white;
-    width: 95%;
-    border-radius: 10px;
-    margin: auto;
-    max-height: 80%;
-    padding-bottom: 1em;
+    width: 98%;
+    font-size: 1em;
 }
 
 .index-metabar {
     width: 95%;
     margin: auto;
     }
+
 .post .post-thumbnail {
   border-radius: 0px;    
   width: 100%;
@@ -299,39 +307,57 @@ padding-bottom: 56.25%;
         border-radius: 0px;
     }
     
-.about {
-  width: 30%;
-  float: left;
-    vertical-align: middle;
+.sidebar {
+  margin-bottom: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-bottom: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
     }
-
+    
 .sidebar-menu {
-        float: right;
-    }
-.sidebar-menu ul {
   display: block;
-  list-style: none;
-  text-align: right;
+  width: 100%;
+  padding: 0;
 }
+    
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+    }
 
 .sidebar-menu ul li {
-
-  display: block;
+  display: inline;
+  margin: 0 !important;
 }
 
-.sidebar-menu ul li a {
-  text-decoration: none;
+.sidebar-menu li a {
+  display: inline-block;
+  font-size: .7em;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 19%;
+  text-align: center;
+}
+.about {
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
 }
 
-/*.index-read-pill {
-
-}
-    .read-more {
-        float: right;
-        }
-
-    .read-source {
-        float: right;
-        }
-*/
+.about .cover-author-image {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  overflow: hidden;
+  background-color: #333030;
+}  
 }

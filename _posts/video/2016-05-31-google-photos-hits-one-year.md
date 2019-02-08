@@ -5,7 +5,7 @@ tags: [Google, Photos]
 layout: video
 img:  googlephotos.png
 via: Google Blog
-link: http://www.youtube.com/embed/HQtGFBbwKEk
+link: http://www.youtube.com/watch?v=HQtGFBbwKEk
 youtubeID: HQtGFBbwKEk
 ---
 

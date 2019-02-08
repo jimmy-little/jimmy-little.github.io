@@ -4,7 +4,7 @@ date: 2015-11-24
 author: jimmy
 layout: video
 credit: Guiness
-link: https://www.youtube.com/embed/YAg_jqthRY4
+link: https://www.youtube.com/watch?v=YAg_jqthRY4
 via: Guiness World Records
 categories: Video
 tags: ["James Bond", Explosion]

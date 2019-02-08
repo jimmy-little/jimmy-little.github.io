@@ -3,7 +3,7 @@ title: Quadricopters and James Bond
 subtitle:
 category: Video
 via: YouTube
-link: https://www.youtube.com/embed/_sUeGC-8dyk
+link: https://www.youtube.com/watch?v=_sUeGC-8dyk
 date: 2012-03-03
 layout: video
 tags:

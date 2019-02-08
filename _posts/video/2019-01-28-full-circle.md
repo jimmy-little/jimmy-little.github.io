@@ -6,7 +6,7 @@ subtitle: "Nifty!"
 tags: [Apple, YouTube]
 category: Video
 layout: video
-link: https://www.youtube.com/ggL3OdWaZxM
+link: https://www.youtube.com/watch?v=ggL3OdWaZxM
 via: YouTube
 youtubeId: ggL3OdWaZxM
 img: ggL3OdWaZxM.jpg
