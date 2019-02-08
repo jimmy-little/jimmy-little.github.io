@@ -285,9 +285,10 @@ table tfoot td {
   margin-right: auto;
 }
 
-.post, .article-page {
+.post {
 width: 100%;
 max-width: 100%;
+background-color: #fff;
 margin-bottom: 1.5rem;
 display: -webkit-box;
 display: -webkit-flex;
@@ -311,6 +312,18 @@ overflow: hidden;
 transition: all .3s ease;
 -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+}
+
+.article-page {
+width: 100%;
+max-width: 100%;
+background-color: #fff;
+border-radius: 10px;
+}
+
+.article-page-social {
+width: 100%;
+max-width: 100%;
 }
 
 ::-moz-selection {
