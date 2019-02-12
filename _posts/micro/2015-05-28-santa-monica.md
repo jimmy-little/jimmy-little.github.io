@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/3NfcfGBXQS
 img: 3NfcfGBXQS.jpg
-tags: [Lego, Star Wars]
+tags: [Personal, Dogs]
 date: 2015-05-28
 ---
 Santa Monica

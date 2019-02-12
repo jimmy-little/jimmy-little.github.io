@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BTUIjtahD-h
 img: BTUIjtahD-h.jpg
-tags: [Lego, Star Wars]
+tags: [Dogs]
 date: 2017-04-25
 ---
 My dog looks in the mirror. 

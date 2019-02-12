@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BBeDvEXhXYu
 img: BBeDvEXhXYu.jpg
-tags: [Lego, Star Wars]
+tags: []
 date: 2016-02-07
 ---
 Bourbon tasting, Round 1.

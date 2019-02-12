@@ -1,10 +1,8 @@
 ---
 layout: page
-date:
-title: Archive
+date: 2019-02-12
+title: 🗄️ Archive
 ---
-<div class="post-linkthumb"><h1 class="videopost"> 🗄️ </h1></div>
-
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
   <h3>{{ yearMonth.name }}</h3>
