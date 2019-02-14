@@ -117,7 +117,8 @@
     max-width: 90%;
 }
 
-.tag-social, .tag-social a {
+.tag-social {
+    display: block;
     color: $dm-white;
     margin-bottom: 1em;
     text-align: center;
@@ -241,6 +242,19 @@ img + em {
     font-size: .7em;
     font-style: italic;
     color: $dark-gray;
+}
+
+.mid-post {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .8em;
+    color: $dark-gray;
+    font-style: italic;
 }
 
 .videoWrapper {

@@ -72,7 +72,6 @@ layout: main
       <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
 {% endif%}      
       {{content | markdownify}}
-    
  {% if page.via == "Twitter" %}
             <span class="tag-social"><a href="{{page.link}}" class="tag-social"><i class="fa fa-twitter"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
  {% elsif page.via == "Instagram" %}

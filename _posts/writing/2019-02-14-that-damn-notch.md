@@ -7,14 +7,17 @@ layout: post
 tags: [Apple, iPhone]
 img: notch.png
 tn: notch.png
+excerpt: "I switched the sidebar of the site to a dark color last week. It's a small change, but I think it sets off the content better than the previous sea of white. Here's how easy it is..."
 ---
 
-I switched the sidebar of the site to a dark sidebar last week. It's a small change, but I think it sets off the content better than the previous sea of white. Then I noticed something on my phone. The iPhone X series has a notched display, and the background color of the page (by default) fills the overflow area. We need to change that!<!-- more -->
+I switched the sidebar of the site to a dark color last week. It's a small change, but I think it sets off the content better than the previous sea of white. Then I noticed something on my phone. The iPhone X series has a notched display, and the background color of the page (by default) fills the overflow area. We need to change that!
 
 Here is how the site looked pre-this. The dark sidebar with the light stripe in the "safe area" is pretty ugly. And if you hold the phone the other way (notch on the right), the notch cuts off a very small bit of the content cards.
 
-<img src="/assets/img/post/notch/before.png" align="center" width="300">
-*Before the change. Look at that ugly left side!*
+<figure>
+  <img class="mid-post" src="/assets/img/post/notch/before.png" alt="Before all this work"/>
+  <figcaption>Before the change. Look at that ugly left side!</figcaption>
+</figure>
 
 So, step one is to add a line of code to the header of your site. I use a Jekyll static site builder, so I added it to the `head.htm` file that is imported as the header to every page<sup>1</sup> 
 
@@ -23,9 +26,11 @@ Add this to the header of your site's pages:
 
 This will tell a WebKit browser to scale the content to fit the display instead of staying in the safe areas. Here is what it looks like after that one line is added:
 
+<figure>
+  <img class="mid-post" src="/assets/img/post/notch/during.png" alt="Halfway there!"/>
+  <figcaption>Better, but now the text is cut off</figcaption>
+</figure>
 
-<img src="/assets/img/post/notch/during.png" align="center" width="300">
-*Better, but now the text is cut off*
 
 Much better, but now the text in the sidebar is cut off.We'll need to add some padding. There are far more complex and elegant ways to deal with this, as laid out [in this post from webkit.org][1]. I'm not doing that for a couple reasons. Mainly, the Github version of the Jekyll builder doens't support the `safe-area-inset` variables, so it's useless to me. Also, in my case, I can ix it with a simple media query so I'm not going through all the additional work.
 
@@ -53,8 +58,11 @@ Now, this will add the extra padding to the sidebar <div> for any screen over 14
 
 The end result is very satisfying to me. The sidebar color fills to notch overflow area, and the text is all readable. 
 
-<img src="/assets/img/post/notch/after.png" align="center" width="300">
-*There it is.*
+<figure>
+  <img class="mid-post" src="/assets/img/post/notch/after.png" alt="Finished. Text is no longer cut off."/>
+  <figcaption>There it is!</figcaption>
+</figure>
+
 
 All of this was done with one line in the header and 6 lines of CSS. Pretty simple.
 
