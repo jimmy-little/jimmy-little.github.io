@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BUiHIpoBIiG
 img: BUiHIpoBIiG.jpg
-tags: [Lego, Star Wars]
+tags: []
 date: 2017-05-25
 ---
 Happy National Wine Day, America.

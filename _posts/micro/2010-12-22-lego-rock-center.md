@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/pbUq
 img: pbUq.jpg
-tags: [Lego, Star Wars]
+tags: [Lego]
 date: 2010-12-22
 ---
 Lego Rock Center

@@ -11,15 +11,13 @@ date: 2019-02-04
         {% if page.subtitle %}
           <h3 class="page-subtitle">{{page.subtitle}}</h3>
         {% endif %}
+<!-- no date on pages     
         <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
+ -->   
       </header>
       {{content | markdownify}}
 <div class="page-footer">
 <div class="page-tag">
-        {% if page.via %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-link"></i> {{page.via}}</a> 
-        {% endif %}
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
         {% if site.social-rss %}
     <a href={{site.baseurl}}/{{site.social-rss}}><i class="fa fa-rss"></i> RSS</a>
         {% endif %}
