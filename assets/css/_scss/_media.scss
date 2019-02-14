@@ -1,4 +1,4 @@
-/* Dark Mode */
+/* -------------------------------------------------- Dark Mode */
 @media (prefers-color-scheme: dark) {
   body {
     color: $dm-white;
@@ -61,8 +61,36 @@
 }
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 1024px) {
+/* -------------------------------------------------- Extra Large Devices, Desktops over 1440 */
+@media only screen and (min-width: 1440px) {
+
+}
+/* -------------------------------------------------- Large Devices, Laptops up to 1439 */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* ---------------------------------- Content Box */
+.content-box {
+    padding: 10px;
+    padding-left: 260px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+/* ---------------------------------- Menu and Bar */
+
+/* ---------------------------------- Post */  
   .post {
     width: 48%;
       margin: 0 0.9% 1.5%;
@@ -125,42 +153,12 @@ padding-bottom: 56.25%;
 }
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width: 640px) {
-  .sidebar {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 100%;
+
+/* -------------------------------------------------- Medium Devices, Tablets up to 768 */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+/* ---------------------------------- Content Box */
+.content-box {
     padding: 10px;
-    border-bottom: 2px solid $dark-gray;
-    margin-bottom: 1em;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  }
-  .sidebar footer {
-    margin-bottom: 10px;
-    }
-    
-.index-metabar {
-    width: 95%;
-    margin: auto;
-    }
-    
-  .content-box {
-    padding: 20px 10px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -179,102 +177,101 @@ padding-bottom: 56.25%;
             align-items: stretch;
   }
 
-.contact-title, .copyright, .contact, .about p, .author-name, .about hr {
-    display: none;
-  }
-    
-    .post {
-    width: 100%;
-      margin-bottom: 1em;;
-      background-color: $white;
+/* ---------------------------------- Menu and Bar */
+.sidebar {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column;     
-    }
-    
-.post .post-thumbnail-micro {
-  width: 100%;
-  min-height: 11em;
-padding-bottom: 56.25%;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: 50% 50%;
-}
-.about {
-  width: 30%;
-  float: left;
-  vertical-align: middle;
-    }
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding-top: 1em;
+    padding: 10px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  }
+
+.sidebar footer, .contact-title, .copyright, .contact, .about p, .author-name, .about hr {
+    display: none;
+  }
 
 .sidebar-menu {
-        float: right;
-    }
-.sidebar-menu ul {
   display: block;
-  list-style: none;
-  text-align: right;
+  width: 100%;
+  padding: 0;
 }
+    
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+    }
 
 .sidebar-menu ul li {
-
-  display: block;
+  display: inline;
+  margin: 0 !important;
 }
 
-.sidebar-menu ul li a {
-  text-decoration: none;
+.sidebar-menu li a {
+  display: inline-block;
+  font-size: .7em;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 19%;
+  text-align: center;
+  color: $black;
 }
-.social {
-    width: 80%;
-    font-size: 1em;
+
+.about {
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
 }
+
+.about .cover-author-image {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  overflow: hidden;
+  background-color: #333030;
 }
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .content-box {
-    padding: 0px;
-      border-radius: 0px;
-  }
+/* ---------------------------------- Post */   
   .post {
-    border-radius: 0px;
-    max-width: 100%;
-    min-height: 20em;
+    width: 48%;
+      margin: 0 0.9% 1.5%;
+      background-color: $white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-    
-.social p {
-    text-align: left;
-    padding: .5em;
-    font-size: 1em;
-    margin: 0;
-}
-
-.social {
-    width: 98%;
-    font-size: 1em;
-}
-
-.index-metabar {
-    width: 95%;
-    margin: auto;
-    }
 
 .post .post-thumbnail {
-  border-radius: 0px;    
   width: 100%;
   padding-bottom: 56.25%;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
 }
+    
 .post .post-thumbnail-micro {
   width: 100%;
   min-height: 11em;
+padding-bottom: 56.25%;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
@@ -289,34 +286,60 @@ padding-bottom: 56.25%;
     margin-right: auto;
     vertical-align: middle;
 }
-  .post .post-content {
+
+.post .post-content {
     width: 100%;
   }
-  .post .post-content .post-title {
-    margin: 0 0 5px;
+.post .post-content p
+    {
+    margin-left: .5em;
+    margin-right: .5em;
+    }
+.post .post-content .post-title {
+    margin: 5px 0 5px;
   }
-  .post .post-content .post-title a {
-    font-size: 18px;
+.post .post-content .post-title a {
+    font-size: 21px;
+  }
+/* ---------------------------------- Social Post */
+.social {
+    width: 80%;
+    font-size: 1em;
+}
+}
+
+/* --------------------------------------------------  Small Devices, Phones up to 480 */
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+/* ---------------------------------- Content Box */
+.content-box {
+    padding: 0px;
+    border-radius: 0px;
+  }
+/* ---------------------------------- Menu and Bar */
+.sidebar {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
 
-.contact, .about p, .author-name, .about hr {
+.sidebar footer, .contact-title, .copyright, .contact, .about p, .author-name, .about hr {
     display: none;
   }
-
-.page-cover-image, .page-image, .article-page, .page-cover-image, .page-cover-image .page-image {
-        border-radius: 0px;
-    }
-    
-.sidebar {
-  margin-bottom: 0;
-  padding: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  border-bottom: none;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-    }
     
 .sidebar-menu {
   display: block;
@@ -343,6 +366,7 @@ padding-bottom: 56.25%;
   padding-bottom: 0;
   width: 19%;
   text-align: center;
+  color: $black;
 }
 .about {
   width: 100%;
@@ -360,4 +384,76 @@ padding-bottom: 56.25%;
   overflow: hidden;
   background-color: #333030;
 }  
+/* ---------------------------------- Post */
+  .post {
+    border-radius: 0px;
+    max-width: 100%;
+    min-height: 20em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+.post .post-thumbnail {
+  border-radius: 0px;    
+  width: 100%;
+  padding-bottom: 56.25%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+}
+.post .post-thumbnail-micro {
+  width: 100%;
+  min-height: 11em;
+  padding-bottom: 56.25%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+}
+
+.post .post-linkthumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.post .post-content {
+    width: 100%;
+  }
+.post .post-content .post-title {
+    margin: 0 0 5px;
+  }
+.post .post-content .post-title a {
+    font-size: 18px;
+  }
+.index-metabar {
+    width: 95%;
+    margin: auto;
+    }
+/* ---------------------------------- Social Post */
+.social p {
+    text-align: left;
+    padding: .5em;
+    font-size: 1em;
+    margin: 0;
+}
+
+.social {
+    width: 98%;
+    font-size: 1em;
+}
+
+.contact, .about p, .author-name, .about hr {
+    display: none;
+  }
+
+.page-cover-image, .page-image, .article-page, .page-cover-image, .page-cover-image .page-image {
+        border-radius: 0px;
+    }
+    
 }

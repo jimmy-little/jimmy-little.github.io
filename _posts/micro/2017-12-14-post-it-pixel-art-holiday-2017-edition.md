@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BcrB2_Wnowp
 img: BcrB2_Wnowp.jpg
-tags: [Lego, Star Wars]
+tags: [Christmas]
 date: 2017-12-14
 ---
 Post It Pixel Art: Holiday 2017 Edition. 

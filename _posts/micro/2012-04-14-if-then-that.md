@@ -5,6 +5,6 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/JYlaTXBXWJ
 img: JYlaTXBXWJ.jpg
-tags: [Lego, Star Wars]
+tags: []
 date: 2012-04-14
 ---

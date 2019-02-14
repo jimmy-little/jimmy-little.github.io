@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Ba42dSqH81m
 img: Ba42dSqH81m.jpg
-tags: [Lego, Star Wars]
+tags: []
 date: 2017-10-30
 ---
 Well I’m Pennywise. And you’re @carlybracco... So I guess we know each other now!

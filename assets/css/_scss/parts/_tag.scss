@@ -18,6 +18,7 @@
 .tags {
   margin: 0;
   padding: 10px;
+  text-align: center;
 }
 
 .tags li {
@@ -42,7 +43,7 @@
 }
 
 .tags li a:hover {
-  background-color: #ecf0f1;
+  background-color: $lightgray;
 }
 
 .tag-list span a {

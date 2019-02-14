@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/H6jFYrhXT9
 img: H6jFYrhXT9.jpg
-tags: [Lego, Star Wars]
+tags: []
 date: 2012-03-08
 ---
 Nothing like being back home...

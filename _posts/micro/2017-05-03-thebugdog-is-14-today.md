@@ -5,7 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BTpJDPbhf8-
 img: BTpJDPbhf8-.jpg
-tags: [Lego, Star Wars]
+tags: [Dogs]
 date: 2017-05-03
 ---
 @thebugdog is 14 today!
