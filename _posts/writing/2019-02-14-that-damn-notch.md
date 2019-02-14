@@ -32,9 +32,9 @@ This will tell a WebKit browser to scale the content to fit the display instead 
 </figure>
 
 
-Much better, but now the text in the sidebar is cut off.We'll need to add some padding. There are far more complex and elegant ways to deal with this, as laid out [in this post from webkit.org][1]. I'm not doing that for a couple reasons. Mainly, the Github version of the Jekyll builder doens't support the `safe-area-inset` variables, so it's useless to me. Also, in my case, I can ix it with a simple media query so I'm not going through all the additional work.
+Much better, but now the text in the sidebar is cut off. We'll need to add some padding. There are far more complex and elegant ways to deal with this, as laid out [in this post from webkit.org][1]. I'm not doing that for a couple reasons. Mainly, the Github version of the Jekyll builder doesn't support the `safe-area-inset` variables, so it's useless to me. Also, in my case, I can fix it with a simple media query so I'm not going through all the additional work.
 
-For my site, the only issue is that some of the text is cut off in the sidebar. Sonce the sidebar is persistent and never changes, I don't need any fancy calculations. I just need to nudge the text over. 
+For my site, the only issue is that some of the text is cut off in the sidebar. Since the sidebar is persistent and never changes, I don't need any fancy calculations. I just need to nudge the text over. 
 
 I have three CSS breakpoints for my site. Basically phone, tablet, and "big". The iPhone X and X🅂 in landscape both fit into the "big" category, since they have such high resolution screens (over 1440px, which is my "big" breakpoint). So all I have to do is go into the CSS file and add
 
