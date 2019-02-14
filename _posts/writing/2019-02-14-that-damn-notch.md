@@ -1,6 +1,6 @@
 ---
 date: 2019-02-14
-title:"That Damn Notch"
+title: "That Damn Notch"
 subtitle: "A dead-simple way I'm dealing with the iPhone X"
 category: Writing
 layout: post
