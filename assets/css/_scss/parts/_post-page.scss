@@ -119,9 +119,11 @@
 
 .tag-social, .tag-social a {
     color: $dm-white;
-    margin-left: 2em;
     margin-bottom: 1em;
+    text-align: center;
+    font-size: .8em;
 }
+
 .page-footer .page-tag a {
   float:left;
   display: inline-block;
