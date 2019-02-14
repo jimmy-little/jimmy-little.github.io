@@ -63,8 +63,14 @@
 
 /* -------------------------------------------------- Extra Large Devices, Desktops over 1440 */
 @media only screen and (min-width: 1440px) {
-
-
+    .sidebar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .content-box {
+        padding-right: 40px;
+    }
 }
 /* -------------------------------------------------- Large Devices, Laptops up to 1439 */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -72,6 +78,7 @@
 .content-box {
     padding: 10px;
     padding-left: 260px;
+    padding-right: 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
