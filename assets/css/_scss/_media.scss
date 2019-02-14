@@ -63,11 +63,11 @@
 
 /* -------------------------------------------------- Extra Large Devices, Desktops over 1440 */
 @media only screen and (min-width: 1025px) {
-//    .sidebar {
-//        padding-left: 40px;
-//        padding-right: 40px;
-//    }
-//    
+    .sidebar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
     .content-box {
         padding-right: 40px;
     }
@@ -76,7 +76,7 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 /* ---------------------------------- Content Box */
 .content-box {
-    //padding: 10px;
+    padding: 10px;
     padding-left: 260px;
     padding-right: 40px;
     display: -webkit-box;
@@ -98,10 +98,10 @@
   }
 
 /* ---------------------------------- Menu and Bar */
-//    .sidebar {
-//        padding-left: 40px;
-//        padding-right: 40px;
-//    }
+    .sidebar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 /* ---------------------------------- Post */  
   .post {
     width: 48%;
