@@ -22,7 +22,9 @@ Here is how the site looked pre-this. The dark sidebar with the light stripe in 
 So, step one is to add a line of code to the header of your site. I use a Jekyll static site builder, so I added it to the `head.htm` file that is imported as the header to every page<sup>1</sup> 
 
 Add this to the header of your site's pages:
-`<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>`
+```
+<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+```
 
 This will tell a WebKit browser to scale the content to fit the display instead of staying in the safe areas. Here is what it looks like after that one line is added:
 
