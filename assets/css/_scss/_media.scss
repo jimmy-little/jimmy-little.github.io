@@ -62,15 +62,23 @@
 }
 
 /* -------------------------------------------------- Extra Large Devices, Desktops over 1440 */
-@media only screen and (min-width: 1440px) {
-
+@media only screen and (min-width: 1025px) {
+    .sidebar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .content-box {
+        padding-right: 40px;
+    }
 }
-/* -------------------------------------------------- Large Devices, Laptops up to 1439 */
+/* -------------------------------------------------- Large Devices, Laptops up to 1024 */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 /* ---------------------------------- Content Box */
 .content-box {
     padding: 10px;
     padding-left: 260px;
+    padding-right: 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -88,8 +96,12 @@
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-/* ---------------------------------- Menu and Bar */
 
+/* ---------------------------------- Menu and Bar */
+    .sidebar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 /* ---------------------------------- Post */  
   .post {
     width: 48%;
@@ -151,6 +163,7 @@ padding-bottom: 56.25%;
     width: 80%;
     font-size: 1em;
 }
+
 }
 
 
@@ -306,14 +319,16 @@ padding-bottom: 56.25%;
     width: 80%;
     font-size: 1em;
 }
+
 }
 
 /* --------------------------------------------------  Small Devices, Phones up to 480 */
 @media only screen and (min-width: 200px) and (max-width: 480px) {
 /* ---------------------------------- Content Box */
 .content-box {
-    padding: 0px;
-    border-radius: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 /* ---------------------------------- Menu and Bar */
 .sidebar {
@@ -332,7 +347,7 @@ padding-bottom: 56.25%;
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
-    padding: 10px;
+    padding: 6px;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
@@ -445,8 +460,8 @@ padding-bottom: 56.25%;
 
 .social {
     width: 98%;
-    font-size: 1em;
 }
+
 
 .contact, .about p, .author-name, .about hr {
     display: none;
