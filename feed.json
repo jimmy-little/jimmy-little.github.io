@@ -24,8 +24,7 @@ layout: null
   "user_comment": "{{ feed.user_comment }}",{% endif %}{% if feed.author %}
   "author": {
     "name": "{{ author_name }}"{% if feed.author.url %},
-    "url": "{{ feed.author.url }}"{% endif %}{% if avatar_url %},
-    "avatar": "{{ avatar_url }}"{% endif %}
+    "url": "{{ feed.author.url }}"{% endif %}
   }{% endif %}{% if feed.expired %},
   "expired": {{ feed.expired }}{% endif %}, {% if hubs %}
   "hubs": [{% for hub in hubs %}{
@@ -54,18 +53,19 @@ layout: null
         {% assign content = post.content | expand_urls: site.url | jsonify %}
       {% endif %}
 
-
+{% if post.img %}
       {% assign local_image_url = post.img | absolute_url %}
       {% assign image_url = "/assets/img/post/" | append: post.img | prepend: site.url %}
 
       {% assign local_banner_image_url = post_json_feed.banner_image.local_path | absolute_url %}
       {% assign banner_image_url = post_json_feed.banner_image.external_url | default: local_banner_image_url | default: post.banner_image %}
-
+{% else %}
+      {% assign image_url = "/assets/img/site/micro.png" | prepend: site.url %}
+      {% endif %}
       {% assign post_author = post_json_feed.author  %}
       {% assign post_author_name = post_author.name %}
       {% assign post_author_url = post_author.url %}
-      {% assign post_local_avatar_url = post_author.avatar.local_path | absolute_url %}
-      {% assign post_avatar_url = post_author.avatar.external_url | default: post_local_avatar_url %}
+
 
       {% if feed.use_category_as_tag %}
         {% assign tags = post.category | jsonify %}
