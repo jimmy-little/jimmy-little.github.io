@@ -3,7 +3,7 @@ title: Mojave Dark Mode in Safari
 subtitle: Come to the dark side
 layout: post
 category: Writing
-tags: [Safari, Dark Mode, CSS]
+tags: [Safari, Dark Mode, CSS, Jekyll]
 img: darkmode.jpg
 tn: darkmode.jpg
 ---

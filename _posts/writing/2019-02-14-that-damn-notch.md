@@ -4,7 +4,7 @@ title: "That Damn Notch"
 subtitle: "A dead-simple way I'm dealing with the iPhone X"
 category: Writing
 layout: post
-tags: [Apple, iPhone]
+tags: [Apple, iPhone, Jekyll]
 img: notch.png
 tn: notch.png
 excerpt: "I switched the sidebar of the site to a dark color last week. It's a small change, but I think it sets off the content better than the previous sea of white. Here's how easy it is..."

@@ -3,7 +3,7 @@ title: Saving Instagram Posts to the Blog
 subtitle: Just in case Facebook goes away
 layout: post
 category: Writing
-tags: [Instagram, Shortcuts, iOS, Automation]
+tags: [Instagram, Shortcuts, iOS, Automation, Jekyll]
 img: instagram-shortcut-to-blog.jpg
 tn: instagram-shortcut-to-blog.jpg
 date: 2018-11-11
