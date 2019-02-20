@@ -73,7 +73,7 @@ layout: main
 {% endif%}      
       {{content | markdownify}}
  {% if page.via == "Twitter" %}
-            <span class="tag-social"><a href="{{page.link}}" class="tag-social"><i class="fa fa-twitter"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
+            <span class="tag-social"><a href="{{page.link}}"><i class="fa fa-twitter"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
  {% elsif page.via == "Instagram" %}
             <span class="tag-social"><a href="{{page.link}}"><i class="fa fa-instagram"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
  {% endif %}

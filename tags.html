@@ -12,7 +12,7 @@ date: 2019-02-12
   <ul class="tags">
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   {% for this_word in tag_words %}
-    <li ><a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span class="tag-count">| {{ site.tags[this_word].size }}</span></a></li>
+    <li ><a href="#{{ this_word | cgi_escape }}" class="tag" title="{{ this_word }}">{{ this_word }} <span class="tag-count">| {{ site.tags[this_word].size }}</span></a></li>
   {% endfor %}
   </ul>
 <!--cycles through tag list and creates subheader for each tag name...-->
@@ -23,7 +23,7 @@ date: 2019-02-12
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     
     <div class="tag-list">
-        <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+        <span><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title}}">{{ post.title }}</a></span>
         <small><span>| {{ post.date | date_to_string }}</span></small>
     </div>
     {% endif %}{% endfor %}
