@@ -19,7 +19,7 @@ Here is how the site looked pre-this. The dark sidebar with the light stripe in 
   <figcaption>Before the change. Look at that ugly left side!</figcaption>
 </figure>
 
-So, step one is to add a line of code to the header of your site. I use a Jekyll static site builder, so I added it to the `head.htm` file that is imported as the header to every page<sup>1</sup> 
+##### So, step one is to add a line of code to the header of your site. I use a Jekyll static site builder, so I added it to the `head.htm` file that is imported as the header to every page<sup>1</sup> 
 
 Add this to the header of your site's pages:
 ```
