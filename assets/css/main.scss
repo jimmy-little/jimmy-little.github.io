@@ -366,8 +366,27 @@ a:active {
     font-weight: bolder;
 }
 
+a.footnote {
+    color: $white;
+    padding: 0 .5em 0 .5em;
+    text-decoration: none;
+    background-color: $dark-gray;
+    line-height: 1em;
+    text-align: center;
+    margin: 0 .25em 0 .25em;
+    border-radius: 5px;
+}
 
+reversefootnote {
+ text-decoration: none;
+}
 
+.footnotes {
+    background-color: $lightgray;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: .8em;
+}
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';

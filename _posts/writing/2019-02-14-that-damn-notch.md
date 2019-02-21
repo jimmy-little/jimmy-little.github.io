@@ -19,7 +19,7 @@ Here is how the site looked pre-this. The dark sidebar with the light stripe in 
   <figcaption>Before the change. Look at that ugly left side!</figcaption>
 </figure>
 
-##### So, step one is to add a line of code to the header of your site. I use a Jekyll static site builder, so I added it to the `head.htm` file that is imported as the header to every page<sup>1</sup> 
+So, step one is to add a line of code to the header of your site. I use a Jekyll static site builder, so I added it to the `head.htm` file that is imported as the header to every page[^1]
 
 Add this to the header of your site's pages:
 ```
@@ -71,7 +71,7 @@ All of this was done with one line in the header and 6 lines of CSS. Pretty simp
 
 ---
 
-1. This is a huge benefit of using `@import` in your site structure. Each page includes the header file. If you need to change the header, you change it once, and next time the site is generated it's everywhere. I also do this with the sidebar, the footer, and the related posts modules.
+[^1]: This is a huge benefit of using `@import` in your site structure. Each page includes the header file. If you need to change the header, you change it once, and next time the site is generated it's everywhere. I also do this with the sidebar, the footer, and the related posts modules.
 
 
 [1]: https://webkit.org/blog/7929/designing-websites-for-iphone-x/

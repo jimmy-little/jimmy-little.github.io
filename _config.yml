@@ -30,6 +30,8 @@ analytics: UA-76295212-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
+kramdown:
+    footnote_backlink: "⤴"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate

@@ -2,6 +2,7 @@
 layout: page
 title: 🤔 About
 permalink: /about/
+date: 2018-11-02
 ---
 ### About Cocktails & Coffee
 
