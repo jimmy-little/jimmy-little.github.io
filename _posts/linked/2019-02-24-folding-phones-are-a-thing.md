@@ -1,17 +1,16 @@
 ---
-
 title: Folding Phones Are Coming
-subtitle:
+subtitle: "I'll wait."
 date: 2019-02-24
 layout: post
 category: Linked
 tags: [Phone]
 via: Huawei
 link: https://consumer.huawei.com/en/phones/mate-x/
+fig-caption: Huawei
 img: matex2019.jpg
 tn: matex2019.jpg
-excerpt: "Folding displays will become a thing some day. Right now, it's early days. A folding phone is basically 2 phones hinged together by a flexible screen. Double the thickness, double the weight.
-
+excerpt: "Folding displays will become a thing some day. Right now, it's early days. A folding phone is basically 2 phones hinged together by a flexible screen. Double the thickness, double the weight."
 ---
 
 From the [Huawei Blog][1]
