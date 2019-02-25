@@ -1,0 +1,12 @@
+---
+title: "2019-02-24-fryman-canyon-hike"
+layout: post
+category: Micro
+via: Instagram
+link: https://www.instagram.com/p/BuQPJsDhLRx
+tn: BuQPJsDhLRx.jpg
+img: BuQPJsDhLRx.jpg
+tags: [Parenthood]
+date: 2019-02-24
+---
+Fryman Canyon Hike. Sunglasses required. 😎
