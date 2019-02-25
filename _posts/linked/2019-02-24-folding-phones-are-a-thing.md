@@ -1,7 +1,7 @@
 
 ---
 title: Folding Phones Are Coming
-subtitle: Looks cool, but I'll wait a bit
+subtitle: "Looks cool, but I'll wait a bit"
 date: 2019-02-24
 layout: post
 category: Linked
