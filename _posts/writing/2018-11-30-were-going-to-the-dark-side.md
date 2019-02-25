@@ -3,7 +3,7 @@ title: Mojave Dark Mode in Safari
 subtitle: Come to the dark side
 layout: post
 category: Writing
-tags: [Safari, Dark Mode, CSS]
+tags: [Safari, Dark Mode, CSS, Jekyll]
 img: darkmode.jpg
 tn: darkmode.jpg
 ---
@@ -73,7 +73,7 @@ Then, you just add whatever CSS you need to edit between the curly brackets and 
 
 ### Using Variables
 
-I use a Jekyll blog engine on Github, and I've set my site up to use a variables file. If you're using Jekyll and not using variables, you're missing out. To make dark mode easy for me, I basically just stole macOS's colors. I used the dark gray and light gray background colors, and the slightly off-white text color from the system to make my site look natural in dark mode. Because I use a variables file, I just set up a few new colors:
+I use a Jekyll blog engine on Github, and I've set my site up to use a variables file.[^1] If you're using Jekyll and not using variables, you're missing out. To make dark mode easy for me, I basically just stole macOS's colors. I used the dark gray and light gray background colors, and the slightly off-white text color from the system to make my site look natural in dark mode. Because I use a variables file, I just set up a few new colors:
 
 ```
 /*  Dark Mode Theme Colors */
@@ -110,10 +110,12 @@ Again, using variables means that if I ever decide to change my page's `dm-dark-
 
 Fancy.
 
-Finally, here's how it looks when we go to the dark side:
+Finally, here's how it looks when we go to the dark side:[^2]
 
 <img src="/assets/img/post/darkmode.gif" align="center" width="75%">
 
 ----
 
-<sup>1</sup> I tried to find a good blog post on using vairables in Jekyll, but couldn't find one. Maybe I'll have to write that one up at some point.
+[^1]: I tried to find a good blog post on using vairables in Jekyll, but couldn't find one. Maybe I'll have to write that one up at some point.
+
+[^2]: Yes, I know it's not perfect, but it's pretty damn good for a few minutes work.

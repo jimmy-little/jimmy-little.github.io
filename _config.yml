@@ -18,8 +18,9 @@ social-instagram: jimmylittle
 social-facebook: # add your Facebook handle
 social-github: jimmy-little # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: thejimmylittle@gmail.com # add your Email address
-social-rss: feeds/feed.json
+# social-email: thejimmylittle@gmail.com # add your Email address
+social-rss: feed.xml
+social-json: feed.json
 
 # Disqus
 discus-identifier: # add your discus identifier
@@ -29,15 +30,21 @@ analytics: UA-76295212-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
+kramdown:
+    footnote_backlink: "⤴"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-feed
 
 paginate: 30
 paginate_path: "/page/:num"
 
 sass: 
     sass_dir: /assets/css/_scss
+
+json_feed:
+  use_jekyll_data: true
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "/vendor"]

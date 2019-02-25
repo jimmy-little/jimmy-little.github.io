@@ -154,6 +154,17 @@
   text-transform: uppercase;
 }
 
+.footer-date-page {
+    margin-top: .5em;
+    text-align: center;
+    color: $dark-gray;
+    font-size: .8em;
+    border: 1px solid $dark-gray;
+    padding: 0 .5em 0 .5em;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
 .tag-header {
   font-weight: 700;
   font-family: "Futura", "sans-serif";

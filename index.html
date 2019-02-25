@@ -73,8 +73,7 @@ layout: main
 </div>
 <!---------------------- POST METADATA ----------------------> 
 <div class="index-metadata">      
-    <span class="post-date">{{post.date | date: '%B %d, %Y'}}<!--&nbsp;&nbsp;&nbsp;—&nbsp;
-    {% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}--></span>
+    <span class="post-date">{{post.date | date: '%B %d, %Y'}}</span>
 </div> 
 </div>
 </div><!-- END post-content -->

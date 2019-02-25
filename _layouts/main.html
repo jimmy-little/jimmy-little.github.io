@@ -6,7 +6,7 @@ layout: default
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/{{site.author-img}}" alt="{{site.author}}"></a>
+        <a href="{{site.baseurl}}/" title="Home"><img src="{{site.baseurl}}/{{site.author-img}}" alt="{{site.author}}"></a>
       </div>  
         
       <div class="author-name">{{site.author}}</div>
@@ -16,11 +16,12 @@ layout: default
     </div>
       <div class="sidebar-menu">
     <ul>
-      <li><a href = "/">Home</a></li> 
-      <li><a href = "/archive">Archive</a></li>
-      <li><a href = "/categories">Categories</a></li>
-      <li><a href = "/tags">Tags</a></li>
-      <li><a href = "/about">About</a></li>
+      <li><a href = "/" title="Home">Home</a></li> 
+      <li><a href = "/archive" title="Archive of Posts by Date">Archive</a></li>
+      <li><a href = "/categories" title="Posts by Category">Categories</a></li>
+      <li><a href = "/tags" title="Posts by Tag">Tags</a></li>
+      <li><a href = "/about" title="About Cocktails & Coffee">About</a></li>
+      <li><a href = "/search" title="Search Cocktails & Coffee">Search</a></li>    
     </ul>    
       </div> 
 </header> 
@@ -32,16 +33,19 @@ layout: default
         <p class="bio">{{site.about-author}}</p>
       <ul>
         {% if site.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank" title="Jump to Jimmy's Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-instagram %}
-          <li><a href="https://instagram.com/{{ site.social-instagram }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://instagram.com/{{ site.social-instagram }}" target="_blank" title="Jump to Jimmy's Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+          <li class="email"><a href="mailto:{{site.social-email}}" title="Email Jimmy"><i class="fa fa-envelope-o"></i></a></li>
         {% endif %}
         {% if site.social-rss %}
-          <li class="rss"><a href={{site.baseurl}}/{{site.social-rss}}><i class="fa fa-rss"></i></a></li>
+          <li class="rss"><a href={{site.baseurl}}/{{site.social-rss}} title="RSS via XML"><i class="fa fa-rss"></i></a></li>
+        {% endif %}
+        {% if site.social-json %}
+          <li class="rss"><a href={{site.baseurl}}/{{site.social-json}} title="RSS via JSON"><i class="fa fa-rss-square"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
