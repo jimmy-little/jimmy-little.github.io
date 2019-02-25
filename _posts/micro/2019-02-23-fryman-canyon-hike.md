@@ -7,6 +7,6 @@ link: https://www.instagram.com/p/BuQPJsDhLRx
 tn: BuQPJsDhLRx.jpg
 img: BuQPJsDhLRx.jpg
 tags: [Parenthood]
-date: 2019-02-24
+date: 2019-02-23
 ---
 Fryman Canyon Hike. Sunglasses required. 😎
