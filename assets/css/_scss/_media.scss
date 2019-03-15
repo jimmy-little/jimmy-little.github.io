@@ -108,11 +108,12 @@
     width: 48%;
       margin: 0 0.9% 1.5%;
       background-color: $white;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+/* card view */
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
 
 .index-metabar {
