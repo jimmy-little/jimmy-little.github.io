@@ -1,14 +1,13 @@
 ---
-
-title: Bloomframe.  Yes, Please.
+title: Bloomframe
+subtitle: Yes, please
 date: 2009-10-10
 layout: video
 category: Video
 via: YouTube
-tags:
-  - Green
-youtubeId: iwguRr6LuAY
-link: [https://www.youtube.com/watch?v=iwguRr6LuAY][1]
+tags: [Green]
+youtubeId: iwguRr6LuA
+link: https://www.youtube.com/watch?v=iwguRr6LuAY
 ---
 
   Living in a modest apartment in Brooklyn Heights has its advantages.  I believe in living little.  Living little is my way of making as small an impact as I can on the environment without living in a yurt and showering in a lake.  More on that in the future…
@@ -21,4 +20,3 @@ Enter the Bloomframe.  It's basically a window that folds out of the wall and b
 
 I can see some issues with efficiency, notably the giant hole in the side of your climate controlled space every time you open the balcony, but that's nothing a sliding glass door mounted inside the Bloomframe can't handle.
 
-[1]:	https://www.youtube.com/watch?v=iwguRr6LuAY
