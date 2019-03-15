@@ -1,10 +1,9 @@
 ---
 
 title: Bloomframe.  Yes, Please.
-date: 2009-10-10T11:10:19+00:00
-author: jimmy
-layout: post
-category: Writing
+date: 2009-10-10
+layout: video
+category: Video
 tags:
   - Green
 youtubeID: iwguRr6LuAY
