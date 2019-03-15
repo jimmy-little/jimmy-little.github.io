@@ -6,8 +6,8 @@ layout: video
 category: Video
 via: YouTube
 tags: [Green]
-youtubeId: iwguRr6LuA
-link: https://www.youtube.com/watch?v=iwguRr6LuAY
+youtubeId: UrVuJ7WXvQU
+link: https://www.youtube.com/watch?v=UrVuJ7WXvQU
 ---
 
   Living in a modest apartment in Brooklyn Heights has its advantages.  I believe in living little.  Living little is my way of making as small an impact as I can on the environment without living in a yurt and showering in a lake.  More on that in the future…
