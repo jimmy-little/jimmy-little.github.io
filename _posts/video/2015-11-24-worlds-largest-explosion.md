@@ -6,8 +6,8 @@ layout: video
 credit: Guiness
 link: https://www.youtube.com/watch?v=YAg_jqthRY4
 via: Guiness World Records
-categories: Video
-tags: ["James Bond", Explosion]
+category: Video
+tags: [James Bond, Explosion]
 title: Worlds.  Largest.  Explosion.
 youtubeID: YAg_jqthRY4
 ---
