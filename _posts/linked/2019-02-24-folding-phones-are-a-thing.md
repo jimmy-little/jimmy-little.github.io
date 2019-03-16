@@ -4,7 +4,7 @@ subtitle: "Cool concept, but I'll wait."
 date: 2019-02-24
 layout: post
 category: Linked
-tags: [Phone]
+tags: [Phone, iPhone]
 via: Huawei
 link: https://consumer.huawei.com/en/phones/mate-x/
 fig-caption: Huawei

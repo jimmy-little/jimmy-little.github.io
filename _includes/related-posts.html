@@ -3,7 +3,6 @@
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
-    
 <h4 text-align: center>Related Ramblings</h4>
   {% for post in site.posts %}
     {% assign sameTagCount = 0 %}
@@ -24,13 +23,14 @@
 <div class="rel">
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% elsif post.img %}      
     <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% else %}
-    <div class="post-linkthumb"><h1 class="defaultpost"><i class="fa fa-glass" aria-hidden="true"></i></h1></div>
-    <p>{{ post.title  | truncate: 22 }}</p>
+    <div class="rel-linkthumb"><h1 class="reldefaultpost"><i class="fa fa-glass" aria-hidden="true"></i></h1></div>
+<hr />
+    <p>{{ post.title  }}</p>
     {% endif %}
 </div>
 </a>     
@@ -40,13 +40,14 @@
 <div class="rel">
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% elsif post.img %}      
     <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% else %}
-    <div class="post-linkthumb"><h1 class="linkpost"><i class="fa fa-link" aria-hidden="true"></i></h1></div>
-    <p>{{ post.title | truncate: 22 }}</p>
+    <div class="rel-linkthumb"><h1 class="rellinkpost"><i class="fa fa-link" aria-hidden="true"></i></h1></div>
+<hr />
+    <p>{{ post.title }}</p>
     {% endif %}
 </div>
 </a>    
@@ -56,13 +57,14 @@
 <div class="rel">
 {% if post.tn %}
     <img class="relimg" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% elsif post.img %}      
     <img class= "relimg" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% else %}
-            <div class="post-linkthumb"><h1 class="stuffpost"><i class="fa fa-amazon" aria-hidden="true"></i></h1></div>
-    <p>{{ post.title | truncate: 22 }}</p>
+            <div class="rel-linkthumb"><h1 class="relstuffpost"><i class="fa fa-amazon" aria-hidden="true"></i></h1></div>
+<hr />
+    <p>{{ post.title }}</p>
     {% endif %}
 </div>
 </a>          
@@ -71,13 +73,14 @@
 <div class="rel">
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% elsif post.img %}      
     <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% else %}
-    <div class="post-linkthumb"><h1 class="micropost"><i class="fa fa-quote-left" aria-hidden="true"></i></h1></div>
-    <p>{{ post.title | truncate: 22 }}</p>
+    <div class="rel-linkthumb"><h1 class="relmicropost"><i class="fa fa-quote-left" aria-hidden="true"></i></h1></div>
+<hr />
+    <p>{{ post.title }}</p>
     {% endif %}
 </div>
 </a>      
@@ -86,27 +89,28 @@
 <div class="rel">
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% elsif post.img %}      
     <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% else %}
-            <div class="post-linkthumb"><h1 class="youtubepost"><i class="fa fa-youtube" aria-hidden="true"></i></h1></div>
-    <p>{{ post.title | truncate: 22 }}</p>
+            <div class="rel-linkthumb"><h1 class="relyoutubepost"><i class="fa fa-youtube" aria-hidden="true"></i></h1></div>
+    <p>{{ post.title }}</p>
     {% endif %}
 </div>
  </a>     
 {% elsif post.category == "Social" %}
 <a href="{{site.url}}/{{post.url}}">
 <div class="rel">
-{% if post.via == "Twitter" %}<div class="post-linkthumb"><h1 class="tweetpost"><a href="{{post.link}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1></div>
+{% if post.via == "Twitter" %}<div class="rel-linkthumb"><h1 class="reltweetpost"><a href="{{post.link}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1></div>
     {% elsif post.via == "Instagram" %}
         {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+    <p>{{ post.title }}</p>
 {% elsif post.img %}      
     <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title | truncate: 22 }}</p>
+<hr />
+    <p>{{ post.title }}</p>
     {% endif %}
 </div>
 </a> 

@@ -4,7 +4,7 @@ subtitle: "Now, if we could just search for them, Apple..."
 date: 2019-02-06
 layout: post
 category: Linked
-tags: [Emoji]
+tags: [Emoji, Apple]
 img: emoji2019.jpg
 tn: emoji2019.jpg
 fig-caption: Emojipedia

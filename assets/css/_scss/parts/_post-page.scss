@@ -184,41 +184,7 @@
     margin-right: auto;
 }
 
-/* RELATED POSTS CSS */
 
-.related-posts {
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2.2em;
-    text-align: center;
-    border-top: 1px solid $green;
-}
-
-.related-posts h4 {
-    color: $green;
-    background-color: $white;
-    width: 40%;
-    margin-top: -1em;
-    padding: 3px;
-    border: 1px solid $green;
-    border-radius: 1em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.related-posts a {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    border-left: 1px;
-    border-right: 1px;
-    margin-left: 1em;
-    margin-right: 1em;
-    display: inline-block;
-    
-}
 /* SOCIAL MEDIA REPOSTS FOR MICROBLOG */
 
 .social {
@@ -287,39 +253,185 @@ figcaption {
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     }
+/* RELATED POSTS CSS */
 
 .rect {
-    border-top: 4px solid $green;
-    margin:0 auto;
+    border-top: 4px solid $dark-gray;
+    margin: 0;
+    padding: 0;
     text-align: center;
-
 }
 
 .rect h4 {
     text-align: center;
     text-transform: uppercase;
+    line-height: 1em;
 }
 
-.rel p {
-display: block;
-max-height: 2em;
-font-size: .6em;
-}
 
 .rel {
     width: 23%;
     display: inline-block;
-    padding: 5px;
-    opacity: 0.8;
+
+}
+
+.rel-linkthumb {
+width: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle; 
+}
+
+h1.rellinkpost, h1.rellinkpost a {
+    color: $white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    -moz-border-radius: 40px; /* or 50% */
+    border-radius: 40px; /* or 50% */
+    background-color: $orange;
+    text-align: center;
+    font-size: 2em;
+}
+
+h1.relvideopost, h1.relvideopost a {
+    color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    -moz-border-radius: 40px; /* or 50% */
+    border-radius: 40px; /* or 50% */
+    background-color: $red;
+    text-align: center;
+    font-size: 2em;
+}
+
+h1.relstuffpost, h1.relstuffpost a {
+    color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+    background-color: $amazon;
+    text-align: center;
+}
+h1.relmicropost, h1.relmicropost a {
+    color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+    background-color: $dark-gray;
+    text-align: center;
+}
+h1.reltweetpost, h1.reltweetpost a {
+    color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+    background-color: $twitter;
+    text-align: center;
+}
+
+h1.relyoutubepost, h1.relyoutubepost a {
+    color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+    background-color: $youtube;
+    text-align: center;
+}
+
+h1.relinstapost, h1.relinstapost a {
+    color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+    background-color: $instagram;
+    text-align: center;
+}
+
+h1.reldefaultpost, h1.reldefaultpost a {
+color: $white;
+    display: block;
+    vertical-align: middle;    
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+    background-color: $blue;
+    text-align: center;
 }
 
 .rel img {
     display: block;
     max-height: 6em;
-    width: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
-.rel hover {
-     opacity: 1;    
+.rel p, .rel a {
+text-overflow: ellipsis; 
+overflow: hidden; 
+white-space: nowrap;    
+display: block;
+font-size: .8em;
+color: $dark-gray;
+margin-left: .25em;
+line-height: 1em;
+text-align: left;
 }
