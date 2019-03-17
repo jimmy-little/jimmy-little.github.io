@@ -1,6 +1,6 @@
 
 <div class="rect">    
-{% assign maxRelated = 3 %}
+{% assign maxRelated = 4 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
 <h4 text-align: center>Related Ramblings</h4>
@@ -28,8 +28,7 @@
     <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
     <p>{{ post.title }}</p>
 {% else %}
-    <div class="rel-linkthumb"><h1 class="reldefaultpost"><i class="fa fa-glass" aria-hidden="true"></i></h1></div>
-<hr />
+    <img width="100%" src="/assets/img/site/defaultpost.png">
     <p>{{ post.title  }}</p>
     {% endif %}
 </div>
