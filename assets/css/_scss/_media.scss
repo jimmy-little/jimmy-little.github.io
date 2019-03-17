@@ -15,9 +15,7 @@
     background-color: $dm-light-gray;
     border-color: $dm-light-gray;
     }  
-  .post-content {
-    background-color: $dm-light-gray;
-    }  
+ 
   .article-page {
     border-color: $dm-light-gray;
     } 
@@ -114,7 +112,6 @@
   .post {
     width: 48%;
       margin: 0 0.9% 1.5%;
-      background-color: $white;
 /* card view */
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
@@ -274,7 +271,6 @@ padding-bottom: 56.25%;
   .post {
     width: 48%;
       margin: 0 0.9% 1.5%;
-      background-color: $white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
