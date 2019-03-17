@@ -406,11 +406,11 @@ color: $white;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 3em;
-    width: 3em;
-    line-height: 3em;
-    -moz-border-radius: 1.5em; /* or 50% */
-    border-radius: 1.5em; /* or 50% */
+//    height: 3em;
+//    width: 3em;
+//    line-height: 3em;
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
     background-color: $blue;
     text-align: center;
 }
