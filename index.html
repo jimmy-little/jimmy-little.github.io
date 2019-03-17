@@ -32,7 +32,7 @@ layout: main
 {% elsif post.category == "Social" %}
     {% if post.via == "Twitter" %}<div class="post-linkthumb"><h1 class="tweetpost"><a href="{{post.link}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1></div>
     {% elsif post.via == "Instagram" %}
-        {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% else %}<div class="post-linkthumb"><h1 class="instapost"><a href="{{post.link}}"><i class="fa fa-instagram" aria-hidden="true"></i></a></h1></div>
         {% endif %}
