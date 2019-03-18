@@ -24,9 +24,6 @@
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
-{% elsif post.img %}      
-    <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title }}</p>
 {% else %}
     <img width="100%" src="/assets/img/site/defaultpost.png">
     <p>{{ post.title  }}</p>
@@ -40,12 +37,8 @@
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
-{% elsif post.img %}      
-    <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title }}</p>
 {% else %}
-    <div class="rel-linkthumb"><h1 class="rellinkpost"><i class="fa fa-link" aria-hidden="true"></i></h1></div>
-<hr />
+    <img width="100%" src="/assets/img/site/defaultlink.png">
     <p>{{ post.title }}</p>
     {% endif %}
 </div>
@@ -57,12 +50,9 @@
 {% if post.tn %}
     <img class="relimg" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
-{% elsif post.img %}      
-    <img class= "relimg" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title }}</p>
 {% else %}
-            <div class="rel-linkthumb"><h1 class="relstuffpost"><i class="fa fa-amazon" aria-hidden="true"></i></h1></div>
-<hr />
+    <img width="100%" src="/assets/img/site/defaultamazon.png">
+
     <p>{{ post.title }}</p>
     {% endif %}
 </div>
@@ -73,12 +63,8 @@
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
-{% elsif post.img %}      
-    <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title }}</p>
 {% else %}
-    <div class="rel-linkthumb"><h1 class="relmicropost"><i class="fa fa-quote-left" aria-hidden="true"></i></h1></div>
-<hr />
+    <img width="100%" src="/assets/img/site/defaultmicro.png">
     <p>{{ post.title }}</p>
     {% endif %}
 </div>
@@ -89,11 +75,8 @@
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
-{% elsif post.img %}      
-    <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-    <p>{{ post.title }}</p>
 {% else %}
-            <div class="rel-linkthumb"><h1 class="relyoutubepost"><i class="fa fa-youtube" aria-hidden="true"></i></h1></div>
+    <img width="100%" src="/assets/img/site/defaultyoutube.png">
     <p>{{ post.title }}</p>
     {% endif %}
 </div>
@@ -101,14 +84,13 @@
 {% elsif post.category == "Social" %}
 <a href="{{site.url}}/{{post.url}}">
 <div class="rel">
-{% if post.via == "Twitter" %}<div class="rel-linkthumb"><h1 class="reltweetpost"><a href="{{post.link}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1></div>
-    {% elsif post.via == "Instagram" %}
-        {% if post.tn %}
+{% if post.via == "Twitter" %}    <img width="100%" src="/assets/img/site/defaulttwitter.png"><a href="{{post.link}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1></div>
+{% elsif post.via == "Instagram" %}
+{% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
-{% elsif post.img %}      
-    <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
-<hr />
+{% else %}
+        <img width="100%" src="/assets/img/site/defaultinsta.png">
     <p>{{ post.title }}</p>
     {% endif %}
 </div>

@@ -3,17 +3,26 @@ layout: main
 date: 2019-02-04
 ---
 <article class="article-page">
+
+<div class="page-cover-image">
+    {%if page.img %}
+        <figure>
+        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        </figure>
+    {% endif %}
+          </div>
+
+<!-- no date on pages     
+        <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
+
+ -->   
 <div class="wrap-content">
   <div class="page-content">  
-
-      <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
+<header class="header-page">
+           <h1 class="page-title">{{page.title}}</h1>
         {% if page.subtitle %}
           <h3 class="page-subtitle">{{page.subtitle}}</h3>
         {% endif %}
-<!-- no date on pages     
-        <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
- -->   
       </header>
       {{content | markdownify}}
 <div class="page-footer">
@@ -23,7 +32,7 @@ date: 2019-02-04
           {% endfor %}
         </div>
       </div>
-    </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
+    </div>
 </article> <!-- End Article Page -->
 <p class= "footer-date-page">Page Last Updated: {{page.date | date: '%b %d, %Y'}}</p>
