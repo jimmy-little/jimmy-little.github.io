@@ -2,7 +2,7 @@
 title: Rosie’s Dog Beach Day!
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BhA7jdVHXJX/
 tn: BhA7jdVHXJX.jpg

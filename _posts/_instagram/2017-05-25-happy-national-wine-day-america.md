@@ -2,7 +2,7 @@
 title: Happy National Wine Day, America
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BUiHIpoBIiG/
 tn: BUiHIpoBIiG.jpg

@@ -1,7 +1,7 @@
 ---
 title: Social Apps
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/I7oM/
 tn: I7oM.jpg

@@ -31,126 +31,93 @@ h1.linkpost {
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    -moz-border-radius: 40px; /* or 50% */
-    border-radius: 40px; /* or 50% */
+    width: 100%;
     background-color: $orange;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 h1.videopost {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    -moz-border-radius: 40px; /* or 50% */
-    border-radius: 40px; /* or 50% */
+    width: 100%;
     background-color: $red;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 h1.stuffpost, h1.stuffpost a {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
+    width: 100%;
     background-color: $amazon;
     text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 h1.micropost, h1.micropost a {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
+    width: 100%;
     background-color: $dark-gray;
     text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 h1.tweetpost, h1.tweetpost a {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
+    width: 100%;
     background-color: $twitter;
     text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 h1.youtubepost, h1.youtubepost a {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
+    width: 100%;
     background-color: $youtube;
     text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 h1.instapost, h1.instapost a {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
+    width: 100%;
     background-color: $instagram;
     text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 h1.defaultpost {
     color: $white;
-    display: block;
-    vertical-align: middle;    
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    -moz-border-radius: 40px; /* or 50% */
-    border-radius: 40px; /* or 50% */
+    width: 100%;
     background-color: $blue;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 hr.clear {
@@ -286,7 +253,7 @@ table tfoot td {
 width: 100%;
 max-width: 100%;
 background-color: #fff;
-border-radius: 6px;
+border-radius: 9px;
 }
 
 .article-page-social {

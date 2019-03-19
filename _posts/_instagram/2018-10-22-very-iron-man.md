@@ -1,10 +1,11 @@
 ---
 title: Very Iron Man
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BpPnisFBTu4/
 tn: BpPnisFBTu4.jpg
+img: BpPnisFBTu4.jpg
 tags: [Instagram, Apple Watch]
 date: 2018-10-22
 excerpt: "The gold Apple Watch with the ProductRED band is very Iron Man."

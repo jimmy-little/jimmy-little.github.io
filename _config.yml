@@ -28,6 +28,12 @@ discus-identifier: # add your discus identifier
 # Tracker
 analytics: UA-76295212-1 # Google Analytics
 
+# Collections
+collections:
+    lego-advent:
+        permalink: /2018-lego-advent/
+        
+    
 # Build Settings
 markdown: kramdown
 kramdown:

@@ -2,7 +2,7 @@
 title: Pallet Craze
 subtitle: Am I Doing This Right?
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BKd7EeWB6kL/
 tn: BKd7EeWB6kL.jpg

@@ -2,7 +2,7 @@
 title: "Post It Pixel Art: Holiday 2017 Edition"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BcrB2_Wnowp/
 tn: BcrB2_Wnowp.jpg

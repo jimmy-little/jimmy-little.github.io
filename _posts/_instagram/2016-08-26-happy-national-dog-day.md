@@ -2,7 +2,7 @@
 title: Happy National Dog Day!
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BJlaZfFBvxM/
 tn: BJlaZfFBvxM.jpg

@@ -2,7 +2,7 @@
 title: Disney Day!
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BS6s85nBi1H/
 tn: BS6s85nBi1H.jpg

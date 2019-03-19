@@ -1,7 +1,7 @@
 ---
 title: Worst. Wine glass. Ever.
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Jvvub/
 tn: Jvvub.jpg

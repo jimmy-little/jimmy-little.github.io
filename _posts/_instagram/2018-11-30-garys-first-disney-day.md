@@ -2,10 +2,11 @@
 title: Gary’s first Disney Day!
 subtitle:
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bq1ceuwhn-N/?utm_source=ig_share_sheet&igshid=g56q6nckfr7l
 tn: Bq1ceuwhn-N.jpg
+img: Bq1ceuwhn-N.jpg
 tags: [Instagram, Disney, Parenthood]
 date: 2018-11-30
 excerpt: "Gary’s first Disney Day! He’s kind of a people watcher already. He also likes corn dogs. with @carlybracco"

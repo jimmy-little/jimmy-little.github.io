@@ -2,7 +2,7 @@
 title: Tsum-ification
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BLPxitwhin_/
 tn: BLPxitwhin_.jpg

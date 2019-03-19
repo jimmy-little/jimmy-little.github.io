@@ -2,7 +2,7 @@
 title: Happy Anniversary
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BmmRbtSBuS_
 tn: BmmRbtSBuS_.jpg

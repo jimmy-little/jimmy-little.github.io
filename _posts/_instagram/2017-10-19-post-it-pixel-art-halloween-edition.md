@@ -2,7 +2,7 @@
 title: Post It Pixel Art, Halloween Edition
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BacCBRnHrbS/
 tn: BacCBRnHrbS.jpg

@@ -2,7 +2,7 @@
 title: Naked Wrist
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BPF4701Bswe/
 tn: BPF4701Bswe.jpg

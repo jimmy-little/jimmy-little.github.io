@@ -289,135 +289,10 @@ width: 100%;
     vertical-align: middle; 
 }
 
-h1.rellinkpost, h1.rellinkpost a {
-    color: $white;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-    background-color: $orange;
-    text-align: center;
-    font-size: 2em;
-}
 
-h1.relvideopost, h1.relvideopost a {
-    color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-    background-color: $red;
-    text-align: center;
-    font-size: 2em;
-}
-
-h1.relstuffpost, h1.relstuffpost a {
-    color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
-    background-color: $amazon;
-    text-align: center;
-}
-h1.relmicropost, h1.relmicropost a {
-    color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
-    background-color: $dark-gray;
-    text-align: center;
-}
-h1.reltweetpost, h1.reltweetpost a {
-    color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
-    background-color: $twitter;
-    text-align: center;
-}
-
-h1.relyoutubepost, h1.relyoutubepost a {
-    color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
-    background-color: $youtube;
-    text-align: center;
-}
-
-h1.relinstapost, h1.relinstapost a {
-    color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 12px; /* or 50% */
-    border-radius: 12px; /* or 50% */
-    background-color: $instagram;
-    text-align: center;
-}
-
-h1.reldefaultpost, h1.reldefaultpost a {
-color: $white;
-    display: block;
-    vertical-align: middle;    
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-    background-color: $blue;
-    text-align: center;
-}
 
 .rel img {
     display: block;
-    max-height: 6em;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -432,6 +307,6 @@ display: block;
 text-decoration: none;
 font-size: .8em;
 color: $dark-gray;
-line-height: 1em;
+line-height: 1.3em;
 text-align: center;
 }

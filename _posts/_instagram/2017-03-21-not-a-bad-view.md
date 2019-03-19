@@ -2,7 +2,7 @@
 title: Not A Bad View
 subtitle: #LITTLEBIGDAY
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BR6ixgehUoW/
 tn: BR6ixgehUoW.jpg

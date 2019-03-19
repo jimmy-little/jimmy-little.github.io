@@ -2,7 +2,7 @@
 title: No More Bed For Me
 subtitle: The joys of parenthood
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BnQBCnYnLXn/
 tn: BnQBCnYnLXn.jpg

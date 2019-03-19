@@ -2,7 +2,7 @@
 title: Queen Blanche
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BecbiRDHd5Q/
 tn: BecbiRDHd5Q.jpg

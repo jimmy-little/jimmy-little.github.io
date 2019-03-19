@@ -3,7 +3,7 @@
 title: So California
 layout: post
 via: Instagram
-category: Social
+category: Micro
 tags: [Instagram, Dog, California]
 date: 2016-04-30
 link: https://www.instagram.com/p/BE2n4gHBXae/
