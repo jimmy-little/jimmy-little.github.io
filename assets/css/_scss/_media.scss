@@ -377,6 +377,17 @@ padding-bottom: 56.25%;
 .post .post-content .post-title a {
     font-size: 21px;
   }
+    
+.index-metabar {
+    position: absolute;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    margin-top: 1em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 5px;
+}
 /* ---------------------------------- Social Post */
 .social {
     width: 80%;
@@ -523,6 +534,11 @@ h2, h4 {
 .index-metabar {
     width: 95%;
     margin: auto;
+    }
+    
+    .rel p {
+        font-size: .6em;
+        padding-top: 2px;
     }
 /* ---------------------------------- Social Post */
 .social p {

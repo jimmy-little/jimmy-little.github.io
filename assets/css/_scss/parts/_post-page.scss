@@ -325,11 +325,19 @@ img + em {
     text-align: center;
 }
 
+.relheader {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
 .rect h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: .7em;
     margin-bottom: .5em;
+}
+.rect a {
+    text-decoration: none;
 }
 
 

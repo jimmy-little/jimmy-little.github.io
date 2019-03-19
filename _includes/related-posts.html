@@ -17,7 +17,7 @@
       {% endif %}
     {% endfor %} 
 {% if sameTagCount >= minCommonTags %}
- <h4 text-align: center>More {{ commonTags }} Ramblings</h4>
+    <p class="relheader">More<b> {{ commonTags }} </b>Ramblings</p>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
