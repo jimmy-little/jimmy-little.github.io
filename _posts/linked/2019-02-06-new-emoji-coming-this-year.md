@@ -6,7 +6,7 @@ layout: post
 category: Linked
 tags: [Emoji, Apple]
 img: emoji2019.jpg
-tn: emoji2019.jpg
+tn: emoji20192.jpg
 fig-caption: Emojipedia
 link: https://blog.emojipedia.org/230-new-emojis-in-final-list-for-2019
 via: Emojipedia
