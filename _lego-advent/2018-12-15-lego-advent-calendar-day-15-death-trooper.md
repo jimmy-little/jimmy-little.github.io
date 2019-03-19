@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 15: Death Trooper"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrapbEGhqhu
 tn: BrapbEGhqhu.jpg

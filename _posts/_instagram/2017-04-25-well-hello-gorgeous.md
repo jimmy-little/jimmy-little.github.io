@@ -2,7 +2,7 @@
 title: Well Hello, Gorgeous
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BTUIjtahD-h/
 tn: BTUIjtahD-h.jpg

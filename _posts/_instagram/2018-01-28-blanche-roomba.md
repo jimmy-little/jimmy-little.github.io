@@ -2,7 +2,7 @@
 title: Blanche ❤️ Roomba
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BeeaEsfnrlI/
 tn: BeeaEsfnrlI.jpg

@@ -2,7 +2,7 @@
 title: This will forever drive me crazy
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BepVKQyHqhR/
 tn: BepVKQyHqhR.jpg

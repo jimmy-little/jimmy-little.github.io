@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 21: Speeder Bike"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrqQxX2BWZ2
 tn: BrqQxX2BWZ2.jpg

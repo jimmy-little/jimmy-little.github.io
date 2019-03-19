@@ -77,6 +77,64 @@
         padding-left: 300px;
         padding-right: 40px;
     }
+    
+    /* ---------------------------------- Post */  
+  .post {
+    width: 48%;
+      margin: 0 0.9% 1.5%;
+/* card view */
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+
+.index-metabar {
+    width: 95%;
+    margin: auto;
+    }
+.post .post-thumbnail {
+  width: 100%;
+  padding-bottom: 56.25%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+}
+    
+.post .post-thumbnail-micro {
+  width: 100%;
+  min-height: 11em;
+padding-bottom: 56.25%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+}
+
+.post .post-linkthumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+  .post .post-content {
+    width: 100%;
+  }
+    .post .post-content p
+    {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+  .post .post-content .post-title {
+    margin: 5px 0 5px;
+  }
+  .post .post-content .post-title a {
+    font-size: 21px;
+  }
 }
 /* -------------------------------------------------- Large Devices, Laptops up to 1024 */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -331,7 +389,7 @@ padding-bottom: 56.25%;
 @media only screen and (min-width: 200px) and (max-width: 480px) {
 /* ---------------------------------- Content Box */
 .content-box {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }

@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 23: General Merrick"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrvQUBJh6wA
 tn: BrvQUBJh6wA.jpg

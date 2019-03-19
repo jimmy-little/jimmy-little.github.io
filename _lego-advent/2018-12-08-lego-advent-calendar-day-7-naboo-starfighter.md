@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 7: Naboo Starfighter"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrG2lO-BpOP
 tn: BrG2lO-BpOP.jpg

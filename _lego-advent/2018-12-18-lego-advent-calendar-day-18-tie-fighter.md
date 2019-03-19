@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 18: Tie Fighter"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bri5gtsBTHh
 tn: Bri5gtsBTHh.jpg

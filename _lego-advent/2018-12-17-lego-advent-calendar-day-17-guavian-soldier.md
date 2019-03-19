@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 17: Guavian Soldier"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Brf9yDXB6ve
 tn: Brf9yDXB6ve.jpg

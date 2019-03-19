@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 22: Core Evaporator"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Brs6qrihwdD
 tn: Brs6qrihwdD.jpg

@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 8: Battle Droid"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrIsEUjh3lq
 tn: BrIsEUjh3lq.jpg

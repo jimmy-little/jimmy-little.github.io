@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 14: Weapon Rack"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrYNyX5BJyV
 tn: BrYNyX5BJyV.jpg

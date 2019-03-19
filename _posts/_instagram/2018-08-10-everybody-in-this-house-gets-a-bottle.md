@@ -2,7 +2,7 @@
 title: Everybody in this house gets a bottle
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BmSPx2_D9dy/
 tn: BmSPx2_D9dy.jpg

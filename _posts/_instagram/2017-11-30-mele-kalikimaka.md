@@ -2,7 +2,7 @@
 title: Mele Kalikimaka
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BcG42K1HWtm/
 tn: BcG42K1HWtm.jpg

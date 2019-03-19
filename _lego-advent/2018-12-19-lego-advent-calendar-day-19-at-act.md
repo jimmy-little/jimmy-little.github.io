@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 19: AT-ACT"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Brk94Ygh4L1
 tn: Brk94Ygh4L1.jpg

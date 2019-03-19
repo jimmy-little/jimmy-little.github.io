@@ -2,7 +2,7 @@
 title: Happy Election Day!
 subtitle: No Vote, No Voice!
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bp2Lc6qBZjV/
 tn: Bp2Lc6qBZjV.jpg

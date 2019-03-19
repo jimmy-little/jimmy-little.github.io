@@ -20,7 +20,7 @@ layout: main
     {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultamazon.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% endif %}
 {% elsif post.category == "Micro" %}
-    {% if post.tn %} <a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% if post.tn %} <a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.img %} <a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultmicro.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% endif %}
@@ -32,7 +32,7 @@ layout: main
 {% elsif post.category == "Social" %}
     {% if post.via == "Twitter" %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaulttwitter.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.via == "Instagram" %}
-        {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultinsta.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% endif %}

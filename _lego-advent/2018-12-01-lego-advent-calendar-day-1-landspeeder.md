@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 1: Landspeeder"
 subtitle:
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bq3LvPiByAT/?utm_source=ig_share_sheet&igshid=19j6ly6ha5mdw
 tn: Bq3LvPiByAT.jpg

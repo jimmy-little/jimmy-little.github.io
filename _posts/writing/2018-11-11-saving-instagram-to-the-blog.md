@@ -102,7 +102,7 @@ Now, in a `Text` block, we put together the Jekyll YAML and post.
 title: [TITLE VARIABLE]
 subtitle: [SUB VARIABLE] (If there is no subtitle set, Jekyll will ignore this.)
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: [URL VARIABLE]
 tn: [GRAMID VARIABLE].jpg

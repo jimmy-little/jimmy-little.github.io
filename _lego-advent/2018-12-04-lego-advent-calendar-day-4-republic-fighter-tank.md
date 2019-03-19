@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 4: Republic Fighter Tank"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bq-WvNaBgT_
 tn: Bq-WvNaBgT_.jpg

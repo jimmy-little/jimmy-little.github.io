@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 13: Imperial Troop Transport"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrVkQJHBpCN
 tn: BrVkQJHBpCN.jpg

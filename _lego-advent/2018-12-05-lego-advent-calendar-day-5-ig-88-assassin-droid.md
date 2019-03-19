@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 5: IG-88 Assassin Droid"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrA5mpIBOld
 tn: BrA5mpIBOld.jpg

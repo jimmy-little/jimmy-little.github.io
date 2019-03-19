@@ -81,21 +81,6 @@
     {% endif %}
 </div>
  </a>     
-{% elsif post.category == "Social" %}
-<a href="{{site.url}}/{{post.url}}">
-<div class="rel">
-{% if post.via == "Twitter" %}    <img width="100%" src="/assets/img/site/defaulttwitter.png"><a href="{{post.link}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1></div>
-{% elsif post.via == "Instagram" %}
-{% if post.tn %}
-    <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
-    <p>{{ post.title }}</p>
-{% else %}
-        <img width="100%" src="/assets/img/site/defaultinsta.png">
-    <p>{{ post.title }}</p>
-    {% endif %}
-</div>
-</a> 
-    {% endif %}
 {% endif %}            
 
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}

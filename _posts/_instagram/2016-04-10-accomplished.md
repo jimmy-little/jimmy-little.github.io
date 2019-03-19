@@ -4,7 +4,7 @@ via: Instagram
 link: https://www.instagram.com/p/BC-rs2IhXcz/
 subtitle: <i class="fa fa-instagram"></i>
 layout: post
-category: Social
+category: Micro
 tags: [Instagram, Dog]
 date: 2016-04-10
 excerpt: "I feel like I've accomplished something for the day when I can make the bed without waking the dog."

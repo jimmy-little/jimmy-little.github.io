@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 11: Rowan"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrQXG_4BQCM
 tn: BrQXG_4BQCM.jpg

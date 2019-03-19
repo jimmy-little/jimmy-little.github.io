@@ -2,7 +2,7 @@
 title: This Little Piggy
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bb049cEn7sO/
 tn: Bb049cEn7sO.jpg

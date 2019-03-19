@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 3: Arrowhead"
 subtitle:
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bq7jm_WhAq_
 tn: Bq7jm_WhAq_.jpg

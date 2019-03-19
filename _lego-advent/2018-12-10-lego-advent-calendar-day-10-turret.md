@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 10: Turret"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrN1kHcBFk1
 tn: BrN1kHcBFk1.jpg

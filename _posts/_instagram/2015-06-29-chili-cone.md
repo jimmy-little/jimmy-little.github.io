@@ -2,7 +2,7 @@
 title: Chili Cone!
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/4hpyI4hXQb/
 tn: 4hpyI4hXQb.jpg

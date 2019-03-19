@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 2: Rose"
 subtitle:
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/Bq4_k4yheqK
 tn: Bq4_k4yheqK.jpg

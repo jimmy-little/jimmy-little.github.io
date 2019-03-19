@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 16: Rathtar"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BreAr5GhtCW
 tn: BreAr5GhtCW.jpg

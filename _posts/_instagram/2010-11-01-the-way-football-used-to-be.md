@@ -1,7 +1,7 @@
 ---
 title: The way football used to be
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/HwN6/
 tn: HwN6.jpg

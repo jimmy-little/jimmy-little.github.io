@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 12: Jedi Starfighter"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrS5QOBBbua
 tn: BrS5QOBBbua.jpg

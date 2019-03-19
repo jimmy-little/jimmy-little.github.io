@@ -1,7 +1,7 @@
 ---
 title: Dock of the Bay
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/St8EMuhXRL/
 tn: St8EMuhXRL.jpg

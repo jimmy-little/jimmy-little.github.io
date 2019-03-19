@@ -2,7 +2,7 @@
 title: "Lego Advent Calendar Day 20: Zeta Cargo Shuttle"
 subtitle: 
 layout: post
-category: Social
+category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BrnhPW5hoNt
 tn: BrnhPW5hoNt.jpg
