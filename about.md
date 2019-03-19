@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 🤔 About
+subtitle: Who and How?
 permalink: /about/
 date: 2018-11-02
 ---

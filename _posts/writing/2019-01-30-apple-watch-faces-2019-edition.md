@@ -73,7 +73,7 @@ So, that's it. These are the faces I use regularly. The two big ones are the Inf
 
 I'm a heavy watch user, and am really looking forward to even more improvements. Apple has taken watchOS from a barely usable mismash of random features to the most sophisticated and useul wearable OS anywhere in just 4 years. That's pretty impressive, but I'm still anxiously awaiting watchOS 6 this summer.
 
-<hr class="clear">
+
 
 [watchpost]: https://www.cocktailsandcoffee.com/productive-watch-faces/
 [ped]: https://itunes.apple.com/us/app/pedometer/id712286167?mt=8&uo=4

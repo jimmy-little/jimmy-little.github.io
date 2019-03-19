@@ -23,6 +23,24 @@
   color: $blue;
 }
 
+.header-page .fixed-page-title {
+  font-weight: 900;
+  font-family: "Futura", "sans-serif";
+  text-transform: uppercase;    
+  margin: 0;
+  text-decoration: none;
+    text-align: center;
+}
+
+.header-page .fixed-page-subtitle {
+  font-weight: 700;
+  font-family: "Futura", "sans-serif";
+  text-transform: uppercase;    
+  margin: 0;
+  color: $blue;
+    text-align: center;
+}
+
 .header-page .page-date {
   color: #a0a0a0;
   font-weight: 300;
@@ -46,6 +64,12 @@
 
 .via-header {
     text-transform: uppercase;
+    font-size: .85em;
+    vertical-align: middle;
+}
+.via-header a, .via-header h1 {
+    color: $white;
+    text-decoration: none;
 }
 .page-cover-image figcaption {
   position: absolute;
@@ -67,6 +91,11 @@
   height: 100%;
 }
 
+.page-cover-image .link-page-image {
+  width: 100%;
+  height: 100%;
+}
+
 .page-footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -82,6 +111,7 @@
   padding-bottom: 30px;
   margin-top: 30px;
   margin-bottom: 0px;
+    text-align: center;
 }
 
 .page-footer .page-share {
@@ -111,13 +141,6 @@
   background-color: #ecf0f1;
 }
 
-.page-footer .page-tag {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-}
-
 .tag-social {
     display: block;
     color: $dm-white;
@@ -126,6 +149,13 @@
     font-size: .8em;
 }
 
+// Tag
+.page-footer .page-tag {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
 .page-footer .page-tag a {
   float:left;
   display: inline-block;
@@ -134,25 +164,56 @@
   padding: 5px 10px;
   margin-left: 5px;
   margin-top: .25em;
-  color: $red;
+  color: $green;
   text-transform: uppercase;
-  border: 1px solid $red;
+  border: 1px solid $green;
+    border-radius: 5px;
 }
 
 .page-footer .page-tag a:hover {
   text-decoration: underline;
 }
+// Link Out
+//.tag {
+//    display:block;
+//    margin-left: auto;
+//    margin-right: auto;
+//    max-width: 90%;
+//}
+//.tag a {
+//  float:left;
+//  display: inline-block;
+//  text-decoration: none;
+//  font-size: 10px;
+//  padding: 5px 10px;
+//  margin-left: 5px;
+//  margin-top: .25em;
+//  background-color: $orange;
+//  color: $white;
+//  text-transform: uppercase;
+//  border: 1px solid $orange;
+//  border-radius: 5px;
+//}
+//
+//.tag a:hover {
+//  text-decoration: underline;
+//  background-color: $white;
+//  color: $orange;
+//}
+
 .page-footer .page-date {
   float:left;
   display: inline-block;
   text-decoration: none;
   font-size: 10px;
+  font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
     margin-top: .25em;
-  color: $orange;
-  border: 1px solid $orange;
+  color: $blue;
+  border: 1px solid $blue;
   text-transform: uppercase;
+    border-radius: 5px;
 }
 
 .footer-date-page {
@@ -228,7 +289,7 @@ img + em {
     margin: auto;
 }
 
-figcaption {
+.figcaption {
     text-align: center;
     font-size: .8em;
     color: $dark-gray;
@@ -258,9 +319,9 @@ figcaption {
 /* RELATED POSTS CSS */
 
 .rect {
-    border-top: 2px solid $dark-gray;
+    border-top: 1px solid $dark-gray;
     margin: 0;
-    padding: 0;
+    padding-top: .5em;
     text-align: center;
 }
 
@@ -268,6 +329,7 @@ figcaption {
     text-align: center;
     text-transform: uppercase;
     font-size: .7em;
+    margin-bottom: .5em;
 }
 
 
@@ -275,6 +337,8 @@ figcaption {
     width: 23%;
     display: inline-block;
     text-decoration: none;
+    border: 1px solid $dark-gray;
+    border-radius: 5px;
 
 }
 
@@ -291,9 +355,9 @@ width: 100%;
     margin-right: auto;
     vertical-align: middle; 
     text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
-
-
 
 .rel img {
     display: block;
@@ -301,17 +365,25 @@ width: 100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
-
 
 .rel p, .rel a {
-text-overflow: ellipsis; 
-overflow: hidden; 
-white-space: nowrap;    
-display: block;
-text-decoration: none;
-font-size: .8em;
-color: $dark-gray;
-line-height: 1.3em;
-text-align: center;
+  overflow: hidden;
+   text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   line-height: 1em;        /* fallback */
+   min-height: 2em;            /* lock height for alignment */
+    max-height: 2em;       /* fallback */    
+    vertical-align: text-bottom;
+    text-decoration: none;
+    font-size: .8em;
+    color: $dark-gray;
+    text-align: center;
 }
+

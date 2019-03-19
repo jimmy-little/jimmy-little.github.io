@@ -5,26 +5,22 @@ date: 2019-02-04
 <article class="article-page">
 
 <div class="page-cover-image">
-    {%if page.img %}
-        <figure>
-        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        </figure>
-    {% endif %}
-          </div>
-
-<!-- no date on pages     
-        <div class="page-date"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
-
- -->   
+{%if page.img %}
+<figure>
+    <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+</figure>
+{% endif %}
+</div>
+    
 <div class="wrap-content">
-  <div class="page-content">  
+<div class="page-content">  
 <header class="header-page">
-           <h1 class="page-title">{{page.title}}</h1>
-        {% if page.subtitle %}
-          <h3 class="page-subtitle">{{page.subtitle}}</h3>
-        {% endif %}
-      </header>
-      {{content | markdownify}}
+    <h1 class="fixed-page-title">{{page.title}}</h1>
+    {% if page.subtitle %}
+    <h3 class="fixed-page-subtitle">{{page.subtitle}}</h3>
+    {% endif %}
+    </header>
+{{content | markdownify}}
 <div class="page-footer">
 <div class="page-tag">
        {% for tag in page.tags %}
