@@ -5,6 +5,7 @@ layout: post
 category: Writing
 tags: [Green, Software]
 img: flock.jpg
+tn: flock.jpg
 ---
 Here's why I recommend <a href="http://flock.com/" target="_blank">Flock.</a>
 

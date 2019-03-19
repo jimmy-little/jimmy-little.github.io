@@ -344,9 +344,11 @@ img + em {
 .rel {
     width: 23%;
     display: inline-block;
+    vertical-align: top;
     text-decoration: none;
     border: 1px solid $dark-gray;
     border-radius: 5px;
+    margin-top: 0px;
 
 }
 
@@ -361,7 +363,7 @@ width: 100%;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: middle; 
+   // vertical-align: middle; 
     text-decoration: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -388,7 +390,6 @@ width: 100%;
    line-height: 1em;        /* fallback */
    min-height: 2em;            /* lock height for alignment */
     max-height: 2em;       /* fallback */    
-    vertical-align: text-bottom;
     text-decoration: none;
     font-size: .8em;
     color: $dark-gray;
