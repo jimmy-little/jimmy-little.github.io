@@ -395,7 +395,8 @@ padding-bottom: 56.25%;
   }
 /* ---------------------------------- Menu and Bar */
 .sidebar {
-    position: relative;
+    position: fixed;
+    top: 0px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -420,8 +421,6 @@ padding-bottom: 56.25%;
   }
     
 .sidebar-menu {
-  position: fixed;
-  top: 0px;
   display: block;
   width: 100%;
   padding: 0;
