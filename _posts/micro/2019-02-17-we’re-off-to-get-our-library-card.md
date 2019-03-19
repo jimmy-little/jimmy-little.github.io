@@ -1,5 +1,5 @@
 ---
-title: "2019-02-17-Library Card"
+title: "Library Card"
 layout: post
 category: Micro
 via: Instagram
