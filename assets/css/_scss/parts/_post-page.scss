@@ -11,7 +11,7 @@
   font-weight: 900;
   font-family: "Futura", "sans-serif";
   text-transform: uppercase;    
-  margin: 0 0 10px;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -19,7 +19,7 @@
   font-weight: 700;
   font-family: "Futura", "sans-serif";
   text-transform: uppercase;    
-  margin: 0 0 6px;
+  margin: 0;
   color: $blue;
 }
 
@@ -44,7 +44,9 @@
   margin: 0;
 }
 
-
+.via-header {
+    text-transform: uppercase;
+}
 .page-cover-image figcaption {
   position: absolute;
   bottom: 0px;
@@ -256,7 +258,7 @@ figcaption {
 /* RELATED POSTS CSS */
 
 .rect {
-    border-top: 4px solid $dark-gray;
+    border-top: 2px solid $dark-gray;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -265,13 +267,14 @@ figcaption {
 .rect h4 {
     text-align: center;
     text-transform: uppercase;
-    line-height: 1em;
+    font-size: .7em;
 }
 
 
 .rel {
     width: 23%;
     display: inline-block;
+    text-decoration: none;
 
 }
 
@@ -287,6 +290,7 @@ width: 100%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle; 
+    text-decoration: none;
 }
 
 
@@ -296,6 +300,7 @@ width: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 

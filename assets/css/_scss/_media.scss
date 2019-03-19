@@ -389,13 +389,18 @@ padding-bottom: 56.25%;
 @media only screen and (min-width: 200px) and (max-width: 480px) {
 /* ---------------------------------- Content Box */
 .content-box {
-    padding-top: 0px;
+    padding-top: 3em;
     padding-left: 0px;
     padding-right: 0px;
   }
 /* ---------------------------------- Menu and Bar */
 .sidebar {
-    position: relative;
+    position: fixed;
+    bottom: 1px;
+    height: 3em;
+    width: 100%;
+   // padding: 6px;
+    z-index: 1;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -409,8 +414,7 @@ padding-bottom: 56.25%;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 100%;
-    padding: 6px;
+
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
@@ -439,16 +443,22 @@ padding-bottom: 56.25%;
 
 .sidebar-menu li a {
   display: inline-block;
-  font-size: .7em;
+  font-size: .6em;
   padding-top: 0;
   padding-bottom: 0;
-  width: 16%;
+  width: 12%;
   text-align: center;
   color: $black;
   }
-
+    
+.sidebar-menu li a.active {
+  color: $yellow;
+    }
 /* ---------------------------------- Post */
-  .post {
+ .wrap-content {
+  padding-top: 0px; }
+    
+    .post {
     border-radius: 0px;
     max-width: 100%;
     min-height: 20em;
@@ -457,8 +467,16 @@ padding-bottom: 56.25%;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 0px;
+    border-bottom: 1px solid $dark-gray;
   }
 
+h2, h4 {
+        line-height: .5em;
+    }
+    .page-title {
+        font-size: .8em;
+    }
 .post .post-thumbnail {
   border-radius: 0px;    
   width: 100%;
@@ -488,11 +506,18 @@ padding-bottom: 56.25%;
 .post .post-content {
     width: 100%;
   }
-.post .post-content .post-title {
-    margin: 0 0 5px;
+.post .post-content .post-title, .page-title {
+    font-size: 1em;
+    margin: 0, 5px, 0, 5px;
   }
+    
+.post .post-content .post-subtitle, .page-subtitle {
+    font-size: .7em;
+    margin: 0, 5px, 0, 5px;
+  }
+    
 .post .post-content .post-title a {
-    font-size: 18px;
+    font-size: 1em;
   }
 .index-metabar {
     width: 95%;
