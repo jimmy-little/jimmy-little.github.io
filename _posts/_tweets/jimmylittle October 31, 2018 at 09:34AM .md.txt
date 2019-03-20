@@ -1,3 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/SlackHQ?ref_src=twsrc%5Etfw">@SlackHQ</a> - any reason why Twitter links don&#39;t unfurl when pasted in? Just seeing the url text lately...</p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1057672099874058240?ref_src=twsrc%5Etfw">October 31, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1057672099874058240

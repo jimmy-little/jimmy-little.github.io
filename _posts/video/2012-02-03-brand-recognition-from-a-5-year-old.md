@@ -4,11 +4,12 @@ date: 2012-02-03T16:59:39+00:00
 author: jimmy
 layout: video    
 category: Video
-tags: [Video, Marketing]
+tags: [Marketing]
 via:  YouTube
 source: http://www.ladd-design.com/ladd--fresh-impressions-on-brandmarks-(from-my-5-year-old).html
 link: http://www.ladd-design.com/ladd--fresh-impressions-on-brandmarks-(from-my-5-year-old).html
 youtubeId: N4t3-__3MA0
+tn: N4t3-__3MA0
 
 ---
 

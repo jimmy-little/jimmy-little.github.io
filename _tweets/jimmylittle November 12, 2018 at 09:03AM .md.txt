@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is there a way in <a href="https://twitter.com/LireApp?ref_src=twsrc%5Etfw">@LireApp</a> to see images when reading a post? I see the images in the article list, but opening the article just shows text.  
-
-Dug through settings, but couldn’t find anything.</p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1062028009010429952?ref_src=twsrc%5Etfw">November 12, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1062028009010429952

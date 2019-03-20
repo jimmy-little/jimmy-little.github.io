@@ -7,7 +7,8 @@ category: Video
 via: YouTube
 link: https://www.youtube.com/watch?v=dULOjT9GYdQ
 youtubeId: dULOjT9GYdQ
-tags: [Video, Music, Geek]
+tn: dULOjT9GYdQ
+tags: [Music, Geek]
 ---
 
 Leonard Nimoy, The Big Lebowski, and being lazy. What more could a neck-beard ask for?

@@ -9,8 +9,8 @@ layout: video
 tags:
   - James Bond
   - Drone
-  - Video
 youtubeId: _sUeGC-8dyk
+tn: _sUeGC-8dyk
 ---
 
 Do you like toys? Do you like James Bond?

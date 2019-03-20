@@ -3,7 +3,7 @@
 title: "Full Circle"
 date: 2019-01-28
 subtitle: "Nifty!"
-tags: [Apple, YouTube]
+tags: [Apple, Photography]
 category: Video
 layout: video
 link: https://www.youtube.com/watch?v=ggL3OdWaZxM

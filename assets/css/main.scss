@@ -10,7 +10,7 @@
 }
 
 html {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 body {
@@ -26,22 +26,41 @@ h1 {
   font-weight: 400;
   font-size: 1.6em;
   line-height: 1.6em;
+  text-decoration: none;
     
+}
+
+h1 a:link { 
+text-decoration:none; 
+}
+
+h1 a:visited { 
+text-decoration:none; 
+}
+
+h1 a:hover { 
+text-decoration:none; 
+}
+
+h1 a:active { 
+text-decoration:none; 
 }
 
 h3 {
     font-size: 1.1em;
     line-height: 1em;
 }
+
 h1.linkpost {
     color: $white;
+    text-transform: uppercase;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
-    background-color: $orange;
+    background-color: $dm-light-gray;
     text-align: center;
     font-size: 1em;
     
@@ -293,12 +312,14 @@ max-width: 100%;
 a:link {
     color: $blue;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: $purple;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 /* mouse over link */
@@ -311,6 +332,7 @@ a:hover {
 a:active {
     color: $red;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 a.footnote {
@@ -335,17 +357,16 @@ reversefootnote {
     font-size: .8em;
 }
 
-/* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
-@import 'parts/home-page';
-
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 @import 'parts/post-page';
+
+/* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+@import 'parts/home-page';
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 @import 'parts/tag';
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'media';
-
-/* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'parts/notch';
+

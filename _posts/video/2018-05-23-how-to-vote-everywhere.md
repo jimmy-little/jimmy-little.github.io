@@ -2,7 +2,7 @@
 title: "How To Vote Everywhere"
 date: 2018-10-23
 subtitle: "Just do it. Please."
-tags: [Video, Politics, YouTube]
+tags: [Politics]
 category: Video
 layout: video
 via: YouTube

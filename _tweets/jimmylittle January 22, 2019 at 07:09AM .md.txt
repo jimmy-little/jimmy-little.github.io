@@ -1,5 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If a messaging platform is truly end-to-end encrypted (like iMessage), by design these bridges cannot work. 
-
-Telegram can be end-to-end encrypted, but if you give Matrix the key, it breaks the chain of ownership and the messages are no longer encrypted.</p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1087728851340398593?ref_src=twsrc%5Etfw">January 22, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1087728851340398593

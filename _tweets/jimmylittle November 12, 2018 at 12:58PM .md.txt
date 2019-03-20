@@ -1,3 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Man, the <a href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">@twitter</a> web site sucks. Even my shitty Jekyll blog is responsive. <a href="https://t.co/Y8Tf1m7ll8">pic.twitter.com/Y8Tf1m7ll8</a></p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1062087338619154435?ref_src=twsrc%5Etfw">November 12, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1062087338619154435

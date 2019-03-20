@@ -3,7 +3,7 @@
 title: "If It Ain’t Broke..."
 date: 2019-01-31
 subtitle: "Sometimes paper is best"
-tags: [Video, YouTube]
+tags: [Television, Technology]
 category: Video
 layout: video
 link: https://www.youtube.com/watch?v=3djg59JUrmc
