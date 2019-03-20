@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BoLcRABBBul
 img: BoLcRABBBul.jpg
+tn: BoLcRABBBul.jpg
 tags: [Apple Watch]
 date: 2018-09-26
 ---

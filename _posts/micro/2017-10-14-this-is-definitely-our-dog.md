@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BaPKSEVH_vS
 img: BaPKSEVH_vS.jpg
+tn: BaPKSEVH_vS.jpg
 tags: [Dogs]
 date: 2017-10-14
 ---

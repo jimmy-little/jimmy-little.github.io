@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BeUXvEsHm7x
 img: BeUXvEsHm7x.jpg
+tn: BeUXvEsHm7x.jpg
 tags: [Parenthood]
 date: 2018-01-24
 ---

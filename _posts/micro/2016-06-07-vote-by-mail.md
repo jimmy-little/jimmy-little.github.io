@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BGXGDgRBXW8
 img: BGXGDgRBXW8.jpg
+tn: BGXGDgRBXW8.jpg
 tags: [Politics]
 date: 2016-06-07
 ---

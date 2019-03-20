@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BmmRbtSBuS_
 img: BmmRbtSBuS_.jpg
+tn: BmmRbtSBuS_.jpg
 tags: [Personal]
 date: 2018-08-17
 ---

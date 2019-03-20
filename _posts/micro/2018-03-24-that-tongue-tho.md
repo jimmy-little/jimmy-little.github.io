@@ -5,7 +5,8 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BgsKIg-ntZX
 img: BgsKIg-ntZX.jpg
-tags: [Dogss]
+tn: BgsKIg-ntZX.jpg
+tags: [Dogs]
 date: 2018-03-24
 ---
 That tongue, tho.

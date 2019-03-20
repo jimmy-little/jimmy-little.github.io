@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BqTVmF8BxOB
 img: BqTVmF8BxOB.jpg
+tn: BqTVmF8BxOB.jpg
 tags: [Nintendo, Software]
 date: 2018-11-18
 ---

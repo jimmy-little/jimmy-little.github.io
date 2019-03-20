@@ -342,13 +342,15 @@ img + em {
 
 
 .rel {
-    width: 23%;
+    width: 20%;
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
     border: 1px solid $dark-gray;
     border-radius: 5px;
     margin-top: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
 
 }
 
