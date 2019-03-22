@@ -4,6 +4,8 @@
   * Licensed under the MIT License.
   */
 
+
+
 (function(){
 /* globals ActiveXObject:false */
 
@@ -30,11 +32,11 @@ function createStateChangeListener (xhr, callback) {
       }
     }
   }
-}
+    }
 
 function getXHR () {
-  return window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
-}
+        return window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
+    }
 
 'use strict'
 
@@ -133,9 +135,6 @@ var _$Repository_4 = {
   search: search,
   setOptions: setOptions
 }
-
-/* removed: var _$FuzzySearchStrategy_5 = require('./SearchStrategies/FuzzySearchStrategy') */;
-/* removed: var _$LiteralSearchStrategy_6 = require('./SearchStrategies/LiteralSearchStrategy') */
 
 function NoSort () {
   return 0
@@ -296,10 +295,11 @@ function isJSON (json) {
 var _$src_8 = {};
 (function (window) {
   'use strict'
+
   var options = {
-    searchInput: null,
-    resultsContainer: null,
-    json: ['/search/search.json'],
+    searchInput: 'search-input',
+    resultsContainer: 'results-container',
+    json: [''],
     success: Function.prototype,
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
     templateMiddleware: Function.prototype,
@@ -314,9 +314,6 @@ var _$src_8 = {};
 
   var requiredOptions = ['searchInput', 'resultsContainer', 'json']
 
-  /* removed: var _$Templater_7 = require('./Templater') */;
-  /* removed: var _$Repository_4 = require('./Repository') */
-  /* removed: var _$JSONLoader_2 = require('./JSONLoader') */
   var optionsValidator = _$OptionsValidator_3({
     required: requiredOptions
   })
@@ -413,8 +410,7 @@ var _$src_8 = {};
   function throwError (message) {
     throw new Error('SimpleJekyllSearch --- ' + message)
   }
-})
-
-(window)
+})(window)
 
 }());
+

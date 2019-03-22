@@ -2,7 +2,7 @@
 title: Brand Recognition From A 5 Year Old
 date: 2012-02-03T16:59:39+00:00
 author: jimmy
-layout: video    
+layout: video
 category: Video
 tags: [Marketing]
 via:  YouTube

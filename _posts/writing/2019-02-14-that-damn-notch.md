@@ -69,8 +69,6 @@ The end result is very satisfying to me. The sidebar color fills to notch overfl
 All of this was done with one line in the header and 6 lines of CSS. Pretty simple.
 
 
----
-
 [^1]: This is a huge benefit of using `@import` in your site structure. Each page includes the header file. If you need to change the header, you change it once, and next time the site is generated it's everywhere. I also do this with the sidebar, the footer, and the related posts modules.
 
 

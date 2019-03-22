@@ -9,8 +9,9 @@ layout: null
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
-      "date"     : "{{ post.date }}"
-      "excerpt"  : "{{post.excerpt | strip_html | strip_newlines | escape }}"
+      "date"     : "{{ post.date }}",
+      "excerpt"  : "{{post.excerpt | strip_html | strip_newlines | escape }}",
+      "image"    : "/assets/index/{{post.tn}}"
       
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}

@@ -1,19 +1,9 @@
 ---
 
 title: Brandless
-
 category: Linked
-
-fromMy: Twitter
-
-tags: [Apple]
-
 layout: post
-tags: [Twitter]
-images:
-  header:
-  featured:
-
+tags: [Twitter, Apple]
 via: Twitter
 source: https://twitter.com/panzer/status/733341166825938944
 link: https://twitter.com/panzer/status/733341166825938944

@@ -14,20 +14,7 @@ layout: main
       </header>
         {% endif %}
       {{content | markdownify}}
-<div class="page-footer">
-<div class="page-tag">
-        {% if page.via %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-youtube"></i> Source: {{page.via}}</a>
-        {% endif %}
-          {% for tag in page.tags %}
-    <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
-          {% endfor %}
-    <div class="page-date">
-    <i class="fa fa-calendar"></i>  {{page.date | date: '%b %d, %Y'}}
-    </div>
-</div><!-- End page-tag -->
-</div><!-- End page-footer -->
-{% include related-posts.html %}      
-    </div> <!-- End Wrap Content -->
-  </div> <!-- End Page Content -->
+{% include footer.html %}
+</div> <!-- End Wrap Content -->
+</div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
