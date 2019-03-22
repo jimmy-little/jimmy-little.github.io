@@ -65,28 +65,9 @@ layout: main
       <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
 {% endif%}      
       {{content | markdownify}}
- {% if page.via == "Twitter" %}
-            <span class="tag-social"><a href="{{page.link}}"><i class="fa fa-twitter"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
- {% elsif page.via == "Instagram" %}
-            <span class="tag-social"><a href="{{page.link}}"><i class="fa fa-instagram"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
- {% endif %}
 </div>
 {% endif %}
-<div class="page-footer">
-<div class="page-tag">
-{% if page.category == "Writing" or page.category == "Linked" or page.category == "Stuff" %}
-    <div class="page-date">
-            {{page.date | date: '%b %d, %Y'}}
-    </div> 
-    {% endif %}
-{% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{ tag }}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
-            {% endfor %}
-    </div><!-- End page-tag -->
-</div><!-- End page-footer -->
-
-{% include related-posts.html %}
-
-    </div> <!-- End Wrap Content -->
-  </div> <!-- End Page Content -->
+{% include footer.html %}
+</div> <!-- End Wrap Content -->
+</div> <!-- End Page Content -->
 </article> <!-- End Article Page -->

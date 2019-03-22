@@ -1,13 +1,8 @@
 ---
 title: The Internet Decapitalized
-category: Linked
+category: Micro
 tags: [Internet]
 layout: post
-image:
-  header:
-  feature:
-  credit: 
-  creditlink:
 via: Twitter
 source: https://mobile.twitter.com/APStylebook/status/716384777406922753
 link: https://mobile.twitter.com/APStylebook/status/716384777406922753
