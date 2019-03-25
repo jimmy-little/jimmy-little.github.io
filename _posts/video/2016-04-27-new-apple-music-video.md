@@ -2,9 +2,10 @@
 
 title: New Apple Music Video
 category: Video
-tags: [Apple, Music, YouTube]
+tags: [Apple, Music]
 layout: video
 youtubeId: fK_zwl-lnmc
+tn: fK_zwl-lnmc.jpg
 via: YouTube
 link: https://www.youtube.com/watch?v=fK_zwl-lnmc&list=RDfK_zwl-lnmc#t=0
 subtitle: Tap-Tap-Taylor

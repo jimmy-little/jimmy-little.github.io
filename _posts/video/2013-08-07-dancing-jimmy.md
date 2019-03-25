@@ -7,7 +7,8 @@ layout: video
 youtubeId: 0u_ztHyOW70
 category: Video
 link: https://www.youtube.com/watch?v=0u_ztHyOW70
+tn: 0u_ztHyOW70.jpg
 via: YouTube
-tags: [Video, Fun]
+tags: [Fun]
 ---
 Jimmy's smooth moves set to terrible music.  You're welcome. 

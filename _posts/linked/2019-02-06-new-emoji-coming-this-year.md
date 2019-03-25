@@ -7,7 +7,7 @@ category: Linked
 tags: [Emoji, Apple]
 img: emoji2019.jpg
 tn: emoji20192.jpg
-fig-caption: Emojipedia
+fig-caption: 📷 Emojipedia
 link: https://blog.emojipedia.org/230-new-emojis-in-final-list-for-2019
 via: Emojipedia
 excerpt: "It's great to see all these new inclusive groups represented in Emoji. Same-sex couples, various disabilities, prosthetic appendages, more skin tone options, and gender options for jobs."
@@ -23,8 +23,7 @@ It's great to see all these new inclusive groups represented in Emoji. Same-sex 
 
 The Unicode Consortium must get thousands of requests every year for new glyphs. Deciding must be a slog. I'm still waiting on my Tiki emoji, but at least I have a Flamingo for now.
 
-![2019 Emojis][image-1]
+The real question is: when in the holy hell are we going to get native emoji search on iOS? Side-scrolling through hundreds of emoji is crazy-making.
 
+<!-- REFS -->
 [1]:	https://blog.emojipedia.org/230-new-emojis-in-final-list-for-2019/
-
-[image-1]:	/assets/img/post/emoji2019.jpg

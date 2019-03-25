@@ -15,28 +15,21 @@ layout: main
             <figcaption>{{page.fig-caption}}</figcaption>
             {% endif %}
         </figure>
-    {% else %}<div class="post-linkthumb"><h1 class="defaultpost"><i class="fa fa-glass" aria-hidden="true"></i></h1></div>
+    {% else %}<!--<div class="post-linkthumb"><h1 class="defaultpost"><i class="fa fa-glass" aria-hidden="true"></i></h1></div>-->
     {% endif %}
 {% elsif page.category == "Linked" %}
-    {%if post.img %}
-        <figure>
-        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+<a href="{{ page.link }}">
+    <div class="post-linkthumb"><h1 class="linkpost"><i class="fa fa-link" aria-hidden="true"></i>  from {{ page.via }}</h1>
+    </div>
+</a>
+{%if page.img %}
+    <figure>
+        <img class="link-page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
             {% if page.fig-caption %}
             <figcaption>{{page.fig-caption}}</figcaption>
             {% endif %}
         </figure>
-    {% else %}<div class="post-linkthumb"><h1 class="linkpost"><i class="fa fa-link" aria-hidden="true"></i></h1></div>
-    {% endif %}
-{% elsif page.category == "Social" %}
-        {%if post.img %}
-        <figure>
-        <img class="page-image" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-            {% if page.fig-caption %}
-            <figcaption>{{page.fig-caption}}</figcaption>
-            {% endif %}
-        </figure>
-    {% else %}
-    {% endif %}
+{% endif %}
 {% elsif page.category == "Stuff" %}
     {%if post.img %}
         <figure>
@@ -72,30 +65,9 @@ layout: main
       <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
 {% endif%}      
       {{content | markdownify}}
- {% if page.via == "Twitter" %}
-            <span class="tag-social"><a href="{{page.link}}"><i class="fa fa-twitter"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
- {% elsif page.via == "Instagram" %}
-            <span class="tag-social"><a href="{{page.link}}"><i class="fa fa-instagram"></i> {{page.via}}</a> on {{page.date | date: '%b %d, %Y'}}</span>
- {% endif %}
 </div>
 {% endif %}
-<div class="page-footer">
-<div class="page-tag">
-        {% if page.category == "Linked" %}
-            <a href="{{page.link}}" class="tag"><i class="fa fa-link"></i> {{page.via}}</a>
-        {% endif %}
-        {% for tag in page.tags %}
-    <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
-          {% endfor %}
-        {% if page.category == "Writing" or page.category == "Linked" or page.category == "Stuff" %}
-    <div class="page-date">
-    <i class="fa fa-calendar"></i>  {{page.date | date: '%b %d, %Y'}}
-    </div> {% endif %}
-</div><!-- End page-tag -->
-</div><!-- End page-footer -->
-
-{% include related-posts.html %}
-
-    </div> <!-- End Wrap Content -->
-  </div> <!-- End Page Content -->
+{% include footer.html %}
+</div> <!-- End Wrap Content -->
+</div> <!-- End Page Content -->
 </article> <!-- End Article Page -->

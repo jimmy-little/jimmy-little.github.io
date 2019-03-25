@@ -5,6 +5,7 @@ category: Micro
 via: Instagram
 link: https://www.instagram.com/p/BcrB2_Wnowp
 img: BcrB2_Wnowp.jpg
+tn: BcrB2_Wnowp.jpg
 tags: [Christmas]
 date: 2017-12-14
 ---

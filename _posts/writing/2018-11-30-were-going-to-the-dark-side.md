@@ -8,7 +8,7 @@ img: darkmode.jpg
 tn: darkmode.jpg
 ---
 
-If you haven't heard, macOS Mojave has a dark mode. A lot of apps support dark mode, and there are hooks in [upcoming version of Safari][1] that will also support dark mode. Now, Cocktails and Coffee will support dark mode as well
+If you haven't heard, macOS Mojave has a dark mode. A lot of apps support dark mode, and there are hooks in [upcoming version of Safari][2] that will also support dark mode. Now, Cocktails and Coffee will support dark mode as well
 <!-- more -->
 
 I'll be honest, I'm not a huge fan right now. It's a little buggy, not all apps support it, and on a non-Retina screen like my 2012 (ahem, _EARLY_ 2012) iMac, text looks a little fuzzy. I'm sure it looks great on a Retina screen, but I have a 2012 iMac and a 2011 MacBook Air, so I don't get that luxury.
@@ -72,7 +72,7 @@ Then, you just add whatever CSS you need to edit between the curly brackets and 
 	
 
 ### Using Variables
-I use a Jekyll blog engine on Github, and I've set my site up to use a variables file.[^1]() If you're using Jekyll and not using variables, you're missing out. To make dark mode easy for me, I basically just stole macOS's colors. I used the dark gray and light gray background colors, and the slightly off-white text color from the system to make my site look natural in dark mode. Because I use a variables file, I just set up a few new colors:
+I use a Jekyll blog engine on Github, and I've set my site up to use a variables file.[^1] If you're using Jekyll and not using variables, you're missing out. To make dark mode easy for me, I basically just stole macOS's colors. I used the dark gray and light gray background colors, and the slightly off-white text color from the system to make my site look natural in dark mode. Because I use a variables file, I just set up a few new colors:
 
 	/\*  Dark Mode Theme Colors \*/
 	$dm-dark-gray : #292a2e;
@@ -106,12 +106,13 @@ Again, using variables means that if I ever decide to change my page's `dm-dark-
 
 Fancy.
 
-Finally, here's how it looks when we go to the dark side:[^1]
+Finally, here's how it looks when we go to the dark side:[^2]
 
 <img src="https://www.cocktailsandcoffee.com/assets/img/post/darkmode.gif" align="center" width="75%">
 
 ---- 
 
-[^1]:	Yes, I know it's not perfect, but it's pretty damn good for a few minutes work.
+[^1]:	Someone should really write up Jekyll variables. There's not many good tutorials online.
 
-[1]:	https://developer.apple.com/safari/technology-preview/
+[^2]:  Yes, I know it's not perfect, but it's pretty damn good for a few minutes work.
+[2]:	https://developer.apple.com/safari/technology-preview/

@@ -1,3 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It was even better than that - Replay would use the Neilsen ad watermarks to log when the ads were on videos and use that data to skip. For a while, they had a “skip commercials” button that would skip all the ads in one jump.</p>&mdash; jimmy (@jimmylittle) <a href="https://twitter.com/jimmylittle/status/1075120416547434497?ref_src=twsrc%5Etfw">December 18, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- via Twitter http://twitter.com/jimmylittle/status/1075120416547434497
