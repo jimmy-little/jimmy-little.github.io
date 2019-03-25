@@ -9,9 +9,9 @@ date: 2019-03-25
 tags: [Apple, Games]
 ---
 
-John Gruber has a [few thoughts on][1] Apple's rumored gaming subscription service that may or may not be announced alter this morning. I _mostly_ agree with him, but I have one quibble.
+John Gruber has a few thoughts on Apple's rumored gaming subscription service that may or may not be announced alter this morning. I _mostly_ agree with him, but I have one quibble.
 
-He says:
+[He says:][1]
 
  >I would pay game makers the same way — the more time people spend playing, the more the game maker gets paid. No in-app purchases — you pay a monthly fee to subscribe to Apple Games and that is it, you get it all. You spend time playing a game, the game’s maker gets paid.
 
