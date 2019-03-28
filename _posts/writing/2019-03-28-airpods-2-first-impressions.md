@@ -9,7 +9,7 @@ tn: airpods.png
 excerpt: First impressions of the 2019 version of the AirPods wireless earbuds.
 ---
 The [new AirPods](https://www.apple.com/airpods/) are shipping, and I got mine yesterday. It was a nice surprise, my original ship date was the second week of April, so I got them a couple weeks early. Score! Apple just calls them “AirPods”, but they’re second generation, so I may refer to them as “AirPods2”. I know it’s not the way Apple wants to name them, but I don’t care. Sue me.
-![Airpods Charging Wirelessly](/assets/img/post/airpodscharge.jpg)
+![Airpods Charging Wirelessly](/assets/img/post/airpodcharge.jpg)
 I’ve only had them for a day, so here are my first impressions.
 
 - Connecting AirPods is pretty magical. The H1 chip seems to be _way_ faster at initial connection than the older AirPods.
