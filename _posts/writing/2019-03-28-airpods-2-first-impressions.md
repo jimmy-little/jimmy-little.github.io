@@ -10,7 +10,7 @@ tags: [AirPods, Apple]
 excerpt: First impressions of the 2019 version of the AirPods wireless earbuds.
 ---
 The [new AirPods](https://www.apple.com/airpods/) are shipping, and I got mine yesterday. It was a nice surprise, my original ship date was the second week of April, so I got them a couple weeks early. Score! Apple just calls them “AirPods”, but they’re second generation, so I may refer to them as “AirPods2”. I know it’s not the way Apple wants to name them, but I don’t care. Sue me.
-![Airpods Charging Wirelessly](/assets/img/post/airpodcharge.jpg)
+![Airpods Charging Wirelessly][img1]
 I’ve only had them for a day, so here are my first impressions.
 
 - Connecting AirPods is pretty magical. The H1 chip seems to be _way_ faster at initial connection than the older AirPods.
@@ -33,3 +33,6 @@ I would love to see the next version include some basic heart rate tracking, be 
 I’ve been an AirPods user since day one. I love these things. I think AirPods is the best product to come out of Apple in a long time. They are nearly perfect, and unlike a lot of other Apple products, these “just work”. 
 
 It was a no brainer for me to upgrade. After 2+ years, the Tic-Tac sized batteries in the original AirPods have lived their useful life. If the new ones weren’t announced last week, I was going to pull the trigger on a new set before summer anyways. They’re just that good.
+
+
+[img1]: /assets/img/post/airpodcharge.jpg
