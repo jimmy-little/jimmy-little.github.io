@@ -2,7 +2,7 @@
 
 date: 2019-03-29
 title: AirPower Is Dead
-subtitle: “Raise your hand if you’re surprised”
+subtitle: Raise your hand if you’re surprised
 tags:
 - Apple
 - AirPower
