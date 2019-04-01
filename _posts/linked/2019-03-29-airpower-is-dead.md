@@ -20,6 +20,8 @@ Matthew Panzarino, at [TechCrunch][1]:
 
 This is not surprising at all. Apple has delayed announced products in the past (white iPhone 4, Apple Watch, and HomePod were all months delayed), but never well over a year.
 
-Apparently, jamming a bunch of heat-creating charging coils into a leather envelope causes heat issues. Who knew?
+Apparently, jamming a bunch of heat-creating charging coils into a leather envelope causes heat issues. Who knew? 
+
+And now, we watch the internet lose its collective shit because a nearly trillion-dollar company who just announced a multi-billion dollar new revenue stream decided not to ship a phone charger.
 
 [1]: https://techcrunch.com/2019/03/29/apple-cancels-airpower-product-citing-inability-to-meet-its-high-standards-for-hardware/](https://techcrunch.com/2019/03/29/apple-cancels-airpower-product-citing-inability-to-meet-its-high-standards-for-hardware/
