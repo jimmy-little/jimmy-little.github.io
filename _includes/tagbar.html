@@ -14,9 +14,9 @@
     <div class="tag-social">
         <a href="{{page.link}}"><i class="fa fa-youtube"></i> {{page.via}}</a>
     </div>
-{% elsif page.category == "Micro" %}
+{% elsif page.via == "Micro" %}
     <div class="tag-social">
-        <a href="{{page.link}}"><i class="fa-quote-left"></i>#</a>
+        <a href="{{page.url}}"><i class="fa-quote-left"></i>#</a>
     </div>
     {% endif %}
 {% for tag in page.tags %}
