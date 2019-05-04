@@ -12,4 +12,8 @@
             {% elsif post.via == "Twitter" %}
                 <li><a href="{{ post.link }}"><i class="fa fa-twitter"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
             {% endif %}
+            
+            {% elsif post.category == "Micro" %}
+                <li><a href="{{ post.link }}"><i class="fa-left-quote"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
+            {% endif %}
 {% endif %}
