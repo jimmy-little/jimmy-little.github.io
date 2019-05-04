@@ -15,7 +15,7 @@
 {% elsif post.via == "Twitter" %}
 <li><a href="{{ post.link }}"><i class="fa fa-twitter"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
 {% else %}
-<li><i class="fa fa-quote-left"></i>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a> <span class="archive-via"> | via <a href="{{ post.link }}">{{ post.via }}</a></span><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li> 
+<li><i class="fa fa-quote-left"></i>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li> 
 {% endif %}
 {% endif %}
 {% endif %}
