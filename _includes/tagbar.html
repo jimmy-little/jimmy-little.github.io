@@ -2,19 +2,22 @@
 <div class="page-date">
 <a href="{{site.baseurl}}/archive#{{ page.title }}">{{page.date | date: '%b %d, %Y'}}</a>
 </div>
-    {% if page.via == "Twitter" %}
+{% if page.via == "Twitter" %}
     <div class="tag-social">
         <a href="{{page.link}}"><i class="fa fa-twitter"></i> {{page.via}}</a>
     </div>     
-    {% elsif page.via == "Instagram" %}
+{% elsif page.via == "Instagram" %}
     <div class="tag-social">
         <a href="{{page.link}}"><i class="fa fa-instagram"></i> {{page.via}}</a>
     </div> 
-    {% elsif page.via == "YouTube %}
+{% elsif page.via == "YouTube %}
     <div class="tag-social">
         <a href="{{page.link}}"><i class="fa fa-youtube"></i> {{page.via}}</a>
     </div>
-    {% else %}
+{% elsif page.category == "Micro" %}
+    <div class="tag-social">
+        <a href="{{page.link}}"><i class="fa-quote-left"></i>#</a>
+    </div>
     {% endif %}
 {% for tag in page.tags %}
 <a href="{{site.baseurl}}/tags#{{ tag }}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
