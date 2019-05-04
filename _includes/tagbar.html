@@ -2,7 +2,6 @@
 <div class="page-date">
 <a href="{{site.baseurl}}/archive#{{ page.title }}">{{page.date | date: '%b %d, %Y'}}</a>
 </div> 
-{% if page.category != "Writing" %}
     {% if page.via == "Twitter" %}
     <div class="tag-social">
         <a href="{{page.link}}"><i class="fa fa-twitter"></i> {{page.via}}</a>
@@ -15,8 +14,7 @@
     <div class="tag-social">
         <a href="{{page.link}}"><i class="fa fa-youtube"></i> {{page.via}}</a>
     </div>
-    {% endif %} 
-{% endif %} 
+    {% endif %}
 {% for tag in page.tags %}
 <a href="{{site.baseurl}}/tags#{{ tag }}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
 {% endfor %}
