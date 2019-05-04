@@ -5,6 +5,8 @@
                 <li><i class="fa fa-glass"></i>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a> <span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
             {% elsif post.category == "Video" %}
                 <li><i class="fa fa-youtube"></i>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a> <span class="archive-via"> | via <a href="{{ post.link }}">{{ post.via }}</a></span><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
+            {% elsif post.category == "Micro" %}
+                <li><a href="{{ post.url }}"><i class="fa-quote-left"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
             {% elsif post.category == "Stuff" %}
                 <li><i class="fa fa-amazon"></i>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a> <span class="archive-via"> | via <a href="{{ post.link }}">{{ post.via }}</a></span><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>            
             {% elsif post.via == "Instagram" %}
@@ -13,7 +15,5 @@
                 <li><a href="{{ post.link }}"><i class="fa fa-twitter"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
             {% endif %}
             
-            {% elsif post.via == "Micro" %}
-                <li><a href="{{ post.url }}"><i class="fa-quote-left"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y"}} </a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
-            {% endif %}
+
 {% endif %}
