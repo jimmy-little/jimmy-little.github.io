@@ -9,7 +9,7 @@
             {% elsif post.category == "Stuff" %}
                 <li><i class="fa fa-amazon"></i>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a> <span class="archive-via"> | via <a href="{{ post.link }}">{{ post.via }}</a></span><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
             
-{% if post.category == "Micro" %}
+{% elsif post.category == "Micro" %}
 {% if post.via == "Instagram" %}
                 <li><a href="{{ post.link }}"><i class="fa fa-instagram"></i></a>:  <a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}  </a><a href="{{ post.link }}"></a><span class="archive-date">{{ post.date | date: "%b %d, %Y"}}</span></li>
 {% elsif post.via == "Twitter" %}
