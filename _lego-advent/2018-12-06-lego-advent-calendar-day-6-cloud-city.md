@@ -1,4 +1,5 @@
 ---
+
 title: "Lego Advent Calendar Day 6: Cloud City"
 subtitle: 
 layout: post
@@ -10,6 +11,7 @@ img: BrDkbTUhpHj.jpg
 tags: [Instagram, Lego, Star Wars]
 date: 2018-12-06
 excerpt: "Lego Advent Calendar Day 6: Cloud City"
+
 ---
 
 <center>

@@ -1,4 +1,5 @@
 ---
+
 layout: page
 title: 2018 Lego Advent Calendar
 date: 2018-03-17
@@ -6,6 +7,7 @@ excerpt: Check out my 2018 Lego Advent Calendar Series. Originally posted on Ins
 img: legoadvent.png
 tn: legoadvent.png
 tags: [Lego, Star Wars]
+
 ---
 
 {% for lego-advent in site.lego-advent %}

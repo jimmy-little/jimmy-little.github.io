@@ -8,7 +8,7 @@ guid: http://localhost:8888/2010/08/12/2010811my-youngest-flight-html/
 permalink: /2010/08/12/2010811my-youngest-flight-html/
 categories:
   - blog
-  - video
+  - video q
 tags:
   - blog
   - branson
@@ -16,13 +16,4 @@ tags:
   - peter pan
   - Video
 ---
-
-  <p>
-    Paul and I flew Paul's 20 month old daughter, Juliette, today.  It's officially the youngest person I've ever flown, and she really had a good time.
-  </p>
-  
-  <p>
-  </p>
-  
-  <p>
-    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="jimmylittle">Tweet</a>
+  Paul and I flew Paul's 20 month old daughter, Juliette, today.  It's officially the youngest person I've ever flown, and she really had a good time.
