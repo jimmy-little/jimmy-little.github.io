@@ -3,7 +3,7 @@ layout: main
 ---
 {% for post in paginator.posts %}
 <article class="post">
-<!---------------------- POST IMAGE OR ICON LOOP ---------------------->
+<!----------------------POST IMAGE OR ICON LOOP---------------------->
 {% if post.category == "Writing" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -30,7 +30,7 @@ layout: main
         {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultyoutube.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% endif %}
 {% endif %}
-<!---------------------- ARTICLE TITLE AND SUBTITLE ---------------------->
+<!----------------------ARTICLE TITLE AND SUBTITLE---------------------->
 <div class="post-content">
 {% if post.via == "Twitter" or post.category == "Micro" %}  
 {% elsif post.via == "Instagram" %}
@@ -41,9 +41,9 @@ layout: main
     {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>
     {% endif %}
 {% endif %} 
-<!---------------------- POST CONTENT ---------------------->
+<!----------------------POST CONTENT---------------------->
 <p>{{ post.excerpt }}</p>
-<!---------------------- READ MORE AND METADATA ---------------------->
+<!----------------------READ MORE AND METADATA---------------------->
 <div class="index-metabar">    
 <div class="index-read-pill">
 {% if post.via == "Twitter" %}
@@ -62,7 +62,7 @@ layout: main
      <div class="read-more-pill"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
 {% endif %}
 </div>
-<!---------------------- POST METADATA ----------------------> 
+<!----------------------POST METADATA----------------------> 
 <div class="index-metadata">      
     <span class="post-date">{{post.date | date: '%B %d, %Y'}}</span>
 </div> 
