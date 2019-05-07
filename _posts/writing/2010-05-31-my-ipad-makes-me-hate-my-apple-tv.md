@@ -25,6 +25,5 @@ Apple TV is a self-proclaimed hobby by Steve Jobs. It's been out since 2007 and 
  
 Apple already sells the Apple TV as an iPod. It's an iPod for your TV. It should graduate to at least iPod touch status, and get it out of the lazy, boring past.    The iPad can do so much, and there's no reason the Apple TV shouldn't have the same features. 
   
- At the same time, Apple TV could easily eclipse the <
-[GoogleTV](http://www.google.com/tv/) initiative that was announced last week.  Apple already sells thousands of Apps that can stream media to the iPhone and iPad. Google can't touch that for a long, long time.  Apple has an opportunity to stay in the lead on the phone, tablet, and set-top box fronts, but Google's Android is catching up fast.  Adding a set-top box to the iPhone ecosystem would secure the lead for quite a while.
+ At the same time, Apple TV could easily eclipse the [GoogleTV](http://www.google.com/tv/) initiative that was announced last week.  Apple already sells thousands of Apps that can stream media to the iPhone and iPad. Google can't touch that for a long, long time.  Apple has an opportunity to stay in the lead on the phone, tablet, and set-top box fronts, but Google's Android is catching up fast.  Adding a set-top box to the iPhone ecosystem would secure the lead for quite a while.
   
