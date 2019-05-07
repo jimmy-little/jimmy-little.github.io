@@ -5,7 +5,7 @@ date: 2015-03-03
 
 category: Writing 
 
-tags: [Dog]
+tags: [Dogs]
 
 img: leBug.jpg
 

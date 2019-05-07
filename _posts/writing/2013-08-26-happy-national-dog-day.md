@@ -6,7 +6,7 @@ author: jimmy
 layout: post
 category: Writing
 tags:
-  - Dog
+  - Dogs
   
 ---
 ![](https://s3-us-west-2.amazonaws.com/www.jimmylittle.com/post-images/NatDogDay.JPG)
