@@ -1,4 +1,5 @@
 ---
+
 title: "About That 'Courage' Comment"
 date: 2016-09-12
 subtitle: "This never would have happened if Steve Jobs was around"
@@ -8,6 +9,7 @@ layout: video
 via: YouTube
 link: https://www.youtube.com/watch?v=65_PmYipnpk
 youtubeId: 65_PmYipnpk
+
 ---
 
 Phil Schiller said Apple displayed “courage” in removing the headphone jack. He got a lot of flack for using that term, and maybe rightfully so.
