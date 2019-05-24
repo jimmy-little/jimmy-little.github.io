@@ -1,5 +1,4 @@
 ---
-
 date: 2019-05-24
 title: Doctored Pelosi Video Will Stay On Facebook and Twitter
 subtitle: For now, at least...
