@@ -1,12 +1,12 @@
 ---
+
 title: 'Electric Cars May Not Be The Best'
 date: 2008-06-11T00:43:57+00:00
 author: jimmy
 layout: post
 category: Writing
-tags: 
-- Green
-- Cars
+tags: [Green, Cars]
+
 ---
 
   DYKElectric cars seem to be the next big thing in enviro-friendliness.  But consider this&#8230;  If you get your electricity from a coal burning power plant, a gasoline automobile that gets 40 MPG is comparable to an electric car as far as the environment is concerned.
