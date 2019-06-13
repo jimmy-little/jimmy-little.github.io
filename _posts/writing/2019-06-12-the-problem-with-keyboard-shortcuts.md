@@ -5,6 +5,7 @@ layout: post
 category: Writing
 tags: [Apple, iOS13]
 date: 2019-06-09
+img: keyboardshortcuts/spark.jpg
 ---
 
 As I usually do (and you should never do), I installed the iOS/iPadOS 13 Developer betas on some devices. I may or may not be using it on my main devices. But you should definitely not use them on your main devices.
