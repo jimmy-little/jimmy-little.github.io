@@ -6,6 +6,7 @@ category: Writing
 tags: [Apple, iOS13]
 date: 2019-06-12
 img: keyboardshortcuts/spark.jpg
+excerpt: Why are keyboard shortcuts so inconsistent, even across different apps of the same type? I look at four iOS email clients with wildly different keyboard shortcut implementations, and they are super confusing. 
 ---
 
 As I usually do (and you should never do), I installed the iOS/iPadOS 13 Developer betas on some devices. I may or may not be using it on my main devices. But you should definitely not use them on your main devices.
@@ -47,7 +48,7 @@ Each of these apps has strengths and weaknesses. Airmail is very customizable. O
 Why can't they all just get together and figure out which commands they want to use and standardize? Switching apps is not something a lot of people do, but those of us who do change apps occassionally would benefit from the muscle memory.
 
 [brydge]: https://www.brydge.com/
-[mailimg]: /img/posts/keyboardshortcuts/mail.jpg
-[outlookimg]: /img/posts/keyboardshortcuts/outlook.jpg
-[airmailimg]: /img/posts/keyboardshortcuts/airmail.jpg
-[sparkimg]: /img/posts/keyboardshortcuts/spark.jpg
+[mailimg]: /assets/img/posts/keyboardshortcuts/mail.jpg
+[outlookimg]: /assets/img/posts/keyboardshortcuts/outlook.jpg
+[airmailimg]: /assets/img/posts/keyboardshortcuts/airmail.jpg
+[sparkimg]: /assets/img/posts/keyboardshortcuts/spark.jpg
