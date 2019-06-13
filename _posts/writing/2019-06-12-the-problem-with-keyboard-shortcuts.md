@@ -48,7 +48,7 @@ Each of these apps has strengths and weaknesses. Airmail is very customizable. O
 Why can't they all just get together and figure out which commands they want to use and standardize? Switching apps is not something a lot of people do, but those of us who do change apps occassionally would benefit from the muscle memory.
 
 [brydge]: https://www.brydge.com/
-[mailimg]: /assets/img/posts/keyboardshortcuts/mail.jpg
-[outlookimg]: /assets/img/posts/keyboardshortcuts/outlook.jpg
-[airmailimg]: /assets/img/posts/keyboardshortcuts/airmail.jpg
-[sparkimg]: /assets/img/posts/keyboardshortcuts/spark.jpg
+[mailimg]: /assets/img/post/keyboardshortcuts/mail.jpg
+[outlookimg]: /assets/img/post/keyboardshortcuts/outlook.jpg
+[airmailimg]: /assets/img/post/keyboardshortcuts/airmail.jpg
+[sparkimg]: /assets/img/post/keyboardshortcuts/spark.jpg
