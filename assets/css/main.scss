@@ -71,6 +71,7 @@ h1.linkpost {
     margin-top: 0;
     width: 100%;
     background-color: $dm-light-gray;
+    border-bottom: 1px solid $dm-white;
     text-align: center;
     font-size: 1em;
     
@@ -309,7 +310,7 @@ table tfoot td {
 width: 100%;
 max-width: 100%;
 background-color: #fff;
-border-radius: 9px;
+border-radius: 6px;
 }
 
 .article-page-social {
@@ -371,7 +372,7 @@ a.footnote {
     line-height: 1em;
     text-align: center;
     margin: 0 .25em 0 .25em;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 reversefootnote {
@@ -381,6 +382,7 @@ reversefootnote {
 .footnotes {
     background-color: $lightgray;
     border-radius: 6px;
+
     padding: 1em;
     font-size: .8em;
 }
