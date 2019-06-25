@@ -287,17 +287,22 @@ width: 35%;
   padding-right: .7em;
   padding-top: 0;
   width: 70%;
+  overflow: hidden;
 }
 
 .post .post-content p.index-micro a {
-    font-size: 1.7em;
+    font-size: 1.5em;
+    color: $dm-dark-gray;
+    overflow: hidden;
 }
 
 .post .post-content h2.micro-index-title {
     display: block;
     text-transform: uppercase;
-    background-color: $dm-dark-gray;
-    color: $dm-white;
+    background-color: $blue;
+    color: $white;
+    line-height: 1.5em;
+    vertical-align: middle;
     height: 1.5em;
     margin-top: 0;
     margin-left: -1em;
@@ -306,6 +311,23 @@ width: 35%;
     font-weight: 900;
     text-align: center;
 }
+
+.post .post-content h2.link-index-title {
+    display: block;
+    text-transform: uppercase;
+    background-color: $orange;
+    color: $white;
+    line-height: 1.5em;
+    vertical-align: middle;
+    height: 1.5em;
+    margin-top: 0;
+    margin-left: -1em;
+    margin-right: -1em;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+}
+
 
 .post .post-content .post-date,
 .post .post-content .post-words .read-more {

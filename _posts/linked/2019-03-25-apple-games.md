@@ -1,11 +1,11 @@
 ---
 title: Apple Games
 subtitle: Engagement is a bad word.
-layout: post
 category: Linked
 link: https://daringfireball.net/2019/03/apple_games 
 via: Daring Fireball
 date: 2019-03-25
+noimage: true
 tags: [Apple, Games]
 ---
 

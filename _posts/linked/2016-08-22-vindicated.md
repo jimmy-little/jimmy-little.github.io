@@ -5,14 +5,10 @@ subtitle: "When the gatekeepers can't keep the gate."
 tags: [Apple, Politics, Privacy, Security]
 fromMy: 
 category: Linked
-layout: post
+noimage: true
 via: Business Insider
 source: http://www.businessinsider.com/nsa-hack-apple-fbi-2016-8
 link: http://www.businessinsider.com/nsa-hack-apple-fbi-2016-8
-image:
-  feature:
-  header:
-
 ---
 I'm not a big fan of Business Insider, but there are some good quotes and links in this story.
 

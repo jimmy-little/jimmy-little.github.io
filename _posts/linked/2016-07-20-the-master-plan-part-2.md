@@ -4,7 +4,7 @@ date: 2016-07-20
 subtitle: "Elon Musk lays out his vision. Again."
 tags: [Tesla, Car]
 category: Linked
-layout: post
+noimage: true
 via: Tesla Motors Blog
 link: https://www.tesla.com/blog/master-plan-part-deux
 

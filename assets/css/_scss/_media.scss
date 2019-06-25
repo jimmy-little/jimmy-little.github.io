@@ -490,16 +490,16 @@ padding-bottom: 56.25%;
     }    
 
 .post {
-    border-radius: 0px;
-    max-width: 100%;
+    border-radius: $rad-post;
+    max-width: 96%;
+    margin-left: 2%;
     min-height: 20em;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 0px;
-    border-bottom: 3px solid $dark-gray;
+    margin-bottom: 1em;
   }
 
 h2, h4 {

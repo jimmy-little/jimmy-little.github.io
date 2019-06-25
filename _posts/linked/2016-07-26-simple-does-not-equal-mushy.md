@@ -3,8 +3,9 @@ title: "Simple Does Not Equal Mushy"
 date: 2016-07-26
 subtitle: ""
 tags: [Apple, Design]
-category: Linked
+noimage: true
 layout: post
+category: Linked
 via: Nicholas Windsor Howard
 link: http://www.nicholaswindsorhoward.com/blog-directory/2016/7/20/the-apple-goes-mushy-part-i
 

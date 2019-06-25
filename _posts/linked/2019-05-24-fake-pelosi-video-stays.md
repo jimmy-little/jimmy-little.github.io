@@ -7,11 +7,11 @@ tags:
 - Twitter
 - Media
 - Politics
-layout: post
 category: Linked
+noimage: true
 link: https://www.politico.com/story/2019/05/24/facebook-fake-pelosi-video-1472413
 via: Politico
-excerpt: "Twitter and Facebook refusing to takd down a falsified video is just spreading of blatant propaganda for ad dollars."
+excerpt: "Twitter and Facebook refusing to take down a falsified video is just spreading of blatant propaganda for ad dollars."
 ---
 
 Nancy Scola, at [Politico][1], reporting on Facebook's comment about a doctored video that right-wingers (including Fox "News") have been spreading:

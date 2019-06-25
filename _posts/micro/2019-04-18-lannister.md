@@ -1,6 +1,5 @@
 ---
 title: "Lannister"
-layout: post
 category: Micro
 tags: [Media]
 noimage: true
