@@ -21,9 +21,11 @@ layout: main
     {% endif %}
 {% elsif post.category == "Micro" %}
     {% if post.tn %} <a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% elsif post.img %} <a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultmicro.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% elsif post.img %}<a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}
+    {% assign my_variable = "true" %}
     {% endif %}
+
 {% elsif post.category == "Video" %}
         {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -42,31 +44,38 @@ layout: main
     {% endif %}
 {% endif %} 
 <!----------------------POST CONTENT---------------------->
-<p>{{ post.excerpt }}</p>
+   {% if post.noimage == true %}
+    <h2 class="micro-index-title"><i class="fa fa-quote-left"></i></h2>
+    <p class="index-micro"><a href="{{post.url | prepend: site.baseurl}}">{{ post.excerpt | strip_html | escape }}</a></p>
+    {% else %}
+    <p>{{ post.excerpt }}</p>
+    {% endif %}
 <!----------------------READ MORE AND METADATA---------------------->
 <div class="index-metabar">    
 <div class="index-read-pill">
 {% if post.via == "Twitter" %}
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-twitter"><a href="{{post.link}}" class="post-tag"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via == "Instagram" %}
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-instagram"><a href="{{post.link}}" class="post-tag"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via == "YouTube" %}
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source-youtube"><a href="{{post.link}}" class="post-tag"><i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% elsif post.via %}    
-    <div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
     <div class="read-source"><a href="{{post.link}}" class="post-tag"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;{{post.via}}</a></div>
 {% else %} 
-     <div class="read-more-pill"><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-glass" aria-hidden="true"></i></a></div>
 {% endif %}
 </div>
+
 <!----------------------POST METADATA----------------------> 
-<div class="index-metadata">      
-    <span class="post-date">{{post.date | date: '%B %d, %Y'}}</span>
-</div> 
+<div class="page-tag">
+<div class="page-date">
+<a href="{{site.baseurl}}/archive#{{ post.title }}">{{post.date | date: '%b %d, %Y'}}</a>
 </div>
+{% for tag in post.tags %}
+<a href="{{site.baseurl}}/tags#{{ tag }}" class="index-tag"><i class="fa fa-tag"></i> {{ tag }}</a>
+{% endfor %}
+</div>
+</div>
+
 </div><!-- END post-content -->
 </article>
 {% endfor %}

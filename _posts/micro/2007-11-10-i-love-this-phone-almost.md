@@ -2,7 +2,6 @@
 title: "2007-11-10"
 date: 2007-11-10
 tags: [iPhone]
-
 layout: post
 category: Micro
 ---

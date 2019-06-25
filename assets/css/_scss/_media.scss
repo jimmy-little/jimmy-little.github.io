@@ -13,21 +13,17 @@
     }
   .post {
     background-color: $dm-light-gray;
-    border: 1px solid $dm-white;
+    //border: 1px solid $dm-white;
     }  
  .post .post-content .post-title {  
   color: $dm-white;
-  line-height: .85em;
-  font-size: 24px;
-  font-weight: 400;
 }
-.post .post-content .post-title a {
-  font-family: 'Futura', sans-serif;
-  text-decoration: none;
-  font-weight: 900;
-  text-transform: uppercase;    
+.post .post-content .post-title a { 
   color: $dm-white;
 }
+.index-metabar {
+    border-top: 1px solid $dm-white;
+    }
   .article-page {
     border-color: $dm-light-gray;
     } 
@@ -45,6 +41,12 @@
     color: $dm-white;
     border-color: $blue;
     background-color: $dm-light-gray;
+    }
+    
+  .tags li a:hover {
+    color: $dm-white;
+    border-color: $blue;
+    background-color: $orange;
     }
   .tag-count {
     color: $yellow;    
@@ -92,9 +94,11 @@
     
     /* ---------------------------------- Post */  
   .post {
-    width: 48%;
+width: 48%;
       margin: 0 0.9% 1.5%;
 /* card view */
+      min-height: 30em;
+      max-height: 30em;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
 -webkit-flex-direction: column;

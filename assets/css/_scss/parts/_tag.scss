@@ -28,22 +28,22 @@
 }
 
 .tags li a {
-    font-size: .7em;
+  font-size: .7em;
   text-transform: uppercase;
   text-decoration: none;
-  color: $dark-blue;
+  color: $blue;
   display: inline-block;
   padding: 3px 5px;
-  border: 1px solid #ecf0f1;
+  border: 1px solid $orange;
   border-radius: 4px;
-  background-color: #fafafa;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
 }
 
 .tags li a:hover {
-  background-color: $lightgray;
+  background-color: $orange;
+  color: $white;
 }
 
 .tag-list span a {
