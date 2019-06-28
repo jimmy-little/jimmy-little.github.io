@@ -21,6 +21,10 @@
 .post .post-content .post-title a { 
   color: $dm-white;
 }
+    
+.post .post-content p.index-micro a {
+    color: $dm-white;
+}
 .index-metabar {
     border-top: 1px solid $dm-white;
     }
@@ -499,7 +503,7 @@ padding-bottom: 56.25%;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 1em;
+    margin-top: 1em;
   }
 
 h2, h4 {

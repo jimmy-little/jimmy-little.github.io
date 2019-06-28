@@ -63,16 +63,15 @@ h3 {
 
 h1.linkpost {
     color: $white;
-    text-transform: uppercase;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    margin-top: 0;
     width: 100%;
-    background-color: $dm-light-gray;
-    border-bottom: 1px solid $dm-white;
+    background-color: $orange;
     text-align: center;
-    font-size: 1em;
+    font-size: .8em;
     
 }
 
@@ -135,7 +134,7 @@ h1.instapost, h1.instapost a {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: $instagram;
+    background-color: $instagramblue;
     text-align: center;
     font-size: 1em;
 }

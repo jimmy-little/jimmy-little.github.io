@@ -420,8 +420,8 @@ width: 35%;
   margin-left: 5px;
   margin-top: 3px;
   color: $dm-white;
-  background-color: $instagram;
-  border: 1px solid $instagram;
+  background-color: $instagramblue;
+  border: 1px solid $instagramblue;
   text-transform: uppercase;
   border-radius: $rad-pill;  
   float: right;
@@ -480,7 +480,7 @@ width: 35%;
   margin-top: 0;
 }
 
-.post .index-tag {
+.post .index-tag  {
   float:left;
   overflow: hidden;
   display: inline-block;
@@ -490,6 +490,22 @@ width: 35%;
   margin-left: 5px;
   margin-top: 3px;
   color: $green;
+  text-transform: uppercase;
+  border: 1px solid $green;
+  border-radius: $rad-tag;   
+}
+
+.post .index-tag a {
+  float:left;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 3px 7px;
+  margin-left: 5px;
+  margin-top: 3px;
+  color: $white;
+  background-color: $green;
   text-transform: uppercase;
   border: 1px solid $green;
   border-radius: $rad-tag;   
