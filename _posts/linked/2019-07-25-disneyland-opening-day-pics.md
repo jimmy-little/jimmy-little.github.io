@@ -13,7 +13,7 @@ tn: disney1955.png
 ---
 
 Alan Taylor at [The Atlantic][atl] put together a bunch of photos from the opening days of Disneyland back in 1955.
-
+<!-- more -->  
 Some things I find interesting:
  - In the photo above, a character is photographed without their head. This would never happen these days.
  - The faces on the masks are absolutely terrifying
