@@ -8,8 +8,8 @@ layout: post
 category: Linked
 link: https://www.theatlantic.com/photo/2019/07/opening-day-disneyland-photos-1955/594655/
 via: The Atlantic
-img: disney1955.png
-tn: disney1955.png
+img: Disney1955.jpg
+tn: Disney1955.jpg
 ---
 
 Alan Taylor at [The Atlantic][atl] put together a bunch of photos from the opening days of Disneyland back in 1955.
