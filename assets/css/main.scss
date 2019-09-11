@@ -63,16 +63,15 @@ h3 {
 
 h1.linkpost {
     color: $white;
-    text-transform: uppercase;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
-    background-color: $dm-light-gray;
+    background-color: $orange;
     text-align: center;
-    font-size: 1em;
+    font-size: .8em;
     
 }
 
@@ -85,7 +84,6 @@ h1.videopost {
     background-color: $red;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 
 h1.stuffpost, h1.stuffpost a {
@@ -97,7 +95,6 @@ h1.stuffpost, h1.stuffpost a {
     background-color: $amazon;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 h1.micropost, h1.micropost a {
     color: $white;
@@ -108,7 +105,6 @@ h1.micropost, h1.micropost a {
     background-color: $dark-gray;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 h1.tweetpost, h1.tweetpost a {
     color: $white;
@@ -119,7 +115,6 @@ h1.tweetpost, h1.tweetpost a {
     background-color: $twitter;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 
 h1.youtubepost, h1.youtubepost a {
@@ -131,7 +126,6 @@ h1.youtubepost, h1.youtubepost a {
     background-color: $youtube;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 
 h1.instapost, h1.instapost a {
@@ -140,10 +134,9 @@ h1.instapost, h1.instapost a {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: $instagram;
+    background-color: $instagramblue;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 
 h1.defaultpost {
@@ -155,7 +148,6 @@ h1.defaultpost {
     background-color: $blue;
     text-align: center;
     font-size: 1em;
-    margin-top: 0;
 }
 
 hr.clear {
@@ -212,7 +204,7 @@ img.right + em {
   margin-top: 10px;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: .7em;
 }
 
 blockquote {
@@ -309,7 +301,7 @@ table tfoot td {
 width: 100%;
 max-width: 100%;
 background-color: #fff;
-border-radius: 9px;
+border-radius: 6px;
 }
 
 .article-page-social {
@@ -371,7 +363,7 @@ a.footnote {
     line-height: 1em;
     text-align: center;
     margin: 0 .25em 0 .25em;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 reversefootnote {
@@ -381,6 +373,7 @@ reversefootnote {
 .footnotes {
     background-color: $lightgray;
     border-radius: 6px;
+
     padding: 1em;
     font-size: .8em;
 }

@@ -232,8 +232,8 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  -webkit-border-radius: 6px;
-          border-radius: 6px;
+  -webkit-border-radius: $rad-index;
+          border-radius: $rad-index;
   overflow: hidden;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
@@ -283,10 +283,51 @@ width: 35%;
 .post .post-content {
   clear: both;
   padding-bottom: 5em;
-  padding-left: 1em;
+  padding-left: .7em;
+  padding-right: .7em;
   padding-top: 0;
   width: 70%;
+  overflow: hidden;
 }
+
+.post .post-content p.index-micro a {
+    font-size: 1.5em;
+    color: $dm-dark-gray;
+    overflow: hidden;
+}
+
+.post .post-content h2.micro-index-title {
+    display: block;
+    text-transform: uppercase;
+    background-color: $blue;
+    color: $white;
+    line-height: 1.5em;
+    vertical-align: middle;
+    height: 1.5em;
+    margin-top: 0;
+    margin-left: -1em;
+    margin-right: -1em;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.post .post-content h2.link-index-title {
+    display: block;
+    text-transform: uppercase;
+    background-color: $orange;
+    color: $white;
+    line-height: 1.5em;
+    vertical-align: middle;
+    height: 1.5em;
+    margin-top: 0;
+    margin-left: -1em;
+    margin-right: -1em;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+}
+
 
 .post .post-content .post-date,
 .post .post-content .post-words .read-more {
@@ -302,8 +343,9 @@ width: 35%;
 }
 
 .index-metabar {
+    border-top: 1px solid $dm-light-gray;
     position: absolute;
-    padding-right: 1em;
+    padding-top: .5em;
     padding-bottom: .5em;
     margin-top: 1em;
     width: 65%;
@@ -315,14 +357,14 @@ width: 35%;
   text-decoration: none;
   font-weight: bold;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 0px;
-  color: $black;
+  margin-top: 3px;
+  color: $dm-dark-gray;
   text-transform: uppercase;
-  border: 1px solid;
-  border-color: $dark-gray;    
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;  
+  background-color: $dm-white;
+  border: 1px solid $dm-white;
+  border-radius: $rad-pill;;  
   float: right;
 }
 
@@ -330,27 +372,28 @@ width: 35%;
   text-decoration: none;
   font-weight: bold;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 0px;
-  color: $black;
+  margin-top: 3px;
+  color: $dm-light-gray;
+  background-color: $dm-white;
+  border: 1px solid $dm-white;
   text-transform: uppercase;
-  border: 1px solid;
-  border-color: $dark-gray;    
-  border-radius: 15px;  
+  border-radius: $rad-pill;  
   float: right;
 }
 .post .read-source a {
   text-decoration: none;    
   font-weight: bold;    
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 5px;
-  color: $black;
+  margin-top: 3px;
+  color: $dm-white;
   text-transform: uppercase;
-  border: 1px solid;
-  border-color: $dark-gray;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;  
+  background-color: $dm-dark-gray;
+  border: 1px solid $dm-dark-gray;
+  border-radius: $rad-pill;  
   float: right;
 }
 
@@ -358,14 +401,14 @@ width: 35%;
   text-decoration: none;
   font-weight: bold;    
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 5px;
-  color: $twitter;
+  margin-top: 3px;
+  color: $dm-white;
   text-transform: uppercase;
-  border: 1px solid;
-  border-color: $twitter;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;  
+  background-color: $twitter;
+  border: 1px solid $twitter;
+  border-radius: $rad-pill;  
   float: right;
 }
 
@@ -373,14 +416,14 @@ width: 35%;
   text-decoration: none;
   font-weight: bold;    
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 5px;
-  color: $instagram;
+  margin-top: 3px;
+  color: $dm-white;
+  background-color: $instagramblue;
+  border: 1px solid $instagramblue;
   text-transform: uppercase;
-  border: 1px solid;
-  border-color: $instagram;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;  
+  border-radius: $rad-pill;  
   float: right;
 }
 
@@ -388,39 +431,40 @@ width: 35%;
   text-decoration: none;
   font-weight: bold;    
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 5px;
-  color: $youtube;
+  margin-top: 3px;
+  color: $dm-white;
+  background-color: $youtube;
+  border: 1px solid $youtube;
   text-transform: uppercase;
-  border: 1px solid;
-  border-color: $youtube;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;  
+  border-radius: $rad-pill;
   float: right;
 }
 
 .post .post-tag a {
   text-decoration: none;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 3px 7px;
   margin-left: 5px;
+  margin-top: 3px;
   color: $blue;
   text-transform: uppercase;
   border: 1px solid #263959;
 }
 
 .post .post-content .post-title {  
-  color: $blue;
+  color: $dark-gray;
   line-height: .85em;
   font-size: 24px;
   font-weight: 400;
 }
 
 .post .post-content .post-subtitle { 
-  margin-top: -.5em;
- text-transform: uppercase;
-  color: $orange;
-  font-size: 15px;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: $blue;
+  font-size: .7 em;
   font-weight: 700;
 }
 
@@ -429,11 +473,65 @@ width: 35%;
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;    
-  color: $blue;
+  color: $dm-dark-gray;
 }
 
 .post .post-content p {
   margin-top: 0;
+}
+
+.post .index-tag  {
+  float:left;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 3px 7px;
+  margin-left: 5px;
+  margin-top: 3px;
+  color: $green;
+  text-transform: uppercase;
+  border: 1px solid $green;
+  border-radius: $rad-tag;   
+}
+
+.post .index-tag a {
+  float:left;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 3px 7px;
+  margin-left: 5px;
+  margin-top: 3px;
+  color: $white;
+  background-color: $green;
+  text-transform: uppercase;
+  border: 1px solid $green;
+  border-radius: $rad-tag;   
+}
+
+.post .page-date a {
+  float:left;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  font-size: 10px;
+  padding: 3px 7px;
+  margin-left: 0px;
+  margin-top: 3px;
+  color: $blue;
+  border: 1px solid $blue;
+  text-transform: uppercase;
+    border-radius: $rad-tag;
+}
+
+.post .page-date a:hover{
+  float:left;
+  display: inline-block;
+  text-decoration: none;
+  background-color: $blue;
+  color: $white;
 }
 
 a.older-posts, a.newer-posts {

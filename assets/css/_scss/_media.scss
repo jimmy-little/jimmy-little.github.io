@@ -13,9 +13,21 @@
     }
   .post {
     background-color: $dm-light-gray;
-    border-color: $dm-light-gray;
+    //border: 1px solid $dm-white;
     }  
- 
+ .post .post-content .post-title {  
+  color: $dm-white;
+}
+.post .post-content .post-title a { 
+  color: $dm-white;
+}
+    
+.post .post-content p.index-micro a {
+    color: $dm-white;
+}
+.index-metabar {
+    border-top: 1px solid $dm-white;
+    }
   .article-page {
     border-color: $dm-light-gray;
     } 
@@ -23,7 +35,7 @@
     background-color: $dm-dark-gray;      
     }
   .wrap-content {
-    background-color: $dm-dark-gray;
+    background-color: $dm-light-gray;
     }   
   .related-posts h4 {
     background-color: $green;
@@ -33,6 +45,12 @@
     color: $dm-white;
     border-color: $blue;
     background-color: $dm-light-gray;
+    }
+    
+  .tags li a:hover {
+    color: $dm-white;
+    border-color: $blue;
+    background-color: $orange;
     }
   .tag-count {
     color: $yellow;    
@@ -80,9 +98,11 @@
     
     /* ---------------------------------- Post */  
   .post {
-    width: 48%;
+width: 48%;
       margin: 0 0.9% 1.5%;
 /* card view */
+      min-height: 30em;
+      max-height: 30em;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
 -webkit-flex-direction: column;
@@ -474,16 +494,16 @@ padding-bottom: 56.25%;
     }    
 
 .post {
-    border-radius: 0px;
-    max-width: 100%;
+    border-radius: $rad-post;
+    max-width: 96%;
+    margin-left: 2%;
     min-height: 20em;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 0px;
-    border-bottom: 3px solid $dark-gray;
+    margin-top: 1em;
   }
 
 h2, h4 {
@@ -502,7 +522,7 @@ h2, h4 {
 }
 .post .post-thumbnail-micro {
   width: 100%;
-  min-height: 11em;
+  min-height: 10em;
   padding-bottom: 56.25%;
   -webkit-background-size: cover;
           background-size: cover;
@@ -565,7 +585,7 @@ display: none;
   }
 
 .page-cover-image, .page-image, .article-page, .page-cover-image, .page-cover-image .page-image {
-        border-radius: 0px;
+        border-radius: 6px;
     }
     
 }

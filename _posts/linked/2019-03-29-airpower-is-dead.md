@@ -1,5 +1,4 @@
 ---
-
 date: 2019-03-29
 title: AirPower Is Dead
 subtitle: Raise your hand if you’re surprised

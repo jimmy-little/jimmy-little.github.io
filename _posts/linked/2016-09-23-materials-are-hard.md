@@ -2,9 +2,9 @@
 title: "Materials Are Hard"
 date: 2016-09-23
 subtitle: ""
+noimage: true
 tags: [Apple, Design]
 category: Linked
-layout: post
 via: Pixel Envy
 link: http://pxlnv.com/blog/novelty-and-legacy/
 ---

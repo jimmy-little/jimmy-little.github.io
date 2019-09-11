@@ -1,7 +1,6 @@
 ---
 title: The Problem With Keyboard Shortcuts on iOS
 subtitle: "Spoiler Alert: Inconsistencies"
-layout: post
 category: Writing
 tags: [Apple, iOS13]
 date: 2019-06-12

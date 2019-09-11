@@ -11,10 +11,10 @@ img: searchenginebias/bingstats.JPG
 ---
 
 I've been seeing a lot of hoopla lately about people thinking search engines were biased for or against certain candidates. So, being a numbers guy, I decided to find out.
-
+<!-- more -->
 I went to the 4 major search engines and tried a couple of searches. First, I searched for "2016 presidential candidates" on Duck Duck Go, Google, Yahoo, and Bing. Then, I searched for the candidate's name plus the word "is".  The results are below.
 
-<!-- more -->
+
 
 Let's set some ground rules.
 
