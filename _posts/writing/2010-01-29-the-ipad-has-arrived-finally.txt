@@ -6,13 +6,8 @@ author: jimmy
 layout: post
 guid: http://localhost:8888/2010/01/29/2010128the-ipad-has-arrived-finally-html/
 permalink: /2010/01/29/2010128the-ipad-has-arrived-finally-html/
-categories:
-  - blog
-  - tech
-tags:
-  - apple
-  - AppStore
-  - iPad
+category: Writing
+tags: [Apple, iPad, Keynote]
 ---
 
   <p>
@@ -92,7 +87,7 @@ tags:
   </p>
   
   <p>
-    What does all this mean?  First of all, iPhone 3.2 (which is the iPad OS, confusing, I know&#8230;) is what devs are writing for now.  But Apple has dutifully released a new iPhone OS at every WWDC since the iPhone was born.  I'm betting this year at WWDC in March, They'll unleash iPhone 4.0.  All of the above iPad mojo, and iPad and iPhone multitasking will become a part of the unified iPhone 4.0 OS.
+    What does all this mean?  First of all, iPhone 3.2 (which is the iPadOS, confusing, I know&#8230;) is what devs are writing for now.  But Apple has dutifully released a new iPhone OS at every WWDC since the iPhone was born.  I'm betting this year at WWDC in March, They'll unleash iPhone 4.0.  All of the above iPad mojo, and iPad and iPhone multitasking will become a part of the unified iPhone 4.0 OS.
   </p>
   
   <p>
