@@ -11,24 +11,24 @@ tags: [Apple, iPad, Keynote]
 
 First, my semi-drunken prediction scorecard:
 
-*The Name:*I was wrong. Totally. My first sentence was "This will not be named iPad. "Oh well. More on that later. 
+**The Name:** I was wrong. Totally. My first sentence was "This will not be named iPad. "Oh well. More on that later. 
 
-*The OS:* I was mostly right. Basically a blown-up iPhone with some UI tweaks. 
+**The OS:** I was mostly right. Basically a blown-up iPhone with some UI tweaks. 
 
-*Multitasking:*Still limited to Apple Apps, but I'm betting that will change. 
+**Multitasking:**  limited to Apple Apps, but I'm betting that will change. 
 
-*The User Interface:* Not at all revolutionary, unless you think about it. 
+**The User Interface:** Not at all revolutionary, unless you think about it. 
 
-*Content:*Nailed that one. 
+**Content:** Nailed that one. 
 
-*3G:* Optional, like I said. I was surprised by the $30 unlimited data package, though. 
+**3G:** Optional, like I said. I was surprised by the $30 unlimited data package, though. 
 
-*Hardware and Price:*I was pretty spot-on, except the SD slot thing. But there is an SD accessory, so half a point. And deduct half a point for the OLED. But it's not regular LCD, so it's a wash. 
+**Hardware and Price:**I was pretty spot-on, except the SD slot thing. But there is an SD accessory, so half a point. And deduct half a point for the OLED. But it's not regular LCD, so it's a wash. 
 
-*My score this time:* 4 out of 7. Yay D+!Now, what does all this mean? 
+**My score this time:** 4 out of 7. Yay D+!Now, what does all this mean? 
 
 
-I do not like the *iPad* name. I just think it sounds weird. But, so did "iPod" a few years ago. Maybe that's why Apple chose the name. There's something in the back of your brain that may relate iPad to iPod and do some subliminal stuff in your grey matter to make you like it. Or not, I don't know. But it fits the brand image, and looks good on the back of the device. I still like "Newton Pro" or "Newton 2", but I get why Steve Jobs wouldn't want this beauty to be associated with the less-than-stellar PDA that came out of Apple in his absence. I'll just get it engraved on the back. As far as *multitasking* goes, here's the way I see it: There are a lot of new hooks in the iPhone 3. 2 software development kit. (BTW, the iPad runs iPhone 3. 2. )Some of the more important ones are:
+I do not like the **iPad** name. I just think it sounds weird. But, so did "iPod" a few years ago. Maybe that's why Apple chose the name. There's something in the back of your brain that may relate iPad to iPod and do some subliminal stuff in your grey matter to make you like it. Or not, I don't know. But it fits the brand image, and looks good on the back of the device. I still like "Newton Pro" or "Newton 2", but I get why Steve Jobs wouldn't want this beauty to be associated with the less-than-stellar PDA that came out of Apple in his absence. I'll just get it engraved on the back. As far as **multitasking** goes, here's the way I see it: There are a lot of new hooks in the iPhone 3. 2 software development kit. (BTW, the iPad runs iPhone 3. 2. )Some of the more important ones are:
 
  
 - Shared storage, which allows you to save a document into a folder that all apps can see. This is huge, since now Apps can share data. 
@@ -41,9 +41,9 @@ I do not like the *iPad* name. I just think it sounds weird. But, so did "iPod" 
 
 What does all this mean? First of all, iPhone 3. 2 (which is the iPadOS, confusing, I know&#8230;) is what devs are writing for now. But Apple has dutifully released a new iPhone OS at every WWDC since the iPhone was born. I'm betting this year at WWDC in March, They'll unleash iPhone 4. 0. All of the above iPad mojo, and iPad and iPhone multitasking will become a part of the unified iPhone 4. 0 OS. 
 
-The *content* is awesome, but not surprising. Apple will lock down books and newspapers like they did music and video, and the world will follow. There are a lot of people who say "I won't buy anything from Apple!It's all DRM'd and locked and closed, and stuff. "True, but Apple sells more music than anybody. Period. They are also tops in online video sales, music video sales, podcast downloads, and they own 97% of the mobile App market. Apparently most people don't care if their content is locked. Magazines and books will flock to this device. And I'd bet the Kindle hardware guy at Amazon is butting horns with the Kindle software guy, who wants to write an app for this thing. Apple is becoming a content company. The hardware is beautiful, intuitive and simple. But it's also there to sell you stuff. iPods sell music. AppleTVs were supposed to sell video, but never really took off. iPhones sell apps, and the iPad will sell all of the above. 
+The **content** is awesome, but not surprising. Apple will lock down books and newspapers like they did music and video, and the world will follow. There are a lot of people who say "I won't buy anything from Apple!It's all DRM'd and locked and closed, and stuff. "True, but Apple sells more music than anybody. Period. They are also tops in online video sales, music video sales, podcast downloads, and they own 97% of the mobile App market. Apparently most people don't care if their content is locked. Magazines and books will flock to this device. And I'd bet the Kindle hardware guy at Amazon is butting horns with the Kindle software guy, who wants to write an app for this thing. Apple is becoming a content company. The hardware is beautiful, intuitive and simple. But it's also there to sell you stuff. iPods sell music. AppleTVs were supposed to sell video, but never really took off. iPhones sell apps, and the iPad will sell all of the above. 
 
-The *OS/UI* question is what I really want to talk about. People don't get it yet, but this is a game changer. You may be saying "Aahh, it's just a big iPod touch. Big deal. "Well, it is a big deal. My niece was playing number games on my iPhone at 3 years old. A septuagenarian acquaintance (that means 70+) uses one. The iPhone is a device you can pick up and push the power button. Then it says "slide to unlock", then you tap a button, and an app opens. It's simple. You don't have to worry about which things you tap and which things you double tap. You don't have to close things, you just stop using them. No saving things. No menus sliding up or down or over, covering what you're working on. You don't have to slide your hand around on a desk, and try to match that movement to a little arrow on the screen. If you just hit the power button, it turns off. That's the beauty of this software. Everyone knows how to use it, and it doesn't even come with a manual. Things are where you think they might be. 
+The **OS/UI** question is what I really want to talk about. People don't get it yet, but this is a game changer. You may be saying "Aahh, it's just a big iPod touch. Big deal. "Well, it is a big deal. My niece was playing number games on my iPhone at 3 years old. A septuagenarian acquaintance (that means 70+) uses one. The iPhone is a device you can pick up and push the power button. Then it says "slide to unlock", then you tap a button, and an app opens. It's simple. You don't have to worry about which things you tap and which things you double tap. You don't have to close things, you just stop using them. No saving things. No menus sliding up or down or over, covering what you're working on. You don't have to slide your hand around on a desk, and try to match that movement to a little arrow on the screen. If you just hit the power button, it turns off. That's the beauty of this software. Everyone knows how to use it, and it doesn't even come with a manual. Things are where you think they might be. 
 
 Moving that to the iPad. If you use this same idea on a more powerful and larger machine, you can sell it to kids in 3rd grade "Mom, it has e-books and math games!" or, imagine this scenario including your grandmother who has never touched a computer. 
 
