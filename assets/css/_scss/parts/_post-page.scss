@@ -85,8 +85,10 @@
 }
 
 .page-cover-image .page-image {
-  border-top-left-radius: $rad-post;
-  border-top-right-radius: $rad-post;
+//  border-top-left-radius: $rad-post;
+//  border-top-right-radius: $rad-post;
+//  border-bottom-left-radius: $rad-post;
+//  border-bottom-right-radius: $rad-post;
   width: 100%;
   height: 100%;
 }
@@ -394,8 +396,8 @@ width: 100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: $rad-read-more;
+    border-top-right-radius: $rad-read-more;
 }
 
 .rel p, .rel a {
@@ -407,8 +409,7 @@ width: 100%;
    -webkit-box-orient: vertical;
    -webkit-line-clamp: 2; /* number of lines to show */
    line-height: 1em;        /* fallback */
-   min-height: 2em;            /* lock height for alignment */
-    max-height: 2em;       /* fallback */    
+   height: 2em;       
     text-decoration: none;
     font-size: .8em;
     color: $dark-gray;
