@@ -35,18 +35,17 @@ As expected, the iPhone X🅁 is now the 11. Thank god there's no more roman num
 
  > "No, you say the "X" like "ten", but the "R" like "R". 🤷‍♂️
 
+The iPhone 11 gains another camera, but weirdly it now has a standard and ultra-wide lens. No 2x lens. It retains the LCD "liquid retina" display and has upgraded internals. It's interesting, from a marketing perspective, to call this one the "iPhone 11". Apple is now implying that this is the standard iPhone, and anything else is an upgrade. 
  
- The iPhone 11 gains another camera, but weirdly it now has a standard and ultra-wide lens. No 2x lens. It retains the LCD "liquid retina" display and has upgraded internals. It's interesting, from a marketing perspective, to call this one the "iPhone 11". Apple is now implying that this is the standard iPhone, and anything else is an upgrade. 
+### iPhone Pro
  
- ### iPhone Pro
- 
- Speaking of upgrade, the X🅂 and X🅂 Max models are now the Pro and the Pro Max. I hate the name "iPhone 11 Pro Max", but whatayagonnado? Apple is bad at naming things.
+Speaking of upgrade, the X🅂 and X🅂 Max models are now the Pro and the Pro Max. I hate the name "iPhone 11 Pro Max", but whatayagonnado? Apple is bad at naming things.
  I was pretty set on upgrading my phone this year, no matter what. I'm on the Apple Upgrade Program, so it costs me nothing, really. And last year, I went too big.
  
- I have been a user of the big phone since the iPhone 6 Plus came out. I loved that size. I went big last year with the X🅂 Max came out, and I regret it. The actual device is about the same size as the old Plus phones, but the edge-to-edge screen makes it impossible for me to reach the top and the bottom of the screen on the X🅂 Max. I could barely do it on the Plus phones, because they had the "forehead" and "chin" bezels that made the screen size more manageable one-handed.
+I have been a user of the big phone since the iPhone 6 Plus came out. I loved that size. I went big last year with the X🅂 Max came out, and I regret it. The actual device is about the same size as the old Plus phones, but the edge-to-edge screen makes it impossible for me to reach the top and the bottom of the screen on the X🅂 Max. I could barely do it on the Plus phones, because they had the "forehead" and "chin" bezels that made the screen size more manageable one-handed.
  
- This year, I'm "downgrading" to iPhone Pro the Smaller. Not only will I be able to use it one-handed again, but it'll save me about $10 a month. So, Win-Win. The smaller Pro has all the same specs as the bigger one, including the new camera features. I'm pretty excited about the ultra-wide lens, the Night Mode, and more options for video and photos. I have a 13 month old baby. I take a LOT of pictures and video.
+This year, I'm "downgrading" to iPhone Pro the Smaller. Not only will I be able to use it one-handed again, but it'll save me about $10 a month. So, Win-Win. The smaller Pro has all the same specs as the bigger one, including the new camera features. I'm pretty excited about the ultra-wide lens, the Night Mode, and more options for video and photos. I have a 13 month old baby. I take a LOT of pictures and video.
  
- And I'm going all in on Midnight Green, because why not. It reminds me of the color of my Newton eMate 300.
+And I'm going all in on Midnight Green, because why not. It reminds me of the color of my Newton eMate 300.
  
  
