@@ -49,10 +49,13 @@
 {% if post.tn %}
     <img width="100%" src="{{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}}">
     <p>{{ post.title }}</p>
+{% elsif post.img %}
+    <img width="100%" src="{{"/assets/img/post/" | prepend: site.baseurl | append : post.img}}">
+    <p>{{ post.title }}</p>
 {% else %}
     <img width="100%" src="/assets/img/site/defaultpost.png">
-    <p>{{ post.title  }}</p>
-    {% endif %}
+    <p>{{ post.title }}</p>
+{% endif %}
 </div>
 </a>     
 {% elsif post.category == "Linked" %}
