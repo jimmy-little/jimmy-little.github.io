@@ -11,7 +11,7 @@ tags: [Apple, iPad, Keynote]
 
 First, my semi-drunken prediction scorecard:
 
-**The Name:** I was wrong. Totally. My first sentence was "This will not be named iPad. "Oh well. More on that later. 
+**The Name:** I was wrong. Totally. My first sentence was "This will not be named iPad." Oh well. More on that later. 
 
 **The OS:** I was mostly right. Basically a blown-up iPhone with some UI tweaks. 
 
