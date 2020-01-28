@@ -4,7 +4,7 @@ title: 'The iPad Has Arrived. Finally. '
 date: 2010-01-29T03:40:31+00:00
 author: jimmy
 layout: post
-
+img: ipadkeyboarddock.png
 category: Writing
 tags: [Apple, iPad, Keynote]
 ---
