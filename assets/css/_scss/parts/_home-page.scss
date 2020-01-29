@@ -96,9 +96,9 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
@@ -218,16 +218,17 @@ footer .copyright {
   max-width: 100%;
   background-color: $white;
   position: relative;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
+  border-bottom : 1px solid $dark-gray;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
@@ -235,39 +236,27 @@ footer .copyright {
   -webkit-border-radius: $rad-index;
           border-radius: $rad-index;
   overflow: hidden;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-}
-
-.post:hover {
-  -webkit-transform: translate(0px, -2px);
-      -ms-transform: translate(0px, -2px);
-          transform: translate(0px, -2px);
-  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 }
 
 
 .post .post-thumbnail {
-  width: 35%;
+  width: 100%;
+  border-radius: $rad-index;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
 }
 
 .post .post-thumbnail-micro {
-  width: 35%;
-  min-height: 11em;
+  width: 100%;
+  border-radius: $rad-index;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
 }
 
 .post .post-linkthumb {
-width: 35%;
+width: 100%;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
@@ -282,7 +271,7 @@ width: 35%;
 
 .post .post-content {
   clear: both;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
   padding-left: .7em;
   padding-right: .7em;
   padding-top: 0;
@@ -290,42 +279,53 @@ width: 35%;
   overflow: hidden;
 }
 
+.post .post-header {
+  clear: both;
+  //padding-bottom: 5em;
+  padding-left: .7em;
+  padding-right: .7em;
+  padding-top: 0;
+  //width: 70%;
+  overflow: hidden;
+}
 .post .post-content p.index-micro a {
     font-size: 1.5em;
     color: $dm-dark-gray;
     overflow: hidden;
 }
 
-.post .post-content h2.micro-index-title {
+.post .post-header h2.micro-index-title {
     display: block;
-    text-transform: uppercase;
+    width: 3em;
+    margin: auto;
     background-color: $blue;
     color: $white;
     line-height: 1.5em;
     vertical-align: middle;
     height: 1.5em;
     margin-top: 0;
-    margin-left: -1em;
-    margin-right: -1em;
     font-size: 1.3em;
     font-weight: 900;
     text-align: center;
+    border-radius: 3em;
+    margin-bottom: .5em;
 }
 
-.post .post-content h2.link-index-title {
+.post .post-header h2.link-index-title {
     display: block;
-    text-transform: uppercase;
+    width: 3em;
+    margin: auto;
     background-color: $orange;
     color: $white;
     line-height: 1.5em;
     vertical-align: middle;
     height: 1.5em;
     margin-top: 0;
-    margin-left: -1em;
-    margin-right: -1em;
     font-size: 1.3em;
     font-weight: 900;
     text-align: center;
+    border-radius: 3em;
+    margin-bottom: .5em;
 }
 
 
@@ -343,12 +343,12 @@ width: 35%;
 }
 
 .index-metabar {
-    border-top: 1px solid $dm-light-gray;
+    //border-top: 1px solid $dm-light-gray;
     position: absolute;
     padding-top: .5em;
     padding-bottom: .5em;
     margin-top: 1em;
-    width: 65%;
+    width: 96%;
     margin-left: auto;
     margin-right: auto;
     bottom: 5px;
@@ -453,22 +453,25 @@ width: 35%;
   border: 1px solid #263959;
 }
 
-.post .post-content .post-title {  
+.post .post-header .post-title {  
   color: $dark-gray;
-  line-height: .85em;
+  margin-top:.5em;
+  margin-bottom: .25em;
+  text-align: center;
   font-size: 24px;
   font-weight: 400;
 }
 
-.post .post-content .post-subtitle { 
+.post .post-header .post-subtitle { 
   margin-top: 0;
   text-transform: uppercase;
+  text-align: center;
   color: $blue;
   font-size: .7 em;
   font-weight: 700;
 }
 
-.post .post-content .post-title a {
+.post .post-header .post-title a {
   font-family: 'Futura', sans-serif;
   text-decoration: none;
   font-weight: 900;
@@ -477,7 +480,7 @@ width: 35%;
 }
 
 .post .post-content p {
-  margin-top: 0;
+  margin-top: .25em;
 }
 
 .post .index-tag  {
