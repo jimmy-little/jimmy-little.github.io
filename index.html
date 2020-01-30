@@ -49,7 +49,16 @@ layout: main
 {% endif %}
 <div class="post-content">
 <!----------------------POST CONTENT---------------------->
-<p> {{ post.excerpt }} </p>
+{% if post.category == "Micro" %}
+    <div class="social">
+{% if page.img %}
+      <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+{% endif%}      
+      {{content | markdownify}}
+</div>
+{% else %}
+    <p> {{ post.excerpt }} </p>
+{% endif %}
 <!----------------------READ MORE AND METADATA---------------------->
 <div class="index-metabar">    
 <div class="index-read-pill">

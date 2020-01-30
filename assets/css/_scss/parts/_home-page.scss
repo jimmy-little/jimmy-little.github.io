@@ -311,22 +311,6 @@ width: 100%;
     margin-bottom: .5em;
 }
 
-//.post .post-header h2.link-index-title {
-//    display: block;
-//    width: 100%;
-//    margin: auto;
-//    background-color: $orange;
-//    color: $white;
-//    line-height: 1.5em;
-//    vertical-align: middle;
-//    height: .2em;
-//    margin-top: 0;
-//    font-size: 1.3em;
-//    font-weight: 900;
-//    text-align: right;
-//    border-radius: 3em;
-//    margin-bottom: .5em;
-//}
 
 
 .post .post-content .post-date,
@@ -334,12 +318,9 @@ width: 100%;
   font-size: 12px;
 }
 
-.index-read-pill {
-}
-
 .index-metadata {
     float: left;
-    text-align: left;
+    text-align: center;
 }
 
 .index-metabar {
@@ -353,35 +334,37 @@ width: 100%;
     margin-right: auto;
     bottom: 5px;
 }
-.post .read-more a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  padding: 3px 7px;
-  margin-left: 0px;
-  margin-top: 3px;
-  color: $dm-dark-gray;
-  text-transform: uppercase;
-  background-color: $dm-white;
-  border: 1px solid $dm-white;
-  border-radius: $rad-pill;;  
-  float: right;
-}
 
-.post .read-more-pill a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  padding: 3px 7px;
-  margin-left: 0px;
-  margin-top: 3px;
-  color: $dm-light-gray;
-  background-color: $dm-white;
-  border: 1px solid $dm-white;
-  text-transform: uppercase;
-  border-radius: $rad-pill;  
-  float: right;
-}
+//.post .read-more a {
+//  text-decoration: none;
+//  font-weight: bold;
+//  font-size: 10px;
+//  padding: 3px 7px;
+//  margin-left: 0px;
+//  margin-top: 3px;
+//  color: $dm-dark-gray;
+//  text-transform: uppercase;
+//  background-color: $dm-white;
+//  border: 1px solid $dm-white;
+//  border-radius: $rad-pill;;  
+//  float: right;
+//}
+
+//.post .read-more-pill a {
+//  text-decoration: none;
+//  font-weight: bold;
+//  font-size: 10px;
+//  padding: 3px 7px;
+//  margin-left: 0px;
+//  margin-top: 3px;
+//  color: $dm-light-gray;
+//  background-color: $dm-white;
+//  border: 1px solid $dm-white;
+//  text-transform: uppercase;
+//  border-radius: $rad-pill;  
+//  float: right;
+//}
+
 .post .read-source a {
   text-decoration: none;    
   font-weight: bold;    
@@ -451,6 +434,7 @@ width: 100%;
   color: $blue;
   text-transform: uppercase;
   border: 1px solid #263959;
+  border-radius: $rad-pill;
 }
 
 .post .post-header .post-title {  
@@ -481,6 +465,13 @@ width: 100%;
 
 .post .post-content p {
   margin-top: .25em;
+}
+
+.post .post-content .social p {
+    text-align: left;
+    padding: 1em;
+    font-size: 1.7em;
+    margin: 0;
 }
 
 .post .index-tag  {
