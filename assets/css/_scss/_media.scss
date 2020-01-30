@@ -12,13 +12,13 @@
     color: $dm-white;    
     }
   .post {
-    background-color: $dm-light-gray;
+    background-color: $dm-dark-gray;
     //border: 1px solid $dm-white;
     }  
- .post .post-content .post-title {  
+ .post .post-header .post-title {  
   color: $dm-white;
 }
-.post .post-content .post-title a { 
+.post .post-header .post-title a { 
   color: $dm-white;
 }
     
@@ -33,7 +33,7 @@
     background-color: $dm-dark-gray;      
     }
   .wrap-content {
-    background-color: $dm-light-gray;
+    background-color: $dm-dark-gray;
     }   
   .related-posts h4 {
     background-color: $green;

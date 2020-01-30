@@ -218,7 +218,7 @@ footer .copyright {
   max-width: 100%;
   background-color: $white;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border-bottom : 1px solid $dark-gray;
   display: -webkit-box;
   display: -webkit-flex;
@@ -296,37 +296,37 @@ width: 100%;
 
 .post .post-header h2.micro-index-title {
     display: block;
-    width: 3em;
+    width: 100%;
     margin: auto;
     background-color: $blue;
     color: $white;
-    line-height: 1.5em;
+    line-height: 1.2em;
     vertical-align: middle;
-    height: 1.5em;
+    height: 1.2em;
     margin-top: 0;
-    font-size: 1.3em;
+    font-size: .8em;
     font-weight: 900;
     text-align: center;
     border-radius: 3em;
     margin-bottom: .5em;
 }
 
-.post .post-header h2.link-index-title {
-    display: block;
-    width: 3em;
-    margin: auto;
-    background-color: $orange;
-    color: $white;
-    line-height: 1.5em;
-    vertical-align: middle;
-    height: 1.5em;
-    margin-top: 0;
-    font-size: 1.3em;
-    font-weight: 900;
-    text-align: center;
-    border-radius: 3em;
-    margin-bottom: .5em;
-}
+//.post .post-header h2.link-index-title {
+//    display: block;
+//    width: 100%;
+//    margin: auto;
+//    background-color: $orange;
+//    color: $white;
+//    line-height: 1.5em;
+//    vertical-align: middle;
+//    height: .2em;
+//    margin-top: 0;
+//    font-size: 1.3em;
+//    font-weight: 900;
+//    text-align: right;
+//    border-radius: 3em;
+//    margin-bottom: .5em;
+//}
 
 
 .post .post-content .post-date,
@@ -526,7 +526,7 @@ width: 100%;
   color: $blue;
   border: 1px solid $blue;
   text-transform: uppercase;
-    border-radius: $rad-tag;
+  border-radius: $rad-tag;
 }
 
 .post .page-date a:hover{

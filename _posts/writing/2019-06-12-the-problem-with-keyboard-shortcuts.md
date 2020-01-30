@@ -5,6 +5,7 @@ category: Writing
 tags: [Apple, iOS13]
 date: 2019-06-12
 img: keyboardshortcuts.jpg
+tn: keyboardshortcuts.jpg
 excerpt: Why are keyboard shortcuts so inconsistent, even across different apps of the same type? I look at four iOS email clients with wildly different keyboard shortcut implementations, and they are super confusing. 
 ---
 

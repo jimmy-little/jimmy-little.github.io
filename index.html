@@ -7,11 +7,13 @@ layout: main
 <div class="post-header">
 {% if post.category == "Micro" %}
     <h2 class="micro-index-title"><i class="fa fa-quote-left"></i></h2>
-{% elsif post.category == "Linked" %}
-    <h2 class="link-index-title"><i class="fa fa-link"></i></h2>
 {% endif %}
     
 {% if post.via == "Twitter" or post.category == "Micro" %}
+    
+{% elsif post.category == "Linked" %}
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}} <i class="fa fa-link"></i></a></h2>
+        {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
 
 {% else  %}
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
