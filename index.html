@@ -3,11 +3,28 @@ layout: main
 ---
 {% for post in paginator.posts %}
 <article class="post">
+<!----------------------ARTICLE TITLE AND SUBTITLE---------------------->
+<div class="post-header">
+{% if post.category == "Micro" %}
+    <h2 class="micro-index-title"><i class="fa fa-quote-left"></i></h2>
+{% endif %}
+    
+{% if post.via == "Twitter" or post.category == "Micro" %}
+    
+{% elsif post.category == "Linked" %}
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}} <i class="fa fa-link"></i></a></h2>
+        {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
+
+{% else  %}
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+        {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
+{% endif %}
+</div>
 <!----------------------POST IMAGE OR ICON LOOP---------------------->
 {% if post.category == "Writing" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultpost.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}
     {% endif %}
 {% elsif post.category == "Linked" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -17,7 +34,7 @@ layout: main
 {% elsif post.category == "Stuff" %}
     {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultamazon.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}
     {% endif %}
 {% elsif post.category == "Micro" %}
     {% if post.tn %} <a class="post-thumbnail-micro" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -27,35 +44,21 @@ layout: main
 {% elsif post.category == "Video" %}
         {% if post.tn %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/index/" | prepend: site.baseurl | append : post.tn}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% elsif post.img %} <a class="post-thumbnail" style="background-image: url({{"/assets/img/post/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-        {% else %}<a class="post-thumbnail" style="background-image: url({{"/assets/img/site/defaultyoutube.png" | prepend: site.baseurl}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% else %}
         {% endif %}
 {% endif %}
-<!----------------------ARTICLE TITLE AND SUBTITLE---------------------->
 <div class="post-content">
-{% if post.via == "Twitter" or post.category == "Micro" or post.noimage == true%}
-{% elsif post.via == "Instagram" %}
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-instagram" aria-hidden="true"></i> {{post.title}}</a></h2>
-    {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
-{% else %}
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-        {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
-{% endif %} 
 <!----------------------POST CONTENT---------------------->
-   {% if post.noimage == true %}
-        {% if post.category == "Micro" %}
-            <h2 class="micro-index-title"><i class="fa fa-quote-left"></i></h2>
-            <p class="index-micro"><a href="{{post.url | prepend: site.baseurl}}">{{ post.excerpt | strip_html | escape }}</a></p>
-        {% elsif post.category == "Linked" %}
-            <h2 class="link-index-title"><i class="fa fa-link"></i></h2>
-            <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-            {% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
-            <p>{{ post.excerpt }}</p>
-        {% else %}
-            <p class="index-micro"><a href="{{post.url | prepend: site.baseurl}}">{{ post.excerpt | strip_html | escape }}</a></p>
-        {% endif %}
-    {% elsif post.noimage != true %}
-        <p> {{ post.excerpt }} </p>
-   {% endif %}
+{% if post.category == "Micro" %}
+    <div class="social">
+{% if page.img %}
+      <img class="social-img" src={{ "/assets/img/post/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+{% endif%}      
+      {{content | markdownify}}
+</div>
+{% else %}
+    <p> {{ post.excerpt }} </p>
+{% endif %}
 <!----------------------READ MORE AND METADATA---------------------->
 <div class="index-metabar">    
 <div class="index-read-pill">
@@ -81,7 +84,6 @@ layout: main
 {% endfor %}
 </div>
 </div>
-
 </div><!-- END post-content -->
 </article>
 {% endfor %}

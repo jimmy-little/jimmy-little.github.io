@@ -11,7 +11,6 @@ link: https://techcrunch.com/2019/03/29/apple-cancels-airpower-product-citing-in
 via: TechCrunch
 img: airpowerisdead.png
 tn: airpowerisdead.png
-excerpt: "Apparently, jamming a bunch of heat-creating charging coils into a leather envelope causes heat issues. Who knew?"
 ---
 
 Matthew Panzarino, at [TechCrunch][1]:
